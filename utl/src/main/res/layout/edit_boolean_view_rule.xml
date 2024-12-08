@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+>
+	<ScrollView
+	  android:layout_width="fill_parent"
+	  android:layout_height="0dp"
+	  android:layout_weight="1"
+	>
+		<LinearLayout
+		  android:layout_width="fill_parent"
+		  android:layout_height="wrap_content"
+		  android:orientation="vertical"
+		  android:layout_marginLeft='5dp'
+		>
+
+			<CheckedTextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/edit_boolean_vr_is_and_checkbox"
+				android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+				android:gravity="center_vertical"
+				android:text="@string/Previous_rule_must_also_match"
+				android:minHeight='48dp'
+			/>
+
+			<CheckedTextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/edit_boolean_vr_checkbox"
+				android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+				android:gravity="center_vertical"
+				android:minHeight='48dp'
+			/>
+		</LinearLayout>
+	</ScrollView>
+
+	<com.customsolutions.android.utl.BannerAd style='@style/BannerAd' />
+</LinearLayout>

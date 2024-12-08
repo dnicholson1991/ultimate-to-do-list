@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id='@+id/ss_root'
+>
+	<FrameLayout
+        android:id="@+id/nav_drawer_wrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft='true'
+    />
+	
+    <FrameLayout
+        android:id="@+id/ss_pane_list"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+       	android:layout_toRightOf='@id/nav_drawer_wrapper'
+       	android:layout_toLeftOf='@+id/ss_pane_detail'
+       	android:layout_alignWithParentIfMissing='true'
+       	android:paddingRight='1dp'
+    />
+    
+    <!-- Divider between list and detail views: -->
+    <View
+        android:id='@+id/ss_list_detail_divider'
+        android:layout_width='1dp'
+        android:layout_height='match_parent'
+        android:layout_alignRight='@id/ss_pane_list'
+        android:background='?attr/ss_list_detail_divider_color'
+    />
+    
+    <!-- The width of this will be set in code. -->
+    <FrameLayout
+        android:id="@+id/ss_pane_detail"
+        android:layout_width="500dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight='true'
+    />
+	
+    <!-- Resizer between navigation and list views: -->
+    <RelativeLayout
+        android:id='@+id/ss_nav_list_resizer_container'
+        android:layout_width='wrap_content'
+        android:layout_height='match_parent'
+        android:layout_alignRight='@id/nav_drawer_wrapper'
+		android:translationX='17dp'
+		android:visibility='gone'
+    >
+	    <View
+		    android:id='@+id/ss_nav_list_resizer_line'
+		    android:layout_width='3dp'
+		    android:layout_height='match_parent'
+		    android:layout_centerHorizontal='true'
+		    android:background='?attr/resizer_divider_color'
+		/>
+	    
+	    <ImageView 
+		    android:id='@+id/ss_nav_list_resizer_control'
+		    android:layout_width='wrap_content'
+		    android:layout_height='wrap_content'
+		    android:src='?attr/resizer_landscape'
+		    android:layout_centerInParent='true'
+		/>
+    </RelativeLayout>
+    
+    <!-- Resizer between list and detail views: -->
+    <RelativeLayout
+        android:id='@+id/ss_list_detail_resizer_container'
+        android:layout_width='wrap_content'
+        android:layout_height='match_parent'
+        android:layout_alignRight='@id/ss_pane_list'
+		android:translationX='17dp'
+		android:visibility='gone'
+    >
+	    <View
+		    android:id='@+id/ss_list_detail_resizer_line'
+		    android:layout_width='3dp'
+		    android:layout_height='match_parent'
+		    android:layout_centerHorizontal='true'
+		    android:background='?attr/resizer_divider_color'
+		/>
+	    
+	    <ImageView 
+		    android:id='@+id/ss_list_detail_resizer_control'
+		    android:layout_width='wrap_content'
+		    android:layout_height='wrap_content'
+		    android:src='?attr/resizer_landscape'
+		    android:layout_centerInParent='true'
+		/>
+    </RelativeLayout>
+</RelativeLayout>
+	
+	<!-- From: file:/C:/GDrive-dnicholson/Work/Android_Projects/UTL/uTL/src/main/res/layout-land/nav_drawer_3_pane.xml -->

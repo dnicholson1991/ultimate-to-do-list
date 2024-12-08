@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <string name="internet_failure">Проблемы с вашим интернет-соединением мешают этому приложению.</string>
+    <string name="technical_failure">Извините, у нас сейчас технические проблемы. Пожалуйста, попробуйте позже.</string>
+    <string name="reg_code_notice">К сожалению, приложение больше не поддерживает устаревшую систему регистрационных кодов, которая использовалась для некоторых покупок до декабря 2014 года. Вы можете удалить рекламу сейчас по сниженной цене: %s. Или вы можете связаться с нами по электронной почте по адресу %s, и мы бесплатно предоставим вам способ обновления.</string>
+    <string name="ad_remover">Удаление рекламы</string>
+    <string name="ad_remover_summary">Удаляет всю рекламу из приложения.</string>
+    <string name="ad_remover_long_description">&lt;p&gt;Приобретение средства удаления рекламы позволит всегда использовать приложение без рекламы. Покупка связана с вашей учетной записью Google или Amazon.  Приложение работает на всех ваших устройствах Android, включая смартфоны и планшеты, и автоматически остается в приложении при обновлении или замене устройств.&lt;/p&gt;</string>
+    <string name="ad_remover_upgrade_summary">Удалите рекламу с помощью встроенной покупки вместо отдельной загрузки.</string>
+    <string name="location_permission_recommended2">Разрешение доступа к местоположению всегда требуется для функций приложения, основанных на определении местоположения, таких как возможность напоминать вам о задаче при достижении определенного местоположения.</string>
+
+    <!-- This is used for the "Ad" badge that appears in native ads within the app. When
+        translating, please use the shortest word possible that conveys to the user that the
+        content is an advertisement. -->
+    <string name="ad">Реклама</string>
+</resources>

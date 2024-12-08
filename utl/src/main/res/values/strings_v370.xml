@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name='show_ads_during_trial'>Ads will be shown during the free trial. If you
+        purchase a license to use the app long-term, the ads will disappear.</string>
+
+    <string name='license_long_description'>
+        <![CDATA[
+            <p>Purchasing a license allows you to use Ultimate To-Do List beyond the free trial period.
+                Your license is linked to your Google or Amazon account.  It works on all of your Android devices -
+                including smartphones and tablets - and travels with the app automatically as you upgrade
+                or replace devices.</p>
+            <p>Purchasing a license will also remove all ads from the app.</p>
+        ]]>
+    </string>
+
+    <string name='warning'>Warning</string>
+    <string name='edit_parent_task'>Edit Parent Task</string>
+
+    <!-- Note to translators: Do not translate [count] in this string. This will be filled in with
+         a number. -->
+    <string name='merge_warning'>This will merge the [count] tasks stored on your device with
+        the tasks stored in the online account.  Are you sure you want to do this?</string>
+</resources>

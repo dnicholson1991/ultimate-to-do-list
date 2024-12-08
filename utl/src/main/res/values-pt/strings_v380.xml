@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Note to Translators: This release includes an in-app purchase which provides a plugin
+         for the Tasker automation app for Android. The word "Tasker" in this file refers to
+         this app. -->
+    <string name='tasker_plugin'>Módulo do Tasker</string>
+    <string name='tasker_plugin_short_description'>Um módulo adicional para o aplicativo Tasker. Permite a criação
+        e marcação automática de tarefas.</string>
+    <string name='tasker_plugin_description'>Um módulo adicional para o aplicativo Tasker. Permite a criação
+        automática de tarefas, a marcação de tarefas como completadas, e a visualização de listas.</string>
+    <string name='tasker_plugin_long_description'>
+        <![CDATA[
+            <p>Este módulo adicional necessita do aplicativo <a href=
+                \'https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm\'
+                >Tasker</a> para funcionar.  A combinação de ambos permite automatizar alguns processos. 
+                Por exemplo, após uma ligação perdida, uma tarefa pode ser criada para ligar para a pessoa
+                de volta.</p>
+            <p>As seguintes ações são suportadas.  Estas podem ser ativadas quando eventos que você especificar
+                ocorrerem.</p>
+            <ul>
+                <li>Criar uma nova tarefa. Você pode especificar o título, a anotação, as datas,
+                    o lembrete, o padrão de repetição, a pasta, e vários outros parâmetros.</li>
+                <li>Marcar uma tarefa como completada.</li>
+                <li>Mostrar a tarefa que desejar.</li>
+            </ul>
+            <p>O módulo adicional também provê um evento Tasker event que será ativado quando a tarefa que
+                escolher for marcada como completada. Assim que a tarefa for marcada completada, Tasker irá
+                executar as ações que tiver programado através dele.</p>
+            <p>Substituição por variáveis é suportado nos campos de título e anotação das tarefas.
+                Por exemplo, você pode usar %CNAME no título para inserir o nome da última pessoa
+                que ligou para o seu dispositivo.</p>
+            <p>IMPORTANTE: se o seu dispositivo executa o Android 10 ou posterior e você deseja que o Tasker inicie uma lista de tarefas, você precisará conceder a permissão ao \'Lista Definitiva de Tarefas\' para sobrescrever outros aplicativos. Você pode fazer isso na área de Aplicativos das configurações do sistema.</p>
+        ]]>
+    </string>
+
+    <string name='task_options'>Opções da Tarefa</string>
+    <string name='account_doesnt_exist'>A conta selecionada não existe mais.</string>
+    <string name='Minutes'>Minutos</string>
+    <string name='Hours'>Horas</string>
+    <string name='reminder_time_needed'>Um horário de lembrete precisa ser definido se uma data de lembrete é 
+        definida.</string>
+    <string name='cannot_create_task'>Não é possível criar a tarefa.</string>
+    <string name='missing_title'>Falta o título da tarefa.</string>
+    <string name='task_account_deleted'>A conta desta tarefa não existe mais.</string>
+    <string name='task_folder_deleted'>A pasta desta tarefa não existe mais.</string>
+    <string name='mark_task_complete'>Marcar Tarefa como Completada</string>
+    <string name='show_task_list'>Mostrar Lista de tarefas</string>
+    <string name='select_task_list'>Escolher uma Lista</string>
+    <string name='task_list_deleted'>Esta lista de tarefas foi apagada.</string>
+    <string name='task_completed'>Tarefa Completada</string>
+    <string name='event_triggered_when_complete'>Execute o evento quando esta tarefa for 
+        marcada como completada:</string>
+    <string name='task_completion_event'>Evento de Tarefa Completada</string>
+    <string name='tasker_plugin_needed'>Isto requer a compra o módulo adicional Tasker.</string>
+    <string name='please_run_utl_first'>Por favor execute Ultimate To-Do List e configure sua lista de tarefas
+        primeiro.</string>
+
+    <!-- Note to translators: [title] will be replaced with an actual task title in the code. Do not
+         translate [title]. -->
+    <string name='triggered_when_marked_complete'>Acionando quando \"[title]\" é marcado como
+        completado.</string>
+
+    <!-- Note to translators: In the following strings, [count] will be replaced with a number,
+         so do not translate [count]. -->
+    <string name='in_1_minute'>Em 1 minuto</string>
+    <string name='in_x_minutes'>Em [count] minutos</string>
+    <string name='in_1_hour'>Em 1 hora</string>
+    <string name='in_x_hours'>Em [count] horas</string>
+    <string name='in_x_days'>Em [count] dias</string>
+    <string name='in_1_week'>Em 1 semana</string>
+    <string name='in_x_weeks'>Em [count] semanas</string>
+    <string name='in_1_month'>Em 1 mês</string>
+    <string name='in_x_months'>Em [count] meses</string>
+    <string name='in_1_year'>Em 1 ano</string>
+    <string name='in_x_years'>Em [count] anos</string>
+
+    <!-- Note to translators: The app will display the next 2 strings as one sentence, with a time
+         duration in between, such as "2 days", "5 minutes", and "1 week".
+         For example: "Set the date/time to 2 days from the current date/time." -->
+    <string name='set_date_time_to'>Configure a data e hora para</string>
+    <string name='from_current_date_time'>da data e hora atuais.</string>
+
+    <!-- Note to translators: To not translate [task_name] in this string. -->
+    <string name='no_task_with_name'>Nenhuma tarefa de nome \"[task_name]\" foi encontrada.</string>
+</resources>

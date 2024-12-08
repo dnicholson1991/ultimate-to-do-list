@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>    
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background='?attr/nav_drawer_background'
+    android:id="@+id/nav_drawer_fragment_top"
+>
+    
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" 
+	    android:background='?attr/nav_drawer_shadow_right'
+	    android:id='@+id/nav_drawer_shadow_right_holder'
+	>
+	
+	    <!-- The main navigation area, containing the available task and note views: -->
+		<ScrollView
+		  android:layout_width="match_parent"
+		  android:layout_height="0dp"
+		  android:layout_weight="1"
+		  android:id="@+id/nav_drawer_scrollview"
+		  android:layout_gravity="start"
+		>
+			<LinearLayout
+			  android:layout_width="match_parent"
+			  android:layout_height="wrap_content"
+			  android:orientation="vertical"
+			  android:id="@+id/nav_drawer_tree_wrapper"
+			>			
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:id="@+id/nav_drawer_initial_setup_msg"
+					android:text=""
+				/>
+			</LinearLayout>
+		</ScrollView>
+
+		<include layout='@layout/nav_drawer_buttons' />
+	
+	</LinearLayout>
+</LinearLayout>

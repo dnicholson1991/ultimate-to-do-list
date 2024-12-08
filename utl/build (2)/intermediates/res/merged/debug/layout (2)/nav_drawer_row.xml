@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Defines one row of the navigation drawer, where each row is part of a tree view -->
+
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+>
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="horizontal" 
+	    android:id='@+id/nav_drawer_row_highlight_area'
+	    android:minHeight='40dp'
+	>
+		
+	    <RelativeLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="horizontal" 
+	    	android:id="@+id/nav_drawer_shadow_right_holder"
+		>
+		
+	        <!-- This is the Hit Area.  If the user taps in this area, something happens. -->
+	        <LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:orientation="horizontal" 
+		    	android:id="@+id/nav_drawer_hit_area"
+		    	android:layout_alignParentLeft='true'
+		    	android:layout_alignParentRight='true'
+			   	android:paddingTop="5dp"
+			   	android:paddingBottom="5dp"
+			>
+			
+			    <!-- Spacers for indentation.  Will be hidden and shown as needed. -->
+			    <View
+					android:layout_width="24dp"
+					android:layout_height="24dp"
+					android:id="@+id/nav_drawer_spacer1"
+				/>
+				<View
+					android:layout_width="24dp"
+					android:layout_height="24dp"
+					android:id="@+id/nav_drawer_spacer2"
+				/>
+				
+				<!-- An icon.  The drawable for this will be adjusted accordingly. -->
+				<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:id="@+id/nav_drawer_icon"
+					android:src="?attr/nav_all_tasks"
+					android:gravity="center_vertical"
+					android:layout_gravity="center_vertical"
+				/>
+			
+				<!-- This LinearLayout takes as much screen space as possible, and holds the text and possibly and expander control -->
+				<LinearLayout
+				    android:layout_width='0dp'
+				    android:layout_height="wrap_content"
+					android:orientation="horizontal"
+					android:layout_weight="1"
+					android:layout_gravity="center_vertical"
+					android:id="@+id/nav_drawer_text_and_expander"
+				>
+					<!-- The text for the row -->
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:id="@+id/nav_drawer_text"
+						android:text=""
+						android:gravity="center_vertical"
+						android:layout_gravity="center_vertical"
+						android:ellipsize="end"
+						android:maxLines="1"
+						android:singleLine="true"
+						android:paddingLeft="2dp"
+						android:textSize='?attr/utl_font_size_large'
+					/>
+					
+					<!-- An expander control, which will be hidden if needed -->
+					<ImageView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:id="@+id/nav_drawer_expander"
+						android:src="?attr/nav_expand"
+						android:gravity="center_vertical"
+						android:layout_gravity="center_vertical"
+					/>
+				</LinearLayout>
+				
+				<!-- At the end of the line exists either a counter or an image (to delete, edit, etc.) -->
+				<TextView
+					style="?attr/nav_counter_style"
+					android:id="@+id/nav_drawer_counter"
+					android:text=""
+					android:paddingLeft='2dp'
+					android:paddingRight='2dp'
+				/>
+		
+			</LinearLayout>
+			<!-- End of Hit Area -->
+		
+			<ImageView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/nav_drawer_button"
+				android:src="?attr/nav_edit"
+				android:gravity="center_vertical"
+				android:layout_gravity="center_vertical"
+				android:paddingLeft='6dp'
+				android:paddingRight='6dp'
+				android:paddingTop='6dp'
+				android:paddingBottom='6dp'
+				android:layout_alignParentRight='true'
+				android:layout_centerVertical='true'
+			/>
+		
+		</RelativeLayout>
+	</LinearLayout>
+	
+	<!-- A divider between items: -->
+	<LinearLayout
+	    android:layout_width='match_parent'
+	    android:layout_height='wrap_content'
+	    android:paddingRight='3dp'
+	    android:orientation='vertical'
+	>
+		<View 
+			android:layout_width='match_parent'  
+			android:layout_height='1dp'
+			android:background='?attr/nav_drawer_list_item_divider_color1'  
+		/>
+		<View 
+			android:layout_width='match_parent'  
+			android:layout_height='1dp'
+			android:background='?attr/nav_drawer_list_item_divider_color2'  
+		/>
+	</LinearLayout>
+</LinearLayout>
+<!-- From: file:/C:/GDrive-dnicholson/Work/Android_Projects/UTL/uTL/src/main/res/layout/nav_drawer_row.xml -->

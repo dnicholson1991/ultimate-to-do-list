@@ -1,0 +1,1314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The full name of the app: -->
+    <string name="app_name">Ultimate To-Do List</string>
+    
+    <string name="Please_choose_sync_option">Com que tipo de conta gostaria de conectar?</string>
+    <string name="deleted">&lt;Item Removido&gt;</string>
+    <string name="MultChoiceViewRule1">Conta é</string>
+    <string name="MultChoiceViewRule2">Conta é uma de:</string>
+    <string name="MultChoiceViewRule3">Pasta é</string>
+    <string name="MultChoiceViewRule4">Pasta é uma de:</string>
+    <string name="MultChoiceViewRule5">Contexto é</string>
+    <string name="MultChoiceViewRule6">Contexto é um de:</string>
+    <string name="MultChoiceViewRule7">Meta é</string>
+    <string name="MultChoiceViewRule8">Meta é uma de:</string>
+    <string name="MultChoiceViewRule9">Situação é</string>
+    <string name="MultChoiceViewRule10">Situação é uma de:</string>
+    <string name="MultChoiceViewRule11">Prioridade é</string>
+    <string name="MultChoiceViewRule12">Prioridade é uma de:</string>
+    <string name="MultChoiceViewRule13">Tarefa superior é</string>
+	<string name="MultStringsViewRule1">Marcações incluem</string>
+	<string name="MultStringsViewRule2">Marcações incluem uma de:</string>
+	<string name="IntViewRule1">Duração esperada</string>
+	<string name="IntViewRule2">Tempo gravado</string>
+	<string name="IntViewRule3">Timer está rodando</string>
+	<string name="IntViewRule4">Timer não está rodando</string>
+	<string name="isLessThan">é menos de</string>
+	<string name="isLessThanOrEqualTo">é menos ou igual a</string>
+	<string name="isEqualTo">é igual a</string>
+	<string name="isNotEqualTo">é diferente de</string>
+	<string name="isGreaterThanOrEqualTo">é maior ou igual a</string>
+	<string name="isGreaterThan">é maior que</string>
+	<string name="minutes">minutos</string>
+	<string name="minutes_abbreviation">min</string>
+	<string name="Sunday">Dom</string>
+	<string name="Monday">Seg</string>
+	<string name="Tuesday">Ter</string>
+	<string name="Wednesday">Qua</string>
+	<string name="Thursday">Qui</string>
+	<string name="Friday">Sex</string>
+	<string name="Saturday">Sáb</string>
+	<string name="StartDate">Data de Início</string>
+	<string name="CompletionDate">Data de Término</string>
+	<string name="Modification_Date">Data de Modificação</string>
+	<string name="DueDate">Data Devida</string>
+	<string name="OnOrBefore">é em ou antes de</string>
+	<string name="OnOrAfter">é em ou depois de</string>
+	<string name="Is">é</string>
+	<string name="DaysInFuture">dias no futuro</string>
+	<string name="DaysInPast">dias no passado</string>
+	<string name="Today">hoje</string>
+	<string name="getAccountName">Entre um nome para a conta:</string>
+	<string name="getAccountName2">Por favor: "Conta do João", or "Tarefas da Maria"</string>
+	<string name="done">Feito</string>
+	<string name="DbInsertFailed">Inserção do banco de dados falhou</string>
+	<string name="DbModifyFailed">Modificação do banco de dados falhou</string>
+	<string name="AllTasks">Todas as Tarefas</string>
+
+	<!-- The "Hotlist" is the list of tasks which are the most important. -->
+	<string name="Hotlist">Importante</string>
+
+	<!-- This refers to the list of custom "Views".  A "view" is like a saved search. It contains
+	     a set of filter, sort, and display settings. -->
+	<string name="MyViews">Minhas Visualizações</string>
+
+	<string name="Notes">Anotações</string>
+	<string name="DueTodayTomorrow">Devido Hoje/Amanhã</string>
+	<string name="Overdue">Atrasado</string>
+
+	<!-- A task becomes "starred" if the user presses a special button that is shaped like a star.
+	     A user will do this to highlight a task so that is stands out from other tasks. -->
+	<string name="Starred">Com Estrela</string>
+
+	<string name="ByStatus">Por Situação</string>
+	<string name="Folders">Pastas</string>
+	<string name="Contexts">Contextos</string>
+	<string name="Tags">Marcações</string>
+	<string name="Goals">Metas</string>
+	<string name="RecentlyCompleted">Recentemente Completadas</string>
+	<string name="New_Task">Nova Tarefa</string>
+	<string name="New_Note">Nova Anotação</string>
+	<string name="Add_a_Task">Adicione uma Tarefa</string>
+	<string name="Edit_Task">Editar Tarefa</string>
+	<string name="Title">Título</string>
+	<string name="Status">Situação</string>
+	<string name="Start_Date">Data Incial</string>
+	<string name="Due_Date">Data Final</string>
+	<string name="Reminder_Date_Time">Data/Hora do Lembrete</string>
+	<string name="Reminder">Lembrete</string>
+	<string name="Repeat">Repetição</string>
+	<string name="Priority">Prioridade</string>
+	<string name="Folder">Pasta</string>
+	<string name="Context">Contexto</string>
+	<string name="Goal">Meta</string>
+	<string name="Accounts">Contas</string>
+	<string name="Account">Conta</string>
+	<string name="Note">Anotação</string>
+	<string name="Save">Salvar</string>
+	<string name="Cancel">Cancelar</string>
+	<string name="None">&lt;Nenhum&gt;</string>
+	<string name="None_No_Symbols">Nenhum</string>
+	<string name="Add_Folder">Adicionar Pasta...</string>
+	<string name="Add_Context">Adicionar Contexto...</string>
+	<string name="Add_Goal">Adicionar Meta...</string>
+	<string name="Select_a_Start_Date">Escolher Data Inicial</string>
+	<string name="Select_a_Due_Date">Escolher Data Final</string>
+	<string name="Select_a_Reminder_Date">Escolher Data de Lembrete</string>
+	<string name="Select_a_Date">Escolher Data</string>
+	<string name="Task_is">Tarefa é...</string>
+	<string name="Advanced_Repeat_Pattern">Padrão de Repetição Avançado</string>
+	<string name="Please_enter_a_name">Favor entrar um nome.</string>
+	<string name="This_is_not_properly_formatted">Isto não está formatado adequadamente.</string>
+	<string name="Add_a_Folder">Adicionar Pasta</string>
+	<string name="Enter_Folder_Name">Entre o Nome da Pasta:</string>
+	<string name="Add_a_Context">Adicione um Contexto</string>
+	<string name="Enter_Context_Name">Entre o Nome do Contexto:</string>
+	<string name="Add_a_Goal">Adicione uma Meta</string>
+	<string name="Enter_Goal_Name">Entre o Nome da Meta:</string>
+	<string name="tag_description">Uma marcação é uma palavra ou grupo de palavras que você pode usar para descrever a tarefa. Pode ser usado para monitorar o estado ou progresso de uma tarefa, como por exemplo \"Esperando João\" ou \"Fase 1\". Pode também ser usado para monitorar o próximo passo que precisa realizar, como \"Ligar para Maria\". Algumas pessoas usam marcações para classificar a tarefa. Por exemplo: \"lembrete\", \"obrigação\" or \"reunião\".\n\nNa primeira vez que usar uma marcação, você precisará digitá-la integralmente. Na próxima vez, poderá reselecionar uma marcação anterior da uma lista de marcações prévias.</string>
+	<string name="Enter_Other_Tags">Entre outras marcações aqui, e separe-as com uma vírgula:</string>
+	<string name="Enter_Tags_Here">Entre suas marcações aqui, separando-as com uma vírgula:</string>
+	<string name="Select_Tags">Selecionar Marcações</string>
+	<string name="Select_Accounts">Selecionar Contas</string>
+	<string name="Please_select_at_least_one">Por favor selecione pelo menos uma.</string>
+	<string name="account_cannot_be_changed">A conta não pode ser alterada para uma tarefa já existente.</string>
+	<string name="Yes">Sim</string>
+	<string name="No">Não</string>
+	<string name="Save_changes">Salvar Alterações?</string>
+	<string name="Timer_will_start">Timer irá começar quando a tarefa for salva.</string>
+	<string name="Timer_stopped">Timer parou.</string>
+	<string name="Please_enter_a_title">Por favor insira um título.</string>
+	<string name="Start_must_be_before_end">A data de início precisa ser anterior à data de término.</string>
+	<string name="Reminder_must_be_before_due">A data/hora do lembrete precisa ser anterior à data de término.</string>
+	<string name="Unable_to_add_folder">Incapaz de adicionar pasta ao banco do dados.</string>
+	<string name="Unable_to_add_context">Incapaz de adicionar contexto ao banco de dados.</string>
+	<string name="Unable_to_add_goal">Incapaz de adicionar meta ao banco de dados.</string>
+	<string name="Cannot_modify_task">Incapaz de modificar tarefa no banco de dados.</string>
+	<string name="Cannot_add_task">Incapaz de adicionar tarefa no banco de dados.</string>
+	<string name="Seven_day_rule">A data de lembrete deve ser no máximo 7 dias antes da data de término.</string>
+	<string name="Start_Timer">Iniciar Timer</string>
+	<string name="Stop_Timer">Parar Timer</string>
+	<string name="Add_Subtask">Adicionar Subtarefa</string>
+	<string name="Delete_Task">Remover Tarefa</string>
+	<string name="Settings">Configurações</string>
+	<string name="Search">Pesquisa</string>
+
+	<!-- Here, the word "sync" is an abbreviation for "synchronization".  When translating, try
+	     to use the shortest word possible that means "synchronization". -->
+	<string name="Sync">Sinc</string>
+	<string name="Sync_Now">Sinc Agora</string>
+
+	<string name="Filter">Filtro</string>
+	<string name="Sort">Ordenação</string>
+	<string name="Display_Options">Opções de Visualização</string>
+	<string name="Save_This_View">Salvar Visualização</string>
+	<string name="Status_">Situação: </string>
+	<string name="Start_Date_">Data Inicial: </string>
+	<string name="Start_Date_Time_">Data/Hora Iniciais: </string>
+	<string name="Due_Date_">Data de Término: </string>
+	<string name="Due_Date_Time_">Data/Hora de Término: </string>
+	<string name="Reminder_">Lembrete: </string>
+	<string name="Repeat_">Repetições: </string>
+	<string name="Repeat_From_">Repetir De: </string>
+	<string name="Priority_">Prioridade: </string>
+	<string name="Folder_">Pasta: </string>
+	<string name="Context_">Contexto: </string>
+	<string name="Tags_">Marcações: </string>
+	<string name="Goal_">Meta: </string>
+	<string name="Account_">Conta: </string>
+	<string name="Expected_Length_">Duração Esperada: </string>
+	<string name="Actual_Length_">Duração Atual: </string>
+	<string name="Note_">Anotação: </string>
+	<string name="Timer_is_Running">Timer em execução</string>
+	<string name="Timer_already_running">Timer já está em execução.</string>
+	<string name="Timer_was_not_running">O timer não estava em execução.</string>
+	<string name="licCheck1">Conferindo licença.</string>
+	<string name="licCheck2">Não foi possível vincular ao serviço de licença.  Motivo mais provável: o aplicativo de licença não está instalado.</string>
+	<string name="licCheck3">Aplicativo de licença informa que este UTL está licenciado.</string>
+	<string name="licCheck4">Aplicativo de licença informa que este UTL não está licenciado.  Erro número:</string>
+	<string name="licCheck5">Marcando UTL como não comprado.</string>
+	<string name="licCheck6">Não marcando UTL como não comprado ainda.</string>
+	<string name="licCheck7">Aplicativo de licença retornou um erro.  Situação:</string>
+	<string name="licCheck8">Receptor de Licença recebeu dados de licença corrompidos.</string>
+	<string name="Task_no_longer_exists">Tarefa não existe mais.</string>
+	<string name="Completed_">Completado: </string>
+	<string name="Continue">Continue</string>
+	<string name="The_account_hash_been_set_up">A conta foi configurada.</string>
+	<string name="Synchronization_will_run_in_background">A conexão foi estabelecida, e suas tarefas estão sendo sincronizadas agora para seu dispositivo. Usando o aplicativo, verá as tarefas aparecendo aos poucos nos minutos a seguir.</string>
+
+	<!-- Toodledo is a web site that this app can synchronize its tasks with. -->
+	<string name="Toodledo_account_has_been_set_up">A conta Toodledo foi criada.  Além do seu dispositivo, você pode acessar suas tarefas e anotações em toodledo.com.</string>
+	<string name="Unable_to_create_td_account">Incapaz de criar uma conta Toodledo.</string>
+	<string name="Unable_to_login_to_td">Incapaz de se conectar a Toodledo.com.</string>
+
+	<string name="Username_password_is_incorrect">A combinação de usuário e senha não foi aceita.</string>
+	<string name="TD_not_responding">Toodledo.com não responde. Você pode estar sem conexão à Internet.</string>
+	<string name="TD_gave_unexpected_data">Toodledo.com enviou dados inesperados.</string>
+	<string name="Internal_software_failure">Um erro interno do software ocorreu.</string>
+	<string name="Enter_td_login_info">Entre os dados da sua conta Toodledo.</string>
+	<string name="td_email">Endereço de E-Mail:</string>
+	<string name="td_password">Senha:</string>
+	<string name="An_email_must_be_specified">Um endereço de E-Mail precisa ser especificado.</string>
+	<string name="A_password_must_be_specified">Uma senha precisa ser especificada.</string>
+	<string name="Sync_Successful">Sincronização Bem Sucedida</string>
+	<string name="Sync_Started">Sincronização Iniciada</string>
+	<string name="Sync_Failed_">Sinc Falhou: </string>
+	<string name="Bad_username_or_password">Usuário ou Senha errados.</string>
+	<string name="Cannot_connect_to_TD">Incapaz de estabelecer conexão com Toodledo.com.</string>
+	<string name="Bad_respone_from_TD">Toodledo.com enviou dados inesperados.</string>
+	<string name="Internal_error">Erro interno.</string>
+	<string name="DB_failure">Acesso ao Banco de dados local falhou.</string>
+	<string name="Nagging_On">Modo Persistente</string>
+	<string name="Sync_Completed_Refreshing">Sinc Completada. Atualizando Lista...</string>
+	<string name="Stop_Nagging">Parar Modo Persistente</string>
+	<string name="Mark_Complete">Marcar como Completada</string>
+	<string name="Snooze">Adiar</string>
+	<string name="Dismiss">Interromper</string>
+	<string name="Complete">Completada</string>
+	<string name="Remind_me_in_">Me lembre em...</string>
+	<string name="View_has_no_rules">Clique no botão abaixo para criar uma regra de busca ou filtro.\n</string>
+	<string name="Add_filter_rule">&#160;Criar regra de filtro</string>
+	<string name="And">E</string>
+	<string name="Or">Ou</string>
+	<string name="Filter_Rules_for_View">Regras de Filtro para Visualização</string>
+	<string name="Star">Estrela</string>
+	<string name="Expected_Length">Duração Esperada</string>
+	<string name="Actual_Length">Duração Atual</string>
+	<string name="Timer_Status">Estado do Timer</string>
+	<string name="Mod_Date">Data de Modificação</string>
+	<string name="Completed">Completado</string>
+	<string name="Are_you_sure_you_want_to_delete_rule">Tem certeza que deseja remover esta regra?</string>
+	<string name="or_is_blank">, ou está em branco</string>
+	<string name="Select_field_to_filter">Selecione campo para filtrar...</string>
+	<string name="Previous_rule_must_also_match">Regra anterior também precisa casar</string>
+	<string name="Find_tasks_whose">Mostre tarefas que</string>
+	<string name="You_must_enter_some_text">Você precisa inserir o texto a ser buscado.</string>
+	<string name="Restore_Defaults">Restaurar Padrões</string>
+	<string name="Restore_default_rules">Restaura as regras padrão para esta visualização. Deseja continuar?</string>
+	<string name="Cannot_restore_defaults">Esta não é uma visualização padrão do aplicativo, não há padrões para se restaurar portanto.</string>
+	<string name="Show_completed_tasks">Mostre tarefas completadas</string>
+	<string name="Show_starred">Mostre tarefas marcadas com estrela</string>
+	<string name="Show_tasks_with_timer_on">Mostre tarefas cujo timer é</string>
+	<string name="Please_enter_a_value">Por favor entre um valor.</string>
+	<string name="Modify_">Modifique...</string>
+	<string name="Empty_Rule">&lt;Regra Vazia&gt;</string>
+	<string name="Nothing_has_been_chosen">Nada foi escolhido.  Clique o botão Modificar para selecionar alguns itens.</string>
+	<string name="Select_one_or_more">Selecione pelo menos um</string>
+	<string name="Statuses">Posições</string>
+	<string name="Priorities">Prioridades</string>
+	<string name="Filter_on">Filtro Ativo</string>
+	<string name="days_in_the">dias no</string>
+	<string name="Choose_an_Exact_Date">Escolha ao invés um data exata</string>
+	<string name="This_date_">esta data: </string>
+	<string name="Choose_a_relative_date">Escolha uma data relativa ao dia de hoje</string>
+	<string name="Include_tasks_with_no_date">Inclua tarefas sem</string>
+	<string name="Include_tasks_due_on_exact">Inclua tarefas devidas em uma data EXATA, mesmo se esta data não for o dia de hoje</string>
+	<string name="Include_tasks_optional_on_exact">Inclua tarefas com data de término opcional, mesmo se esta data não for o dia de hoje</string>
+	<string name="Keep_previous_2_unchecked">Na maioria dos casos, você irá desejar manter os 2 itens prévios desmarcados.</string>
+	<string name="No_custom_views_defined"
+	    >A área Minhas Visualizações é onde você pode ver suas tarefas da forma que desejar. Uma \"Visualização\" nesta área 
+	    consiste em um conjunto de filtros, organizações e visualizações memorizados.\n
+	    
+	    \nVocê pode adicionar visualizações aqui de qualquer lista de tarefas selecionando o comando \"Salve esta Visualização\".  Você pode 
+	    também pressionar este botão + para criar uma nova visualização.
+	</string>
+	<string name="Save_view_help">Isto vai salvar as configurações atuais de filtro, de organização e de visualização para a área \"Minhas Visualizações\", que você pode acessar da página inicial.</string>
+	<string name="Enter_view_name">\nEntre um nome para sua visualização:</string>
+	<string name="Save_a_View">Salve uma Visualização</string>
+	<string name="Rename">Renomear</string>
+	<string name="Delete">Remover</string>
+	<string name="Enter_New_Name">Entre um Novo Nome:</string>
+	<string name="View_delete_confirmation">Tem certeza que deseja remover a visualização?</string>
+	<string name="At_least_one_account">Pelo menos uma conta precisa ser selecionada para guardar a tarefa nela.</string>
+	<string name="At_least_one_rule">Pelo menos 1 regra precisa ser especificada.</string>
+	<string name="Enter_New_View_Name">Entre um nome para a nova visualização:</string>
+	<string name="OK">OK</string>
+	<string name="Sort_By_">Ordene Por:</string>
+	<string name="_Then_By_">\nEntão Por:</string>
+	<string name="_And_Finally_By_">\nFinalmente Por:</string>
+	<string name="spacer"> </string>
+	<string name="Select_a_Sort_Order">Escolha um Padrão de Ordenação</string>
+	<string name="first_item_cannot_be_empty">O primeiro item não pode estar vazio.</string>
+	<string name="Choose_a_sort_field">Escolha um campo para ordenar por:</string>
+	<string name="Title_of_Task">Título da Tarefa</string>
+	<string name="Upper_Right">Direito Superior</string>
+	<string name="Lower_Left">Esquerdo Inferior</string>
+	<string name="Lower_Right">Direito Inferior</string>
+	<string name="Color_Coded_Bar">Barra com Código de Cores</string>
+	<string name="Display_options_intro">Aqui você pode escolher quais campos de tarefa mostrar na lista.  Você também pode escolher como visualizar subtarefas.\n\nLayout da Lista:</string>
+	<string name="_Field_to_Display_in_Upper_Right_">\nCampo para Mostrar no Canto Superior Direito:</string>
+	<string name="_Field_to_Display_in_Lower_Left_">\nCampo para Mostrar no Canto Inferior Esquerdo:</string>
+	<string name="_Field_to_Display_in_Lower_Right_">\nCampo para Mostrar no Canto Inferior Direito:</string>
+	<string name="_Field_for_Color_Coded_Bar_">\nCampo para a Barra com Código de Cores:</string>
+	<string name="_Format_of_Subtasks_">\nFormato das Subtarefas:</string>
+	<string name="Start_and_Due_Date">Data de Início e Término</string>
+	<string name="Folder_and_Context">Pasta e Contexto</string>
+	<string name="icons">Ícones (Recorrente, Estrelado, etc.)</string>
+	<string name="Choose_a_field_to_display_here">Escolha um campo a mostrar aqui:</string>
+	<string name="Adjust_subtask_display">Mostre subtarefas desta forma:</string>
+	<string name="View_Subtasks">Veja Subtarefas</string>
+	<string name="Subtasks_of_Task">Subtarefas da Tarefa</string>
+	<string name="Subtask_List">Lista de Subtarefas</string>
+	<string name="No_Folders_Defined">Pastas podem ser usadas para organizar suas tarefas e anotações em categorias, 
+	    projetos, ou áreas de foco.  Pastas normalmente representam categorias amplas como 
+	    \"Trabalho\" or \"Pessoal\".  Ou podem ser mais focadas, como \"Projeto 1\" ou 
+	    \"Projeto 2\".\n
+	    
+	    \nPressione o sinal de + para criar a sua primeira pasta.</string>
+	<string name="New_Folder">Nova Pasta</string>
+	<string name="Item_no_longer_exists">Item não existe mais.</string>
+	<string name="Folder_delete_confirmation">Tem certeza que deseja remover esta pasta? Quaisquer tarefas e anotações associadas a esta pasta serão marcadas como não possuindo pasta.</string>
+	<string name="Show_Archived">Mostre Arquivados</string>
+	<string name="Hide_Archived">Esconda Arquivados</string>
+	<string name="Name_already_exists">Este nome já existe.</string>
+	<string name="Please_select_an_account">Escolha pelo menos uma conta.</string>
+	<string name="New_Context">Novo Contexto</string>
+	<string name="No_Contexts_Defined"
+	    >Contextos permitem que associe tarefas a certas localizações, configurações, or momentos do dia em que devem 
+	    ser completados. Por exemplo, \"trabalho\", \"shopping\", e \"tarde\" são contextos tradicionais.\n
+	    
+	    \nA ideia por trás dos contextos é que não é producente ser lembrados de tarefas de um contexto quando 
+	    está em outro contexto. Por exemplo, quando está no trabalho, você não deseja ver as tarefas que 
+	    só podem ser completadas em casa.\n
+	    
+	    \nPressione o sinal de + para criar o seu primeiro contexto.
+	</string>
+	<string name="Context_delete_confirmation">Tem certeza que deseja remover este contexto? Quaisquer tarefas associadas a este contexto serão marcadas como não possuindo contexto.</string>
+	<string name="No_Goals_Defined"
+	    >Metas fornecem uma forma de especificar coisas que almeja realizar. Contrariamente às tarefas, metas são geralmente 
+	    vagas e difíceis de se quantificar. Por exemplo: \"Sucesso profissional\", \"Ser um bom pai\", 
+	    \"Cuidar da saúde\".\n
+	    
+	    \nVocê pode criar metas de curto prazo, de médio prazo, de longo prazo e para toda a sua vida e associar essas 
+	    metas a tarefas individuais. Isso lhe permite acompanhar quais ações contribuem para suas 
+	    metas, e quais ações podem não ser um bom uso do seu tempo.\n
+	    
+	    \nPressione o sinal de + para criar a sua primeira meta.</string>
+	<string name="Contributes_To_">Contribui Para:</string>
+	<string name="Goal_delete_confirmation">Tem certeza que deseja remover esta meta? Quaisquer tarefas associadas a esta meta serão marcadas como não possuindo meta.</string>
+	<string name="Goal_Level_">Nível da Meta:</string>
+	<string name='No_Tags_Defined'
+	    >Uma marcação é uma palavra ou conjunto de palavras usadas para ajudar a descrever a tarefa.  Usos habituais incluem:\n
+	    
+	    \n- Acompanhamento da situação ou evolução.  Exemplos: \"Etapa 1\", \"Esperando retorno\"\n
+	    
+	    \n- Acompanhamento do próximo passo.  Exemplos: \"Retornar ligação\", \"Entregar item\"\n
+	    
+	    \n- Classificação da tarefa.  Exemplos: \"Encontro\", \"Shopping\"\n
+	    
+	    \n- Seu próprio esquema de organização personalizado.\n
+	    
+	    \nAo contrário de pastas, contextos e metas, uma tarefa pode ter mais de uma marcação.\n
+	    
+	    \nMarcações não são criadas aqui.  Ao invés disso, você cria uma marcação diretamente na tarefa usando o editor de tarefas.
+	    Esta tela mostrará as marcações mais recentes usadas por você.
+	</string>
+	<string name="Most_recent_at_top">A marcação mais recente está no topo.</string>
+	<string name="Recently_Used_Tags">Marcações Usadas Recentemente</string>
+	<string name="No_Folder">Sem Pasta</string>
+	<string name="Note_is_too_long">A anotação é longa demais.</string>
+	<string name="No_Notes_Defined">Sem anotações aqui.</string>
+	<string name="Notes_With_No_Folder">Anotações sem Pasta</string>
+	<string name="Notes_in_Folder">Anotações na Pasta</string>
+	<string name="Change_Folder">Mudar Pasta</string>
+	<string name="Note_delete_confirmation">Tem certeza que deseja remover esta anotação?</string>
+	<string name="New_Folder_for">Nova Pasta para</string>
+	<string name="Account_Management">Gestão de Conta</string>
+	<string name="Sync_Options">Opções de Sinc</string>
+	<string name="Font_Size">Tamanho da Fonte</string>
+	<string name="Reminder_Options">Opções de Lembrete</string>
+	<string name="Fields_Functions_Used">Campos/Funções Usadas</string>
+	<string name="New_Task_Defaults">Padrões de Nova Tarefa</string>
+	<string name="Startup_Screen">Tela Inicial</string>
+	<string name="First_Day_of_Week">Semana Começa no(a)</string>
+	<string name="Sunday_full">Domingo</string>
+	<string name="Monday_full">Segunda</string>
+	<string name="Change_Username_Password">Mudar E-Mail/Senha</string>
+	<string name="Rename_Account">Renomear Conta</string>
+	<string name="Reset_Sync">Zerar Sincronização</string>
+	<string name="Link_To_TD">Associar a uma conta Toodledo</string>
+	<string name="Unlink_From_TD">Desfazer associação com Toodledo</string>
+	<string name="Delete_Account">Remover Conta</string>
+	<string name="Settings_for_Account">Configurações para a Conta</string>
+	<string name="Verifying_Username_Password">Conferindo Login e Senha...</string>
+	<string name="Update_Successful">Atualização Bem Sucedida</string>
+	<string name="Update_Failed">Atualização Falhou</string>
+	<string name="Different_TD_Account">Esta parece ser outra conta Toodledo.  Para sincronizar com uma conta Toodledo diferente, precisa criar uma nova conta no dispositivo.</string>
+	<string name="Task_background_download">Your tasks will download in the background.  This may take several minutes.</string>
+	<string name="Reset_Sync_Confirmation">Isto vai remover todas as tarefas e anotações desta conta e depois baixar dados novos do Toodledo. Se você tem muitas tarefas, sua tela pode parecer ter travado por 1 ou 2 minutos. Continuar?</string>
+	<string name="Unlink_TD_Confirmation">Isto vai cessar a sincronização com Toodledo.  Se decidir sincronizar novamente no futuro com a mesma conta Toodledo, você provavelmente terá tarefas duplicadas.  Tem certeza?</string>
+	<string name="Account_Delete_Confirmation">Isto vai remover todas as tarefas e anotações desta conta.  Tem certeza?</string>
+	<string name="Account_Delete_Confirmation2">Isto vai remover todas as tarefas e anotações do seu dispositivo.  Toodledo não será afetado.  Continuar?</string>
+	<string name="Automatically_Sync">Sincronizar Automaticamente com Toodledo e Google</string>
+	<string name="Sync_Interval">Intervalo de Sincronização (em Minutos)</string>
+	<string name="Instantly_Upload">Upload Instantâneo das Alterações Feitas em seu Dispositivo</string>
+	<string name="Sound_to_Play">Som a Tocar</string>
+	<string name="Vibe_Pattern">Padrão de Vibração</string>
+	<string name="Default">Padrão</string>
+	<string name="Start_Time">Horário Inicial</string>
+	<string name="Due_Time">Horário de Término</string>
+	<string name="Reminders">Lembretes</string>
+	<string name="Repeating_Tasks">Tarefas Repetidas</string>
+	<string name="Timer">Timer</string>
+	<string name="Subtasks">Subtarefas</string>
+	<string name="Folders_for_Notes">Pastas para Anotações</string>
+	<string name="Folders_for_Tasks">Pastas para Tarefas</string>
+	<string name="Parent_completion_confirmation">Isto vai também marcar todas as subtarefas como completadas. Continuar?</string>
+	<string name="Task_Delete_Confirmation">Tem certeza que deseja remover esta tarefa?</string>
+	<string name="Last_Account_Delete">Pelo menos uma conta deve estar definida.</string>
+	<string name="Quick_Search_Intro">O que procura?</string>
+	<string name="Search_Now">Procurar Agora</string>
+	<string name="Advanced_Search">Procura Avançada</string>
+	<string name="Quick_Search">Procura Rápida</string>
+	<string name="Must_enter_something_to_search_for">Você precisa entrar algo para procurar.</string>
+	<string name="Search_Results">Resultados de Busca</string>
+	<string name="Filter_Rules_for_Search">Regras de Filtro para esta Busca</string>
+	<string name="Upload_Usage_Info">Informação de Uso de Upload</string>
+	<string name="Upload_Usage_Info2">Para ajudar a sanar problemas</string>
+	<string name="Visit_web_site">Visitar site</string>
+	<string name="Help">Ajuda</string>
+	<string name="Help_and_Support">Ajuda e Suporte</string>
+	<string name="Upload_Log_Msg_1">Isto irá enviar dados de uso que ajudarão na resposta das questões e na solução dos problemas. Após o upload das informações, você receberá um número de protocolo que você pode mencionar quando entrar em contato com o suporte.</string>
+	<string name="Upload_Log_Msg_2">Seus dados de uso foram recebidos.  Quando contactar o suporte, por favor mencione o seguinte número de protocolo: </string>
+	<string name="Could_not_upload">Upload dos dados de uso falhou.</string>
+	<string name="Upload_Now">Fazer Upload Agora</string>
+	<string name="Wait_For_Upload">Upload dos dados em curso. Isso pode levar vários minutos.</string>
+	<string name="Repeat_Without_Date">Uma data de início ou término deve ser selecionada quando a tarefa repetir.</string>
+	<string name="Sync_Progress">Progresso de Sincronização:</string>
+	<string name="Toodledo_Lock">Toodledo bloqueou a sua conta por 1 hora por excesso de uso.</string>
+	<string name="Task_List_2x2">Ultimate To-Do (2x2)</string>
+	<string name="Task_List_3x2">Ultimate To-Do (3x2)</string>
+	<string name="Task_List_4x2">Ultimate To-Do (4x2)</string>
+	<string name="Task_List_2x3">Ultimate To-Do (2x3)</string>
+	<string name="Task_List_3x3">Ultimate To-Do (3x3)</string>
+	<string name="Task_List_4x3">Ultimate To-Do (4x3)</string>
+	<string name="Task_List_2x4">Ultimate To-Do (2x4)</string>
+	<string name="Task_List_3x4">Ultimate To-Do (3x4)</string>
+	<string name="Task_List_4x4">Ultimate To-Do (4x4)</string>	
+	<string name="To_Do_List_Underline">Lista de Tarefas</string>
+	<string name="Nothing_to_do">Não existem tarefas que atendem aos critérios do filtro para este widget.</string>
+	<string name="Tasks_in_Widget2">Tarefas no Widget</string>
+	<string name="Completed_Status">Situação de Completada</string>
+	<string name="Choose_an_Option">Escolha uma Opção:</string>
+	<string name="Enter_email_choose_password">Entre seu endereço de e-mail e escolha uma senha.</string>
+    <string name="Must_be_Synchronized">Isto deve ser sincronizado antes de ser arquivado.</string>
+	<string name="Title_is_too_long">O título é longo demais.</string>
+	<string name="minute">minuto</string>
+	<string name="hours">horas</string>
+	<string name="hour">hora</string>
+	<string name="Nagging_Reminder">(Lembrete Persistente)</string>
+	<string name="Due_">Devido:</string>
+	<string name="_optional_">(Opcional)</string>
+	<string name="_exact_date_">(Data Exata)</string>
+	<string name="View_Parent_Task">Ver Tarefa Superior</string>
+	<string name="Parent_Task_">Tarefa Superior:</string>
+	<string name="Trial_Expiry_Msg">Obrigado por experimentar Ultimate To-Do List.  Seu período de teste terminou.\n</string>
+	<string name="Purchase_Now">Compre Agora</string>
+	<string name="Recheck_License">Checar Novamente por Licença</string>
+	<string name="No_Purchase_Detected">Nenhuma compra foi detectada.</string>
+	<string name="License_Found">Uma licença foi encontrada.</string>
+	<string name="Trial_Expiry_Notice">Seu período de testes termina em 14 dias. Pressione para comprar.</string>
+	<string name="Enter_Reg_Code">Entrar Código</string>
+	<string name="Could_Not_Contact_Server_">Não foi possível acessar servidor: </string>
+	<string name="Software_Registered">Seu software foi registrado.</string>
+	<string name="Checking_Code">Conferindo Código de Registro</string>
+	<string name="No_Android_ID">Seu dispositivo não possui um Android ID único, por isso não podemos ofertar um período de testes.  Para acertar esse problema, vá até a área de configurações do seu dispositivo e adicione uma conta Google.  Então, reinicie este aplicativo.  Se não funcionar, será necessário adquirir uma licença Ultimate To-Do List. Clique no botão abaixo para comprar.\n</string>
+	<string name="Unable_To_Upload">Desculpe, não foi feito upload dos dados dados a uma falha na conexão à Internet.  Se estiver usando uma rede celular de dados, experimente conectar via Wi-Fi.</string>
+	<string name="Tag_List_Too_Long">A lista de tarefas não pode ter mais de 64 caracteres.</string>
+	<string name="Toodledo_Reject">Toodledo rejeitou pelo menos uma das mudanças.</string>
+	<string name="Widget_display_options_intro">Aqui você pode escolher quais campos de tarefa e cores mostrar neste widget. Note que cada widget é individualmente configurado.</string>
+	<string name="_Widget_Title_">\nTítulo do Widget (Opcional):</string>
+	<string name="Display_Options_for_Widget">Opções de Visualização para o Widget</string>
+	<string name="Adjust_Display_For_">Ajustar Visualização Para:</string>
+	<string name="Widget_Display">Widget</string>
+	<string name="Full_Screen_View">Visualização de Tela Cheia</string>
+	<string name="Options_for_Widget">Opções para o Widget</string>
+	<string name="Widget_Options_Intro_">Cada widget tem suas próprias configurações de filtro, ordenação, e visualização.</string>
+	<string name="Filter_Rules_For_Widget">Regras de Filtro para o Widget</string>
+	<string name="Light_Color">Cores Claras</string>
+	<string name="no_tasks_exist">Você ainda não criou nenhuma tarefa. Pressione o botão + para adicionar uma.</string>
+	<string name="Date_Format">Formato da Data</string>
+	<string name="Duplicate_Account_Attempt">Você já possui conexão com esta conta Toodledo.  Conexões em duplicidade não são permitidas.</string>
+	<string name="Account_Name_Already_Exists">Uma conta com este nome já existe.</string>
+	<string name="Start_Time_">Horário Inicial: </string>
+	<string name="Due_Time_">Horário de Término: </string>
+	<string name="Reminder_Time_">Horário do Lembrete: </string>
+	<string name="Repeat_From2">- De: </string>
+	<string name="Repeat_Advanced_">- Avançado: </string>
+	<string name="Reminder_Date_">Data do Lembrete: </string>
+	<string name="Accounts__">Contas: </string>
+	<string name="Enter_Expected_Length">Duração Esperada em Minutos:</string>
+	<string name="Enter_Actual_Length">Duração Atual em Minutos:</string>
+	<string name="Theme">Tema</string>
+	<string name="_Theme_">\nTema:</string>
+	<string name="Sort_order_for_undated">Padrão de Ordenação para Tarefas sem Data</string>
+	<string name="_If_parent_is_filtered_out">\nSe uma subtarefa é visível mas a tarefa superior não...</string>
+	<string name="If_parent_is_filtered_out_">Se a tarefa superior está filtrada...</string>
+	<string name="Time_Format">Formato do Horário</string>
+	<string name="Date_and_Time">Data e Horário</string>
+	<string name="Note_Search_Results">Resultados da Busca de Anotações</string>
+	<string name="What_to_Search">O que Procurar:</string>
+	<string name="Completed_Tasks">Tarefas Completadas</string>
+	<string name="Incomplete_Tasks">Tarefas Incompletas</string>
+	<string name="Device_Unique_ID">O ID único do seu dispositivo</string>
+	<string name="Blocked_due_to_Sync">Isto não pode ser realizado agora porque o aplicativo está sincronizando. Por favor tente depois.</string>
+    <string name="MultChoiceViewRule14">Local é</string>
+    <string name="MultChoiceViewRule15">Local é um de:</string>
+    <string name="Location">Local</string>
+    <string name="Location_">Local: </string>
+    <string name="Locations">Locais</string>
+    <string name="Show_Map">Mostrar Mapa</string>
+    <string name="No_Locations_Defined"
+        >Locais permite marcar onde algumas tarefas devem ser realizadas.  Isto lhe dá a conveniência de 
+        localizar tarefas próximas.  Você também pode ter o aplicativo lembrá-lo de agir em relação a uma tarefa quando você
+        chega em determinado local.\n
+        
+        \nQuando você clica no botão \"Mostrar Mapa\" no painel de navegação do aplicativo, você pode ver que locais estão 
+        próximos de sua posição atual, além das tarefas associadas a cada local.\n
+        
+        \nPressione o sinal de + para adicionar o seu primeiro local.
+    </string>
+	<string name="Location_delete_confirmation">Tem certeza que deseja remover este local? Quaisquer tarefas associadas a este local serão marcadas como não possuindo local.</string>
+	<string name="No_Location">Sem local</string>
+	<string name="Latitude_">Latitude: </string>
+	<string name="Longitude_">Longitude: </string>
+	<string name="Address_">Endereço: </string>
+	<string name="Enter_Address">Entrar Endereço</string>
+	<string name="Use_Current_Loc">Usar Local Atual</string>
+	<string name="Description_too_long">A descrição é muito longa.</string>
+	<string name="Name_too_long">O nome é muito longo.</string>
+	<string name="No_coordinates_given">Por favor entre um endereço ou pressione o botão para escolher seu local atual.</string>
+	<string name="Unable_to_get_coords">Incapaz de obter latitude e longitude</string>
+	<string name="Address_or_Internet_Issue">Tente o seguinte:\n-Conferir o endereço\n-Conferir conexão à Internet\n-Certificar-se que Google Maps está instalado</string>
+	<string name="Looking_Up_Address">Procurando Endereço...</string>
+	<string name="Enter_An_Address_">Entrar Endereço:</string>
+	<string name="Coords_Located">Coordinadas Localizadas</string>
+	<string name="Getting_Location">Determinando local.  Isso pode levar alguns segundos.</string>
+	<string name="Unable_to_get_location">Incapaz de determinar local. Confira seu sinal de GPS e de rede móvel, e certifique-se que o monitoramento de deslocamento está habilitado nas configurações do seu dispositivo.</string>
+	<string name="Add_Location">Adicionar Local</string>
+	<string name="Reminder_Enabled">(Lembrete Ativado)</string>
+	<string name="Nagging_Reminder_Enabled">(Lembrete Persistente Ativo)</string>
+	<string name="Distance_Units">Unidades de Distância</string>
+	<string name="Location_Tracking">Rastreamento de Local</string>
+	<string name="No_Locations_Defined2">Nenhum local foi configurado.</string>
+	<string name="Tasks">Tarefas</string>
+	<string name="Task">Tarefa</string>
+	<string name="Navigate">Navegar</string>
+	<string name="Details">Detalhes</string>
+	<string name="Navigation_Not_Installed">Google Navigation não está instalado.</string>
+	<string name="Location_Not_Determined">Local atual ainda não foi determinado.</string>
+	<string name="Show_Time_Reminders">Mostrar Lembretes de Prazo</string>
+	<string name="Show_Location_Reminders">Mostrar Lembretes de Local</string>
+	<string name="Open_in_Google_Maps">&#160;Abrir no Google Maps</string>
+	<string name="Driving_Navigation">&#160;Navegação de Direção</string>
+	<string name="Maps_Not_Installed">Google Maps não está instalado.</string>
+	<string name="Trial_Expiry_Info">\nO período de testes de 2 semanas começa no dia que o aplicativo é executado pela primeira vez.  Remover o aplicativo não reinicia o período de testes.</string>
+	<string name="Date_Of_First_Run_">\nDia da primeira execução do aplicativo:</string>
+	<string name="Password_was_Rejected">Sua senha foi rejeitada por Toodledo.</string>
+	<string name="Task_is_completed">Tarefa completada</string>
+	<string name="Task_is_not_completed">Tarefa não completada</string>
+	<string name="Task_is_starred">Tarefa com estrela</string>
+	<string name="Task_is_not_starred">Tarefa sem estrela</string>
+	<string name="is">é</string>
+	<string name="contains">contém</string>	
+	<string name='is_exactly'>é exatamente</string>
+	<string name="GTasks_not_responding">Google Tasks não responde. Você pode não ter uma conexão à Internet disponível.</string>
+	<string name="Select_Google_Account">Selecionar uma Conta Google para Sincronizar:</string>
+	<string name="No_Google_Accounts">Você não tem contas Google configuradas. Você pode configurar uma conta Google na seção \"Contas e Sincronização\" das configurações do seu dispositivo.</string>
+	<string name="Try_Again">Tente Novamente</string>
+	<string name="Communicating_With_Google">Comunicando com Google</string>
+	<string name="GTasks_Folder_Mapping">IMPORTANTE: Ultimate To-Do List permite que você arquive tarefas em \"Pastas\" enquanto Google usa \"Listas\". Cada lista de sua conta Google corresponderá a uma pasta em Ultimate To-Do List.</string>
+	<string name="Google_Account_Gone">A conta Google foi removida do seu dispositivo.</string>
+	<string name="Account_Delete_Confirmation3">Isto vai remover todas as tarefas e anotações do seu dispositivo.  Google Tasks não será afetado.  Continuar?</string>
+	<string name="Link_To_Google">Associar a uma conta Google</string>
+	<string name="Unlink_From_Google">Remover associação com Google</string>
+	<string name="GTasks_Must_Have_Folder">Google Tasks precisa ter pelo menos uma lista.</string>
+	<string name="Tap_on_new_parent">Selecione a tarefa superior.</string>
+	<string name="Unlink_From_Parent_Task">Remover associação com tarefa superior</string>
+	<string name="Change_Parent">Alterar tarefa superior</string>
+	<string name="Make_Subtask">Transformar em subtarefa</string>
+	<string name="New_parent_must_be_in_same_account">A tarefa superior precisa estar na mesma conta da subtarefa.</string>
+	<string name="Must_be_in_same_folder">Para uma conta Google, as tarefas precisam estar na mesma pasta.</string>
+	<string name="No_subtasks_in_subtasks">Toodledo não permite subtarefas dentro de subtarefas</string>
+	<string name="Android_2_Required">Desculpe, sincronização com Google Tasks requer Android 2.0 ou superior.</string>
+	<string name="Cannot_select_subtask">Você não pode selecionar uma subtarefa de uma tarefa que está movendo.</string>
+	<string name="Reset_Sync_Confirmation2">Isto vai remover todas as tarefas e anotações desta conta e baixar uma cópia nova do Google. Se você possui muitas tarefas, sua tela pode parecer travada por 1 ou 2 minutos. Continuar?</string>
+	<string name="Unlink_GT_Confirmation">Isto vai encerrar a sincronização com Google Tasks.  Se decidir sincronizar com esta mesma conta Google futuramente, você provavelmente terá tarefas repetidas.  Tem certeza?</string>
+	<string name="Must_be_in_same_folder2">Para uma conta Google, a subtarefa precisa estar na mesma pasta da tarefa superior</string>
+	<string name="Field_must_be_enabled_for_google">Este campo precisa estar habilitado para contas Google.</string>
+	<string name="Folder_Contains_Tasks">Pastas Google não podem ser removidas se contiverem tarefas (incluindo tarefas já completadas). Remova primeiro as tarefas desta pasta ou arquive as tarefas.</string>
+	<string name="Folder_delete_confirmation2">Tem certeza que deseja remover esta pasta?</string>
+	<string name="Unlink_From_GT">Remover associação com conta Google</string>
+	<string name="Toodledo_conflict">Esta conta não é compatível com Toodledo porque possui subtarefas dentro de subtarefas. Uma das tarefas conflitantes tem o seguinte título:</string>
+	<string name="Checking_for_compatibility">Conferindo compatibilidade da conta</string>
+	<string name="Google_conflict_1">Esta conta não é compatível com Google porque algumas das tarefas não estão em uma pasta. Uma das tarefas conflitantes tem o seguinte título:</string>
+	<string name="Google_conflict_2">Esta conta não é compatível com Google porque contém subtarefas que estão em pastas diferentes das tarefas superiores. Uma das tarefas conflitantes tem o seguinte título:</string>
+	<string name="Google_Task_Order">Ordem das Tarefas do Google</string>
+	<string name="Must_be_in_same_folder3">Desculpe, a pasta não pode ser modificada porque Google requer que esta subtarefa esteja na mesma pasta da tarefa superior. Para alterar a pasta, você deve mover a tarefa no Google Tasks, mudar a pasta da tarefa superior, ou desassociar esta subtarefa da tarefa superior.</string>
+	<string name="Duplicate_Google_Account">Você já tem uma conta em Ultimate To-Do List que é associada a esta conta Google.  Esta é a conta de nome:</string>
+	<string name="Choose_Features"
+	    >Suas necessidades são simples ou complexas?  Aqui você pode ativar os recursos que precisa e desativar os recursos que
+	    não necessita.  Se mudar de ideia posteriormente, basta visitar a área de configurações do aplicativo.
+	</string>
+	<string name="Keep_it_Simple">Simples</string>
+	<string name="Intermediate_Level">Moderado</string>
+	<string name="Advanced_Level">Completo</string>
+	<string name="Power_User">Personalizado</string>
+	<string name="Keep_it_Simple_Description">Escolha esta opção se você sincroniza com sua conta Google e quer que seu aplicativo iguale os recursos mais básicos do Google Tasks.  Tarefas terão campo de anotação, pasta, e data de término.</string>
+	<string name="Intermediate_Level_Description">Escolha esta opção para incluir também recursos habituais de aplicativos de tarefas, como lembretes, tarefas recorrentes, e prioridades.</string>
+	<string name="Advanced_Level_Description">Escolha esta opção para ter todos os recursos, como locais, tarefas com estrela, data de início, timers e mais.</string>
+	<string name="Power_User_Description">Escolha esta opção para ver uma lista dos recursos disponíveis e selecionar quais deseja.</string>
+	<string name="Sync_is_currently_running">Sincronização em andamento.</string>
+	<string name="Importance">Importância</string>
+	<string name="Importance_">Importância:</string>
+	<string name="Tags_Sorted_by_Name">Marcações são ordenadas por nome.</string>
+	<string name="Select_One_">Escolha:</string>
+	<string name="Add_new_regular_task">Adicionar tarefa padrão</string>
+	<string name="Add_subtask_of_this_one">Criar subtarefa a partir desta</string>
+	<string name="Viewing_parent">Ver Tarefa Superior</string>
+	<string name="Viewing_subtasks">Vendo Subtarefas</string>
+	<string name="Use_Other_Account">Usar Outra Conta</string>
+	<string name="Enter_Google_Login_Info">Entre suas informações de login do Google abaixo.</string>
+	<string name="Captcha">Por favor digite o texto que vê abaixo. (Isto evita acesso por sistemas automatizados.)</string>
+	<string name="Error">Erro</string>
+	<string name="Clone_a_Task">Duplicar uma Tarefa</string>
+	<string name="Clone_Task">Duplicar Tarefa</string>
+	<string name="Add_Star">Adicionar Estrela</string>
+	<string name="Remove_Star">Remover Estrela</string>
+	<string name="Change_Due_Date">Mudar Data de Término</string>
+	<string name="Change_Start_Date">Mudar Data de Início</string>
+	<string name="Change_Status">Mudar Situação</string>
+	<string name="New_Status_for">Nova Situação Para</string>
+	<string name="View_Edit_Options">Vendo e Editando</string>
+	<string name="Open_Editor_On_Tap">Abrir editor quando clicar em uma tarefa</string>
+	<string name="View_Details">Ver Detalhes</string>
+	<string name="Features_Functions_Intro_3"
+	    >Confira os campos e funções que deseja usar. Estes podem também ser ajustados mais tarde na área de 
+	    configurações do aplicativo.
+	</string>
+	<string name="Add_another_subtask">Adicionar outra subtarefa</string>
+	<string name="Change_Priority">Mudar Prioridade</string>
+	<string name="New_Priority_for">Nova Prioridade Para</string>
+   	<string name="Use_SSL">Usar Criptografia SSL (Recomendado)</string>
+   	<string name="Use_SSL_Toodledo">Usar Criptografia SSL para Toodledo</string>
+	<string name="Contact_">Contato:</string>
+	<string name="Not_Supported_By_Device">Isto não é suportado pelo seu dispositivo.</string>
+	<string name="Open_Contact">Abrir Contato</string>
+	<string name="Contact">Contato</string>
+	<string name="Contact_is">Contato é</string>
+	<string name="Missing_Contact">&lt;Contato Inexistente&gt;</string>
+	<string name="Contacts">Contatos</string>
+	<string name="Multi_Select_On">Múltipla Seleção Ativada</string>
+	<string name="Select_All">Selecionar Tudo</string>
+	<string name="Mark_Incomplete">Marcar como Incompletas</string>
+	<string name="Delete_Tasks">Remover Tarefas</string>
+	<string name="All_Tasks_Selected">Todas as Tarefas Selecionadas</string>
+	<string name="Delete_Tasks_Confirmation">Tem certeza que deseja remover estas tarefas?</string>
+	<string name="New_Status">Nova Situação</string>
+	<string name="New_Priority">Nova Prioridade</string>
+	<string name="Multi_Select">Múltipla Seleção</string>
+	<string name="Due_Date_Time2">Data e Horário de Término</string>
+	<string name="Start_Date_Time2">Data e Horário de Início</string>
+	<string name="Deleting_Tag">Removendo Marcações de Tarefas</string>
+	<string name="Updating_Tags">Atualizando Marcações nas Tarefas</string>
+	<string name="Tag_Rename_Confirmation"
+	    >Renomear uma marcação atualizará todas as tarefas que usam esta marcação para que as tarefas contenham o novo nome da marcação.
+	</string>
+	<string name="Tag_Delete_Option_1">Remover a marcação desta lista somente</string>
+	<string name="Tag_Delete_Option_2">Remover a marcação de todas as tarefas que a usam</string>
+	<string name="Account_Status_Google">Tarefas são presentemente sincronizadas com a conta Google a seguir:</string>
+	<string name="Account_Status_Toodledo">Tarefas e anotações são presentemente sincronizadas com a conta Toodledo a seguir:</string>
+	<string name="Account_Status_No_Sync">Tarefas e anotações não estão sendo sincronizadas no momento.</string>
+	<string name="Not_linked_to_online_account">Você não está associado a nenhuma conta online. Vá nas configurações para estabelecer uma associação.</string>
+	<string name="Last_Full_Sync">Última sincronização completa:</string>
+	<string name="Hide_completed_subtasks">Esconder subtarefas completadas</string>
+	<string name="Linked_Calendar">Calendário no qual criar as tarefas</string>
+	<string name="No_Calendars_Defined">Seu dispositivo não possui qualquer calendário.</string>
+	<string name="Choose_Calendar">Tarefas serão criadas neste calendário:</string>
+	<string name="No_Start_Or_Due_Date">A tarefa não possui uma data de início ou de término.</string>
+	<string name="Calendar_Doesnt_Exist">O calendário que está usando para mostrar informação de tarefa não existe mais no seu dispositivo.  Para adicionar uma tarefa ao calendário, primeiro vá na área de configuração e selecione outro calendário.</string>
+	<string name="No_Calendar_Specified">Você não especificou um calendário onde colocar as suas tarefas.</string>
+	<string name="Calendar_Event_Rejected">O software de calendário do seu dispositivo rejeitou o evento de calendário.</string>
+	<string name="Add_To_Calendar">Adicionar ao Calendário:</string>
+	<string name="Show_In_Calendar">Mostrar no Calendário:</string>
+	<string name="Calendar_Integration">Integração com Calendário</string>
+	<string name="Auto_Cal_Create_Warning">O aplicativo está configurado para automaticamente adicionar novas tarefas baixadas para seu calendário. Se tiver uma grande quantidade de tarefas online, isso vai criar um grande número de entradas de calendário. Você pode ajustar esta configuração na área Padrões de Novas Tarefas das configurações do aplicativo. Deseja continuar?</string>
+	<string name="Tap_to_open_in_UTL">Clique aqui para editar isso no Ultimate To-Do List:</string>
+	<string name="Show_In_Calendar_Exp">Mostrar no Calendário:</string>
+	<string name="Calendar_Integration_Disabled">Integração com o Calendário está desabilitado nas configurações do aplicativo.</string>
+	<string name="Last_Backup_Date_">Data do Último Backup:</string>
+	<string name="Create_Backup">Backup de todos os dados agora</string>
+	<string name="Restore_From_Backup">Recuperar todos os dados do backup</string>
+	<string name="Backup_Confirmation">Isto vai salvar todos seus dados para seu SD ou diretório de mídia, incluindo: tarefas, anotações, preferências, e visualizações personalizadas. Qualquer backup prévio será substituído. Continuar?</string>
+	<string name="Restore_Confirmation">Isto vai sobrescrever todos os dados atualmente salvos no aplicativo e substituí-los com os do backup. Continuar?</string>
+	<string name="Backup_Msg">Salvando os dados. Favor aguardar...</string>
+	<string name="Restoring_Msg">Restaurando dados do backup...</string>
+	<string name="Backup_And_Restore">Backup e Restauração</string>
+	<string name="Backup_Complete">O backup foi salvo com sucesso no seguinte diretório:</string>
+	<string name="Cannot_Create_Directory">Impossível criar o diretório de backup. Acesso ao seu cartão SD ou diretório de mídia pode estar bloqueado. Diretório é: </string>
+	<string name="SDCard_Blocked">Acesso ao seu cartão SD ou diretório de mídia está atualmente bloqueado.</string>
+	<string name="Cannot_Copy_Database">Impossível copiar banco de dados.</string>
+	<string name="Cannot_Copy_Prefs">Impossível copiar preferências.</string>
+	<string name="Backup_does_not_exist">Os arquivos de backup não existem, ou estão inacessíveis.</string>
+	<string name="Restore_Successful">Todos os dados foram restaurados. O aplicativo agora irá reiniciar.</string>
+	<string name="Time_Zone_">Fuso Horário:</string>
+	<string name="Restore_From_Backup2">Restaurar do Backup</string>
+	<string name="Daily_Backup_Failed">O Backup Diário UTL Falhou</string>
+	<string name="Backup_Daily">Fazer Backup Automático Diariamente</string>
+	<string name="No_Tasks_Match2">Não existem tarefas que correspondem às configurações desta visualização.  Pressione o botão 
+	    de filtro para ajustar quais tarefas são mostradas, ou pressione + para criar uma nova tarefa.</string>
+	<string name="Reminder_will_not_sync">Lembrete não vai sincronizar com Toodledo</string>
+	<string name="Why">Por quê?</string>
+	<string name="Toodledo_reminder_issue">Toodledo requer que uma tarefa com lembrete tenha data de término.  Para contas gratuitas, o lembrete deve ser no máximo 1 hora antes da data/hora de término.</string>
+	<string name="Sync_Warning">Notifique-me quando eu criar uma tarefa que não sincronizar plenamente.</string>
+	<string name="Width_Of_Left_Field">Largura do Campo Esquerdo (pixels):\u0020</string>
+	<string name="Requires_Android_3">Desculpe, este widget requer Android 3 ou superior.</string>
+	<string name="Loading_">Carregando...</string>
+	<string name='current_location'>versão atual</string>
+	<string name='Current_Location'>Versão Atual</string>
+	<string name='Today2'>Hoje</string>
+	<string name='Tomorrow'>Amanhã</string>
+	<string name='In_1_Week'>Em 1 Semana</string>
+	<string name='In_1_Month'>Em 1 Mês</string>
+	<string name='In_1_Year'>Em 1 Ano</string>
+	<string name='reassign_failure'>Você não tem permissão para reatribuir a tarefa, ou a tarefa é compartilhada.</string>
+	<string name='sharing_update_failure'>Você não tem permissão para compartilhar a tarefa.</string>
+	<string name='view_collaborators'>Ver Colaboradores</string>
+	<string name='Name'>Nome</string>
+	<string name='Reassignable'>Possível reatribuir?</string>
+	<string name='Sharable'>Possível compartilhar?</string>
+	<string name='Collaborator_Info'>Você pode administrar colaboradores a partir da área \"Ferramentas\" quando logado no Toodledo a partir de um browser.</string>
+	<string name='Collaborators'>Colaboradores</string>
+	<string name='no_collaborators'>Esta conta Toodledo não possui colaboradores.</string>
+	<string name='collaboration_for_td'>Colaboração &amp; Compartilhar no Toodledo</string>
+	<string name='Is_Joint_'>Tarefa Compartilhada?</string>
+	<string name='Owner_'>Dono:</string>
+	<string name='Added_By_'>Quem Atribui:</string>
+	<string name='Shared_With_'>Compartilhado Com:</string>
+	<string name='Myself'>Eu Mesmo</string>
+	<string name='Reassign'>Reatribuir</string>
+	<string name='no_collaborators2'>Não foram configurados colaboradores que possam reatribuir tarefas.  Você pode criar tais colaboradores em Toodledo.com.</string>
+	<string name='assign_to'>Atribuir a Tarefa a:</string>
+	<string name='reassign_wait'>A tarefa será removida de sua lista depois que Toodledo receber a nova atribuição.</string>
+	<string name='shared_cannot_be_reassigned'>Uma tarefa compartilhada não pode ser atribuída novamente.  Você pode editar a tarefa e remover o compartilhamento, ou ajustar com quem compartilhá-la.</string>
+	<string name='Not_Owner'>Esta tarefa não lhe pertence.  Somente o dono pode atualizar configurações de compartilhamento.  Esta tarefa pertence a:</string>
+	<string name='Sharing_One_Account'>Para editar as configurações de compartilhamento, selecione uma única conta para esta tarefa.</string>
+	<string name='no_collaborators3'>Nenhum colaborador com quem possa compartilhar tarefas foi configurado.  Você pode configurar estes colaboradores em Toodledo.com.</string>
+	<string name='Select_Collaborators'>Compartilhar Esta Tarefa Com:</string>
+	<string name='Shared'>Compartilhada</string>
+	<string name='Is_Shared'>É Compartilhada?</string>
+	<string name='Owner'>Dono</string>
+	<string name='Shared_With'>Compartilhada Com</string>
+	<string name='Assignor'>Quem Atribui</string>
+	<string name='Task_is_shared'>Tarefa compartilhada</string>
+	<string name='Task_is_not_shared'>Tarefa não compartilhada</string>
+	<string name="Show_shared">Mostrar tarefas compartilhadas</string>
+	<string name='Owner_includes'>Dono inclui</string>
+	<string name='Owner_includes_one_of'>Dono inclui um de:</string>
+	<string name='Assignor_includes'>Quem atribui inclui</string>
+	<string name='Assignor_includes_one_of'>Quem atribui inclui um de:</string>
+	<string name='Priority_is_required'>Toodledo requer que uma prioridade seja escolhida.</string>
+	<string name='Cannot_share_subtask'>Para alterar como isto é compartilhado, ajuste a tarefa superior.</string>
+	<string name='nav_drawer_open'>Abrir Painel de Navegação</string>
+	<string name='nav_drawer_close'>Fechar Painel de Navegação</string>
+	<string name="Refresh_This_View">Atualizar esta Visualização</string>
+	<string name='one_task_selected'>1 Tarefa Selecionada</string>
+	<string name='tasks_selected'>Tarefas Selecionadas</string>
+	<string name='star_added'>Estrela Adicionada</string>
+	<string name='star_removed'>Estrela Removida</string>
+	<string name="Change_Context">Mudar Contexto</string>
+	<string name='New_Context_for'>Novo Contexto Para</string>
+	<string name='Select_a_task_to_display'>Selecionar uma tarefa para vê-la aqui.</string>
+	<string name='Resize_Panes'>Redimensionar Painéis</string>
+	<string name='Drag_the_lines'>Arraste as linhas para redimensionar os painéis</string>
+	<string name='Advanced_'>Avançado:</string>
+	<string name='Nag_Repeatedly_'>Me Perturbe Repetidamente:</string>
+	<string name='Remind_Upon_Arrival_'>Lembrar ao Chegar:</string>
+	<string name='Cannot_adjust_actual_length'>A duração atual não pode ser ajustada quando o timer está em execução.</string>
+	<string name="Tuesday_full">Terça</string>
+	<string name="Wednesday_full">Quarta</string>
+	<string name="Thursday_full">Quinta</string>
+	<string name="Friday_full">Sexta</string>
+	<string name="Saturday_full">Sábado</string>
+	<string name='Weekend'>Final de semana</string>
+	<string name='Weekday'>Dia de semana</string>
+	<string name='Every'>Todo</string>
+	<string name='The'>O</string>
+	<string name='of_each_month'>de cada mês</string>
+	<string name='Every_'>Todo...</string>
+	<string name='Please_select_a_format'>Favor selecionar um dos formatos.</string>
+	<string name='Please_enter_a_number'>Favor entrar um número.</string>
+	<string name='Miscellaneous'>Miscelânea</string>
+	<string name='Split_Screen_Landscape'>Tela Dividida (Paisagem)</string>
+	<string name='Split_Screen_Portrait'>Tela Dividida (Retrato)</string>
+	<string name='Location_Methods'>Métodos para Localizar</string>
+	<string name='How_Often_to_Check'>Conferir com que Frequência</string>
+	<string name='_Minutes_'>(Minutos)</string>
+	<string name='Remind_Within_this_Distance'>Lembrar em que Distância</string>
+	<string name='_Meters_'>(Metros)</string>
+	<string name="Add_Downloaded_To_Calendar">Adicionar Novas Tarefas Baixadas ao Calendário</string>
+	<string name="Nag_Interval2">Intervalo para o Lembrete Persistente de Tarefas</string>
+	<string name='_Viewer_is_shown_otherwise_'>(Caso contrário visualizador é mostrado)</string>
+	<string name='In_subtask_views'>Nas visualizações de subtarefas</string>
+	<string name='Linked_to_Toodledo_account_'>Associado a conta Toodledo:</string>
+	<string name='Linked_to_Google_account_'>Associado a conta Google:</string>
+	<string name='Startup_Screen_Summary'>Carregar quando o aplicativo for fechar e recarregar</string>
+	<string name='How_long_to_keep_completed'>Por quanto tempo manter tarefas completadas?</string>
+	<string name='Tasks_will_be_deleted_after'>Serão removidas do seu dispositivo depois desse número de dias</string>
+	<string name='No_calendars_error_msg'>Nenhum calendário encontrado. Ou você não configurou calendários, ou seu dispositivo não suporte integração com calendários Android.</string>
+	<string name='Change_will_take_effect_later'>Isso terá efeito depois de você sair da tela de configurações.</string>
+	<string name='Completed_Checkbox'>Caixa de Seleção (Colorida)</string>
+	<string name="_Field_for_Colored_Checkbox_">\nCampo para a Caixa de Seleção Colorida:</string>
+	<string name='Your_To_Do_List'>Sua Lista de Tarefas - Do Seu Jeito</string>
+	<string name='welcome3'>Bem vindo!  A primeira etapa é vincular a uma conta online.  Isto lhe dá acesso às suas tarefas de um browser, assim como em outros dispositivos.</string>
+	<string name='Link_with_Google'>Associar com Google</string>
+	<string name='Link_with_Toodledo'>Associar com Toodledo.com</string>
+	<string name='Dont_Link'>Não associar agora. Talvez mais tarde.</string>
+	<string name='Help_Me_Decide'>Me ajude a decidir</string>
+	<string name='Link_with_Existing_Toodledo'>Associar com uma Conta Toodledo Existente</string>
+	<string name='Create_New_Toodledo'>Criar uma Conta Toodledo Gratuita</string>
+	<string name='Task_List_on_Device'>Lista de Tarefas no Dispositivo</string>
+	<string name="Account_Choice_Help2"
+	    >Escolha Google se você precisa apenas de uma lista de tarefas simples ou não se importa de ter recursos limitados
+	    ao ver suas tarefas a partir de um browser.  Suas tarefas podem ser armazenadas na sua conta Google gratuitamente 
+	    e sem precisar configurar outra conta online.  Tarefas são acessadas em um browser no endereço
+	    google.com/calendar.  Google atualmente não suporta o armazenamento de anotações online, somente tarefas.\n
+	    
+	    \nEscolha Toodledo se você deseja funcionalidades avançadas ao ver suas tarefas a partir de um browser, ou 
+	    desejar armazenar suas anotações online também. 
+	    Toodledo oferece uma conta online gratuita com mais recursos que Google, e contas pagas com recursos adicionais 
+	    (como subtarefas).\n
+	    
+	    \nVocê também pode escolher não vincular a uma conta online.  Neste caso, suas tarefas e anotações 
+	    serão perdidas se seu dispositivo for perdido ou danificado.  Você pode mudar de ideia futuramente e adicionar
+	    uma conta na área de configurações.
+	</string>
+	<string name='Which_Account_is_Right'>Que Conta é Apropriada para Mim?</string>
+	<string name='Unexpected_Google_Response'>Recebida resposta inesperada do Google.</string>
+	<string name='Fields_and_Functions'>Campos e Funções</string>
+	<string name='Link_to_Toodledo'>Associação com Toodledo</string>
+	<string name='New_Toodledo_Account'>Nova Conta Toodledo</string>
+	<string name='Creating_Toodledo_Account'>Criando Conta Toodledo</string>
+	<string name='Link_to_Another_Account'>Associar com Outra Conta</string>
+	<string name='Account_Name'>Nome da Conta</string>
+	<string name='Edit_Folders'>Editar Pastas</string>
+	<string name='Edit_Contexts'>Editar Contextos</string>
+	<string name='Edit_Goals'>Editar Metas</string>
+	<string name='Edit_Locations'>Editar Localizações</string>
+	<string name='Edit_My_Views'>Editar Minhas Visualizações</string>
+	<string name='Select_an_item_to_display'>Selecione um item para vê-lo aqui.</string>
+	<string name='Edit_Context'>Editar Contexto</string>
+	<string name='Add_to_Accounts_'>Adicionar às Contas:</string>
+	<string name='Add_to_Account_'>Adicionar à Conta:</string>
+	<string name='Archived_'>Arquivado:</string>
+	<string name='Private_'>Privado:</string>
+	<string name='Edit_Folder'>Editar Pasta</string>
+	<string name='Long_Term'>Longo Prazo</string>
+	<string name='Short_Term'>Curto Prazo</string>
+	<string name='Lifelong'>Por uma Vida</string>
+	<string name='Edit_Goal'>Editar Meta</string>
+	<string name='Goal_must_contribute_to_higher_level'>A meta precisa contribuir para uma meta de maior valor.</string>
+	<string name='Level_Needs_Adjusted'>Nível Precisa de Ajuste</string>
+	<string name='Level_Issue_Description'
+	    >Você precisa configurar um nível superior para esta meta.  Outra meta contribui para esta meta, e seu nível é 
+	    igual ou superior ao nível que está escolhendo.  A meta conflitante é:
+	</string>
+	<string name='Rename_Tag'>Renomear Marcação</string>
+	<string name='Toggle_Sort_Order'>Alterar Ordem de Ordenação</string>
+	<string name='Edit_Filter_Rules'>&#160;Editar Regras dos Filtros</string>
+	<string name='Edit_Sort_Order'>&#160;Editar Ordem de Numeração</string>
+	<string name='Edit_Display_Options'>&#160;Editar Opções de Visualização</string>
+	<string name='Edit_View'>Editar Visualização</string>
+	<string name='Looking_Up'>Averiguando...</string>
+	<string name='Description'>Descrição</string>
+	<string name='Unavailable_Not_Supported'>Indisponível. Não é suportado pelo dispositivo.</string>
+	<string name='No_Network_Connection'>Indisponível. Sem conexão à rede.</string>
+	<string name="Location_Limit_Reached">Contas Toodledo não podem ter mais de 100 localizações.</string>
+	<string name='Cannot_find_address'>Endereço não encontrado</string>
+	<string name='Select_a_note_to_display'>Selecione uma Anotação para Vê-la Aqui</string>
+	<string name='one_note_selected'>1 Anotação Selecionada</string>
+	<string name='notes_selected'>Anotações Selecionadas</string>
+	<string name='Edit_Note'>Editar Anotação</string>
+	<string name="All_Notes_Selected">Todas as Anotações Selecionadas</string>
+	<string name='All_notes_must_be_in_same_account'>Todas as anotações devem estar na mesma conta.</string>
+	<string name="Notes_delete_confirmation">Tem certeza que deseja remover essas anotações?</string>
+	<string name='Copy_note_to_clipboard'>Copiar anotação para o clipboard</string>
+	<string name='Note_copied_to_clipboard'>Anotação copiada para o clipboard</string>
+	<string name='Goto_Viewer'>Ir Para Visualizador</string>
+	<string name="Open_Note_Editor_On_Tap">Abrir editor quando clicar em uma anotação</string>
+	<string name='Widget_Name'>Ultimate To-Do List</string>
+	<string name='Widget_Name_New_Task'>Ult&#8230;To-Do: Nova Tarefa</string>
+	<string name='Copy_from_Another_View'>&#160;Copiar de outra Visualização</string>
+	<string name='Copy_from_Another_View_Info'>Copiar as configurações de filtro e ordenamento desta visualização:</string>
+	<string name='Rules_Copied_Into_Widget'>s configurações de filtro e ordenamento foram copiadas.</string>
+	<string name='Extra_Field'>Campo Extra</string>
+	<string name='List_Layout_'>Layout da Lista:</string>
+	<string name='Extra_Field_to_Display_'>Campo Extra a Mostrar:</string>
+	<string name='Widget_Theme_Info_Compact'>Ajeita mais tarefas em um espaço pequeno.  Clicar no widget 
+	    abre a lista de tarefas no aplicativo principal.</string>
+	<string name='Widget_Theme_Info_Normal'>Ajeita menos tarefas na tela, mas tarefas podem ser marcadas completadas e 
+	    editadas a partir do widget.</string>
+	<string name='Widget_Requires_Android_3'>Desculpe, este tema requer Android 3 ou posterior.</string>
+	<string name='Notification_Priority'>Prioridade de Notificação</string>
+	<string name='Notification_Priority_Summary'>Valores mais altos aumentam a probabilidade dos botões de Adiar e Completar 
+	    aparecerem automaticamente, e a notificação aparecer mais alto na lista.</string>
+	<string name='Use_Ongoing_Notifications'>Usar Notificações em Andamento</string>
+	<string name='Ongoing_Notifications_Summary'>Notificações em andamento aparecem mais alto na lista, e
+	    só podem ser liberadas a partir do aplicativo.</string>
+	<string name='Ask_a_Question'>Faça uma pergunta. Receba uma resposta.</string>
+	<string name='Search_Support_Articles'>Procure artigos de ajuda no nosso site (em inglês)</string>
+	<string name='Browse_Support_Site'>Navegue por artigos e vote</string>
+	<string name='Browse_Support_Site2'>Navegue por categoria e vote por novos recursos</string>
+	<string name='Visit_web_site_info'>Visite o nosso site em ToDoList.co</string>
+	<string name='Color_Code_Reference'>Referência Rápida do Código de Cores</string>
+	<string name='Color_Code_Reference2'>Aprenda sobre as cores usadas para representar prioridades e
+	    posições.</string>
+	<string name='Whats_New'>Novidades desta Versão</string>
+	<string name="Current_Version_">Versão Atual:</string>
+	<string name="Device_Unique_ID_">O ID Único do seu Dispositivo:</string>
+	<string name='Ask_a_Question2'>Faça uma pergunta:</string>
+	<string name='Color_Code_Intro'>O aplicativo colore as caixas de seleção na lista de tarefas para casar com
+	    a prioridade ou a situação - dependendo de suas configurações de visualização.</string>
+	<string name='Priorities_'>Cores de Prioridade:</string>
+	<string name='Statuses_'>Cores de Situação:</string>
+	<string name='Check_Google_Play'>Certifique-se que Google Play está instalado.</string>
+	<string name='Got_Error_Code_'>Código de Erro Recebido: </string>
+	<string name='Currently_Own_License'>Você tem uma licença.</string>
+	<string name='Device_Doesnt_Support_InApp_Billing'>Seu dispositivo não suporta compras de dentro do aplicativo.</string>
+	<string name='Got_Corrupt_Data'>Recebidos dados corrompidos</string>
+	<string name='Google_Play_Unresponsive'>Google Play não está respondendo em seu dispositivo.
+	    Tente novamente em alguns segundos.  Se continuar vendo esta mensagem, tente reiniciar seu dispositivo e/ou
+	    verificar que seu dispositivo possui o Google Play instalado.</string>
+	<string name='Looking_for_Purchase'>Procurando por compras prévias...</string>
+	<string name='Upgrade_Your_License'>Atualizar a sua Licença</string>
+	<string name='License_Upgrade_Benefits'>Transferência mais fácil em novos dispositivos. Melhor suporte para múltiplos
+	    dispositivos.</string>
+	<string name='License_Upgrade_Info_Google'>Você pode agora atualizar a sua licença para uma compra de dentro do 
+	    aplicativo e eliminar a necessidade de baixar um aplicativo à parte com a licença.  A licença atualizada funciona
+	    em todos os seus dispositivos Android - incluindo smartphones e tablets - e acompanha o aplicativo automaticamente 
+	    toda vez que atualizar seu dispositivo ou adquirir outro.\n
+	    
+	    \nEsta é uma troca facultativa.  Você pode continuar baixando a licença separadamente mesmo que não esteja mais na
+	    listagem da Play Store, se preferir.
+	</string>
+	<string name='License_Upgrade_Info_Amazon'>Você pode agora atualizar a sua licença para uma compra de dentro do 
+	    aplicativo e eliminar a necessidade de baixar um aplicativo à parte com a licença.  A licença atualizada funciona
+	    em todos os seus dispositivos Amazon - incluindo smartphones e tablets - e acompanha o aplicativo automaticamente
+	    toda vez que atualizar seu dispositivo ou adquirir outro.\n
+	    
+	    \nEsta é uma troca facultativa.  Você pode continuar baixando a licença separadamente mesmo que não esteja mais na
+	    listagem da Amazon Store, se preferir.  Não há custo para a troca.
+	</string>
+	<string name='License_Upgrade_Info_Reg_Code'>Você pode agora atualizar a sua licença para uma compra de dentro do 
+	    aplicativo e eliminar a necessidade de entrar o código de registro a cada instalação.  A licença atualizada funciona
+	    em todos os seus dispositivos - incluindo smartphones e tablets - e acompanha o aplicativo automaticamente
+	    toda vez que atualizar seu dispositivo ou adquirir outro.\n
+	    
+	    \nEsta é uma troca facultativa.  Você pode continuar entrando a licença manualmente, se preferir.
+	</string>
+	<string name='Upgrade_Now'>Atualizar Agora</string>
+	<string name='Remind_Me_Later'>Lembrar Futuramente</string>
+	<string name='Never_Remind_Me'>Não Lembrar Mais</string>
+	<string name='Upgrade_in_Help_Area'>(A opção de atualizar a licença sempre pode ser acessada na área de módulos adicionais das configurações.)</string>
+	<string name='License_Upgrade_Available'>Atualização de Licença Disponível</string>
+	<string name='Over_30_Days_Ago'>Mais de 30 Dias Atrás</string>
+	<string name='Within_Past_Month'>Menos de 30 Dias Atrás</string>
+	<string name='Within_1_Week'>Menos de 7 Dias Atrás</string>
+	<string name='Yesterday'>Ontem</string>
+	<string name='Within_7_Days'>Nos Próximos 7 Dias</string>
+	<string name='Within_a_Month'>Nos Próximos 30 Dias</string>
+	<string name='Incomplete'>Incompleta</string>
+	<string name='Due'>Devido</string>
+	<string name='Not_Shared'>Não Compartilhada</string>
+	<string name='Modified'>Modificada</string>
+	<string name='Not_Starred'>Não Estrelada</string>
+	<string name='Starts'>Começa</string>
+	<string name='Show_Dividers_'>Mostrar Divisões:</string>
+	<string name='No_Context'>Sem Contexto</string>
+	<string name='No_Goal'>Sem Meta</string>
+	<string name='No_Due_Date'>Sem Data de Término</string>
+	<string name='No_Start_Date'>Sem Data de Começo</string>
+	<string name='No_Reminder'>Sem Lembrete</string>
+	<string name='Shows_all_incomplete'>Mostra todas as tarefas incompletas</string>
+	<string name='Shows_most_important'>Mostra as suas tarefas mais importantes</string>
+	<string name='Items_to_show_in_nav'>Itens a Mostrar na Gaveta de Navegação</string>
+	<string name='Navigation_Drawer'>Gaveta de Navegação</string>
+	<string name='Navigate_to_Location'>Navegar até o Local</string>
+	<string name='Open_Location_in_Maps'>Abrir Local no Mapa</string>
+	<string name='Start_Stop_Timer'>Iniciar/Parar Timer</string>
+	<string name='Add_Remove_Star'>Adicionar/Remover Estrela</string>
+	<string name='Mark_Complete_or_Incomplete'>Marcar Completa ou Incompleta</string>
+	<string name='First_Task_Title'>Experimente Ultimate To-Do List</string>
+	<string name='First_Task_Note'>Aqui estão algumas dicas para começar a usar o aplicativo.  Informações adicionais
+	    podem ser encontradas (em inglês) em nosso site ToDoList.co.\n
+	    
+	    \nPara navegar pelas suas listas, abra a Gaveta de Navegação clicando no botão no canto esquerdo superior 
+	    de sua tela, ou deslizando da borda esquerda da tela do seu dispositivo até o meio da tela.  Você pode
+	    acessar a Gaveta de Navegação enquanto visualiza qualquer lista de tarefas ou anotações.  A barra pode 
+	    ficar sempre visível se você utilizar o aplicativo em um tablet.\n
+	    
+	    \nPara criar uma tarefa ou anotação, clique no botão +.  Normalmente, se quiser saber o que um certo botão 
+	    faz, basta pressionar e manter o dedo no botão até que uma mensagem explicativa apareça.\n
+	    
+	    \nSe precisar de ajuda, clique no botão Ajuda na Gaveta de Navegação.  Muito recursos úteis estão à
+	    disposição, incluindo a capacidade de buscar nosso material de ajuda.\n
+	    
+	    \nUltimate To-Do List é altamente configurável.  Se está confuso com a quantidade de recursos, 
+	    você pode desabilitar os recursos que não precisa nas configurações do aplicativo.  A seção de
+	    configurações permite alterar a seu gosto recursos de visualização, lembretes, sincronização e edição.
+	</string>
+	<string name='DB_Backup_Failure_Interrupted'>O backup falhou devido a uma sequência interrompida.  Tente novamente.</string>
+	<string name='Google_Login_Tips'>Se tiver problemas para acessar sua conta Google, você pode ter que reduzir as
+	    configurações de segurança desta conta.  Acesse a conta de um browser, vá nas configurações de segurança desta 
+	    conta, e habilite o acesso para \"aplicativos menos seguros\".
+	</string>
+	<string name='All_Notes'>Todas as Anotações</string>
+	<string name='Online_Service_Sync_Interval_Limit'>O(s) serviço(s) online associado(s) não permite(m) um intervalo
+	    de sincronização tão baixo.  Por favor entre um valor igual ou superior a:</string>
+	<string name='_Old_Tablet_Edition'>(Da Antiga Versão para Tablets)</string>
+	<string name='Invalid_Response_From_Server'>Recebida resposta inválida do servidor</string>
+	<string name='Firewall_Proxy_Server'>Erro na conexão. Pode ser que um firewall ou servidor proxy esteja 
+	    bloqueando a sua conexão.</string>
+	<string name='Note_Editing_On'>Arquivamento de Anotações Habilitado</string>
+	<string name='Archived_Folders'>Pastas Arquivadas</string>
+	<string name='Archived_Goals'>Metas Arquivadas</string>
+	<string name='No_Speech_Recognition'>Desculpe, seu dispositivo não suporta reconhecimento de voz.</string>
+	<string name='Start_Voice_Mode'>Iniciar Modo de Reconhecimento de Voz</string>
+	<string name='While_in_Voice_Mode'>Quando Usar Reconhecimento de Voz...</string>
+	<string name='Keep_Screen_On'>Manter a Tela Ligada</string>
+	<string name='Listen_Immediately'>Ouvir Comando de Imediato</string>
+	<string name='Listen_Immediately_Summary'>Não precisa pressionar um botão ou falar uma frase de ativação.</string>
+	<string name='Use_Custom_Trigger_Phrase'>Use essa Frase de Ativação</string>
+	<string name='Voice_Mode'>Modo de Reconhecimento de Voz</string>
+	<string name='Defaults_for_Voice'>Padrões para Tarefas Ditadas por Voz</string>
+	<string name='Shortcut_Name_Voice_Mode'>Ult&#8230;To-Do: Modo de Reconhecimento de Voz</string>
+	<string name='UTL_Voice_Mode'>Ultimate To Do List Modo de Reconhecimento de Voz</string>
+	<string name="Starred_">Estreladas:</string>
+	<string name='VM_Not_Supported'>Reconhecimento de Voz para seu idioma atualmente indisponível.  Gostaria de usar 
+	    o Reconhecimento de Voz em Inglês?</string>
+	<string name="Title_">Título:</string>
+	<string name="Read_This_Many">Leia este tanto de tarefas de uma só vez</string>
+	<string name='Beta_Expired'>Obrigado por experimentar a versão BETA do Ultimate To-Do List.  O período de testes
+	    da versão beta expirou.  Por favor baixe a última versão do Google Play.</string>
+	<string name='Download_Now'>Baixar Agora</string>
+	<string name='Google_Play_Not_Installed'>Google Play não está instalado ou não responde.</string>
+	<string name='Beta_Info_Header'>Informação Importante</string>
+	<string name='Beta_Info'>Esta é uma versão BETA que deixou de funcionar em 28 de fevereiro de 2015.
+	    Por favor baixe a versão 3,0 ou superior do Google Play.</string>
+	<string name='Check_Google_Play2'>Conferir Google Play</string>
+	<string name='Email_Opt_In'>Notifique-me de Atualizações e Ofertas Especiais</string>
+	<string name='Edit_Location'>Editar Local</string>
+	
+	<!-- Values for the Task Status Field: -->
+	<string name='status_none'>Nenhuma</string>
+	<string name='status_next_action'>Próxima Ação</string>
+	<string name='status_active'>Ativa</string>
+	<string name='status_planning'>Planejada</string>
+	<string name='status_delegated'>Delegada</string>
+	<string name='status_waiting'>Aguardando</string>
+	<string name='status_hold'>Suspensa</string>
+	<string name='status_postponed'>Adiada</string>
+	<string name='status_someday'>Um Dia</string>
+	<string name='status_canceled'>Cancelada</string>
+	<string name='status_reference'>Referência</string>
+
+	<!-- Values for a Task's Priority: -->
+	<string name='priority_negative'>Negativa</string>
+	<string name='priority_low'>Baixa</string>
+	<string name='priority_medium'>Média</string>
+	<string name='priority_high'>Alta</string>
+	<string name='priority_top'>Máxima</string>
+	
+	<!-- Options for how a task can repeat: -->
+	<string name='repeat_none'>Sem Repetição</string>
+	<string name='repeat_weekly'>Semanal</string>
+	<string name='repeat_monthly'>Mensal</string>
+	<string name='repeat_yearly'>Anual</string>
+	<string name='repeat_daily'>Diária</string>
+	<string name='repeat_biweekly'>Quinzenal</string>
+	<string name='repeat_bimonthly'>Bimestral</string>
+	<string name='repeat_semiannually'>Semestral</string>
+	<string name='repeat_quarterly'>Trimestral</string>
+	<string name='repeat_with_parent'>Com Superior</string>
+	<string name='repeat_advanced'>Avançado...</string>
+	
+	<!-- Options for when the user can be reminded about a task: -->
+	<string name='reminder_none'>Sem lembrete</string>
+	<string name='reminder_1_min'>1 minuto antes do começo</string>
+	<string name='reminder_15_min'>15 minutos antes do começo</string>
+	<string name='reminder_30_min'>30 minutos antes do começo</string>
+	<string name='reminder_45_min'>45 minutos antes do começo</string>
+	<string name='reminder_1_hour'>1 hora antes do começo</string>
+	<string name='reminder_15_hours'>1,5 hora antes do começo</string>
+	<string name='reminder_2_hours'>2 horas antes do começo</string>
+	<string name='reminder_3_hours'>3 horas antes do começo</string>
+	<string name='reminder_4_hours'>4 horas antes do começo</string>
+	<string name='reminder_1_day'>1 dia antes do começo</string>
+	<string name='reminder_2_days'>2 dias antes do começo</string>
+	<string name='reminder_3_days'>3 dias antes do começo</string>
+	<string name='reminder_4_days'>4 dias antes do começo</string>
+	<string name='reminder_5_days'>5 dias antes do começo</string>
+	<string name='reminder_6_days'>6 dias antes do começo</string>
+	<string name='reminder_7_days'>7 dias antes do começo</string>
+	<string name='reminder_14_days'>14 dias antes do começo</string>
+	<string name='reminder_30_days'>30 dias antes do começo</string>
+	
+	<!-- Months of the year: -->
+	<string name='month_jan'>Janeiro</string>
+	<string name='month_feb'>Fevereiro</string>
+	<string name='month_mar'>Março</string>
+	<string name='month_apr'>Abril</string>
+	<string name='month_may'>Maio</string>
+	<string name='month_jun'>Junho</string>
+	<string name='month_jul'>Julho</string>
+	<string name='month_aug'>Agosto</string>
+	<string name='month_sep'>Setembro</string>
+	<string name='month_oct'>Outubro</string>
+	<string name='month_nov'>Novembro</string>
+	<string name='month_dec'>Dezembro</string>
+	
+	<!-- Options for the tasks' due date: -->
+	<string name='due_option_due_by'>precisa concluir até a data de término</string>
+	<string name='due_option_exactly_on'>precisa concluir EXATAMENTE na data de término</string>
+	<string name='due_option_optionally_on'>não precisa obrigatoriamente concluir na data de término</string>
+	
+	<!-- When a repeating task is marked as complete, its next date can be relative to the due date
+		or the completion date: -->
+	<string name='repeat_from_due_date'>Data de Término</string>
+	<string name='repeat_from_completion'>Data de Conclusão</string>
+	
+	<!-- A reminder for a task can be snoozed (postponed) by one of these amounts: -->
+	<string name='snooze_5_min'>5 minutos</string>
+	<string name='snooze_15_min'>15 minutos</string>
+	<string name='snooze_30_min'>30 minutos</string>
+	<string name='snooze_1_hour'>1 hora</string>
+	<string name='snooze_2_hours'>2 horas</string>
+	<string name='snooze_3_hours'>3 horas</string>
+	<string name='snooze_4_hours'>4 horas</string>
+	<string name='snooze_5_hours'>5 horas</string>
+	<string name='snooze_6_hours'>6 horas</string>
+	<string name='snooze_9_hours'>9 horas</string>
+	<string name='snooze_12_hours'>12 horas</string>
+	<string name='snooze_1_day'>1 dia</string>
+	
+	<!-- The timer for a task can either be running or not running: -->
+	<string name='running'>em execução</string>
+	<string name='not_running'>não executada</string>
+	
+	<!-- Options for comparing numeric fields in a task (such as expected length) -->
+	<string name='numeric_compare_less_than'>é menos de</string>
+	<string name='numeric_compare_less_than_or_equal'>é menos ou igual a</string>
+	<string name='numeric_compare_equal'>é igual a</string>
+	<string name='numeric_compare_greater_than_or_equal'>é igual ou maior que</string>
+	<string name='numeric_compare_greater_than'>é maior que</string>
+	<string name='numeric_compare_not_equal'>não é igual a</string>
+	
+	<!-- Options for comparing dates: -->
+	<string name='date_compare_on_or_before'>é antes ou às</string>
+	<string name='date_compare_equal'>é às</string>
+	<string name='date_compare_on_or_after'>é antes ou depois</string>
+	
+	<!-- Past and Future: -->
+	<string name='past'>passado</string>
+	<string name='future'>futuro</string>
+	
+	<!-- Subtasks can be displayed in one of the following ways: -->
+	<string name='subtask_display_indented'>Recuada, abaixo da tarefa superior</string>
+	<string name='subtask_display_not_indended'>Não recuada</string>
+	<string name='subtask_display_hidden_long_press'>Escondida (acessível com um pressionar longo)</string>
+	<string name='subtask_display_hidden'>Escondida</string>
+	
+	<!-- Possible durations for goals that have been set by the user: -->
+	<string name='goal_duration_lifelong'>Meta de uma Vida</string>
+	<string name='goal_duration_long_term'>Meta de Longo Prazo</string>
+	<string name='goal_duration_short_term'>Meta de Curto Prazo</string>
+	
+	<!-- Possible Font Sizes: -->
+	<string name='size_small'>Pequena</string>
+	<string name='size_medium'>Média</string>
+	<string name='size_large'>Larga</string>
+	
+	<!-- When a reminder occurs, the device may vibrate.  These are the possible vibration patterns: -->
+	<string name='vibe_default'>Padrão do Sistema</string>
+	<string name='vibe_none'>Nenhuma</string>
+	<string name='vibe_short'>Curta</string>
+	<string name='vibe_long'>Longa</string>
+	<string name='vibe_short_long'>Curta-Longa</string>
+	<string name='vibe_long_short'>Longa-Curta</string>
+	<string name='vibe_short_3'>Curta-Curta-Curta</string>
+	<string name='vibe_long_3'>Longa-Longa-Longa</string>
+	<string name='vibe_s_l_s'>Curta-Longa-Curta</string>
+	<string name='vibe_l_s_l'>Longa-Curta-Longa</string>
+	<string name='vibe_s_l_s_l'>Curta-Longa-Curta-Longa</string>
+	<string name='vibe_s_l_s_l_x2'>Curta-Longa-Curta-Longa x2</string>
+	
+	<!-- When a reminder occurs, the light on the device may turn on.  These are the colors we support: -->
+	<string name='color_red'>Vermalha</string>
+	<string name='color_green'>Verde</string>
+	<string name='color_blue'>Azul</string>
+	<string name='color_yellow'>Amarela</string>
+	<string name='color_magenta'>Magenta</string>
+	<string name='color_cyan'>Ciano</string>
+	<string name='color_orange'>Laranja</string>
+	
+	<!-- The app has 2 themes (color schemes) - Light and Dark -->
+	<string name='Light'>Claro</string>
+	<string name='Dark'>Escuro</string>
+	
+	<!-- When sorting tasks by date, these options determine where to place tasks with no date: -->
+	<string name='undated_sort_before'>Antes das tarefas com data</string>
+	<string name='undated_sort_after'>Após as tarefas com data</string>
+	
+	<!-- When filtering tasks, it is possible for a subtask to be visible while its parent task is filtered
+		out.  These options determine how to handle this. -->
+	<string name='orphaned_subtask_show'>mostrar sem recuo</string>
+	<string name='orphaned_subtask_hide'>esconder a subtarefa</string>
+	
+	<!-- Possible date formats that can be chosen by the user: -->
+	<string name='date_format_system'>Usar Preferência do Sistema</string>
+	<string name='date_format_day_first'>Qua 31/12/14</string>
+	<string name='date_format_month_first'>Qua 12/31/14</string>
+	<string name='date_format_year_first'>Qua 2014/12/31</string>
+	
+	<!-- Possible time formats that can be chosen: -->
+	<string name='time_format_system'>Usar Preferência do Sistema</string>
+	<string name='time_format_12_hour'>12 Horas (11:00 PM)</string>
+	<string name='time_format_24_hour'>24 Horas (23:00)</string>
+	
+	<!-- Unit of Distance Measurement: -->
+	<string name='miles'>Milhas</string>
+	<string name='kilos'>Quilômetros</string>
+	
+	<!-- Abbreviations for miles and kilometers: -->
+	<string name='miles_abbreviation'>mi</string>
+	<string name='kilos_abbreviation'>km</string>
+	
+	<!-- Abbreviations for directions (north, northeast, east, southeast, etc.) -->
+	<string name='direction_north'>N</string>
+	<string name='direction_northeast'>NE</string>
+	<string name='direction_east'>E</string>
+	<string name='direction_southeast'>SE</string>
+	<string name='direction_south'>S</string>
+	<string name='direction_southwest'>SO</string>
+	<string name='direction_west'>O</string>
+	<string name='direction_northwest'>NO</string>
+	
+	<!-- When sorting by date, we display the earliest first or the latest first: -->
+	<string name='date_sort_earliest'>Mais Cedo na Frente</string>
+	<string name='date_sort_latest'>Mais Tarde na Frente</string>
+	
+	<!-- When sorting by title, we can sort alphetically from A to Z or Z to A -->
+	<string name="alpha_sort_normal">A até Z</string>
+	<string name='alpha_sort_reverse'>Z até A</string>
+	
+	<!-- Sort order options when sorting by task priority -->
+	<string name='priority_sort_normal'>Mais Alta Primeiro</string>
+	<string name='priority_sort_reverse'>Mais Baixa Primeiro</string>
+	
+	<!-- Tasks may be starred to indicate higher importance.  This specifies to sort by star: -->
+	<string name='star_sort_normal'>Estrelada Primeiro</string>
+	<string name='star_sort_reverse'>Não Estrelada Primeiro</string>
+	
+	<!-- Options for sorting by a numeric value: -->
+	<string name='numeric_sort_low_first'>Menor Primeiro</string>
+	<string name='numeric_sort_high_first'>Maior Primeiro</string>
+	
+	<!-- When sorting by completion status, we can have completed tasks first or incomplete first: -->
+	<string name='completion_sort_incomplete_first'>Incompleta Primeiro</string>
+	<string name='completion_sort_complete_first'>Completa Primeiro</string>
+	
+	<!-- We can sort according to whether the task is shared with others or not.  These settings determine
+		whether shared or unshared tasks are first: -->
+	<string name='shared_sort_shared_first'>Compartilhada Primeiro</string>
+	<string name='shared_sort_unshared_first'>Não Compartilhada Primeiro</string>
+	
+	<!-- The device may be located using cellular and Wi-Fi signals, GPS, or both: -->
+	<string name='location_methods_cellular_wifi'>Celular+WiFi Somente</string>
+	<string name='location_methods_gps'>GPS Somente</string>
+	<string name='location_methods_all'>Todos</string>
+	
+	<!-- A repeating task can repeat by a certain number of days, weeks, months, or years -->
+	<string name='Days'>Dias</string>
+	<string name='Weeks'>Semanas</string>
+	<string name='Months'>Meses</string>
+	<string name='Years'>Anos</string>
+	
+	<!-- A repeating task can be put on a specific day of the week in a month.  For example, the 3rd
+		Monday. -->
+	<string name='first'>1a</string>
+	<string name='second'>2a</string>
+	<string name='third'>3a</string>
+	<string name='fourth'>4a</string>
+	<string name='fifth'>5a</string>
+	<string name='last'>última</string>
+	
+	<!-- The app includes some split-screen options, to divide the screen into multiple panes: -->
+	<string name='split_screen_2_pane_nav_list'>2 Painéis - Navegação e Visualizações de Listas</string>
+	<string name='split_screen_2_pane_list_viewer'>2 Painéis - Listas e Visualizador/Editor</string>
+	<string name='split_screen_3_pane'>3 Painéis</string>
+	
+	<!-- Possible themes for the widgets: -->
+	<string name='widget_theme_compact_light'>Compacto - Tema Claro</string>
+	<string name='widget_theme_compact_dark'>Compacto - Tema Escuro</string>
+	<string name='widget_theme_normal_light'>Normal - Tema Claro</string>
+	<string name='widget_theme_normal_dark'>Normal - Tema Escuro</string>
+	
+	<!-- The notifications that the app displays in the notification area can have a specific priority
+		set by the user: -->
+	<string name='notification_priority_min'>Mínima</string>
+	<string name='notification_priority_low'>Baixa</string>
+	<string name='notification_priority_default'>Padrão</string>
+	<string name='notification_priority_high'>Alta</string>
+	<string name='notification_priority_max'>Máxima</string>
+</resources>

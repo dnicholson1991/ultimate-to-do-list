@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name='need_exact_alarm_permission'>Чтобы установить напоминания на точное время, вы должны предоставить этому приложению разрешение на это.</string>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <string name="allow_permission">Conceder permiso</string>
+    <string name="reject_permission">Rechazar permiso</string>
+    <string name="file_access_permission_needed">El acceso al almacenamiento de tu dispositivo es esencial para que esta aplicación funcione. Debes permitir el acceso para continuar.</string>
+    <string name="location_permission_recommended">Es necesario permitir el acceso a la ubicación para las funciones basadas en la ubicación de la aplicación, como la capacidad de recordarte una tarea cuando llegas a una ubicación particular.</string>
+    <string name="accounts_permission_required">Debes permitir el acceso a las cuentas de Google en tu dispositivo para poder vincular a una de esas cuentas.</string>
+    <string name="all_needed_for_advanced_level">Debes aceptar estos permisos para utilizar el nivel avanzado. El acceso al calendario es necesario para mostrar las tareas en tu calendario. El acceso a la ubicación es necesario para los recordatorios basados ​​en la ubicación. El acceso a los contactos es necesario para vincular las tareas con tus contactos.</string>
+    <string name="Restore_Successful_permissions_issue">Todos los datos han sido restaurados. La aplicación se reiniciará ahora. Si estabas utilizando las funciones de calendario, contactos o ubicación, tendrás que activarlas de nuevo en el área de ajustes y aceptar los permisos cuando se te soliciten.</string>
+    <string name="task_reminders">Recordatorios de tareas</string>
+    <string name="notification_category_for_reminders">Notificaciones para recordatorios de tareas.</string>
+
+    <!-- These updates are due to Google renaming Android Wear to Wear OS: -->
+    <string name="android_wear">Wear SO</string>
+    <string name="purchase_android_wear">Comprar el complemento Wear OS</string>
+    <string name="android_wear_purchased">Has comprado el complemento Wear OS</string>
+    <string name="learn_android_wear">Aprender a usar el complemento Wear OS.</string>
+    <string name="android_wear_help_title">Cómo usar el complemento Wear OS</string>
+    <string name="need_to_purchase_wear">Para usar esta función, tendrás que comprar el complemento Wear OS en el área de ajustes de Ultimate To-Do List.</string>
+    <string name="wear_non_english_limits">Por favor, ten en cuenta que el complemento Wear OS está diseñado actualmente para angloparlantes. Puedes usar el complemento en otros idiomas, pero los comandos de voz deben estar en inglés. ¿Quieres continuar?</string>
+    <string name="android_wear_add_on">Complemento Wear SO</string>
+    <string name="android_wear_long_description">
+        <![CDATA[
+            <p>El complemento Wear OS le da a su reloj la capacidad de navegar y marcar tareas, y ver y posponer recordatorios.</p>
+            <p><b>Para activar el complemento después de la compra:</b></p>
+            <ul>
+                <li>comenzando con Wear OS 2, tendrás que instalar la aplicación en tu reloj abriendo Play Store en el reloj y
+                    después ubicando la aplicación en la sección \"Aplicaciones en tu teléfono\".</li>
+                <li>Si no ve la Lista de tareas pendientes definitiva en la lista, intente buscar en la Play Store de Wear OS la \"Ultimate To-Do List\" e instale la aplicación desde la lista de la tienda.</li>
+            </ul>
+            <p><b>Cómo ver tus tareas:</b></p>
+            <ul>
+                <li> para mostrar tu lista de tareas predeterminada, di: \"OK Google. Iniciar Ultimate To-Do List\".</li>
+                <li>También puedes acceder a tu lista de tareas predeterminada abriendo Ultimate To-Do List de la lista de
+                    aplicaciones en tu reloj.</li>
+                <li>Una vez que hayas abierto una lista de tareas, puedes tocar las tareas para marcarlas.</li>
+            </ul>
+            <p><b>Gestión de recordatorios:</b></p>
+            <ul>
+                <li>Los recordatorios aparecen como notificaciones tanto en tu teléfono como en tu reloj.</li>
+                <li>En tu reloj, al deslizar de izquierda a derecha se descarta la notificación.</li>
+                <li>Al tocar la notificación, se mostrarán opciones para posponer el recordatorio y marcar la tarea como completa.
+                </li>
+            </ul>
+        ]]>
+    </string>
+    <string name="ongoing_notifications_warning">Si usas notificaciones continuas para recordatorios, estas notificaciones no aparecerán en tu reloj Wear OS.</string>
+    <string name='syncing_with_watch'>Ultimate To-Do List sincroniza los datos con su reloj.</string>
+    <string name='bt_for_voice_input'>Use Bluetooth para entrada de voz</string>
+</resources>

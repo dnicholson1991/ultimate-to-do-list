@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name='Currently_Own_Product'>Sie besitzen noch dieses Produkt.</string>
+    <string name='top_of_nav_drawer'>An der Spitze der Navigation Drawer anzeigen</string>
+    <string name='how_to_resize'>Um die Größe des Widget, drücken und halten Sie den Finger auf ihn etwa 2
+         Sekunden und lösen. Sie sehen dann die Größe Steuerelemente angezeigt.</string>
+</resources>

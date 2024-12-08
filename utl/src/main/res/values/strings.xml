@@ -1,0 +1,1322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Not to be translated: -->
+	<string name="banner_ad_unit_id">ca-app-pub-5149759708329031/3033804100</string>
+	<string name='admob_app_id'>ca-app-pub-5149759708329031~1557070907</string>
+
+    <!-- The full name of the app: -->
+    <string name="app_name">Ultimate To-Do List</string>
+
+	<!-- Our e-mail address: -->
+	<string name='email_address'>help@todolist.co</string>
+
+    <string name="Please_choose_sync_option">What type of account would you like to link to?</string>
+    <string name="deleted">&lt;Deleted Item&gt;</string>
+    <string name="MultChoiceViewRule1">Account is</string>
+    <string name="MultChoiceViewRule2">Account is one of:</string>
+    <string name="MultChoiceViewRule3">Folder is</string>
+    <string name="MultChoiceViewRule4">Folder is one of:</string>
+    <string name="MultChoiceViewRule5">Context is</string>
+    <string name="MultChoiceViewRule6">Context is one of:</string>
+    <string name="MultChoiceViewRule7">Goal is</string>
+    <string name="MultChoiceViewRule8">Goal is one of:</string>
+    <string name="MultChoiceViewRule9">Status is</string>
+    <string name="MultChoiceViewRule10">Status is one of:</string>
+    <string name="MultChoiceViewRule11">Priority is</string>
+    <string name="MultChoiceViewRule12">Priority is one of:</string>
+    <string name="MultChoiceViewRule13">Parent task is</string>
+	<string name="MultStringsViewRule1">Tags include</string>
+	<string name="MultStringsViewRule2">Tags include one of:</string>
+	<string name="IntViewRule1">Expected length</string>
+	<string name="IntViewRule2">Time recorded</string>
+	<string name="IntViewRule3">Timer is running</string>
+	<string name="IntViewRule4">Timer is not running</string>
+	<string name="isLessThan">is less than</string>
+	<string name="isLessThanOrEqualTo">is less than or equal to</string>
+	<string name="isEqualTo">is equal to</string>
+	<string name="isNotEqualTo">is not equal to</string>
+	<string name="isGreaterThanOrEqualTo">is greater than or equal to</string>
+	<string name="isGreaterThan">is greater than</string>
+	<string name="minutes">minutes</string>
+	<string name="minutes_abbreviation">min</string>
+	<string name="Sunday">Sun</string>
+	<string name="Monday">Mon</string>
+	<string name="Tuesday">Tue</string>
+	<string name="Wednesday">Wed</string>
+	<string name="Thursday">Thu</string>
+	<string name="Friday">Fri</string>
+	<string name="Saturday">Sat</string>
+	<string name="StartDate">Start Date</string>
+	<string name="CompletionDate">Completion Date</string>
+	<string name="Modification_Date">Modification Date</string>
+	<string name="DueDate">Due Date</string>
+	<string name="OnOrBefore">is on or before</string>
+	<string name="OnOrAfter">is on or after</string>
+	<string name="Is">is</string>
+	<string name="DaysInFuture">days in the future</string>
+	<string name="DaysInPast">days in the past</string>
+	<string name="Today">today</string>
+	<string name="getAccountName">Enter a name for the account:</string>
+	<string name="getAccountName2">For example: \"John\'s Account\", or \"Jane\'s To-Do List\"</string>
+	<string name="done">Done</string>
+	<string name="DbInsertFailed">Database insert failed</string>
+	<string name="DbModifyFailed">Database modification failed</string>
+	<string name="AllTasks">All Tasks</string>
+
+	<!-- The "Hotlist" is the list of tasks which are the most important. -->
+	<string name="Hotlist">Hotlist</string>
+
+	<!-- This refers to the list of custom "Views".  A "view" is like a saved search. It contains
+	     a set of filter, sort, and display settings. -->
+	<string name="MyViews">My Views</string>
+
+	<string name="Notes">Notes</string>
+	<string name="DueTodayTomorrow">Due Today/Tomorrow</string>
+	<string name="Overdue">Overdue</string>
+
+	<!-- A task becomes "starred" if the user presses a special button that is shaped like a star.
+	     A user will do this to highlight a task so that is stands out from other tasks. -->
+	<string name="Starred">Starred</string>
+
+	<string name="ByStatus">By Status</string>
+	<string name="Folders">Folders</string>
+	<string name="Contexts">Contexts</string>
+	<string name="Tags">Tags</string>
+	<string name="Goals">Goals</string>
+	<string name="RecentlyCompleted">Recently Completed</string>
+	<string name="New_Task">New Task</string>
+	<string name="New_Note">New Note</string>
+	<string name="Add_a_Task">Add a Task</string>
+	<string name="Edit_Task">Edit Task</string>
+	<string name="Title">Title</string>
+	<string name="Status">Status</string>
+	<string name="Start_Date">Start Date</string>
+	<string name="Due_Date">Due Date</string>
+	<string name="Reminder_Date_Time">Reminder Date/Time</string>
+	<string name="Reminder">Reminder</string>
+	<string name="Repeat">Repeat</string>
+	<string name="Priority">Priority</string>
+	<string name="Folder">Folder</string>
+	<string name="Context">Context</string>
+	<string name="Goal">Goal</string>
+	<string name="Accounts">Accounts</string>
+	<string name="Account">Account</string>
+	<string name="Note">Note</string>
+	<string name="Save">Save</string>
+	<string name="Cancel">Cancel</string>
+	<string name="None">&lt;None&gt;</string>
+	<string name="None_No_Symbols">None</string>
+	<string name="Add_Folder">Add Folder...</string>
+	<string name="Add_Context">Add Context...</string>
+	<string name="Add_Goal">Add Goal...</string>
+	<string name="Select_a_Start_Date">Select a Start Date</string>
+	<string name="Select_a_Due_Date">Select a Due Date</string>
+	<string name="Select_a_Reminder_Date">Select a Reminder Date</string>
+	<string name="Select_a_Date">Select a Date</string>
+	<string name="Task_is">Task is...</string>
+	<string name="Advanced_Repeat_Pattern">Advanced Repeat Pattern</string>
+	<string name="Please_enter_a_name">Please enter a name.</string>
+	<string name="This_is_not_properly_formatted">This is not properly formatted.</string>
+	<string name="Add_a_Folder">Add a Folder</string>
+	<string name="Enter_Folder_Name">Enter Folder Name:</string>
+	<string name="Add_a_Context">Add a Context</string>
+	<string name="Enter_Context_Name">Enter Context Name:</string>
+	<string name="Add_a_Goal">Add a Goal</string>
+	<string name="Enter_Goal_Name">Enter Goal Name:</string>
+	<string name="tag_description">A tag is a keyword or phrase that you can use to help describe the task. This can be used to keep track of the state or progress of a task, such as \"Waiting for Jim\" or \"Phase 1\". It could also be used to keep track of the next step that you need to take, like \"Call Jill\". Some people use the tag to classify the task. For example: \"reminder\", \"chore\" or \"meeting\".\n\nWhen you get here for the first time, you will need to type in your tags. After this, you can select your most recently used tags from a list.</string>
+	<string name="Enter_Other_Tags">Enter other tags here, separated by commas:</string>
+	<string name="Enter_Tags_Here">Enter your tags here, separated by commas:</string>
+	<string name="Select_Tags">Select Tags</string>
+	<string name="Select_Accounts">Select Accounts</string>
+	<string name="Please_select_at_least_one">Please select at least one.</string>
+	<string name="account_cannot_be_changed">The account cannot be changed for an existing task.</string>
+	<string name="Yes">Yes</string>
+	<string name="No">No</string>
+	<string name="Save_changes">Save Changes?</string>
+	<string name="Timer_will_start">Timer will start when the task is saved.</string>
+	<string name="Timer_stopped">Timer stopped.</string>
+	<string name="Please_enter_a_title">Please enter a title.</string>
+	<string name="Start_must_be_before_end">The start date must be before the due date.</string>
+	<string name="Reminder_must_be_before_due">The reminder date/time must be before the due date.</string>
+	<string name="Unable_to_add_folder">Unable to add folder to the database.</string>
+	<string name="Unable_to_add_context">Unable to add context to the database.</string>
+	<string name="Unable_to_add_goal">Unable to add goal to the database.</string>
+	<string name="Cannot_modify_task">Cannot modify task in the database.</string>
+	<string name="Cannot_add_task">Cannot add task to the database.</string>
+	<string name="Seven_day_rule">The reminder date must be within 7 days of the due date.</string>
+	<string name="Start_Timer">Start Timer</string>
+	<string name="Stop_Timer">Stop Timer</string>
+	<string name="Add_Subtask">Add Subtask</string>
+	<string name="Delete_Task">Delete Task</string>
+	<string name="Settings">Settings</string>
+	<string name="Search">Search</string>
+
+	<!-- Here, the word "sync" is an abbreviation for "synchronization".  When translating, try
+	     to use the shortest word possible that means "synchronization". -->
+	<string name="Sync">Sync</string>
+	<string name="Sync_Now">Sync Now</string>
+
+	<string name="Filter">Filter</string>
+	<string name="Sort">Sort</string>
+	<string name="Display_Options">Display Options</string>
+	<string name="Save_This_View">Save This View</string>
+	<string name="Status_">Status: </string>
+	<string name="Start_Date_">Start Date: </string>
+	<string name="Start_Date_Time_">Start Date/Time: </string>
+	<string name="Due_Date_">Due Date: </string>
+	<string name="Due_Date_Time_">Due Date/Time: </string>
+	<string name="Reminder_">Reminder: </string>
+	<string name="Repeat_">Repeat: </string>
+	<string name="Repeat_From_">Repeat From: </string>
+	<string name="Priority_">Priority: </string>
+	<string name="Folder_">Folder: </string>
+	<string name="Context_">Context: </string>
+	<string name="Tags_">Tags: </string>
+	<string name="Goal_">Goal: </string>
+	<string name="Account_">Account: </string>
+	<string name="Expected_Length_">Expected Length: </string>
+	<string name="Actual_Length_">Actual Length: </string>
+	<string name="Note_">Note: </string>
+	<string name="Timer_is_Running">Timer is Running</string>
+	<string name="Timer_already_running">Timer is already running.</string>
+	<string name="Timer_was_not_running">The timer was not running.</string>
+	<string name="licCheck1">Starting a license check.</string>
+	<string name="licCheck2">Cannot bind to license service.  Most likely cause: the license app is not installed.</string>
+	<string name="licCheck3">License app reports that UTL is licensed.</string>
+	<string name="licCheck4">License app reports that UTL is unlicensed.  Failure number:</string>
+	<string name="licCheck5">Marking UTL as not purchased.</string>
+	<string name="licCheck6">Not marking UTL as not purchased yet.</string>
+	<string name="licCheck7">License app returned an error.  Position:</string>
+	<string name="licCheck8">License Receiver got malformed license data.</string>
+	<string name="Task_no_longer_exists">Task no longer exists.</string>
+	<string name="Completed_">Completed: </string>
+	<string name="Continue">Continue</string>
+	<string name="The_account_hash_been_set_up">The account has been set up.</string>
+	<string name="Synchronization_will_run_in_background">The link has been set up, and your tasks are now being downloaded into your device. When browsing, you will see them gradually appear over the next several minutes.</string>
+
+	<!-- Toodledo is a web site that this app can synchronize its tasks with. -->
+	<string name="Toodledo_account_has_been_set_up">The Toodledo account has been created.  In addition to your device, you can access your tasks and notes at toodledo.com.</string>
+	<string name="Unable_to_create_td_account">Unable to create Toodledo account.</string>
+	<string name="Unable_to_login_to_td">Unable to log into Toodledo.com.</string>
+
+	<string name="Username_password_is_incorrect">The username or password is incorrect.</string>
+	<string name="TD_not_responding">Toodledo.com is not responding. You may not have an Internet connection available.</string>
+	<string name="TD_gave_unexpected_data">Toodledo.com sent unexpected data.</string>
+	<string name="Internal_software_failure">An internal software failure occurred.</string>
+	<string name="Enter_td_login_info">Enter your Toodledo login information.</string>
+	<string name="td_email">E-Mail Address:</string>
+	<string name="td_password">Password:</string>
+	<string name="An_email_must_be_specified">An E-Mail address must be specified.</string>
+	<string name="A_password_must_be_specified">A password must be specified.</string>
+	<string name="Sync_Successful">Synchronization Successful</string>
+	<string name="Sync_Started">Synchronization Started</string>
+	<string name="Sync_Failed_">Sync Failed: </string>
+	<string name="Bad_username_or_password">Bad username or password.</string>
+	<string name="Cannot_connect_to_TD">Cannot connect to Toodledo.com.</string>
+	<string name="Bad_respone_from_TD">Toodledo.com sent unexpected data.</string>
+	<string name="Internal_error">Internal error.</string>
+	<string name="DB_failure">Local database access failure.</string>
+	<string name="Nagging_On">Nagging On</string>
+	<string name="Sync_Completed_Refreshing">Sync Completed. Refreshing List...</string>
+	<string name="Stop_Nagging">Stop Nagging</string>
+	<string name="Mark_Complete">Mark Complete</string>
+	<string name="Snooze">Snooze</string>
+	<string name="Dismiss">Dismiss</string>
+	<string name="Complete">Complete</string>
+	<string name="Remind_me_in_">Remind me in...</string>
+	<string name="View_has_no_rules">Tap on the button below to add a rule to search or filter on.\n</string>
+	<string name="Add_filter_rule">&#160;Add filter rule</string>
+	<string name="And">And</string>
+	<string name="Or">Or</string>
+	<string name="Filter_Rules_for_View">Filter Rules for View</string>
+	<string name="Star">Star</string>
+	<string name="Expected_Length">Expected Length</string>
+	<string name="Actual_Length">Actual Length</string>
+	<string name="Timer_Status">Timer Status</string>
+	<string name="Mod_Date">Modification Date</string>
+	<string name="Completed">Completed</string>
+	<string name="Are_you_sure_you_want_to_delete_rule">Are you sure you want to delete this rule?</string>
+	<string name="or_is_blank">, or is blank</string>
+	<string name="Select_field_to_filter">Select field to filter on...</string>
+	<string name="Previous_rule_must_also_match">Previous rule must also match</string>
+	<string name="Find_tasks_whose">Show tasks whose</string>
+	<string name="You_must_enter_some_text">You must enter some text to search on.</string>
+	<string name="Restore_Defaults">Restore Defaults</string>
+	<string name="Restore_default_rules">This will restore the default rules for this view. Do you want to proceed?</string>
+	<string name="Cannot_restore_defaults">This is not a built-in view, so there are no defaults to restore.</string>
+	<string name="Show_completed_tasks">Show completed tasks</string>
+	<string name="Show_starred">Show tasks with a star</string>
+	<string name="Show_tasks_with_timer_on">Show tasks whose timer is</string>
+	<string name="Please_enter_a_value">Please enter a value.</string>
+	<string name="Modify_">Modify...</string>
+	<string name="Empty_Rule">&lt;Empty Rule&gt;</string>
+	<string name="Nothing_has_been_chosen">Nothing has been chosen.  Tap on the Modify button to select some items.</string>
+	<string name="Select_one_or_more">Select one or more</string>
+	<string name="Statuses">Statuses</string>
+	<string name="Priorities">Priorities</string>
+	<string name="Filter_on">Filter on</string>
+	<string name="days_in_the">days in the</string>
+	<string name="Choose_an_Exact_Date">Choose an exact date instead</string>
+	<string name="This_date_">this date: </string>
+	<string name="Choose_a_relative_date">Choose a date relative to today</string>
+	<string name="Include_tasks_with_no_date">Include tasks with no</string>
+	<string name="Include_tasks_due_on_exact">Include tasks due on an EXACT date, even if the date is not the current date</string>
+	<string name="Include_tasks_optional_on_exact">Include tasks that are optionally due, even if their due date is not the current date</string>
+	<string name="Keep_previous_2_unchecked">In most cases, you will want to keep the previous 2 items unchecked.</string>
+	<string name="No_custom_views_defined"
+	    >The My Views area is where you can view your tasks any way you want. A \"View\" in this area 
+	    consists of a set of memorized filter, sort, and display options.\n
+	    
+	    \nYou can add views here from any list of tasks by choosing the \"Save this View\" command.  You can 
+	    also tap on the + button here to create a new view.
+	</string>
+	<string name="Save_view_help">This will save the current filter, sort, and display settings to the \"My Views\" area, which you can access from the home page.</string>
+	<string name="Enter_view_name">\nEnter a name for your view:</string>
+	<string name="Save_a_View">Save a View</string>
+	<string name="Rename">Rename</string>
+	<string name="Delete">Delete</string>
+	<string name="Enter_New_Name">Enter New Name:</string>
+	<string name="View_delete_confirmation">Are you sure you want to delete the view?</string>
+	<string name="At_least_one_account">At least 1 account must be selected to put the task into.</string>
+	<string name="At_least_one_rule">At least 1 rule must be specified.</string>
+	<string name="Enter_New_View_Name">Enter a name for the new view:</string>
+	<string name="OK">OK</string>
+	<string name="Sort_By_">Sort By:</string>
+	<string name="_Then_By_">\nThen By:</string>
+	<string name="_And_Finally_By_">\nAnd Finally By:</string>
+	<string name="spacer"> </string>
+	<string name="Select_a_Sort_Order">Select a Sort Order</string>
+	<string name="first_item_cannot_be_empty">The first item cannot be empty.</string>
+	<string name="Choose_a_sort_field">Choose a field to sort on:</string>
+	<string name="Title_of_Task">Title of Task</string>
+	<string name="Upper_Right">Upper Right</string>
+	<string name="Lower_Left">Lower Left</string>
+	<string name="Lower_Right">Lower Right</string>
+	<string name="Color_Coded_Bar">Color-Coded Bar</string>
+	<string name="Display_options_intro">Here, you can choose which task fields to display in the list.  You can also choose how to display subtasks.\n\nList Layout:</string>
+	<string name="_Field_to_Display_in_Upper_Right_">\nField to Display in the Upper Right:</string>
+	<string name="_Field_to_Display_in_Lower_Left_">\nField to Display in the Lower Left:</string>
+	<string name="_Field_to_Display_in_Lower_Right_">\nField to Display in the Lower Right:</string>
+	<string name="_Field_for_Color_Coded_Bar_">\nField for the Color-Coded Bar:</string>
+	<string name="_Format_of_Subtasks_">\nFormat of Subtasks:</string>
+	<string name="Start_and_Due_Date">Start and Due Date</string>
+	<string name="Folder_and_Context">Folder and Context</string>
+	<string name="icons">Icons (Recurring, Starred, etc.)</string>
+	<string name="Choose_a_field_to_display_here">Choose a field to display here:</string>
+	<string name="Adjust_subtask_display">Display subtasks this way:</string>
+	<string name="View_Subtasks">View Subtasks</string>
+	<string name="Subtasks_of_Task">Subtasks of Task</string>
+	<string name="Subtask_List">Subtask List</string>
+	<string name="No_Folders_Defined">Folders can be used to organize your tasks and notes into categories, 
+	    projects, or areas of focus.  Typical folders might represent broad categories such as 
+	    \"Work\" or \"Personal\".  Or, they could be more focused, such as \"Work / Project 1\" or 
+	    \"Work / Project 2\".\n
+	    
+	    \nTap on the + sign to create your first folder.</string>
+	<string name="New_Folder">New Folder</string>
+	<string name="Item_no_longer_exists">Item no longer exists.</string>
+	<string name="Folder_delete_confirmation">Are you sure you want to delete this folder? Any tasks and notes linked to this folder will be marked as having no folder.</string>
+	<string name="Show_Archived">Show Archived</string>
+	<string name="Hide_Archived">Hide Archived</string>
+	<string name="Name_already_exists">That name already exists.</string>
+	<string name="Please_select_an_account">Please select at least one account.</string>
+	<string name="New_Context">New Context</string>
+	<string name="No_Contexts_Defined"
+	    >Contexts allow you to assign tasks to certain locations, settings, or times of day in which they are 
+	    to be 
+	    completed. For example, \"work\", \"shopping\", and \"evening\" are some commonly used contexts.\n
+	    
+	    \nThe idea behind contexts is that it isn\'t productive to be reminded about tasks from one context 
+	    when you are in another context. For example, when you are at work, you don\'t want to see all your 
+	    tasks that can only be completed at home.\n
+	    
+	    \nTap on the + sign to create your first context.
+	</string>
+	<string name="Context_delete_confirmation">Are you sure you want to delete this context? Any tasks linked to this context will be marked as having no context.</string>
+	<string name="No_Goals_Defined"
+	    >Goals provide a way to specify items you want to achieve. Unlike tasks, goals are usually more 
+	    vague and difficult to quantify. For example: \"Get a promotion\", \"Be a better parent\", 
+	    \"Improve my health\".\n
+	    
+	    \nYou can create lifelong, long-term and short-term goals and assign these 
+	    goals to individual tasks. This will allow you to keep track of which actions contribute to your 
+	    goals, and which actions may not be a good use of your time.\n
+	    
+	    \nTap on the + sign to create your first goal.</string>
+	<string name="Contributes_To_">Contributes To:</string>
+	<string name="Goal_delete_confirmation">Are you sure you want to delete this goal? Any tasks linked to this goal will be marked as having no goal.</string>
+	<string name="Goal_Level_">Goal\'s Level:</string>
+	<string name='No_Tags_Defined'
+	    >A tag is a keyword or phrase that you can use to help describe the task.  Common uses include:\n
+	    
+	    \n- Keeping track of the state or progress.  Examples: \"Step 1\", \"Waiting for response\"\n
+	    
+	    \n- Keeping track of the next step.  Examples: \"Return call\", \"Deliver item\"\n
+	    
+	    \n- Classifying the task.  Examples: \"Meeting\", \"Shopping\"\n
+	    
+	    \n- Your own organization scheme.\n
+	    
+	    \nUnlike folders, contexts, and goals, a task can have more than one tag.\n
+	    
+	    \nTags are not created here.  Instead, you can add a tag directly to a task using the task editor.
+	    This screen will show you to the most recent tags you have used.
+	</string>
+	<string name="Most_recent_at_top">The most recently used tag is at the top.</string>
+	<string name="Recently_Used_Tags">Recently Used Tags</string>
+	<string name="No_Folder">No Folder</string>
+	<string name="Note_is_too_long">The note is too long.</string>
+	<string name="No_Notes_Defined">There are no notes here.</string>
+	<string name="Notes_With_No_Folder">Notes With No Folder</string>
+	<string name="Notes_in_Folder">Notes in Folder</string>
+	<string name="Change_Folder">Change Folder</string>
+	<string name="Note_delete_confirmation">Are you sure you want to delete this note?</string>
+	<string name="New_Folder_for">New Folder for</string>
+	<string name="Account_Management">Account Management</string>
+	<string name="Sync_Options">Sync Options</string>
+	<string name="Font_Size">Font Size</string>
+	<string name="Reminder_Options">Reminder Options</string>
+	<string name="Fields_Functions_Used">Fields/Functions Used</string>
+	<string name="New_Task_Defaults">New Task Defaults</string>
+	<string name="Startup_Screen">Startup Screen</string>
+	<string name="First_Day_of_Week">Week Starts On</string>
+	<string name="Sunday_full">Sunday</string>
+	<string name="Monday_full">Monday</string>
+	<string name="Change_Username_Password">Change E-Mail/Password</string>
+	<string name="Rename_Account">Rename Account</string>
+	<string name="Reset_Sync">Reset Synchronization</string>
+	<string name="Link_To_TD">Link to a Toodledo Account</string>
+	<string name="Unlink_From_TD">Unlink from Toodledo</string>
+	<string name="Delete_Account">Delete Account</string>
+	<string name="Settings_for_Account">Settings for Account</string>
+	<string name="Verifying_Username_Password">Checking Username and Password...</string>
+	<string name="Update_Successful">Update Successful</string>
+	<string name="Update_Failed">Update Failed</string>
+	<string name="Different_TD_Account">This appears to be a different Toodledo Account.  To sync with a different Toodledo account, you must create a new account on your device.</string>
+	<string name="Task_background_download">Your tasks will download in the background.  This may take several minutes.</string>
+	<string name="Reset_Sync_Confirmation">This will remove all tasks and notes for this account and will download a fresh copy from Toodledo. If you have a lot of tasks, your screen may appear to freeze for a minute or two. Continue?</string>
+	<string name="Unlink_TD_Confirmation">This will stop all synchronization with Toodledo.  If you decide to sync again later to the same Toodledo account, you will likely have duplicate tasks.  Are you sure?</string>
+	<string name="Account_Delete_Confirmation">This will delete all tasks and notes for the account.  Are you sure?</string>
+	<string name="Account_Delete_Confirmation2">This will delete all tasks and notes from your device.  Toodledo will not be affected.  Continue?</string>
+	<string name="Automatically_Sync">Automatically Synchronize with Toodledo and Google</string>
+	<string name="Sync_Interval">Synchronization Interval (Minutes)</string>
+	<string name="Instantly_Upload">Instantly Upload Changes Made On Your Device</string>
+	<string name="Sound_to_Play">Sound to Play</string>
+	<string name="Vibe_Pattern">Vibration Pattern</string>
+	<string name="Default">Default</string>
+	<string name="Start_Time">Start Time</string>
+	<string name="Due_Time">Due Time</string>
+	<string name="Reminders">Reminders</string>
+	<string name="Repeating_Tasks">Repeating Tasks</string>
+	<string name="Timer">Timer</string>
+	<string name="Subtasks">Subtasks</string>
+	<string name="Folders_for_Notes">Folders for Notes</string>
+	<string name="Folders_for_Tasks">Folders for Tasks</string>
+	<string name="Parent_completion_confirmation">This will mark all subtasks complete as well. Continue?</string>
+	<string name="Task_Delete_Confirmation">Are you sure you want to delete this task?</string>
+	<string name="Last_Account_Delete">At least one account must be defined.</string>
+	<string name="Quick_Search_Intro">What are you looking for?</string>
+	<string name="Search_Now">Search Now</string>
+	<string name="Advanced_Search">Advanced Search</string>
+	<string name="Quick_Search">Quick Search</string>
+	<string name="Must_enter_something_to_search_for">You must enter something to search for.</string>
+	<string name="Search_Results">Search Results</string>
+	<string name="Filter_Rules_for_Search">Filter Rules for this Search</string>
+	<string name="Upload_Usage_Info">Upload Usage Information</string>
+	<string name="Upload_Usage_Info2">To help solve problems</string>
+	<string name="Visit_web_site">Visit Web Site</string>
+	<string name="Help">Help</string>
+	<string name="Help_and_Support">Help and Support</string>
+	<string name="Upload_Log_Msg_1">This will send usage information which can be used to help answer questions and solve problems. After uploading the data, you will receive a file number which you can reference when contacting support.</string>
+	<string name="Upload_Log_Msg_2">Your data has been received.  When contacting support, please reference the following file number: </string>
+	<string name="Could_not_upload">Could not upload data.</string>
+	<string name="Upload_Now">Upload Now</string>
+	<string name="Wait_For_Upload">Uploading data. This may take several minutes.</string>
+	<string name="Repeat_Without_Date">A start or due date must be chosen when the task repeats.</string>
+	<string name="Sync_Progress">Sync Progress:</string>
+	<string name="Toodledo_Lock">Toodledo has blocked your account for 1 hour due to excessive access.</string>
+	<string name="Task_List_2x2">Ultimate To-Do (2x2)</string>
+	<string name="Task_List_3x2">Ultimate To-Do (3x2)</string>
+	<string name="Task_List_4x2">Ultimate To-Do (4x2)</string>
+	<string name="Task_List_2x3">Ultimate To-Do (2x3)</string>
+	<string name="Task_List_3x3">Ultimate To-Do (3x3)</string>
+	<string name="Task_List_4x3">Ultimate To-Do (4x3)</string>
+	<string name="Task_List_2x4">Ultimate To-Do (2x4)</string>
+	<string name="Task_List_3x4">Ultimate To-Do (3x4)</string>
+	<string name="Task_List_4x4">Ultimate To-Do (4x4)</string>	
+	<string name="To_Do_List_Underline">To-Do List</string>
+	<string name="Nothing_to_do">There are no tasks which match the filter settings for this widget.</string>
+	<string name="Tasks_in_Widget2">Tasks in Widget</string>
+	<string name="Completed_Status">Completed Status</string>
+	<string name="Choose_an_Option">Choose an Option:</string>
+	<string name="Enter_email_choose_password">Enter your e-mail address and choose a password.</string>
+    <string name="Must_be_Synchronized">This must be synchronized before it can be archived.</string>
+	<string name="Title_is_too_long">The title is too long.</string>
+	<string name="minute">minute</string>
+	<string name="hours">hours</string>
+	<string name="hour">hour</string>
+	<string name="Nagging_Reminder">(Nagging Reminder)</string>
+	<string name="Due_">Due:</string>
+	<string name="_optional_">(Optional)</string>
+	<string name="_exact_date_">(Exact Date)</string>
+	<string name="View_Parent_Task">View Parent Task</string>
+	<string name="Parent_Task_">Parent Task:</string>
+	<string name="Trial_Expiry_Msg">Thanks for trying out Ultimate To-Do List.  Your free trial has expired.\n</string>
+	<string name="Purchase_Now">Purchase Now</string>
+	<string name="Recheck_License">Check Again For a License</string>
+	<string name="No_Purchase_Detected">No purchase has been detected.</string>
+	<string name="License_Found">A license was found.</string>
+	<string name="Trial_Expiry_Notice">Your trial expires in 14 days. Tap to buy.</string>
+	<string name="Enter_Reg_Code">Enter Code</string>
+	<string name="Could_Not_Contact_Server_">Could not contact server: </string>
+	<string name="Software_Registered">Your software has been registered.</string>
+	<string name="Checking_Code">Checking Registration Code</string>
+	<string name="No_Android_ID">Your device does not have a unique Android ID number, so we cannot offer the free trial at this time.  To fix this, try going to your device\'s settings area and creating a Google account.  Then, restart this application.  If this does not work, you will need to purchase an Ultimate To-Do List License. Tap on the button below to purchase.\n</string>
+	<string name="Unable_To_Upload">Sorry, the data could not be uploaded due to a failure in the Internet connection.  If you are on a cellular network, try switching to Wi-Fi.</string>
+	<string name="Tag_List_Too_Long">The tag list cannot be more than 64 characters.</string>
+	<string name="Toodledo_Reject">Toodledo rejected one of the changes.</string>
+	<string name="Widget_display_options_intro">Here, you can choose which task fields and colors to display in this widget. Note that each widget has its own settings.</string>
+	<string name="_Widget_Title_">\nWidget Title (Optional):</string>
+	<string name="Display_Options_for_Widget">Display Options for Widget</string>
+	<string name="Adjust_Display_For_">Adjust Display For:</string>
+	<string name="Widget_Display">Widget</string>
+	<string name="Full_Screen_View">Full-Screen View</string>
+	<string name="Options_for_Widget">Options for Widget</string>
+	<string name="Widget_Options_Intro_">Each widget has its own filter, sort, and display settings.</string>
+	<string name="Filter_Rules_For_Widget">Filter Rules for Widget</string>
+	<string name="Light_Color">Light Color</string>
+	<string name="no_tasks_exist">You have not created any tasks yet. Tap on the + button to add one.</string>
+	<string name="Date_Format">Date Format</string>
+	<string name="Duplicate_Account_Attempt">You already have a link to this Toodledo account.  Duplicate links are not allowed.</string>
+	<string name="Account_Name_Already_Exists">An account with this name already exists.</string>
+	<string name="Start_Time_">Start Time: </string>
+	<string name="Due_Time_">Due Time: </string>
+	<string name="Reminder_Time_">Reminder Time: </string>
+	<string name="Repeat_From2">- From: </string>
+	<string name="Repeat_Advanced_">- Advanced: </string>
+	<string name="Reminder_Date_">Reminder Date: </string>
+	<string name="Accounts__">Accounts: </string>
+	<string name="Enter_Expected_Length">Expected Length in Minutes:</string>
+	<string name="Enter_Actual_Length">Actual Length in Minutes:</string>
+	<string name="Theme">Theme</string>
+	<string name="_Theme_">\nTheme:</string>
+	<string name="Sort_order_for_undated">Sort Order for Undated Tasks</string>
+	<string name="_If_parent_is_filtered_out">\nIf a subtask is visible but the parent is filtered out...</string>
+	<string name="If_parent_is_filtered_out_">If the subtask\'s parent is filtered out...</string>
+	<string name="Time_Format">Time Format</string>
+	<string name="Date_and_Time">Date and Time</string>
+	<string name="Note_Search_Results">Note Search Results</string>
+	<string name="What_to_Search">What to Search:</string>
+	<string name="Completed_Tasks">Completed Tasks</string>
+	<string name="Incomplete_Tasks">Incomplete Tasks</string>
+	<string name="Device_Unique_ID">Your Device\'s Unique ID</string>
+	<string name="Blocked_due_to_Sync">This cannot be done right now because the app is currently synchronizing. Please try again later.</string>
+    <string name="MultChoiceViewRule14">Location is</string>
+    <string name="MultChoiceViewRule15">Location is one of:</string>
+    <string name="Location">Location</string>
+    <string name="Location_">Location: </string>
+    <string name="Locations">Locations</string>
+    <string name="Show_Map">Show Map</string>
+    <string name="No_Locations_Defined"
+        >Locations allow you to mark where certain tasks must be completed.  This allows you to conveniently 
+        locate tasks that are nearby.  You can also have the app remind you to work on a task when you
+        reach a location.\n
+        
+        \nWhen you tap on the \"Show Map\" button in the app\'s navigation pane, you can see which locations 
+        are closest to your current position, along with the tasks at each location.\n
+        
+        \nTap on the + sign to add your first location.
+    </string>
+	<string name="Location_delete_confirmation">Are you sure you want to delete this location? Any tasks linked to this location will be marked as having no location.</string>
+	<string name="No_Location">No Location</string>
+	<string name="Latitude_">Latitude: </string>
+	<string name="Longitude_">Longitude: </string>
+	<string name="Address_">Address: </string>
+	<string name="Enter_Address">Enter an Address</string>
+	<string name="Use_Current_Loc">Use Current Location</string>
+	<string name="Description_too_long">The description is too long.</string>
+	<string name="Name_too_long">The name is too long.</string>
+	<string name="No_coordinates_given">Please enter an address or press the button to choose your current location.</string>
+	<string name="Unable_to_get_coords">Unable to get latitude and longitude</string>
+	<string name="Address_or_Internet_Issue">Try the following:\n-Double check the address\n-Check your Internet connection\n-Make sure Google Maps is installed</string>
+	<string name="Looking_Up_Address">Looking up address...</string>
+	<string name="Enter_An_Address_">Enter an Address:</string>
+	<string name="Coords_Located">Coordinates located</string>
+	<string name="Getting_Location">Getting location.  This may take a few seconds.</string>
+	<string name="Unable_to_get_location">Unable to get location. Check your GPS and cellular signals, and make sure location tracking is enabled in your system settings.</string>
+	<string name="Add_Location">Add Location</string>
+	<string name="Reminder_Enabled">(Reminder Enabled)</string>
+	<string name="Nagging_Reminder_Enabled">(Nagging Reminder Enabled)</string>
+	<string name="Distance_Units">Distance Units</string>
+	<string name="Location_Tracking">Location Tracking</string>
+	<string name="No_Locations_Defined2">No locations have been set up.</string>
+	<string name="Tasks">Tasks</string>
+	<string name="Task">Task</string>
+	<string name="Navigate">Navigate</string>
+	<string name="Details">Details</string>
+	<string name="Navigation_Not_Installed">Google Navigation is not installed.</string>
+	<string name="Location_Not_Determined">Current location has not yet been determined.</string>
+	<string name="Show_Time_Reminders">Show Timed Reminders</string>
+	<string name="Show_Location_Reminders">Show Location Reminders</string>
+	<string name="Open_in_Google_Maps">&#160;Open in Google Maps</string>
+	<string name="Driving_Navigation">&#160;Driving Navigation</string>
+	<string name="Maps_Not_Installed">Google maps is not installed.</string>
+	<string name="Trial_Expiry_Info">\nThe 2 week free trial begins from the date the app is first run on your device.  Uninstalling the app will not reset the trial.</string>
+	<string name="Date_Of_First_Run_">\nDate the app was first run:</string>
+	<string name="Password_was_Rejected">Your password was rejected by Toodledo.</string>
+	<string name="Task_is_completed">Task is completed</string>
+	<string name="Task_is_not_completed">Task is not completed</string>
+	<string name="Task_is_starred">Task is starred</string>
+	<string name="Task_is_not_starred">Task is not starred</string>
+	<string name="is">is</string>
+	<string name="contains">contains</string>	
+	<string name='is_exactly'>is exactly</string>
+	<string name="GTasks_not_responding">Google Tasks is not responding. You may not have an Internet connection available.</string>
+	<string name="Select_Google_Account">Select a Google Account to Sync With:</string>
+	<string name="No_Google_Accounts">You do not have any Google accounts set up. You can set up a Google account in the \"Accounts and Sync\" area of your device\'s settings.</string>
+	<string name="Try_Again">Try Again</string>
+	<string name="Communicating_With_Google">Communicating with Google</string>
+	<string name="GTasks_Folder_Mapping">IMPORTANT: Ultimate To-Do List allows you to store tasks in \"Folders\" while Google uses \"Lists\". Each of your lists in your Google account will become a folder in Ultimate To-Do List.</string>
+	<string name="Google_Account_Gone">The Google account has been removed from your device.</string>
+	<string name="Account_Delete_Confirmation3">This will delete all tasks and notes from your device.  Google Tasks will not be affected.  Continue?</string>
+	<string name="Link_To_Google">Link to a Google Account</string>
+	<string name="Unlink_From_Google">Unlink from Google</string>
+	<string name="GTasks_Must_Have_Folder">Google Tasks must have a folder.</string>
+	<string name="Tap_on_new_parent">Tap on the new parent task.</string>
+	<string name="Unlink_From_Parent_Task">Unlink from Parent Task</string>
+	<string name="Change_Parent">Change Parent Task</string>
+	<string name="Make_Subtask">Make this a Subtask</string>
+	<string name="New_parent_must_be_in_same_account">The new parent must be in the same account as the subtask.</string>
+	<string name="Must_be_in_same_folder">For a Google account, the tasks must be in the same folder.</string>
+	<string name="No_subtasks_in_subtasks">Toodledo does not allow subtasks within subtasks</string>
+	<string name="Android_2_Required">Sorry, synchronization with Google Tasks requires Android 2.0 or later.</string>
+	<string name="Cannot_select_subtask">You cannot select a subtask of the task you\'re moving.</string>
+	<string name="Reset_Sync_Confirmation2">This will remove all tasks and notes for this account and will download a fresh copy from Google. If you have a lot of tasks, your screen may appear to freeze for a minute or two. Continue?</string>
+	<string name="Unlink_GT_Confirmation">This will stop all synchronization with Google Tasks.  If you decide to sync again later to the same Google account, you will likely have duplicate tasks.  Are you sure?</string>
+	<string name="Must_be_in_same_folder2">For a Google account, the subtask must be in the same folder as the parent</string>
+	<string name="Field_must_be_enabled_for_google">This field must be enabled for Google accounts.</string>
+	<string name="Folder_Contains_Tasks">Google folders cannot be deleted if they contain tasks (including completed tasks). Try removing the tasks from this folder or archiving it instead.</string>
+	<string name="Folder_delete_confirmation2">Are you sure you want to delete this folder?</string>
+	<string name="Unlink_From_GT">Unlink from Google</string>
+	<string name="Toodledo_conflict">This account is not compatible with Toodledo because it has subtasks within subtasks. One of the conflicting tasks has the following title:</string>
+	<string name="Checking_for_compatibility">Checking account for compatibility</string>
+	<string name="Google_conflict_1">This account is not compatible with Google because some of the tasks are not in a folder. One of the conflicting tasks has the following title:</string>
+	<string name="Google_conflict_2">This account is not compatible with Google because it contains subtasks that are in a different folder than the parent. One of the conflicting tasks has the following title:</string>
+	<string name="Google_Task_Order">Google Task Order</string>
+	<string name="Must_be_in_same_folder3">Sorry, the folder cannot be changed because Google requires that this subtask be in the same folder as its parent. To change the folder, you must either move the task on Google\'s web site, change the folder of the parent task, or unlink this subtask from the parent.</string>
+	<string name="Duplicate_Google_Account">You already have an account in Ultimate To-Do List that is linked to this Google account.  This is the account with the following name:</string>
+	<string name="Choose_Features"
+	    >Are your needs simple or complex?  Here, you can turn on the features you need and turn off those
+	    you don\'t.  If you change your mind later, just visit the settings area.
+	</string>
+	<string name="Keep_it_Simple">Keep it Simple</string>
+	<string name="Intermediate_Level">Intermediate Level</string>
+	<string name="Advanced_Level">Advanced Level</string>
+	<string name="Power_User">Power User</string>
+	<string name="Keep_it_Simple_Description">Choose this if you sync with your Google account and want this app to match Google\'s basic set of features.  Tasks will include a note, folder, and due date.</string>
+	<string name="Intermediate_Level_Description">Include other features that are commonly found in to-do list apps, such as reminders, repeating tasks, and priorities.</string>
+	<string name="Advanced_Level_Description">Include all features, such as locations, starred tasks, start dates, timers, and more.</string>
+	<string name="Power_User_Description">Show me a list of all features and I will pick and choose which ones I want.</string>
+	<string name="Sync_is_currently_running">Sync is currently running.</string>
+	<string name="Importance">Importance</string>
+	<string name="Importance_">Importance:</string>
+	<string name="Tags_Sorted_by_Name">Tags are sorted by name.</string>
+	<string name="Select_One_">Select One:</string>
+	<string name="Add_new_regular_task">Add a new regular task</string>
+	<string name="Add_subtask_of_this_one">Create a subtask of this one</string>
+	<string name="Viewing_parent">Viewing Parent Task</string>
+	<string name="Viewing_subtasks">Viewing Subtasks</string>
+	<string name="Use_Other_Account">Use Other Account</string>
+	<string name="Enter_Google_Login_Info">Enter your Google login information.</string>
+	<string name="Captcha">Please type in the text you see below. (This is needed to prevent access by automated systems.)</string>
+	<string name="Error">Error</string>
+	<string name="Clone_a_Task">Clone a Task</string>
+	<string name="Clone_Task">Clone Task</string>
+	<string name="Add_Star">Add Star</string>
+	<string name="Remove_Star">Remove Star</string>
+	<string name="Change_Due_Date">Change Due Date</string>
+	<string name="Change_Start_Date">Change Start Date</string>
+	<string name="Change_Status">Change Status</string>
+	<string name="New_Status_for">New Status for</string>
+	<string name="View_Edit_Options">Viewing and Editing</string>
+	<string name="Open_Editor_On_Tap">Open editor when tapping on a task</string>
+	<string name="View_Details">View Details</string>
+	<string name="Features_Functions_Intro_3"
+	    >Check the fields and functions that you want to use. These can be also be adjusted later in the 
+	    settings area.
+	</string>
+	<string name="Add_another_subtask">Add another subtask</string>
+	<string name="Change_Priority">Change Priority</string>
+	<string name="New_Priority_for">New Priority for</string>
+   	<string name="Use_SSL">Use SSL Encryption (Recommended)</string>
+   	<string name="Use_SSL_Toodledo">Use SSL Encryption for Toodledo</string>
+	<string name="Contact_">Contact:</string>
+	<string name="Not_Supported_By_Device">This is not supported by your device.</string>
+	<string name="Open_Contact">Open Contact</string>
+	<string name="Contact">Contact</string>
+	<string name="Contact_is">Contact is</string>
+	<string name="Missing_Contact">&lt;Missing Contact&gt;</string>
+	<string name="Contacts">Contacts</string>
+	<string name="Multi_Select_On">Multi-Select On</string>
+	<string name="Select_All">Select All</string>
+	<string name="Mark_Incomplete">Mark Incomplete</string>
+	<string name="Delete_Tasks">Delete Tasks</string>
+	<string name="All_Tasks_Selected">All Tasks Selected</string>
+	<string name="Delete_Tasks_Confirmation">Are you sure you want to delete these tasks?</string>
+	<string name="New_Status">New Status</string>
+	<string name="New_Priority">New Priority</string>
+	<string name="Multi_Select">Multi-Select</string>
+	<string name="Due_Date_Time2">Due Date and Time</string>
+	<string name="Start_Date_Time2">Start Date and Time</string>
+	<string name="Deleting_Tag">Deleting Tag from Tasks</string>
+	<string name="Updating_Tags">Updating Tags in Tasks</string>
+	<string name="Tag_Rename_Confirmation"
+	    >Renaming a tag will update all tasks that use this tag so that the tasks contain the new tag name.
+	</string>
+	<string name="Tag_Delete_Option_1">Delete the tag from this list only</string>
+	<string name="Tag_Delete_Option_2">Delete the tag from all tasks that use it</string>
+	<string name="Account_Status_Google">Tasks are currently synchronized with the following Google account:</string>
+	<string name="Account_Status_Toodledo">Tasks and notes are currently synchronized with the following Toodledo account:</string>
+	<string name="Account_Status_No_Sync">Tasks and notes are not synchronized with an online account.</string>
+	<string name="Not_linked_to_online_account">You are not linked to an online account. Go to the settings area to establish a link.</string>
+	<string name="Last_Full_Sync">Last full sync:</string>
+	<string name="Hide_completed_subtasks">Hide completed subtasks by default</string>
+	<string name="Linked_Calendar">Calendar to Place Tasks On</string>
+	<string name="No_Calendars_Defined">Your device does not have any calendars.</string>
+	<string name="Choose_Calendar">Tasks will be placed on this calendar:</string>
+	<string name="No_Start_Or_Due_Date">The task does not have a start or due date.</string>
+	<string name="Calendar_Doesnt_Exist">The calendar you are using to display task information no longer exists on your device.  To add a task to the calendar, first go to the settings area and choose another calendar.</string>
+	<string name="No_Calendar_Specified">You have not specified a calendar to place tasks on.</string>
+	<string name="Calendar_Event_Rejected">Your device\'s calendar software rejected the calendar event.</string>
+	<string name="Add_To_Calendar">Show in Calendar:</string>
+	<string name="Show_In_Calendar">Show in Calendar</string>
+	<string name="Calendar_Integration">Calendar Integration</string>
+	<string name="Auto_Cal_Create_Warning">The app is set to automatically add new downloaded tasks to your calendar. If you have a large number of tasks in your online account, this will create a large number of calendar entries. You can adjust this settings in the New Task Defaults area of the app\'s settings. Do you want to continue?</string>
+	<string name="Tap_to_open_in_UTL">Tap here to edit this in Ultimate To-Do List:</string>
+	<string name="Show_In_Calendar_Exp">Show in Calendar:</string>
+	<string name="Calendar_Integration_Disabled">Calendar integration is disabled in the app\'s settings.</string>
+	<string name="Last_Backup_Date_">Date of Last Backup:</string>
+	<string name="Create_Backup">Backup all data now</string>
+	<string name="Restore_From_Backup">Restore all data from backup</string>
+	<string name="Backup_Confirmation">This will back up all data to your SD card or media directory, including: tasks, notes, preferences, and custom views. Any existing backup will be overwritten. Continue?</string>
+	<string name="Restore_Confirmation">This will overwrite all data currently stored in the application and replace it with the backup. Continue?</string>
+	<string name="Backup_Msg">Backing up data. Please wait...</string>
+	<string name="Restoring_Msg">Restoring all data...</string>
+	<string name="Backup_And_Restore">Backup And Restore</string>
+	<string name="Backup_Complete">The backup was successfully written to the following directory:</string>
+	<string name="Cannot_Create_Directory">Unable to create the backup directory. Access to your SD card or media folder may be blocked. Directory is: </string>
+	<string name="SDCard_Blocked">Access to your SD Card or media folder is currently blocked.</string>
+	<string name="Cannot_Copy_Database">Cannot copy database file.</string>
+	<string name="Cannot_Copy_Prefs">Cannot copy preferences.</string>
+	<string name="Backup_does_not_exist">The backup files do not exist, or are inaccessible.</string>
+	<string name="Restore_Successful">All data has been restored. The application will now reboot.</string>
+	<string name="Time_Zone_">Time Zone:</string>
+	<string name="Restore_From_Backup2">Restore From Backup</string>
+	<string name="Daily_Backup_Failed">The UTL Daily Backup Failed</string>
+	<string name="Backup_Daily">Automatically backup once per day</string>
+	<string name="No_Tasks_Match2">There are no tasks that match this view\'s settings.  Press the filter 
+	    button to adjust which tasks are displayed, or press + to create a new task.</string>
+	<string name="Reminder_will_not_sync">Reminder will not sync with Toodledo</string>
+	<string name="Why">Why?</string>
+	<string name="Toodledo_reminder_issue">Toodledo requires that any task with a reminder also have a due date.  For free accounts, the reminder must be one hour before the due date/time.</string>
+	<string name="Sync_Warning">Notify me when I create a task that will not fully sync.</string>
+	<string name="Width_Of_Left_Field">Width of the Left Field (pixels):\u0020</string>
+	<string name="Requires_Android_3">Sorry, this widget requires Android 3 or higher.</string>
+	<string name="Loading_">Loading...</string>
+	<string name='current_location'>current location</string>
+	<string name='Current_Location'>Current Location</string>
+	<string name='Today2'>Today</string>
+	<string name='Tomorrow'>Tomorrow</string>
+	<string name='In_1_Week'>In 1 Week</string>
+	<string name='In_1_Month'>In 1 Month</string>
+	<string name='In_1_Year'>In 1 Year</string>
+	<string name='reassign_failure'>You not have permission to reassign the task, or the task is shared.</string>
+	<string name='sharing_update_failure'>You not have permission to share the task.</string>
+	<string name='view_collaborators'>View Collaborators</string>
+	<string name='Name'>Name</string>
+	<string name='Reassignable'>Reassignable?</string>
+	<string name='Sharable'>Sharable?</string>
+	<string name='Collaborator_Info'>You can manage your collaborators from the \"Tools\" area when logged into Toodledo from a web browser.</string>
+	<string name='Collaborators'>Collaborators</string>
+	<string name='no_collaborators'>This Toodledo account does not have any collaborators.</string>
+	<string name='collaboration_for_td'>Collaboration &amp; Sharing for Toodledo</string>
+	<string name='Is_Joint_'>Is Task Shared?</string>
+	<string name='Owner_'>Owner:</string>
+	<string name='Added_By_'>Assignor:</string>
+	<string name='Shared_With_'>Shared With:</string>
+	<string name='Myself'>Myself</string>
+	<string name='Reassign'>Reassign</string>
+	<string name='no_collaborators2'>No collaborators have been set up that can be reassigned tasks.  You can set up collaborators at Toodledo.com.</string>
+	<string name='assign_to'>Assign The Task To:</string>
+	<string name='reassign_wait'>The task will be removed from your list after Toodledo receives the reassignment.</string>
+	<string name='shared_cannot_be_reassigned'>A shared task cannot be reassigned.  You are free to edit the task and either remove sharing, or adjust who it is shared with.</string>
+	<string name='Not_Owner'>You are not the owner of this task.  Only the owner can update sharing settings.  This task is owned by:</string>
+	<string name='Sharing_One_Account'>To edit the sharing settings, please select only a single account for this task.</string>
+	<string name='no_collaborators3'>No collaborators have been set up that tasks can be shared with.  You can set up collaborators at Toodledo.com.</string>
+	<string name='Select_Collaborators'>Share This Task With:</string>
+	<string name='Shared'>Shared</string>
+	<string name='Is_Shared'>Is Shared?</string>
+	<string name='Owner'>Owner</string>
+	<string name='Shared_With'>Shared With</string>
+	<string name='Assignor'>Assignor</string>
+	<string name='Task_is_shared'>Task is shared</string>
+	<string name='Task_is_not_shared'>Task is not shared</string>
+	<string name="Show_shared">Show shared tasks</string>
+	<string name='Owner_includes'>Owner includes</string>
+	<string name='Owner_includes_one_of'>Owner includes one of:</string>
+	<string name='Assignor_includes'>Assignor includes</string>
+	<string name='Assignor_includes_one_of'>Assignor includes one of:</string>
+	<string name='Priority_is_required'>Toodledo requires a priority to be chosen.</string>
+	<string name='Cannot_share_subtask'>To change how this is shared, please adjust the parent task.</string>
+	<string name='nav_drawer_open'>Open Navigation Drawer</string>
+	<string name='nav_drawer_close'>Close Navigation Drawer</string>
+	<string name="Refresh_This_View">Refresh This View</string>
+	<string name='one_task_selected'>1 Task Selected</string>
+	<string name='tasks_selected'>Tasks Selected</string>
+	<string name='star_added'>Star Added</string>
+	<string name='star_removed'>Star Removed</string>
+	<string name="Change_Context">Change Context</string>
+	<string name='New_Context_for'>New Context for</string>
+	<string name='Select_a_task_to_display'>Select a task to see it here.</string>
+	<string name='Resize_Panes'>Resize Panes</string>
+	<string name='Drag_the_lines'>Drag the lines to resize the panes</string>
+	<string name='Advanced_'>Advanced:</string>
+	<string name='Nag_Repeatedly_'>Nag Me Repeatedly:</string>
+	<string name='Remind_Upon_Arrival_'>Remind Upon Arrival:</string>
+	<string name='Cannot_adjust_actual_length'>The actual length cannot be adjusted when the timer is running.</string>
+	<string name="Tuesday_full">Tuesday</string>
+	<string name="Wednesday_full">Wednesday</string>
+	<string name="Thursday_full">Thursday</string>
+	<string name="Friday_full">Friday</string>
+	<string name="Saturday_full">Saturday</string>
+	<string name='Weekend'>Weekend</string>
+	<string name='Weekday'>Weekday</string>
+	<string name='Every'>Every</string>
+	<string name='The'>The</string>
+	<string name='of_each_month'>of each month</string>
+	<string name='Every_'>Every...</string>
+	<string name='Please_select_a_format'>Please select one of the formats.</string>
+	<string name='Please_enter_a_number'>Please enter a number.</string>
+	<string name='Miscellaneous'>Miscellaneous</string>
+	<string name='Split_Screen_Landscape'>Split-Screen (Landscape)</string>
+	<string name='Split_Screen_Portrait'>Split-Screen (Portrait)</string>
+	<string name='Location_Methods'>Location Methods</string>
+	<string name='How_Often_to_Check'>How Often to Check</string>
+	<string name='_Minutes_'>(Minutes)</string>
+	<string name='Remind_Within_this_Distance'>Remind Within this Distance</string>
+	<string name='_Meters_'>(Meters)</string>
+	<string name="Add_Downloaded_To_Calendar">Add New Downloaded Tasks to Calendar</string>
+	<string name="Nag_Interval2">Reminder Interval for Nagging Tasks</string>
+	<string name='_Viewer_is_shown_otherwise_'>(Viewer is shown otherwise)</string>
+	<string name='In_subtask_views'>In subtask views</string>
+	<string name='Linked_to_Toodledo_account_'>Linked to Toodledo account:</string>
+	<string name='Linked_to_Google_account_'>Linked to Google account:</string>
+	<string name='Startup_Screen_Summary'>Loaded when app is closed and restarted</string>
+	<string name='How_long_to_keep_completed'>How long to keep completed tasks?</string>
+	<string name='Tasks_will_be_deleted_after'>They be deleted from your device after this many days</string>
+	<string name='No_calendars_error_msg'>No calendars were found. Either you have not yet set up any calendars, or your device does not support Android calendar integration.</string>
+	<string name='Change_will_take_effect_later'>This will take effect after you leave the settings screen.</string>
+	<string name='Completed_Checkbox'>Completed Checkbox (Color-Coded)</string>
+	<string name="_Field_for_Colored_Checkbox_">\nField for the Color-Coded Checkbox:</string>
+	<string name='Your_To_Do_List'>Your To-Do List - Your Way</string>
+	<string name='welcome3'>Welcome!  The first step is to link to an online account.  This gives you access to your tasks from a web browser, as well as other devices.</string>
+	<string name='Link_with_Google'>Sign In with Google</string>
+	<string name='Link_with_Toodledo'>Link with Toodledo.com</string>
+	<string name='Dont_Link'>Don\'t Link Yet. Maybe Later.</string>
+	<string name='Help_Me_Decide'>Help Me Decide</string>
+	<string name='Link_with_Existing_Toodledo'>Link with an Existing Toodledo Account</string>
+	<string name='Create_New_Toodledo'>Create a Free Toodledo Account</string>
+	<string name='Task_List_on_Device'>Task List on Device</string>
+	<string name="Account_Choice_Help2"
+	    >Choose Google if you only need a basic to-do list or don\'t mind having limited features when viewing 
+	    your tasks from a web browser.  Your tasks can be stored in your existing Google account at no 
+	    charge and without having to set up another online account.  Tasks are accessed from a browser at
+	    google.com/calendar.  Google does not currently support storage of notes online - only tasks.\n
+	    
+	    \nChoose Toodledo if you want advanced functionality when viewing your tasks from a web browser, or 
+	    want to keep your notes stored online as well.
+	    Toodledo offers a free account with more features than Google, as well as paid accounts with 
+	    additional features (such as subtasks).\n
+	    
+	    \nYou can also choose not to link to an online account.  In this case, your 
+	    tasks and notes will be lost if your device is lost or damaged.  You can always establish a link
+	    later in the settings area.
+	</string>
+	<string name='Which_Account_is_Right'>Which Account is Right for Me?</string>
+	<string name='Unexpected_Google_Response'>Got an unexpected response from Google.</string>
+	<string name='Fields_and_Functions'>Fields and Functions</string>
+	<string name='Link_to_Toodledo'>Link to Toodledo</string>
+	<string name='New_Toodledo_Account'>New Toodledo Account</string>
+	<string name='Creating_Toodledo_Account'>Creating Toodledo Account</string>
+	<string name='Link_to_Another_Account'>Link to Another Account</string>
+	<string name='Account_Name'>Account Name</string>
+	<string name='Edit_Folders'>Edit Folders</string>
+	<string name='Edit_Contexts'>Edit Contexts</string>
+	<string name='Edit_Goals'>Edit Goals</string>
+	<string name='Edit_Locations'>Edit Locations</string>
+	<string name='Edit_My_Views'>Edit My Views</string>
+	<string name='Select_an_item_to_display'>Select an item to see it here.</string>
+	<string name='Edit_Context'>Edit Context</string>
+	<string name='Add_to_Accounts_'>Add to Accounts:</string>
+	<string name='Add_to_Account_'>Add to Account:</string>
+	<string name='Archived_'>Archived:</string>
+	<string name='Private_'>Private:</string>
+	<string name='Edit_Folder'>Edit Folder</string>
+	<string name='Long_Term'>Long-Term</string>
+	<string name='Short_Term'>Short-Term</string>
+	<string name='Lifelong'>Lifelong</string>
+	<string name='Edit_Goal'>Edit Goal</string>
+	<string name='Goal_must_contribute_to_higher_level'>The goal must contribute to a higher-level goal.</string>
+	<string name='Level_Needs_Adjusted'>Level Needs Adjusted</string>
+	<string name='Level_Issue_Description'
+	    >You need to set a higher level for this goal.  Another goal contributes to this goal, and its level 
+	    is the same or higher than the level you are trying to set.  The conflicting goal is:
+	</string>
+	<string name='Rename_Tag'>Rename Tag</string>
+	<string name='Toggle_Sort_Order'>Toggle Sort Order</string>
+	<string name='Edit_Filter_Rules'>&#160;Edit Filter Rules</string>
+	<string name='Edit_Sort_Order'>&#160;Edit Sort Order</string>
+	<string name='Edit_Display_Options'>&#160;Edit Display Options</string>
+	<string name='Edit_View'>Edit View</string>
+	<string name='Looking_Up'>Looking Up...</string>
+	<string name='Description'>Description</string>
+	<string name='Unavailable_Not_Supported'>Unavailable. Not Supported by Device</string>
+	<string name='No_Network_Connection'>Unavailable. No network connection.</string>
+	<string name="Location_Limit_Reached">Toodledo accounts cannot have more than 100 locations.</string>
+	<string name='Cannot_find_address'>Cannot find address</string>
+	<string name='Select_a_note_to_display'>Select a note to see it here.</string>
+	<string name='one_note_selected'>1 Note Selected</string>
+	<string name='notes_selected'>Notes Selected</string>
+	<string name='Edit_Note'>Edit Note</string>
+	<string name="All_Notes_Selected">All Notes Selected</string>
+	<string name='All_notes_must_be_in_same_account'>All notes must be in the same account.</string>
+	<string name="Notes_delete_confirmation">Are you sure you want to delete these notes?</string>
+	<string name='Copy_note_to_clipboard'>Copy Note to Clipboard</string>
+	<string name='Note_copied_to_clipboard'>Note copied to clipboard</string>
+	<string name='Goto_Viewer'>Go To Viewer</string>
+	<string name="Open_Note_Editor_On_Tap">Open editor when tapping on a note</string>
+	<string name='Widget_Name'>Ultimate To-Do List</string>
+	<string name='Widget_Name_New_Task'>Ult&#8230;To-Do: New Task</string>
+	<string name='Copy_from_Another_View'>&#160;Copy From Another View</string>
+	<string name='Copy_from_Another_View_Info'>Copy the filter and sort settings from this view:</string>
+	<string name='Rules_Copied_Into_Widget'>The filter rules and sort order have been copied.</string>
+	<string name='Extra_Field'>Extra Field</string>
+	<string name='List_Layout_'>List Layout:</string>
+	<string name='Extra_Field_to_Display_'>Extra Field to Display:</string>
+	<string name='Widget_Theme_Info_Compact'>Fits more tasks into a small area.  Tapping on the widget 
+	    opens the task list in the main app.</string>
+	<string name='Widget_Theme_Info_Normal'>Fits fewer tasks on screen, but tasks may be completed and 
+	    edited from the widget.</string>
+	<string name='Widget_Requires_Android_3'>Sorry, this theme requires Android 3 or later.</string>
+	<string name='Notification_Priority'>Notification Priority</string>
+	<string name='Notification_Priority_Summary'>Higher values are more likely to show the Snooze and 
+	    Complete buttons automatically, and appear higher in the list.</string>
+	<string name='Use_Ongoing_Notifications'>Use Ongoing Notifications</string>
+	<string name='Ongoing_Notifications_Summary'>Ongoing notifications appear higher in the list, and
+	    can only be cleared from within the app.</string>
+	<string name='Ask_a_Question'>Ask a Question. Get an Answer.</string>
+	<string name='Search_Support_Articles'>Search support articles on our web site</string>
+	<string name='Browse_Support_Site'>Browse Articles and Vote</string>
+	<string name='Browse_Support_Site2'>Browse by category and vote for new features</string>
+	<string name='Visit_web_site_info'>Visit our home page at ToDoList.co</string>
+	<string name='Color_Code_Reference'>Color-Coding Quick Reference</string>
+	<string name='Color_Code_Reference2'>Learn about the colors used to represent priorities and
+	    statuses.</string>
+	<string name='Whats_New'>What\'s New in this Release</string>
+	<string name="Current_Version_">Current Version:</string>
+	<string name="Device_Unique_ID_">Your Device\'s Unique ID:</string>
+	<string name='Ask_a_Question2'>Ask a Question:</string>
+	<string name='Color_Code_Intro'>The app color-codes the checkboxes in the task list to match either
+	    the priority or status - depending on your display settings.</string>
+	<string name='Priorities_'>Priority Colors:</string>
+	<string name='Statuses_'>Status Colors:</string>
+	<string name='Check_Google_Play'>Check to make sure Google Play is installed.</string>
+	<string name='Got_Error_Code_'>Got Error Code: </string>
+	<string name='Currently_Own_License'>You currently have a license.</string>
+	<string name='Device_Doesnt_Support_InApp_Billing'>Your device does not support in-app billing.</string>
+	<string name='Got_Corrupt_Data'>Received corrupted data</string>
+	<string name='Google_Play_Unresponsive'>Google Play is currently not responding on your device.
+	    Try again in a few seconds.  If you continue to see this message, try rebooting your device and/or
+	    verifying that your device has Google Play installed.</string>
+	<string name='Looking_for_Purchase'>Looking for a purchase...</string>
+	<string name='Upgrade_Your_License'>Upgrade Your License</string>
+	<string name='License_Upgrade_Benefits'>Easier transfer to new devices. Better multi-device 
+	    support.</string>
+	<string name='License_Upgrade_Info_Google'>You can now upgrade your license to an in-app purchase and 
+	    eliminate the need to download a separate app that holds the license.  The upgraded license works
+	    on all of your Android devices - including smartphones and tablets - and travels with the app 
+	    automatically as you upgrade or replace devices.\n
+	    
+	    \nThis is an optional upgrade.  You can continue to download the separate license even though it has
+	    been de-listed.
+	</string>
+	<string name='License_Upgrade_Info_Amazon'>You can now upgrade your license to an in-app purchase and 
+	    eliminate the need to download a separate app that holds the license.  The upgraded license works
+	    on all of your Amazon devices, and travels with the app automatically as you upgrade or 
+	    replace devices.\n
+	    
+	    \nThis is an optional upgrade.  You can continue to download the separate license even though it has
+	    been de-listed.  There is no cost for this upgrade.
+	</string>
+	<string name='License_Upgrade_Info_Reg_Code'>You can now upgrade your license to an in-app purchase and 
+	    eliminate the need to re-enter a registration code each time you install.  The upgraded license works
+	    on all of your devices - including smartphones and tablets - and travels with the app automatically 
+	    as you upgrade or replace devices.\n
+	    
+	    \nThis is an optional upgrade.  You can continue to enter registration codes if you prefer.
+	</string>
+	<string name='Upgrade_Now'>Upgrade Now</string>
+	<string name='Remind_Me_Later'>Remind Me Later</string>
+	<string name='Never_Remind_Me'>Never Remind Me Again</string>
+	<string name='Upgrade_in_Help_Area'>(The upgrade can still be found in the add-ons area of the settings.)</string>
+	<string name='License_Upgrade_Available'>License Upgrade Available</string>
+	<string name='Over_30_Days_Ago'>Over 30 Days Ago</string>
+	<string name='Within_Past_Month'>Within the Past Month</string>
+	<string name='Within_1_Week'>Within the Past Week</string>
+	<string name='Yesterday'>Yesterday</string>
+	<string name='Within_7_Days'>Within the Next 7 Days</string>
+	<string name='Within_a_Month'>Within 30 Days</string>
+	<string name='Incomplete'>Incomplete</string>
+	<string name='Due'>Due</string>
+	<string name='Not_Shared'>Not Shared</string>
+	<string name='Modified'>Modified</string>
+	<string name='Not_Starred'>Not Starred</string>
+	<string name='Starts'>Starts</string>
+	<string name='Show_Dividers_'>Show Dividers:</string>
+	<string name='No_Context'>No Context</string>
+	<string name='No_Goal'>No Goal</string>
+	<string name='No_Due_Date'>No Due Date</string>
+	<string name='No_Start_Date'>No Start Date</string>
+	<string name='No_Reminder'>No Reminder</string>
+	<string name='Shows_all_incomplete'>Shows all incomplete tasks</string>
+	<string name='Shows_most_important'>Shows your most important tasks</string>
+	<string name='Items_to_show_in_nav'>Items to Show in Navigation Drawer</string>
+	<string name='Navigation_Drawer'>Navigation Drawer</string>
+	<string name='Navigate_to_Location'>Navigate to Location</string>
+	<string name='Open_Location_in_Maps'>Open Location in Maps</string>
+	<string name='Start_Stop_Timer'>Start/Stop Timer</string>
+	<string name='Add_Remove_Star'>Add/Remove Star</string>
+	<string name='Mark_Complete_or_Incomplete'>Mark Complete or Incomplete</string>
+	<string name='First_Task_Title'>Try Out Ultimate To-Do List</string>
+	<string name='First_Task_Note'>Here are some tips for getting started with the app.  Additional information
+	    can be found on our web site, at ToDoList.co.\n
+	    
+	    \nTo navigate through your lists, open the navigation drawer by tapping on the button at the 
+	    top-left corner of your screen, or swiping from the left side of the screen towards the middle.  You
+	    can access the navigation drawer while viewing any list of tasks or notes.  Note that the drawer may 
+	    always be visible if you have a tablet device.\n
+	    
+	    \nTo create a task or note, just tap on the + button.  In general, if you\'re not sure what a button 
+	    does, press and hold your finger on it until a message pops up to tell you.\n
+	    
+	    \nIf you need help, just tap on the Help button from the navigation drawer.  Many useful resources
+	    are available, including the ability to search our support articles.\n
+	    
+	    \nUltimate To-Do List is highly customizable.  If you\'re feeling overwhelmed with the number of 
+	    features, you can turn off features you don\'t need in the settings area.  The settings area also
+	    lets you customize the display, reminder, sync, and editing options.
+	</string>
+	<string name='DB_Backup_Failure_Interrupted'>The backup failed due to an interrupted thread.  Try again.</string>
+	<string name='Google_Login_Tips'>If you are having problems logging in, you may need to lower the 
+	    security settings on your Google account.  Log in from a web browser, go to your account security 
+	    settings, then enable access for \"less secure apps\".
+	</string>
+	<string name='All_Notes'>All Notes</string>
+	<string name='Online_Service_Sync_Interval_Limit'>The online service(s) you are linked to do not allow
+	    the sync interval to be this low.  Please enter a value that is greater than or equal to:</string>
+	<string name='_Old_Tablet_Edition'>(From Old Tablet Edition)</string>
+	<string name='Invalid_Response_From_Server'>Got invalid response from server</string>
+	<string name='Firewall_Proxy_Server'>Connection failure. You may have an internet filter or firewall
+	    blocking your connction.</string>
+	<string name='Note_Editing_On'>Note Editing Enabled</string>
+	<string name='Archived_Folders'>Archived Folders</string>
+	<string name='Archived_Goals'>Archived Goals</string>
+	<string name='No_Speech_Recognition'>Sorry, your device does not support speech recognition.</string>
+	<string name='Start_Voice_Mode'>Start Voice Mode</string>
+	<string name='While_in_Voice_Mode'>When using Voice Mode...</string>
+	<string name='Keep_Screen_On'>Keep the Screen On</string>
+	<string name='Listen_Immediately'>Listen for a Command Immediately</string>
+	<string name='Listen_Immediately_Summary'>No need to push a button or say a trigger phrase.</string>
+	<string name='Use_Custom_Trigger_Phrase'>Use this Trigger Phrase</string>
+	<string name='Voice_Mode'>Voice Mode</string>
+	<string name='Defaults_for_Voice'>Defaults for Tasks Entered by Voice</string>
+	<string name='Shortcut_Name_Voice_Mode'>Ult&#8230;To-Do: Voice Mode</string>
+	<string name='UTL_Voice_Mode'>Ultimate To Do List Voice Mode</string>
+	<string name="Starred_">Starred:</string>
+	<string name='VM_Not_Supported'>Voice mode is not currently available for your language.  Would you 
+	    like to use voice mode in English?</string>
+	<string name="Title_">Title:</string>
+	<string name="Read_This_Many">Read this many tasks at a time</string>
+	<string name='Beta_Expired'>Thank you for trying out the Ultimate To-Do List Beta release.  The beta
+	    period has expired.  Please download the latest release from Google Play.</string>
+	<string name='Download_Now'>Download Now</string>
+	<string name='Google_Play_Not_Installed'>Google Play is not installed or not responding.</string>
+	<string name='Beta_Info_Header'>Important Information</string>
+	<string name='Beta_Info'>This is a beta release which will stop functioning on 2/28/2015.
+	    Please download version 3.0 from Google Play once it becomes available.</string>
+	<string name='Check_Google_Play2'>Check Google Play</string>
+	<string name='Email_Opt_In'>Notify Me About Updates and Special Offers</string>
+	<string name='Edit_Location'>Edit Location</string>
+	
+	<!-- Values for the Task Status Field: -->
+	<string name='status_none'>None</string>
+	<string name='status_next_action'>Next Action</string>
+	<string name='status_active'>Active</string>
+	<string name='status_planning'>Planning</string>
+	<string name='status_delegated'>Delegated</string>
+	<string name='status_waiting'>Waiting</string>
+	<string name='status_hold'>Hold</string>
+	<string name='status_postponed'>Postponed</string>
+	<string name='status_someday'>Someday</string>
+	<string name='status_canceled'>Canceled</string>
+	<string name='status_reference'>Reference</string>
+
+	<!-- Values for a Task's Priority: -->
+	<string name='priority_negative'>Negative</string>
+	<string name='priority_low'>Low</string>
+	<string name='priority_medium'>Medium</string>
+	<string name='priority_high'>High</string>
+	<string name='priority_top'>Top</string>
+	
+	<!-- Options for how a task can repeat: -->
+	<string name='repeat_none'>No Repeat</string>
+	<string name='repeat_weekly'>Weekly</string>
+	<string name='repeat_monthly'>Monthly</string>
+	<string name='repeat_yearly'>Yearly</string>
+	<string name='repeat_daily'>Daily</string>
+	<string name='repeat_biweekly'>Biweekly</string>
+	<string name='repeat_bimonthly'>Bimonthly</string>
+	<string name='repeat_semiannually'>Semiannually</string>
+	<string name='repeat_quarterly'>Quarterly</string>
+	<string name='repeat_with_parent'>With Parent</string>
+	<string name='repeat_advanced'>Advanced...</string>
+	
+	<!-- Options for when the user can be reminded about a task: -->
+	<string name='reminder_none'>No reminder</string>
+	<string name='reminder_1_min'>1 minute before due time</string>
+	<string name='reminder_15_min'>15 minutes before due time</string>
+	<string name='reminder_30_min'>30 minutes before due time</string>
+	<string name='reminder_45_min'>45 minutes before due time</string>
+	<string name='reminder_1_hour'>1 hour before due time</string>
+	<string name='reminder_15_hours'>1.5 hours before due time</string>
+	<string name='reminder_2_hours'>2 hours before due time</string>
+	<string name='reminder_3_hours'>3 hours before due time</string>
+	<string name='reminder_4_hours'>4 hours before due time</string>
+	<string name='reminder_1_day'>1 day before due time</string>
+	<string name='reminder_2_days'>2 days before due time</string>
+	<string name='reminder_3_days'>3 days before due time</string>
+	<string name='reminder_4_days'>4 days before due time</string>
+	<string name='reminder_5_days'>5 days before due time</string>
+	<string name='reminder_6_days'>6 days before due time</string>
+	<string name='reminder_7_days'>7 days before due time</string>
+	<string name='reminder_14_days'>14 days before due time</string>
+	<string name='reminder_30_days'>30 days before due time</string>
+	
+	<!-- Months of the year: -->
+	<string name='month_jan'>January</string>
+	<string name='month_feb'>February</string>
+	<string name='month_mar'>March</string>
+	<string name='month_apr'>April</string>
+	<string name='month_may'>May</string>
+	<string name='month_jun'>June</string>
+	<string name='month_jul'>July</string>
+	<string name='month_aug'>August</string>
+	<string name='month_sep'>September</string>
+	<string name='month_oct'>October</string>
+	<string name='month_nov'>November</string>
+	<string name='month_dec'>December</string>
+	
+	<!-- Options for the tasks' due date: -->
+	<string name='due_option_due_by'>due BY the due date</string>
+	<string name='due_option_exactly_on'>due EXACTLY ON the due date</string>
+	<string name='due_option_optionally_on'>OPTIONALLY due on the date</string>
+	
+	<!-- When a repeating task is marked as complete, its next date can be relative to the due date
+		or the completion date: -->
+	<string name='repeat_from_due_date'>Due Date</string>
+	<string name='repeat_from_completion'>Completion Date</string>
+	
+	<!-- A reminder for a task can be snoozed (postponed) by one of these amounts: -->
+	<string name='snooze_5_min'>5 minutes</string>
+	<string name='snooze_15_min'>15 minutes</string>
+	<string name='snooze_30_min'>30 minutes</string>
+	<string name='snooze_1_hour'>1 hour</string>
+	<string name='snooze_2_hours'>2 hours</string>
+	<string name='snooze_3_hours'>3 hours</string>
+	<string name='snooze_4_hours'>4 hours</string>
+	<string name='snooze_5_hours'>5 hours</string>
+	<string name='snooze_6_hours'>6 hours</string>
+	<string name='snooze_9_hours'>9 hours</string>
+	<string name='snooze_12_hours'>12 hours</string>
+	<string name='snooze_1_day'>1 day</string>
+	
+	<!-- The timer for a task can either be running or not running: -->
+	<string name='running'>running</string>
+	<string name='not_running'>not running</string>
+	
+	<!-- Options for comparing numeric fields in a task (such as expected length) -->
+	<string name='numeric_compare_less_than'>is less than</string>
+	<string name='numeric_compare_less_than_or_equal'>is less than or equal to</string>
+	<string name='numeric_compare_equal'>is equal to</string>
+	<string name='numeric_compare_greater_than_or_equal'>is greater than or equal to</string>
+	<string name='numeric_compare_greater_than'>is greater than</string>
+	<string name='numeric_compare_not_equal'>is not equal to</string>
+	
+	<!-- Options for comparing dates: -->
+	<string name='date_compare_on_or_before'>is on or before</string>
+	<string name='date_compare_equal'>is equal to</string>
+	<string name='date_compare_on_or_after'>is on or after</string>
+	
+	<!-- Past and Future: -->
+	<string name='past'>past</string>
+	<string name='future'>future</string>
+	
+	<!-- Subtasks can be displayed in one of the following ways: -->
+	<string name='subtask_display_indented'>Indented, beneath parent task</string>
+	<string name='subtask_display_not_indended'>Not indented</string>
+	<string name='subtask_display_hidden_long_press'>Hidden (accessible via long press)</string>
+	<string name='subtask_display_hidden'>Hidden</string>
+	
+	<!-- Possible durations for goals that have been set by the user: -->
+	<string name='goal_duration_lifelong'>Lifelong Goal</string>
+	<string name='goal_duration_long_term'>Long-Term Goal</string>
+	<string name='goal_duration_short_term'>Short-Term Goal</string>
+	
+	<!-- Possible Font Sizes: -->
+	<string name='size_small'>Small</string>
+	<string name='size_medium'>Medium</string>
+	<string name='size_large'>Large</string>
+	
+	<!-- When a reminder occurs, the device may vibrate.  These are the possible vibration patterns: -->
+	<string name='vibe_default'>System Default</string>
+	<string name='vibe_none'>None</string>
+	<string name='vibe_short'>Short</string>
+	<string name='vibe_long'>Long</string>
+	<string name='vibe_short_long'>Short,Long</string>
+	<string name='vibe_long_short'>Long,Short</string>
+	<string name='vibe_short_3'>Short,Short,Short</string>
+	<string name='vibe_long_3'>Long,Long,Long</string>
+	<string name='vibe_s_l_s'>Short,Long,Short</string>
+	<string name='vibe_l_s_l'>Long,Short,Long</string>
+	<string name='vibe_s_l_s_l'>Short,Long,Short,Long</string>
+	<string name='vibe_s_l_s_l_x2'>Short,Long,Short,Long x 2</string>
+	
+	<!-- When a reminder occurs, the light on the device may turn on.  These are the colors we support: -->
+	<string name='color_red'>Red</string>
+	<string name='color_green'>Green</string>
+	<string name='color_blue'>Blue</string>
+	<string name='color_yellow'>Yellow</string>
+	<string name='color_magenta'>Magenta</string>
+	<string name='color_cyan'>Cyan</string>
+	<string name='color_orange'>Orange</string>
+	
+	<!-- The app has 2 themes (color schemes) - Light and Dark -->
+	<string name='Light'>Light</string>
+	<string name='Dark'>Dark</string>
+	
+	<!-- When sorting tasks by date, these options determine where to place tasks with no date: -->
+	<string name='undated_sort_before'>Before tasks with a date</string>
+	<string name='undated_sort_after'>After tasks with a date</string>
+	
+	<!-- When filtering tasks, it is possible for a subtask to be visible while its parent task is filtered
+		out.  These options determine how to handle this. -->
+	<string name='orphaned_subtask_show'>show it without indenting</string>
+	<string name='orphaned_subtask_hide'>hide the subtask</string>
+	
+	<!-- Possible date formats that can be chosen by the user: -->
+	<string name='date_format_system'>Use System Preference</string>
+	<string name='date_format_day_first'>Wed 31/12/14</string>
+	<string name='date_format_month_first'>Wed 12/31/14</string>
+	<string name='date_format_year_first'>Wed 2014/12/31</string>
+	
+	<!-- Possible time formats that can be chosen: -->
+	<string name='time_format_system'>Use System Preference</string>
+	<string name='time_format_12_hour'>12 Hour (11:00 PM)</string>
+	<string name='time_format_24_hour'>24 Hour (23:00)</string>
+	
+	<!-- Unit of Distance Measurement: -->
+	<string name='miles'>Miles</string>
+	<string name='kilos'>Kilometers</string>
+	
+	<!-- Abbreviations for miles and kilometers: -->
+	<string name='miles_abbreviation'>mi</string>
+	<string name='kilos_abbreviation'>km</string>
+	
+	<!-- Abbreviations for directions (north, northeast, east, southeast, etc.) -->
+	<string name='direction_north'>N</string>
+	<string name='direction_northeast'>NE</string>
+	<string name='direction_east'>E</string>
+	<string name='direction_southeast'>SE</string>
+	<string name='direction_south'>S</string>
+	<string name='direction_southwest'>SW</string>
+	<string name='direction_west'>W</string>
+	<string name='direction_northwest'>NW</string>
+	
+	<!-- When sorting by date, we display the earliest first or the latest first: -->
+	<string name='date_sort_earliest'>Earliest First</string>
+	<string name='date_sort_latest'>Latest First</string>
+	
+	<!-- When sorting by title, we can sort alphetically from A to Z or Z to A -->
+	<string name="alpha_sort_normal">A to Z</string>
+	<string name='alpha_sort_reverse'>Z to A</string>
+	
+	<!-- Sort order options when sorting by task priority -->
+	<string name='priority_sort_normal'>Highest First</string>
+	<string name='priority_sort_reverse'>Lowest First</string>
+	
+	<!-- Tasks may be starred to indicate higher importance.  This specifies to sort by star: -->
+	<string name='star_sort_normal'>Starred First</string>
+	<string name='star_sort_reverse'>Unstarred First</string>
+	
+	<!-- Options for sorting by a numeric value: -->
+	<string name='numeric_sort_low_first'>Lowest First</string>
+	<string name='numeric_sort_high_first'>Highest First</string>
+	
+	<!-- When sorting by completion status, we can have completed tasks first or incomplete first: -->
+	<string name='completion_sort_incomplete_first'>Incomplete First</string>
+	<string name='completion_sort_complete_first'>Complete First</string>
+	
+	<!-- We can sort according to whether the task is shared with others or not.  These settings determine
+		whether shared or unshared tasks are first: -->
+	<string name='shared_sort_shared_first'>Shared First</string>
+	<string name='shared_sort_unshared_first'>Unshared First</string>
+	
+	<!-- The device may be located using cellular and Wi-Fi signals, GPS, or both: -->
+	<string name='location_methods_cellular_wifi'>Cellular+WiFi only</string>
+	<string name='location_methods_gps'>GPS only</string>
+	<string name='location_methods_all'>All</string>
+	
+	<!-- A repeating task can repeat by a certain number of days, weeks, months, or years -->
+	<string name='Days'>Days</string>
+	<string name='Weeks'>Weeks</string>
+	<string name='Months'>Months</string>
+	<string name='Years'>Years</string>
+	
+	<!-- A repeating task can be put on a specific day of the week in a month.  For example, the 3rd
+		Monday. -->
+	<string name='first'>1st</string>
+	<string name='second'>2nd</string>
+	<string name='third'>3rd</string>
+	<string name='fourth'>4th</string>
+	<string name='fifth'>5th</string>
+	<string name='last'>last</string>
+	
+	<!-- The app includes some split-screen options, to divide the screen into multiple panes: -->
+	<string name='split_screen_2_pane_nav_list'>2 Pane - Navigation and List Views</string>
+	<string name='split_screen_2_pane_list_viewer'>2 Pane - List and Viewer/Editor</string>
+	<string name='split_screen_3_pane'>3 Pane</string>
+	
+	<!-- Possible themes for the widgets: -->
+	<string name='widget_theme_compact_light'>Compact - Light Theme</string>
+	<string name='widget_theme_compact_dark'>Compact - Dark Theme</string>
+	<string name='widget_theme_normal_light'>Normal - Light Theme</string>
+	<string name='widget_theme_normal_dark'>Normal - Dark Theme</string>
+	
+	<!-- The notifications that the app displays in the notification area can have a specific priority
+		set by the user: -->
+	<string name='notification_priority_min'>Minimum</string>
+	<string name='notification_priority_low'>Low</string>
+	<string name='notification_priority_default'>Default</string>
+	<string name='notification_priority_high'>High</string>
+	<string name='notification_priority_max'>Maximum</string>
+</resources>

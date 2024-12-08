@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notif_permission_needed">Um Erinnerungen für Ihre Aufgaben zu erhalten, müssen Sie der App die Erlaubnis erteilen, Benachrichtigungen zu veröffentlichen.</string>
+    <string name="deny_disable_reminders">Erinnerungen ablehnen und deaktivieren</string>
+    <string name="upload_usage_info">Dadurch wird ein Protokoll der App-Nutzung auf unseren Server hochgeladen, das zur Lösung technischer Probleme verwendet werden kann. Das Protokoll enthält Informationen darüber, wie die App in den letzten 72 Stunden genutzt wurde. Dazu gehören die Namen Ihrer Aufgaben, nicht jedoch die darin enthaltenen Notizen. Es enthält auch die Titel Ihrer Notizen, jedoch nicht deren Inhalt. Die Daten werden verworfen, wenn sie nicht mehr benötigt werden.</string>
+    <string name="mandatory_upgrade_notice">Sie nutzen die App derzeit werbefrei über eine Zahlungsmethode, die 2014 eingestellt wurde. Sie haben auf Ihrem Gerät eine separate App namens „Ultimate To-Do List License“, die Ihre vorherige Zahlung aufzeichnet. Um den Play Store-Richtlinien von Google zu entsprechen, werden wir diese Lizenz-App am 31. Januar 2024 entfernen und Sie können sie nicht mehr auf Ihr Gerät herunterladen und als Zahlungsnachweis verwenden. Um die App weiterhin ohne Werbung nutzen zu können, führen Sie bitte ein Upgrade auf einen In-App-Kauf durch.</string>
+    <string name="reminde_in_1_week">Erinnere mich in einer Woche daran</string>
+    <string name="important_information">Wichtige Informationen</string>
+    <string name="close_and_delete">Konto schließen / Daten löschen</string>
+    <string name="overlay_permission_for_tasker">Das Tasker-Plugin erfordert, dass Sie dieser App die Berechtigung erteilen, über andere Apps zu zeichnen.</string>
+    <string name="cancel_and_disable">Abbrechen und deaktivieren</string>
+</resources>

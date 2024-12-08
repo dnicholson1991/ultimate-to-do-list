@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TODO: 11/15/2020: Google translate is being used. Need human translations. -->
+    <string name='personal_data_consent'>Gestionar el consentimiento para el uso de datos personales</string>
+    <string name='location_disclosure'>Para recibir recordatorios cuando llegue a las ubicaciones que ha definido, permita que la aplicación use su ubicación todo el tiempo. La aplicación utilizará su ubicación en segundo plano para determinar si hay alguna tarea que deba recordar en su ubicación actual.</string>
+</resources>

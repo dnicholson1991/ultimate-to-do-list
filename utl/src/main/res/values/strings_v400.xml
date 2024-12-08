@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name='internet_failure'>Problems with your internet connection are interfering with
+        this app.</string>
+    <string name='technical_failure'>Sorry, we are experiencing technical issues right now. Please
+        try again later.</string>
+    <string name='reg_code_notice' formatted='false'>Sorry, the app no longer supports the out of date
+        registration code system that was used for some purchases before December 2014. You can
+        remove ads now for a discounted price of %s. Or, you can contact us by e-mail
+        at %s and we will provide you with a method to upgrade at no cost.</string>
+    <string name='ad_remover'>Ad Remover</string>
+    <string name='ad_remover_summary'>Removes all advertising from the app.</string>
+    <string name='ad_remover_long_description'>
+        <![CDATA[
+            <p>Purchasing the Ad Remover allows you to use the app without any ads, forever.
+                The purchase is linked to your Google or Amazon account.  It works on all of your
+                Android devices - including smartphones and tablets - and travels with the app
+                automatically as you upgrade or replace devices.</p>
+        ]]>
+    </string>
+    <string name='ad_remover_upgrade_summary'>Remove ads with an in-app purchase instead of a
+        separate download.</string>
+    <string name='location_permission_recommended2'>Allowing location access at all times is
+        required for the app\'s location based features, such as the ability to remind you about
+        a task when you reach a particular location.</string>
+
+    <!-- This is used for the "Ad" badge that appears in native ads within the app. When
+        translating, please use the shortest word possible that conveys to the user that the
+        content is an advertisement. -->
+    <string name='ad'>Ad</string>
+</resources>

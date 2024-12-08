@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <string name="show_tasks">Aufgaben anzeigen</string>
+    <string name="play_services_out_of_date">Dieses Gerät benutzt eine veraltete Version von Google Play Services. Um dies zu beheben, öffnen Sie die Wear OS App auf Ihrem Telefon, gehen Sie zu Einstellungen, und benutzen Sie den Befehl, um die Apps zu synchronisieren.</string>
+</resources>

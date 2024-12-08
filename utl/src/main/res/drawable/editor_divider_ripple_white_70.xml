@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:targetApi="lollipop"
+    android:color='?android:colorControlHighlight'
+    >
+
+    <!-- This affects what the ripple can be drawn over: -->
+    <item android:id="@android:id/mask">
+        <color android:color="@android:color/white" />
+    </item>
+
+    <!-- The background image: -->
+    <item
+        android:drawable="@drawable/bottom_border_white_70"
+        />
+</ripple>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name='file_permission_reason'>If you don\'t allow access, the app will be
+        unable to make a backup of your tasks, notes, and settings.</string>
+    <string name='background_location_instructions'>On the next screen, tap on the
+        \"[option]\" option to allow the app access to your location all of the time.</string>
+    <string name='go_to_permissions'>Go to the permissions area and enable location access
+        at all times.</string>
+
+    <string name='no_download_folder'>Your device does not have a Downloads folder.</string>
+    <string name='unable_to_copy'>Unable to save the backup to your Downloads folder.</string>
+    <string name='cant_access_backup'>Unable to access the backup file.</string>
+    <string name="unable_to_uncompress">Unable to uncompress the backup file.</string>
+    <string name='choose_backup_file'>On the next screen, choose the backup file to restore
+        from. By default, the app places these in your Downloads folder with the name
+        \"Ultimate To-Do List Backup.zip\".</string>
+    <string name='backup_saved_to_downloads'>The backup has been saved to your Downloads
+        folder.</string>
+</resources>

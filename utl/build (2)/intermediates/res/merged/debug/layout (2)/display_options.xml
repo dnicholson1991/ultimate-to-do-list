@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Top Level vertical LinearLayout, containing everything, including borders -->
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+>
+	<!-- Introductory Text -->
+	<TextView
+		android:text="@string/Display_options_intro"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/display_options_intro_text"
+		android:layout_marginTop='15dp'
+		android:paddingLeft='5dp'
+	/>
+	
+	<!-- Top Border -->
+	<View android:layout_height="1dp"
+		android:layout_width="fill_parent"
+		android:background="?attr/list_divider_color"
+	/>
+	
+	<!-- Top Level Horizontal LinearLayout, Containing Everything -->
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	>
+		<!-- The completed checkbox: -->
+		<ImageView 
+		    android:layout_width='wrap_content'
+		    android:layout_height='wrap_content'
+		    android:layout_gravity='center'
+		    android:gravity='center'
+		    android:src='@drawable/checkbox_medium_gray'
+		    android:paddingRight='2dp'
+		/>
+		
+		<!-- This linear layout contains everything except the completed checkbox -->
+		<LinearLayout
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:layout_weight="1"
+			android:id="@+id/display_options_main_area"
+		>
+	  		<View android:layout_width="1dp"
+				android:layout_height="fill_parent"
+				android:background="?attr/list_divider_color"
+				android:id="@+id/display_options_parent_color"
+			/>
+			
+			<!--  Vertical Layout that has 2 items: a row with the title and upper right field,
+				and a row with the lower left and lower right fields -->
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+			>
+				<!-- A horizontal layout, containing the title and upper right fields -->
+				<LinearLayout
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:orientation="horizontal"
+				    android:layout_weight="1"
+				>
+					<!-- The title -->
+					<TextView
+						android:text = "@string/Title_of_Task"
+						android:gravity="left|center_vertical"
+						android:layout_gravity="left|center_vertical"
+					    android:layout_width="0dp"
+					    android:layout_height="wrap_content"
+					    android:layout_weight="1"
+						android:ellipsize="end"
+						android:maxLines="1"
+						android:singleLine="true"
+	  					android:id="@+id/display_options_title"
+	  					android:paddingLeft='3dp'
+					/>
+					
+					<!-- Border -->
+					<View android:layout_width="1dp"
+						android:layout_height="fill_parent"
+						android:background="?attr/list_divider_color"
+					/>
+
+					<!-- The upper right field -->
+					<TextView
+						android:text = "@string/Upper_Right"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:id="@+id/display_options_upper_right_text2"
+					    android:layout_gravity="right|center_vertical"
+					    android:paddingLeft='3dp'
+					    android:paddingRight='3dp'
+					/>
+				</LinearLayout>
+				
+				<!-- Border -->
+				<View android:layout_width="fill_parent"
+					android:layout_height="1dp"
+					android:background="?attr/list_divider_color"
+				/>
+
+				<!-- A horizontal layout, containing the lower left and lower right fields -->
+				<LinearLayout
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:orientation="horizontal"
+				    android:layout_weight="1"
+				>
+					<TextView
+						android:text = "@string/Lower_Left"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+						android:gravity="left|center_vertical"
+						android:layout_gravity="left|center_vertical"
+						android:layout_weight="1"
+						android:id="@+id/display_options_lower_left_text2"
+						android:paddingLeft='3dp'
+					/>					
+					
+					<!-- Border -->
+					<View android:layout_width="1dp"
+						android:layout_height="fill_parent"
+						android:background="?attr/list_divider_color"
+					/>
+
+					<TextView
+						android:text = "@string/Lower_Right"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+						android:gravity="right|center_vertical"
+						android:layout_gravity="right|center_vertical"
+						android:layout_weight="1"
+						android:id="@+id/display_options_lower_right_text2"
+						android:paddingRight='3dp'
+					/>					
+				</LinearLayout>
+			
+			</LinearLayout>
+			
+		</LinearLayout>
+
+	
+	</LinearLayout>
+	
+	<!-- Bottom Border -->
+	<View android:layout_height="1dp"
+		android:layout_width="fill_parent"
+		android:background="?attr/list_divider_color"
+	/>
+
+	<!-- Line pointing to color-coded bar on left -->
+	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	>
+		<View android:layout_height="29dp"
+			android:layout_width="16dp"
+			android:background="@android:color/transparent"
+		/>
+		<View android:layout_height="15dp"
+			android:layout_width="1dp"
+			android:background="?attr/list_divider_color"
+			android:layout_gravity="top"
+		/>
+		<View android:layout_height="1dp"
+			android:layout_width="15dp"
+			android:background="?attr/list_divider_color"
+			android:layout_gravity="left|center_vertical"
+		/>
+		<TextView
+			android:text = "@string/Completed_Checkbox"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+			android:layout_gravity="left|center_vertical"
+			android:id="@+id/display_options_color_bar"
+		/>					
+	</LinearLayout>
+	
+	<!-- Upper Right Selection: -->
+	<TextView
+		android:text="@string/_Field_to_Display_in_Upper_Right_"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/display_options_upper_right_text"
+		android:paddingLeft='5dp'
+	/>
+	 <Spinner
+	 	android:id="@+id/display_options_upper_right_spinner"
+	 	android:layout_width="wrap_content"
+	 	android:layout_height="wrap_content"
+	 />	
+
+	<!-- Lower Left Selection: -->
+	<TextView
+		android:text="@string/_Field_to_Display_in_Lower_Left_"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/display_options_lower_left_text"
+		android:paddingLeft='5dp'
+	/>
+	 <Spinner
+	 	android:id="@+id/display_options_lower_left_spinner"
+	 	android:layout_width="wrap_content"
+	 	android:layout_height="wrap_content"
+	 />	
+
+	<!-- Lower Right Selection: -->
+	<TextView
+		android:text="@string/_Field_to_Display_in_Lower_Right_"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/display_options_lower_right_text"
+		android:paddingLeft='5dp'
+	/>
+	 <Spinner
+	 	android:id="@+id/display_options_lower_right_spinner"
+	 	android:layout_width="wrap_content"
+	 	android:layout_height="wrap_content"
+	 />	
+
+	<!-- Color-Coded Checkbox: -->
+	<TextView
+		android:text="@string/_Field_for_Colored_Checkbox_"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/display_options_color_bar_text"
+		android:paddingLeft='5dp'
+	/>
+	 <Spinner
+	 	android:id="@+id/display_options_color_bar_spinner"
+	 	android:layout_width="wrap_content"
+	 	android:layout_height="wrap_content"
+	 />	
+
+	<!-- Subtask format: -->
+	<TextView
+		android:text="@string/_Format_of_Subtasks_"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/display_options_subtask_format_text"
+		android:paddingLeft='5dp'
+	/>
+	 <Spinner
+	 	android:id="@+id/display_options_subtask_format_spinner"
+	 	android:layout_width="wrap_content"
+	 	android:layout_height="wrap_content"
+	 	android:entries='@array/subtask_display_options'
+	 	android:gravity='left'
+	 	android:layout_gravity='left'
+	 	android:paddingLeft='0dp'
+	 	android:layout_marginLeft='5dp'
+	 />	
+
+	<!-- Parent Options: -->
+	<TextView
+		android:text="@string/_If_parent_is_filtered_out"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/display_options_parent_options_text"
+		android:paddingLeft='5dp'
+	/>
+	 <Spinner
+	 	android:id="@+id/display_options_parent_options_spinner"
+	 	android:layout_width="wrap_content"
+	 	android:layout_height="wrap_content"
+	 	android:entries='@array/parent_display_options'
+	 	android:gravity='left'
+	 	android:layout_gravity='left'
+	 	android:paddingLeft='0dp'
+	 	android:layout_marginLeft='5dp'
+	 />	
+
+	 <!-- Show Dividers: -->
+	 <CheckedTextView
+	     android:id='@+id/display_options_dividers'
+	     android:layout_width='wrap_content'
+	     android:layout_height='wrap_content'
+	     android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+	     android:layout_marginBottom='8dp'
+	     android:layout_marginLeft='5dp'
+	     android:layout_marginTop='8dp'
+	     android:gravity='center_vertical'
+	     android:text='@string/Show_Dividers_'
+	 />
+</LinearLayout>
+</ScrollView><!-- From: file:/C:/GDrive-dnicholson/Work/Android_Projects/UTL/uTL/src/main/res/layout/display_options.xml -->

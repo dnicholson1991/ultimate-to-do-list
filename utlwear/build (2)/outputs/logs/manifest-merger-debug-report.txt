@@ -1,0 +1,217 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:2:1-77:12
+	xmlns:android
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:2:11-69
+	package
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:3:5-46
+		INJECTED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml
+		INJECTED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:5:5-30
+	android:versionCode
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:4:5-33
+		INJECTED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml
+		INJECTED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:8:22-76
+uses-permission#android.permission.VIBRATE
+ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:9:5-66
+	android:name
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:9:22-63
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:10:5-76
+	android:name
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:10:22-73
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:11:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:12:5-75
+	android:name
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:12:22-72
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:13:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:14:22-76
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:15:5-71
+	android:name
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:15:22-68
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:16:5-74
+	android:name
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:16:22-71
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:17:5-74
+	android:name
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:17:22-71
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:18:5-72
+	android:name
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:18:22-69
+uses-permission#android.permission.READ_CALENDAR
+ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:19:5-72
+	android:name
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:19:22-69
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:20:5-73
+	android:name
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:20:22-70
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:21:5-81
+	android:name
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:21:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:22:5-80
+	android:name
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:22:22-77
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:23:5-71
+	android:name
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:23:22-68
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:24:22-65
+uses-permission#com.android.vending.BILLING
+ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:25:5-67
+	android:name
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:25:22-64
+uses-feature#android.hardware.type.watch
+ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:27:5-64
+	android:name
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:27:19-61
+application
+ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:29:5-75:19
+MERGED from [com.google.android.support:wearable:1.1.0] C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\build\intermediates\exploded-aar\com.google.android.support\wearable\1.1.0\AndroidManifest.xml:10:5-20
+MERGED from [com.android.support:support-v4:22.2.0] C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:recyclerview-v7:21.0.0] C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.0\AndroidManifest.xml:17:5-19:19
+MERGED from [com.android.support:support-v4:22.2.0] C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-wearable:7.8.0] C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.8.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.8.0] C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.8.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:32:9-41
+	android:allowBackup
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:30:9-35
+	android:icon
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:31:9-38
+	android:theme
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:33:9-59
+activity#com.customsolutions.android.utl.Snoozer
+ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:34:9-45:20
+	android:label
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:38:13-45
+	android:exported
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:37:13-36
+	android:allowEmbedded
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:36:13-41
+	android:taskAffinity
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:39:13-36
+	android:name
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:35:13-67
+intent-filter#android.intent.category.DEFAULT+com.customsolutions.android.utl.ACTION_SNOOZE
+ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:41:13-44:29
+action#com.customsolutions.android.utl.ACTION_SNOOZE
+ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:42:17-88
+	android:name
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:42:25-85
+category#android.intent.category.DEFAULT
+ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:43:17-76
+	android:name
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:43:27-73
+service#com.customsolutions.android.utl.HandsetService
+ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:47:9-51:19
+	android:name
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:47:18-48
+intent-filter#com.google.android.gms.wearable.BIND_LISTENER
+ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:48:13-50:29
+action#com.google.android.gms.wearable.BIND_LISTENER
+ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:49:17-88
+	android:name
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:49:25-85
+activity#com.customsolutions.android.utl.MainActivity
+ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:53:9-61:20
+	android:label
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:55:13-45
+	android:name
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:54:13-72
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:57:13-60:29
+action#android.intent.action.MAIN
+ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:58:17-69
+	android:name
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:58:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:59:17-77
+	android:name
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:59:27-74
+activity#com.customsolutions.android.utl.VoiceCommandProcessing
+ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:63:9-70:20
+	android:name
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:63:19-88
+intent-filter#android.intent.action.SEND+android.intent.category.DEFAULT+com.google.android.voicesearch.SELF_NOTE
+ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:64:13-69:29
+action#android.intent.action.SEND
+ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:65:17-69
+	android:name
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:65:25-66
+category#com.google.android.voicesearch.SELF_NOTE
+ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:66:17-85
+	android:name
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:66:27-82
+data
+ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:68:17-54
+	android:mimeType
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:68:23-52
+activity#android.support.wearable.activity.ConfirmationActivity
+ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:72:9-91
+	android:name
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:72:19-88
+activity#com.customsolutions.android.utl.VoiceCommandError
+ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:73:9-55
+	android:name
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:73:19-52
+activity#com.customsolutions.android.utl.TaskList
+ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:74:9-46
+	android:name
+		ADDED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml:74:19-43
+uses-sdk
+INJECTED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.google.android.support:wearable:1.1.0] C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\build\intermediates\exploded-aar\com.google.android.support\wearable\1.1.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:support-v4:22.2.0] C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:21.0.0] C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.0\AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:support-v4:22.2.0] C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-wearable:7.8.0] C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.8.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.8.0] C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.8.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml
+		INJECTED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml
+		INJECTED from C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\src\main\AndroidManifest.xml
+activity#android.support.v7.widget.TestActivity
+ADDED from [com.android.support:recyclerview-v7:21.0.0] C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.0\AndroidManifest.xml:18:9-115
+	android:label
+		ADDED from [com.android.support:recyclerview-v7:21.0.0] C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.0\AndroidManifest.xml:18:19-59
+	android:name
+		ADDED from [com.android.support:recyclerview-v7:21.0.0] C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.0\AndroidManifest.xml:18:60-113
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-base:7.8.0] C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.8.0\AndroidManifest.xml:21:9-23:69
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:7.8.0] C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.8.0\AndroidManifest.xml:22:13-58
+	android:value
+		ADDED from [com.google.android.gms:play-services-base:7.8.0] C:\GDrive-dnicholson\Work\Android_Projects\UTL\utlwear\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.8.0\AndroidManifest.xml:23:13-66

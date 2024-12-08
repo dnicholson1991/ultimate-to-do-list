@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- What's new in this release (formatted as HTML): -->
+	<string name='whats_new_details'>
+	    <![CDATA[
+	    <p><b>Wichtige Informationen zu Backups:</b></p>
+	    <p>Aufgrund neuer Dateizugriffsbeschränkungen von Google wird die Sicherungsdatei mit Ihren Aufgaben, Notizen und Einstellungen jetzt in Ihrem Downloads-Ordner abgelegt. Die Datei hat den Namen \"Ultimate To-Do List Backup.zip\".</p>
+	    <p>Mit dieser Sicherungsdatei können Sie die App schnell und einfach auf einem anderen Gerät installieren oder versehentlich gelöschte Elemente wiederherstellen. Anweisungen finden Sie unter https://todolist.co/help.</p>
+	    ]]>
+	</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/UTL6.iml" filepath="$PROJECT_DIR$/.idea/modules/UTL6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/droidparts/UTL6.droidparts.iml" filepath="$PROJECT_DIR$/.idea/modules/droidparts/UTL6.droidparts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/droidparts/UTL6.droidparts.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/droidparts/UTL6.droidparts.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/droidparts/UTL6.droidparts.main.iml" filepath="$PROJECT_DIR$/.idea/modules/droidparts/UTL6.droidparts.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/droidparts/UTL6.droidparts.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/droidparts/UTL6.droidparts.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/uTL/UTL6.uTL.iml" filepath="$PROJECT_DIR$/.idea/modules/uTL/UTL6.uTL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/uTL/UTL6.uTL.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/uTL/UTL6.uTL.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/uTL/UTL6.uTL.main.iml" filepath="$PROJECT_DIR$/.idea/modules/uTL/UTL6.uTL.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/uTL/UTL6.uTL.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/uTL/UTL6.uTL.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utlwear/UTL6.utlwear.iml" filepath="$PROJECT_DIR$/.idea/modules/utlwear/UTL6.utlwear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utlwear/UTL6.utlwear.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/utlwear/UTL6.utlwear.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utlwear/UTL6.utlwear.main.iml" filepath="$PROJECT_DIR$/.idea/modules/utlwear/UTL6.utlwear.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utlwear/UTL6.utlwear.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/utlwear/UTL6.utlwear.unitTest.iml" />
+    </modules>
+  </component>
+</project>

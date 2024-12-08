@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <!-- Strings for the Android Wear Addon: -->
+
+    <string name="default_list">Список для показа по умолчанию</string>
+    <string name="default_list_extra">При запуске приложения на часах</string>
+    <string name="android_wear_features">Просмотр и проверка задач. Просмотр и повтор напоминаний.</string>
+    <string name="processing">Обработка данных</string>
+    <string name="success">Готово</string>
+
+    <!-- End of strings for the Android Wear Addon -->
+
+    <!-- Version 3.3 starts using the latest API for synchronizing with Toodledo.com.  These strings are related to the upgrade: -->
+    <string name="communicating_with_toodledo">Установка связи с Toodledo</string>
+    <string name="toodledo_signin_mismatch">Учетная запись Toodledo не соответствует ожидаемой. Ожидаемая учетная запись должна быть зарегистрирована на следующий адрес электронной почты:</string>
+    <string name="toodledo_re_sign_in">Вход в учетную запись Toodledo был успешно совершен и была запущена синхронизация.</string>
+    <string name="toodledo_merge_confirmation">Связь настроена и теперь ваши задачи синхронизируются с задачами Toodledo.</string>
+    <string name="toodledo_sign_in_needed">Войдите в учетную запись Toodledo еще раз.</string>
+    <string name="toodledo_rate_limit">Превышен лимит запросов к Toodledo. Повторите попытку через несколько минут.</string>
+    <string name="sign_in_again">Войдите еще раз</string>
+    <string name="toodledo_sign_in_needed2">Чтобы продолжить синхронизацию, Toodledo нужно, чтобы вы вошли в учетную запись, воспользовавшись следующим адресом электронной почты:</string>
+    <string name="sign_in">Войти</string>
+    <string name="Free_Account_Limits_2">У вашей бесплатной учетной записи Toodledo есть некоторые ограничения. В платной учетной записи не будет таких ограничений:\n\nПодзадачи можно добавлять на смартфоне, но они не будут синхронизироваться.\n\nНапоминания будут синхронизироваться только за час до завершения задачи. Если же время выполнения задачи не указано, синхронизируются только те напоминания, которые добавлены в день выполнения.</string>
+</resources>

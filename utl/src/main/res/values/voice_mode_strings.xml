@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This file contains strings for voice mode.  These are not to be translated until voice mode supports
+	languages other than English. -->
+	
+<resources>
+    <string name='voice_command_intro'>Say \"manage my list\" or tap on the microphone.</string>
+    <string name='utl_voice_mode'>Ultimate To-Do List Voice Mode</string>
+    <string name='trigger_phrase'>manage my list</string>
+    <string name='Im_Listening'>I\'m listening...</string>
+    <string name='Create_Tasks'>Create Tasks</string>
+    <string name='Modify_Tasks'>Modify Tasks</string>
+    <string name='Read_Tasks'>Read Tasks</string>
+    <string name='Other'>Other</string>
+    <string name='Ready_to_Create'>I\'m ready to create the task</string>
+    <string name='Should_I_Go_Ahead'>Should I go ahead?</string>
+    <string name='VM_Try_Again'>Would you like to try again?</string>
+    <string name='from_completion_date'>from completion date</string>
+    <string name='Timer_'>Timer:</string>
+    <string name='Start_the_Timer'>Start the Timer</string>
+    <string name='Stop_the_Timer'>Stop the Timer</string>
+    <string name='Not_Allowing_TTS'>Your device is not allowing text-to-speech.</string>
+    <string name='Processing'>Processing</string>
+    <string name='VM_Yes'>yes</string>
+    <string name='VM_No'>no</string>
+    <string name='VM_Yes_Cap'>Yes</string>
+    <string name='VM_No_Cap'>No</string>
+    <string name='Task_Saved'>The task has been saved.</string>
+    <string name='VM_Cancel'>Cancel</string>
+    <string name='VM_Cancelled'>Cancelled</string>
+    <string name='VM_Exit'>Exit</string>
+    <string name='VM_Exiting'>Leaving Voice Mode</string>
+    <string name='Audio_Recording_Error'>Audio Recording Error</string>
+    <string name='No_Internet_Connection'>No Internet Connection - Voice Mode is Unavailable</string>
+    <string name='Server_Error'>The Speech Recognition Server is Unavailable</string>
+    <string name='Waiting_on_Speech_Recognizer'>Waiting for the Speech Recognizer</string>
+	<string name='Insufficient_Permissions'>Received an \"Insufficient Permissions\" error from Android.</string>
+    <string name='Ready_to_Update'>I\'m ready to update the task</string>
+    <string name='Read_More'>Would you like me to read more?</string>
+    <string name='End_of_List'>That\'s the end of the list.</string>
+    <string name='No_Tasks_Found'>No tasks were found in this list.</string>
+    
+    <!-- Help information for task creation: -->
+    <string name='task_creation_help'>
+	    <![CDATA[
+	    	<div style=\"color: #000000; background-color: transparent\">
+		    	<p><b>Basic Task Creation:</b></p>
+		    	<ul>
+		    		<li>\"Take out the trash\"</li>
+		    		<li>Create task \"Take out the trash\".</li>
+		    		<li>Create a task named \"Take out the trash\".</li>
+		    	</ul>
+		    	
+		    	<p><b>Setting Reminders:</b></p>
+		    	<ul>
+		    		<li>Remind me to \"take out the trash\" on Monday at 8pm.</li>
+		    		<li>Remind me to \"take out the trash\" at 8pm and nag me.</li>
+		    		<li>Create task \"take out the trash\" with a reminder tomorrow at 8pm.</li>
+		    		<li>Create task \"take out the trash\" and remind me in 4 hours.</li>
+		    		<li>Create task \"take out the trash\" and remind me in 4 hours with nagging.</li>
+		    	</ul>		    	
+		    		
+		    	<p><b>Setting Start and Due Dates:</b></p>
+		    	<ul>
+		    		<li>Create task \"take out the trash\" with a due date of Monday at 8pm.</li>
+		    		<li>Create task \"take out the trash\" with a start date of November 1st.</li>
+		    		<li>Create task \"take out the trash\" starting today and due on Monday at 8pm.</li>
+		    	</ul>
+		    	
+		    	<p><b>Adding Repeating:</b></p>
+		    	<ul>
+		    		<li>Create task \"take out the trash\" with a reminder on Monday at 8pm and repeat weekly.</li>
+		    		<li>Create task \"take out the trash\" starting Monday and repeat every 7 days from due date.</li>
+		    		<li>Create task \"exercise\" starting in 2 days and repeat every Tuesday and Friday from completion date.
+		    		<li>Create task \"go to board meeting\" starting July 10 and repeat on the 2nd tuesday of each month.</li>
+		    	</ul>
+		    	
+		    	<p><b>Specifying Folders, Contexts, and More:</b></p>
+		    	<ul>
+		    		<li>Create task \"take out the trash\" in the \"personal\" folder.</li>
+		    		<li>Create task \"take out the trash\" with the \"home\" context.</li>
+		    		<li>Create task \"exercise\" with the \"improve health\" goal.</li>
+		    		<li>Create task \"go to board meeting\" with the \"meetings\" tag.</li>
+		    		<li>Create task \"exercise\" in the \"personal tasks\" account.</li>
+		    	</ul>
+		    	
+		    	<p><b>Locations and Location-Based Reminders</b></p>
+		    	<ul>
+		    		<li>Create task \"go to board meeting\" located at \"work\".</li>
+		    		<li>Create task \"take out the trash\" located at \"home\" with a reminder</li>
+		    		<li>Create task \"take out the trash\" located at \"home\" with a nagging reminder</li>
+		    		<li>Remind me to \"go to board meeting\" when I arrive at \"work\".</li>
+		    		<li>Remind me to \"go to board meeting\" when I get to \"work\" and nag me.</li>
+		   		</ul>
+		   		
+		   		<p><b>Other Attributes:</b></p>
+		   		<ul>
+		    		<li>Create task \"go to board meeting\" with medium priority.</li>
+		    		<li>Create task \"write report\" with active status</li>
+		    		<li>Create task \"write report\" as a subtask of \"create project proposal\".</li>
+		    		<li>Create task \"meet with client\" and start the timer.</li>
+		    		<li>Create task \"take out the trash\" and add a star.</li>
+		    		<li>Create task \"go to board meeting\" starting on Friday at 8am and show in calendar.</li>
+		    		<li>Create task \"go to board meeting\" starting on Friday at 8am and add to calendar.</li>
+		    	</ul>
+		    	
+		    	<p><b>Using Combinations:</b></p>
+		    	<ul>
+		    		<li>Create task \"write report\" in the \"work\" folder with top priority and a due date of the 23rd.</li>
+		    		<li>Create task \"weekly status report\" with the \"work\" context staring on Monday and repeat every week.</li>
+		    		<li>Create task \"write research paper\" with \"next action\" status with the \"school\" tag and add a star.</li>
+		    	</ul>
+	    	</div>
+	    ]]>
+	</string>
+	
+    <!-- Help information for task editing: -->
+    <string name='task_modify_help'>
+	    <![CDATA[
+	    	<div style=\'color: #000000; background-color: transparent\'>
+		    	<p><b>Completing a Task:</b></p>
+		    	<ul>
+		    		<li>Mark the \"call Jim\" task as complete.</li>
+		    		<li>Mark task \"call Jim\" complete.</li>
+		    		<li>Mark \"call Jim\" complete.</li>
+		    	</ul>
+		    	
+		    	<p><b>Using the Timer:</b></p>
+		    	<ul>
+		    		<li>Start the timer for \"meet with client\".</li>
+		    		<li>Stop the timer for \"meet with client\".</li>
+		    	</ul>
+		    	
+		    	<p><b>Changing Dates:</b></p>
+		    	<ul>
+		    		<li>Postpone task \"write report\" to tomorrow. (This option adjusts all dates 
+		    			(start, due, and reminder) that the task is using.)</li>
+		    		<li>Change the due date for \"science homework\" to October 23rd.</li>
+		    		<li>Change start date for task \"board meeting\" to the 15th.</li>
+		    		<li>Change the reminder for \"take out the trash\" to Monday at 8pm.</li>
+		   		</ul>
+		   		
+		   		<p><b>Changing the Repeating Pattern:</b></p>
+		   		<ul>
+		    		<li>Change the repeat for \"regular status report\" to every 2 weeks.</li>
+		    		<li>Change the repeat for task \"exercise\" to daily.</li>
+		    	</ul>
+		    	
+		    	<p><b>Locations and Location-Based Reminders:</b></p>
+		    	<ul>
+		    		<li>Change the location for \"board meeting\" to \"building C\".</li>
+		    		<li>Add a location reminder to task \"board meeting\".</li>
+		    		<li>Add a location reminder to \"board meeting\" with nagging.</li>
+		    		<li>Remove the location reminder from task \"board meeting\".</li>
+		    	</ul>
+		    	
+		    	<p><b>Tags:</b></p>
+		    	<ul>
+		    		<li>Add the tag \"household\" to \"take out the trash\".</li>
+		    		<li>Remove the tag \"personal\" from task \"take out the trash\".</li>
+		    	</ul>
+		    	
+		    	<p><b>The Star:</b></p>
+		    	<ul>
+		    		<li>Add a star to the task \"take out the trash\".</li>
+		    		<li>Remove the star from \"take out the trash\".</li>
+		    	</ul>
+		    	
+		    	<p><b>Other Task Attributes:</b></p>
+		    	<ul>
+		    		<li>Change the priority for \"write report\" to high.</li>
+		    		<li>Change the status for \"write report\" to planning.</li>
+		    		<li>Rename the task \"take out the trash\" to \"put out the garbage\".</li>
+		    		<li>Change the folder for \"take out the trash\" to "personal".</li>
+		    		<li>Change the context for the task \"take out the trash\" to \"home\".</li>
+		    		<li>Change the goal for \"exercise\" to \"improve health\".</li>
+		    	</ul>
+		    	
+		    	<p><b>Removing Attributes:</b></p>
+		    	<ul>
+		    		<li>Change the status for \"write report\" to none.</li>
+		    		<li>Change the folder for \"write report\" to nothing.</li>
+		    		<li>Change the repeat for \"take out the trash\" to nothing.</li>
+		    	</ul>
+	    	</div>
+	    ]]>
+	</string>
+	
+    <!-- Help information for reading tasks: -->
+    <string name='reading_tasks_help'>
+        <![CDATA[
+	    	<div style=\'color: #000000; background-color: transparent\'>
+		    	<p><b>Reading Task Lists:</b></p>
+		    	<ul>
+		    		<li>Read all tasks.</li>
+		    		<li>Read my hotlist.</li>
+		    		<li>Read due today and tomorrow.</li>
+		    		<li>Read tasks with \"next action\" status.</li>
+		    		<li>Read the \"Personal\" folder.</li>
+		    		<li>Read tasks with the \"Work\" context.</li>
+		    		<li>Read tasks with the \"Fitness\" goal.</li>
+		    		<li>Read tasks with the \"Meetings\" tag.</li>
+		    		<li>Read tasks at the \"Home\" location.</li>
+		    		<li>Read my \"Custom View\" view.</li>
+		    	</ul>
+	    	</div>
+	    ]]>
+    </string>
+    
+    <!-- Other help information -->
+    <string name='other_help_info'>
+        <![CDATA[
+	    	<div style=\'color: #000000; background-color: transparent\'>
+		    	<p><b>To cancel the current command:</b></p>
+		    	<ul>
+		    		<li>Cancel</li>
+		    	</ul>
+		    	<p><b>To exit voice mode:</b></p>
+		    	<ul>
+		    		<li>Exit</li>
+		    	</ul>
+		    	<p><b>Using the Wear OS Add-On:</b></p>
+		    	<ul>
+		    	    <li>The Wear OS add-on may be purchased in the settings area.</li>
+		    	    <li>To show your default task list: \"OK Google.  Start Ultimate To-Do List.\"</li>
+		    	</ul>
+	    	</div>
+	    ]]>
+    </string>
+</resources>

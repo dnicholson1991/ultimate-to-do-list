@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+>
+	<ScrollView
+	    android:layout_width="match_parent"
+	    android:layout_height='0dp'
+	    android:layout_weight='1'
+	>
+	    <TextView
+	        android:id='@+id/licence_upgrade_msg'
+	        android:layout_width='match_parent'
+	        android:layout_height='wrap_content'
+	        android:paddingLeft='8dp'
+	        android:paddingRight='8dp'
+	        android:paddingTop='8dp'
+	        android:paddingBottom='8dp'
+	        android:text='@string/mandatory_upgrade_notice'
+	    />
+	</ScrollView>
+    
+	<!-- Divider -->
+	<View android:layout_width="fill_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>
+
+	<TextView
+	    android:id="@+id/license_upgrade_upgrade_now"
+	    android:layout_width='match_parent'
+	    android:layout_height='wrap_content'
+	    android:minHeight='48dp'
+	    android:gravity='center'
+	    android:paddingLeft='8dp'
+	    android:paddingRight='8dp'
+	    android:textSize='?attr/utl_font_size_large'
+	    android:background='?attr/cb_button_bg'
+	    android:text='@string/Upgrade_Now'
+	/>
+	
+	<!-- Divider -->
+	<View android:layout_width="fill_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>
+	
+	<TextView
+	    android:id="@+id/license_upgrade_remind_later"
+	    android:layout_width='match_parent'
+	    android:layout_height='wrap_content'
+	    android:minHeight='48dp'
+	    android:gravity='center'
+	    android:paddingLeft='8dp'
+	    android:paddingRight='8dp'
+	    android:textSize='?attr/utl_font_size_large'
+	    android:background='?attr/cb_button_bg'
+	    android:text='@string/reminde_in_1_week'
+	/>
+	
+	<!-- Divider -->
+	<View android:layout_width="fill_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>
+	
+	<LinearLayout
+	    android:id='@+id/license_upgrade_never_again'
+	    android:layout_width='match_parent'
+	    android:layout_height='wrap_content'
+	    android:orientation='vertical'
+	    android:minHeight='48dp'
+	    android:gravity='center'
+	    android:background='?attr/cb_button_bg'
+	>
+	    <TextView
+	        android:layout_width='wrap_content'
+	        android:layout_height='wrap_content'
+	        android:paddingLeft='8dp'
+	        android:paddingRight='8dp'
+	        android:paddingTop='3dp'
+	        android:textSize='?attr/utl_font_size_large'
+	        android:gravity='center'
+	        android:text='@string/Never_Remind_Me'
+	    />
+	    <TextView
+	        android:layout_width='wrap_content'
+	        android:layout_height='wrap_content'
+	        android:paddingLeft='8dp'
+	        android:paddingRight='8dp'
+	        android:paddingBottom='3dp'
+	        android:gravity='center'
+	        android:text='@string/Upgrade_in_Help_Area'
+	    />
+	</LinearLayout>
+
+</LinearLayout>

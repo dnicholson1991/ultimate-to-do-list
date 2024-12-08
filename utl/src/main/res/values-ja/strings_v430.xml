@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name='need_exact_alarm_permission'>正確な時間のリマインダーを設定するには、このアプリに許可を与える必要があります。</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name='Currently_Own_Product'>Actualmente posee este producto.</string>
+    <string name='top_of_nav_drawer'>Mostrar en la parte superior del cajón de navegación</string>
+    <string name='how_to_resize'>Para cambiar el tamaño del widget, pulse y mantenga el dedo sobre él por cerca de 2
+         segundos y relaje. A continuación, verá redimensionar aparecen los controles.</string>
+</resources>

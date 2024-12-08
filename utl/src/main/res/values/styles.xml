@@ -1,0 +1,1884 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources
+	xmlns:tools="http://schemas.android.com/tools"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+>
+    <!-- The Light Theme: -->
+    <style name="UtlStylePacific" parent="@style/Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Items that are Identical Between Light and Dark Themes -->
+        
+        <item name="android:textAppearance">@style/UtlTextAppearance</item>
+        <item name="android:textAppearanceLarge">@style/UtlTextAppearance.Large</item>
+		<item name="android:textAppearanceMedium">@style/UtlTextAppearance.Medium</item>
+		<item name="android:textAppearanceSmall">@style/UtlTextAppearance.Small</item>
+		
+		<item name="android:spinnerItemStyle">@style/UtlSpinnerItem</item>
+        
+		<!-- Colors - Global: -->
+		<item name='utl_text_color'>?android:attr/colorForeground</item>
+		
+		<!-- Colors - Nav Drawer: -->
+		<item name='nav_drawer_text_color'>?attr/utl_text_color</item>
+		<item name='nav_drawer_counter_text_color'>?android:attr/textColorSecondary</item>
+		<item name='nav_drawer_text_highlight_color'>?android:attr/textColorPrimaryInverse</item>
+
+		<!-- Font Sizes -->
+		<item name='utl_font_size_small'>12sp</item>
+		<item name='utl_font_size_normal'>14sp</item>
+		<item name='utl_font_size_large'>18sp</item>
+		
+		<!-- Other Colors: -->
+		<item name='list_highlight_text_color'>?android:attr/textColorPrimaryInverse</item>
+		
+	  	<!-- Colors for a message area to display at the bottom of the screen: -->
+	  	<item name='msg_area_background_color'>?attr/list_highlight_bg_color</item>
+	  	<item name='msg_area_text_color'>?attr/list_highlight_text_color</item>
+	  	
+	  	<!-- Date Picker: -->
+	  	<item name='date_picker_text_color'>@color/black</item>
+		<item name='date_picker_text_color_inv'>@color/white</item>
+	  	<item name='date_picker_out_of_month_color'>@color/medium_gray</item>
+	  	<item name='date_picker_current_date_color'>@color/red</item>
+	  	
+		<!-- End of Identical Light/Dark Items -->
+
+		<!-- Main color, used in action bar: -->
+		<item name="android:colorPrimary">@color/cyan_dark</item>
+		<item name="colorPrimary">@color/cyan_dark</item>
+
+		<!-- Status bar color: -->
+		<item name="android:colorPrimaryDark">@color/cyan_darker</item>
+		<item name="colorPrimaryDark">@color/cyan_darker</item>
+
+		<!-- Secondary Color. Used in floating action bar. -->
+		<item name='android:colorSecondary' tools:targetApi='25'>@color/crusta_orange</item>
+		<item name='colorSecondary'>@color/crusta_orange</item>
+
+		<!-- Accent color, used in various place: -->
+		<item name="android:colorAccent">@color/cyan_dark</item>
+		<item name="colorAccent">@color/cyan_dark</item>
+
+        <!-- Colors - Nav Drawer -->
+		<item name='nav_drawer_background'>?android:attr/colorBackground</item>
+        <item name='nav_drawer_divider_color1'>#D9D9D9</item>
+        <item name='nav_drawer_divider_color2'>#FFFFFF</item>
+        <item name='nav_drawer_divider_color3'>?android:attr/colorBackground</item>
+        <item name='nav_drawer_list_item_divider_color1'>#D9D9D9</item>
+        <item name='nav_drawer_list_item_divider_color2'>#FFFFFF</item>
+		<item name='nav_drawer_highlight_bg_color'>@color/nav_drawer_text_highlight_bg_color_light</item>
+        <item name='nav_drawer_button_divider_color1'>#D9D9D9</item>
+        <item name='nav_drawer_button_divider_color2'>#FFFFFF</item>
+        <item name='nav_drawer_button_divider_color3'>?android:attr/colorBackground</item>
+
+		<!-- Colors for a screen using 3D raised or lowered button and divider effects -->
+		<item name='effect_3d_background'>?android:attr/colorBackground</item>
+		<item name='effect_3d_vertical_divider_color1'>#D9D9D9</item>
+		<item name='effect_3d_vertical_divider_color2'>#FFFFFF</item>
+		<item name='effect_3d_horizontal_divider_color1'>#D9D9D9</item>
+		<item name='effect_3d_horizontal_divider_color2'>#FFFFFF</item>
+
+		<!-- Alterations to standard holo widgets and colors: -->
+		<item name="android:buttonStyle">@style/UtlButtonLight</item>
+		<item name="android:imageButtonStyle">@style/UtlButtonLight</item>
+	  	<item name="android:textViewStyle">@style/UtlTextViewLight</item>
+	  	<item name="android:editTextStyle">@style/UtlEditText</item>
+		<item name="editTextStyle">@style/UtlEditText</item>
+		<item name='toodledo_signin_button'>@drawable/toodledo_button_dark_ripple</item>
+
+		<!-- Custom Alert Dialog Style: -->
+		<item name='android:alertDialogTheme'>@style/AlertDialogLightDarkCyan</item>
+		<item name='alertDialogTheme'>@style/AlertDialogLightDarkCyan</item>
+		<item name='materialAlertDialogTheme'>@style/AlertDialogLightDarkCyan</item>
+
+		<!-- Custom Time Picker Dialog Style: -->
+		<item name='android:timePickerDialogTheme'>@style/TimePickerDialogLight</item>
+		<item name='android:timePickerStyle'>@style/TimePickerDialogLightSettings</item>
+
+		<item name='popup_window_background_color'>?android:attr/windowBackground</item>
+
+	  	<!-- Action Bar Styles: -->
+		<!-- <item name="android:actionButtonStyle">@style/UtlActionBarButtonLight</item>
+	  	<item name="actionButtonStyle">@style/UtlActionBarButtonLight</item>
+	  	<item name="android:actionBarItemBackground">@drawable/ab_button_bg_light</item>
+	  	<item name="actionBarItemBackground">@drawable/ab_button_bg_light</item>
+	  	<item name="android:actionOverflowButtonStyle" tools:targetApi="11">@style/UtlActionBarOverflowButtonLight</item>
+	  	<item name="actionOverflowButtonStyle">@style/UtlActionBarOverflowButtonLight</item> -->
+
+	  	<!-- Action Bar Styles for ActionMode: -->
+		<!--
+	  	<item name="android:actionModeCloseButtonStyle" tools:targetApi="11">@style/UtlActionModeCloseButtonLight</item>
+	  	<item name="actionModeCloseButtonStyle">@style/UtlActionModeCloseButtonLight</item>
+	  	-->
+		<item name='android:actionModeBackground'>@color/cyan_darkest</item>
+		<item name='actionModeBackground'>@color/cyan_darkest</item>
+	  	
+	  	<!-- Action bar overflow menu: -->
+		<!--
+	  	<item name="android:listChoiceBackgroundIndicator" tools:targetApi="11">@drawable/ab_button_bg_light</item>
+	  	<item name="listChoiceBackgroundIndicator">@drawable/ab_button_bg_light</item>
+	  	-->
+
+		<!-- Bottom Toolbar Styles: -->
+		<item name='bottom_toolbar_background'>@color/cyan_dark</item>
+        <item name='bottom_toolbar_action_mode_background'>@color/cyan_darkest</item>
+		<item name='bottom_toolbar_uses_cradle'>true</item>
+
+	  	<!-- Other Colors: -->
+	  	<item name='list_divider_color'>@color/medium_gray</item>
+	  	<item name='overdue_text_color'>@color/overdue_text_color_light</item>
+	  	<item name='list_highlight_bg_color'>@color/list_highlight_bg_color_light</item>
+	  	<item name='list_highlight_bg_color_inv'>@color/list_highlight_bg_color_dark</item>
+	  	<item name='list_archive_text_color'>@color/medium_gray</item>
+	  	<item name='table_field_color'>@color/cyan_dark</item>
+	  	<item name='main_background_color'>@color/main_background_color_light</item>
+	  	<item name='resizer_divider_color'>@color/black</item>
+	  	<item name='ss_list_detail_divider_color'>@color/ss_divider_color_light</item>
+	  	<item name='generic_editor_section_outline_color'>@color/editor_section_outline_light</item>
+	  	<item name='task_list_header_background'>@color/almost_white</item>
+
+		<!-- Native Ad Call to Action (CTA) button colors: -->
+		<item name='native_add_cta_background_color'>@color/cyan_dark</item>
+		<item name='native_add_cta_text_color'>@color/white</item>
+
+	  	<!-- Styles: -->
+	  	<item name='nav_counter_style'>@style/NavCounterStyleLight</item>	
+	  	<item name='date_picker_nav_style'>@style/DatePickerNavLight</item>
+	  	 
+	  	<!-- Command Bar: -->
+	  	<item name="cb_background_splitscreen">@drawable/cb_background_light</item>
+		<item name='cb_background_fullscreen'>?attr/colorPrimary</item>
+	  	<item name='cb_button_bg'>?android:attr/selectableItemBackground</item>
+	  	
+	  	<!-- Title Bar (displayed at the top of fragments): -->
+	  	<item name='tb_background'>@drawable/tb_background_light</item>
+	  	
+	  	<!-- Task Editor: -->
+	  	<item name='task_editor_background'>@color/almost_white</item>
+	  	<item name='task_editor_section_bar_background'>@color/white</item>
+	  	<item name='task_editor_section_highlight_color'>@color/cyan_light</item>
+	  	<item name='task_editor_section_bar_divider_color1'>@color/white</item>
+        <item name='task_editor_section_bar_divider_color2'>@color/almost_white</item>
+        <item name='task_editor_section_bar_divider_color3'>@color/white</item>
+        <item name='task_editor_warning_background'>@color/white_87</item>
+	  	
+        <!-- Generic Editors: -->
+        <item name='generic_editor_background'>@color/almost_white</item>
+        
+        <!-- Save/Cancel Bar (displayed at top of fragments) -->
+        <item name='save_cancel_bar_background'>@drawable/tb_background_light</item>
+        <item name='save_cancel_bar_divider_color1'>#D9D9D9</item>
+        <item name='save_cancel_bar_divider_color2'>#FFFFFF</item>
+        <item name='save_cancel_bar_divider_color3'>?android:attr/colorBackground</item>
+        
+        <!-- Drawables: -->
+		<!-- "ab" Refers to drawables for the top and bottom action bar, but they may be used
+		     elsewhere also. Names ending in "_inv" are "inverse", and usually refer to the drawable
+		     to display on the themes main background color (white or black). -->
+	    <item name='ab_add'>@drawable/ab_add_dark</item>
+		<item name='ab_add_inv'>@drawable/ab_add_light</item>
+		<item name='ab_calendar'>@drawable/ab_calendar_dark</item>
+	    <item name='ab_calendar_large'>@drawable/ab_calendar_large_dark</item>
+	    <item name='ab_cancel'>@drawable/ab_cancel_dark</item>
+	    <item name='ab_cancel_inv'>@drawable/ab_cancel_light</item>
+	    <item name='ab_clone'>@drawable/ab_clone_dark</item>
+		<item name='ab_clone_inv'>@drawable/ab_clone_light</item>
+	    <item name='ab_delete'>@drawable/ab_delete_dark</item>
+		<item name='ab_delete_inv'>@drawable/ab_delete_light</item>
+	    <item name='ab_display_options'>@drawable/ab_display_options_dark</item>
+		<item name='ab_display_options_inv'>@drawable/ab_display_options_light</item>
+	    <item name='ab_edit'>@drawable/ab_edit_dark</item>
+		<item name='ab_edit_inv'>@drawable/ab_edit_light</item>
+	    <item name='ab_filter'>@drawable/ab_filter_dark</item>
+		<item name='ab_filter_inv'>@drawable/ab_filter_light</item>
+	    <item name='ab_help'>@drawable/ab_help_dark</item>
+	    <item name='ab_microphone'>@drawable/ab_microphone_dark</item>
+		<item name='ab_microphone_inv'>@drawable/ab_microphone_light</item>
+	    <item name='ab_multi_select_cancel'>@drawable/ab_multi_select_cancel_dark</item>
+	    <item name='ab_multi_select'>@drawable/ab_multi_select_dark</item>
+	    <item name='ab_multi_select_large'>@drawable/ab_multi_select_large_dark</item>
+	    <item name='ab_my_location'>@drawable/ab_my_location_dark</item>
+	    <item name='ab_navigate'>@drawable/ab_navigate_dark</item>
+		<item name='ab_navigate_inv'>@drawable/ab_navigate_light</item>
+	    <item name='ab_overflow'>@drawable/ab_overflow_dark</item>
+		<item name='ab_overflow_inv'>@drawable/ab_overflow_light</item>
+	    <item name='ab_reassign'>@drawable/ab_reassign_dark</item>
+		<item name='ab_reassign_inv'>@drawable/ab_reassign_light</item>
+	    <item name='ab_repeating'>@drawable/ab_repeating_dark</item>
+	    <item name='ab_repeating_large'>@drawable/ab_repeating_large_dark</item>
+	    <item name='ab_save'>@drawable/ab_save_dark</item>
+		<item name='ab_save_inv'>@drawable/ab_save_light</item>
+	    <item name='ab_save_view'>@drawable/ab_save_view_dark</item>
+	    <item name='ab_search'>@drawable/ab_search_dark</item>
+	    <item name='ab_select_all'>@drawable/ab_select_all_dark</item>
+	    <item name='ab_settings'>@drawable/ab_settings_dark</item>
+	    <item name='ab_show_map'>@drawable/ab_show_map_dark</item>
+		<item name='ab_show_map_inv'>@drawable/ab_show_map_light</item>
+	    <item name='ab_sort'>@drawable/ab_sort_dark</item>
+		<item name='ab_sort_inv'>@drawable/ab_sort_light</item>
+		<item name="ab_star_off">@drawable/ic_star_off_white</item>
+	    <item name="ab_star_off_inv">@drawable/ic_star_off_black</item>
+		<item name="ab_star_on">@drawable/ic_star_on_white_dark_cyan</item>
+	    <item name="ab_star_on_inv">@drawable/ic_star_on_black_light_cyan</item>
+	    <item name='ab_sync_now'>@drawable/ab_sync_now_dark</item>
+	    <item name='ab_tags'>@drawable/ab_tags_dark</item>
+	    <item name='ab_tags_large'>@drawable/ab_tags_large_dark</item>
+		<item name="ab_timer_off">@drawable/ic_timer_off_white</item>
+	    <item name="ab_timer_off_inv">@drawable/ic_timer_off_black</item>
+		<item name="ab_timer_running">@drawable/ic_timer_on_white_dark_cyan</item>
+	    <item name="ab_timer_running_inv">@drawable/ic_timer_on_black_light_cyan</item>
+	    <item name='ab_view'>@drawable/ab_view_dark</item>
+	    <item name='ab_view_parent'>@drawable/ab_view_parent_dark</item>
+		<item name='ab_view_parent_inv'>@drawable/ab_view_parent_light</item>
+	    <item name='ab_view_refresh'>@drawable/ab_view_refresh_dark</item>
+	    <item name='ab_view_subtasks'>@drawable/ab_view_subtasks_dark</item>
+		<item name='ab_view_subtasks_inv'>@drawable/ab_view_subtasks_light</item>
+		<item name='ab_warning'>@drawable/ab_warning_dark</item>
+	    <item name='arrow_down'>@drawable/arrow_down_light</item>
+	    <item name='arrow_up'>@drawable/arrow_up_light</item>
+		<item name="bluetooth">@drawable/ab_bluetooth_light</item>
+		<item name='button_press'>@drawable/utl_button_pressed_light</item>
+		<item name='checkbox_checked'>@drawable/ic_checkbox_checked_dark_cyan</item>
+		<item name='checkbox_indeterminate'>@drawable/ic_checkbox_indeterminate_dark_cyan</item>
+		<item name='checkbox_unchecked'>@drawable/ic_checkbox_unchecked_dark_cyan</item>
+		<item name="delete_row_highlight">@drawable/ab_delete_dark</item>
+	    <item name='editor_divider'>@drawable/editor_divider_ripple_white_70</item>
+	    <item name='editor_section_bg'>@drawable/editor_section_background_light</item>
+	    <item name='filter_rule_locked'>@drawable/filter_rule_locked_light</item>
+		<item name='group_indicator'>@drawable/group_indicator_black</item>
+		<item name='info'>@drawable/ic_info_dark_cyan</item>
+	    <item name='mic_ring'>@drawable/mic_ring_light</item>
+	    <item name='nav_add'>@drawable/nav_add_light</item>
+	    <item name='nav_all_tasks'>@drawable/nav_all_tasks_light</item>
+	    <item name='nav_by_status'>@drawable/nav_by_status_light</item>
+	    <item name='nav_context'>@drawable/nav_context_light</item>
+	    <item name='nav_contexts'>@drawable/nav_contexts_light</item>
+	    <item name='nav_delete'>@drawable/nav_delete_light</item>
+	    <item name='nav_drawer'>@drawable/nav_drawer_light</item>
+	    <item name='nav_drawer_shadow'>@drawable/nav_drawer_shadow_light</item>
+	    <item name='nav_drawer_shadow_right'>@drawable/nav_drawer_shadow_right_light</item>
+	    <item name='nav_due_today_tomorrow'>@drawable/nav_due_today_tomorrow_light</item>
+	    <item name='nav_edit'>@drawable/nav_edit_light</item>
+	    <item name='nav_expand'>@drawable/nav_expand_light</item>
+	    <item name='nav_folder'>@drawable/nav_folder_light</item>
+	    <item name='nav_folders'>@drawable/nav_folders_light</item>
+	    <item name='nav_goal'>@drawable/nav_goal_light</item>
+	    <item name='nav_goals'>@drawable/nav_goals_light</item>
+	    <item name='nav_help'>@drawable/nav_help_light</item>
+	    <item name='nav_hotlist'>@drawable/nav_hotlist_light</item>
+	    <item name='nav_location'>@drawable/nav_location_light</item>
+	    <item name='nav_locations'>@drawable/nav_locations_light</item>
+	    <item name='nav_my_view'>@drawable/nav_my_view_light</item>
+	    <item name='nav_my_views'>@drawable/nav_my_views_light</item>
+	  	<item name='nav_notes'>@drawable/nav_notes_light</item>
+	    <item name='nav_overdue'>@drawable/nav_overdue_light</item>
+	    <item name='nav_recently_completed'>@drawable/nav_recently_completed_light</item>
+	    <item name='nav_refresh'>@drawable/nav_refresh_light</item>
+	    <item name='nav_right_ptr'>@drawable/nav_right_ptr_light</item>
+	    <item name='nav_settings'>@drawable/nav_settings_light</item>
+        <item name='nav_money'>@drawable/nav_money_light</item>
+	    <item name='nav_show_map'>@drawable/nav_show_map_light</item>
+	    <item name='nav_show_map_inv'>@drawable/nav_show_map_dark</item>
+	    <item name='nav_starred'>@drawable/nav_starred_light</item>
+	    <item name='nav_status_active'>@drawable/nav_status_active_light</item>
+	    <item name='nav_status_canceled'>@drawable/nav_status_canceled_light</item>
+	    <item name='nav_status_delegated'>@drawable/nav_status_delegated_light</item>
+	    <item name='nav_status_hold'>@drawable/nav_status_hold_light</item>
+	    <item name='nav_status_next_action'>@drawable/nav_status_next_action_light</item>
+	    <item name='nav_status_none'>@drawable/nav_status_none_light</item>
+	    <item name='nav_status_planning'>@drawable/nav_status_planning_light</item>
+	    <item name='nav_status_postponed'>@drawable/nav_status_postponed_light</item>
+	    <item name='nav_status_reference'>@drawable/nav_status_reference_light</item>
+	    <item name='nav_status_someday'>@drawable/nav_status_someday_light</item>
+	    <item name='nav_status_waiting'>@drawable/nav_status_waiting_light</item>
+	    <item name='nav_sync_now'>@drawable/nav_sync_now_light</item>
+	    <item name='nav_tag'>@drawable/nav_tag_light</item>
+	    <item name='nav_tags'>@drawable/nav_tags_light</item>
+	    <item name='nav_add_inv'>@drawable/nav_add_dark</item>
+	    <item name='nav_all_tasks_inv'>@drawable/nav_all_tasks_dark</item>
+	    <item name='nav_by_status_inv'>@drawable/nav_by_status_dark</item>
+	    <item name='nav_context_inv'>@drawable/nav_context_dark</item>
+	    <item name='nav_contexts_inv'>@drawable/nav_contexts_dark</item>
+	    <item name='nav_delete_inv'>@drawable/nav_delete_dark</item>
+	    <item name='nav_due_today_tomorrow_inv'>@drawable/nav_due_today_tomorrow_dark</item>
+	    <item name='nav_edit_inv'>@drawable/nav_edit_dark</item>
+	    <item name='nav_expand_inv'>@drawable/nav_expand_dark</item>
+	    <item name='nav_folder_inv'>@drawable/nav_folder_dark</item>
+	    <item name='nav_folders_inv'>@drawable/nav_folders_dark</item>
+	    <item name='nav_goal_inv'>@drawable/nav_goal_dark</item>
+	    <item name='nav_goals_inv'>@drawable/nav_goals_dark</item>
+	    <item name='nav_help_inv'>@drawable/nav_help_dark</item>
+	    <item name='nav_hotlist_inv'>@drawable/nav_hotlist_dark</item>
+	    <item name='nav_location_inv'>@drawable/nav_location_dark</item>
+	    <item name='nav_locations_inv'>@drawable/nav_locations_dark</item>
+	    <item name='nav_my_view_inv'>@drawable/nav_my_view_dark</item>
+	    <item name='nav_my_views_inv'>@drawable/nav_my_views_dark</item>
+	    <item name='nav_notes_inv'>@drawable/nav_notes_dark</item>
+	    <item name='nav_overdue_inv'>@drawable/nav_overdue_dark</item>
+	    <item name='nav_recently_completed_inv'>@drawable/nav_recently_completed_dark</item>
+	    <item name='nav_right_ptr_inv'>@drawable/nav_right_ptr_dark</item>
+	    <item name='nav_settings_inv'>@drawable/nav_settings_dark</item>
+		<item name='nav_money_inv'>@drawable/nav_money_dark</item>
+	    <item name='nav_starred_inv'>@drawable/nav_starred_dark</item>
+	    <item name='nav_status_active_inv'>@drawable/nav_status_active_dark</item>
+	    <item name='nav_status_canceled_inv'>@drawable/nav_status_canceled_dark</item>
+	    <item name='nav_status_delegated_inv'>@drawable/nav_status_delegated_dark</item>
+	    <item name='nav_status_hold_inv'>@drawable/nav_status_hold_dark</item>
+	    <item name='nav_status_next_action_inv'>@drawable/nav_status_next_action_dark</item>
+	    <item name='nav_status_none_inv'>@drawable/nav_status_none_dark</item>
+	    <item name='nav_status_planning_inv'>@drawable/nav_status_planning_dark</item>
+	    <item name='nav_status_postponed_inv'>@drawable/nav_status_postponed_dark</item>
+	    <item name='nav_status_reference_inv'>@drawable/nav_status_reference_dark</item>
+	    <item name='nav_status_someday_inv'>@drawable/nav_status_someday_dark</item>
+	    <item name='nav_status_waiting_inv'>@drawable/nav_status_waiting_dark</item>
+	    <item name='nav_sync_now_inv'>@drawable/nav_sync_now_dark</item>
+	    <item name='nav_tag_inv'>@drawable/nav_tag_dark</item>
+	    <item name='nav_tags_inv'>@drawable/nav_tags_dark</item>
+	    <item name='nav_tree_button_bg'>@drawable/nav_drawer_tree_button_bg_light</item>
+	  	<item name='open_contact'>@drawable/open_contact_light</item>
+	  	<item name='resizer_landscape'>@drawable/resize_landscape_light</item>
+	  	<item name='resizer_portrait'>@drawable/resize_portrait_light</item>
+	  	<item name='small_cancel'>@drawable/small_cancel_light</item>
+	  	<item name='ss_left_border'>@drawable/left_border_light</item>
+	    <item name='status_contact'>@drawable/status_contact_light</item>
+	    <item name='status_contact_inv'>@drawable/status_contact_dark</item>
+	    <item name='status_note'>@drawable/status_note_light</item>
+	    <item name='status_note_inv'>@drawable/status_note_dark</item>
+	    <item name='status_parent'>@drawable/status_parent_light</item>
+	    <item name='status_parent_inv'>@drawable/status_parent_dark</item>
+	    <item name='status_recurring'>@drawable/status_recurring_light</item>
+	    <item name='status_recurring_inv'>@drawable/status_recurring_dark</item>
+	    <item name='status_reminder'>@drawable/status_reminder_light</item>
+	    <item name='status_reminder_inv'>@drawable/status_reminder_dark</item>
+		<item name='status_shared'>@drawable/status_shared_light</item>
+		<item name='status_shared_inv'>@drawable/status_shared_dark</item>
+		<item name='status_starred'>@drawable/ic_star_on_black_light_cyan</item>
+		<item name='status_starred_inv'>@drawable/ic_star_on_white_dark_cyan</item>
+		<item name='status_subtask'>@drawable/status_subtask_light</item>
+		<item name='status_subtask_inv'>@drawable/status_subtask_dark</item>
+		<item name='status_timer_on'>@drawable/ic_timer_on_black_light_cyan</item>
+		<item name='status_timer_on_inv'>@drawable/ic_timer_on_white_dark_cyan</item>
+		<item name='store_price_background'>@drawable/store_price_background_light</item>
+		<item name='tab_task_notes'>@drawable/tab_task_notes_light</item>
+		<item name='tab_task_props'>@drawable/tab_task_props_light</item>
+		<item name='tab_task_sharing'>@drawable/tab_task_sharing_light</item>
+
+		<!-- New vector drawables. Added 6/2020: -->
+		<item name='ic_nav_left'>@drawable/ic_nav_prev_black</item>
+		<item name='ic_nav_double_left'>@drawable/ic_double_left_black</item>
+		<item name='ic_nav_right'>@drawable/ic_nav_next_black</item>
+		<item name='ic_nav_double_right'>@drawable/ic_double_right_black</item>
+	</style>
+
+	<!-- The Boston Theme: -->
+	<style name="UtlStyleBoston" parent="@style/UtlStylePacific">
+		<!-- Main color, used in action bar: -->
+		<item name="android:colorPrimary">@color/boston_blue</item>
+		<item name="colorPrimary">@color/boston_blue</item>
+
+		<!-- Status bar color: -->
+		<item name="android:colorPrimaryDark">@color/cyan_darker</item>
+		<item name="colorPrimaryDark">@color/cyan_darker</item>
+
+		<!-- Secondary Color. Used in floating action bar. -->
+		<item name='android:colorSecondary' tools:targetApi='25'>@color/dark_midnight_blue</item>
+		<item name='colorSecondary'>@color/dark_midnight_blue</item>
+
+		<!-- Accent color, used in various place: -->
+		<item name="android:colorAccent">@color/boston_blue</item>
+		<item name="colorAccent">@color/boston_blue</item>
+
+		<!-- Colors to use when highlighting lists: -->
+		<item name='list_highlight_bg_color'>@color/boston_blue</item>
+		<item name='list_highlight_bg_color_inv'>@color/boston_blue</item>
+		<item name='nav_drawer_highlight_bg_color'>@color/boston_blue</item>
+
+		<!-- Native Ad Call to Action (CTA) button colors: -->
+		<item name='native_add_cta_background_color'>@color/boston_blue</item>
+		<item name='native_add_cta_text_color'>@color/white</item>
+
+		<!-- Bottom Toolbar Colors: -->
+		<item name='bottom_toolbar_background'>@color/boston_blue</item>
+		<item name='bottom_toolbar_action_mode_background'>@color/cyan_darkest</item>
+		<item name='bottom_toolbar_uses_cradle'>true</item>
+
+		<!-- Custom Alert Dialog Style: -->
+		<item name='android:alertDialogTheme'>@style/AlertDialogLightBostonBlue</item>
+		<item name='alertDialogTheme'>@style/AlertDialogLightBostonBlue</item>
+		<item name='materialAlertDialogTheme'>@style/AlertDialogLightBostonBlue</item>
+
+		<!-- Custom Time Picker Dialog Style: -->
+		<item name='android:timePickerDialogTheme'>@style/TimePickerDialogLightBoston</item>
+		<item name='android:timePickerStyle'>@style/TimePickerDialogLightBostonSettings</item>
+
+		<!-- Miscellaneous colors: -->
+		<item name='table_field_color'>@color/boston_blue</item>
+		<item name='task_editor_section_highlight_color'>@color/boston_blue</item>
+
+		<!-- Drawable changes: -->
+		<item name='button_press'>@drawable/utl_button_pressed_boston</item>
+		<item name='checkbox_checked'>@drawable/ic_checkbox_checked_boston_blue</item>
+		<item name='checkbox_indeterminate'>@drawable/ic_checkbox_indeterminate_boston_blue</item>
+		<item name='checkbox_unchecked'>@drawable/ic_checkbox_unchecked_boston_blue</item>
+		<item name='info'>@drawable/ic_info_boston_blue</item>
+		<item name='ab_star_on'>@drawable/ic_star_on_white_boston</item>
+		<item name='ab_star_on_inv'>@drawable/ic_star_on_black_boston</item>
+		<item name="ab_timer_running">@drawable/ic_timer_on_white_boston</item>
+		<item name="ab_timer_running_inv">@drawable/ic_timer_on_black_boston</item>
+		<item name='status_parent'>@drawable/status_parent_light_boston</item>
+		<item name='status_parent_inv'>@drawable/status_parent_dark_boston</item>
+		<item name='status_starred'>@drawable/ic_star_on_black_boston</item>
+		<item name='status_starred_inv'>@drawable/ic_star_on_white_boston</item>
+		<item name='status_subtask'>@drawable/status_subtask_light_boston</item>
+		<item name='status_subtask_inv'>@drawable/status_subtask_dark_boston</item>
+		<item name='status_timer_on'>@drawable/ic_timer_on_black_boston</item>
+		<item name='status_timer_on_inv'>@drawable/ic_timer_on_white_boston</item>
+		<item name='store_price_background'>@drawable/store_price_background_boston</item>
+	</style>
+
+	<!-- The Lightest (Classic) Theme: -->
+	<style name="UtlStyleClassic" parent="@style/UtlStylePacific">
+		<!-- Main color, used in action bar: -->
+		<item name="android:colorPrimary">@color/white_87</item>
+		<item name="colorPrimary">@color/white_87</item>
+
+		<!-- Status bar color: -->
+		<item name="android:colorPrimaryDark">@color/cyan_light</item>
+		<item name="colorPrimaryDark">@color/cyan_light</item>
+
+		<!-- Secondary Color. Used in floating action bar. -->
+		<item name='android:colorSecondary' tools:targetApi='25'>@color/cyan_dark</item>
+		<item name='colorSecondary'>@color/cyan_dark</item>
+
+		<!-- Accent color, used in various place: -->
+		<item name="android:colorAccent">@color/cyan_dark</item>
+		<item name="colorAccent">@color/cyan_dark</item>
+
+		<!-- Colors to use when highlighting lists: -->
+		<item name='list_highlight_bg_color'>@color/cyan_dark</item>
+		<item name='list_highlight_bg_color_inv'>@color/cyan_light</item>
+		<item name='nav_drawer_highlight_bg_color'>@color/cyan_light</item>
+
+		<!-- Action bar with dark text, menu, and overflow button -->
+		<item name='actionBarTheme'>@style/Widget.MaterialComponents.Light.ActionBar.Solid</item>
+
+		<!-- Colors for the top and bottom bars in ActionMode, used for multi-select -->
+		<item name='android:actionModeBackground'>@drawable/action_mode_background_light</item>
+		<item name='actionModeBackground'>@drawable/action_mode_background_light</item>
+
+		<!-- Native Ad Call to Action (CTA) button colors: -->
+		<item name='native_add_cta_background_color'>@color/cyan_dark</item>
+		<item name='native_add_cta_text_color'>@color/white</item>
+
+		<!-- Bottom Toolbar Colors: -->
+		<item name='bottom_toolbar_background'>@drawable/bottom_toolbar_background_light</item>
+		<item name='bottom_toolbar_action_mode_background'>@drawable/bottom_toolbar_am_background_light</item>
+		<item name='bottom_toolbar_uses_cradle'>false</item>
+
+		<!-- A custom Button style: -->
+		<item name='materialButtonStyle'>@style/ClassicButton</item>
+
+		<!-- Command bar, shown at the bottom of the task viewer: -->
+		<item name="cb_background_splitscreen">@drawable/cb_background_light</item>
+		<item name='cb_background_fullscreen'>@drawable/cb_background_light</item>
+
+		<!-- Action bar buttons need to be dark: -->
+		<item name='ab_add'>@drawable/ab_add_light</item>
+		<item name='ab_add_inv'>@drawable/ab_add_light</item>
+		<item name='ab_calendar'>@drawable/ab_calendar_light</item>
+		<item name='ab_calendar_large'>@drawable/ab_calendar_large_light</item>
+		<item name='ab_cancel'>@drawable/ab_cancel_light</item>
+		<item name='ab_cancel_inv'>@drawable/ab_cancel_light</item>
+		<item name='ab_clone'>@drawable/ab_clone_light</item>
+		<item name='ab_clone_inv'>@drawable/ab_clone_light</item>
+		<item name='ab_delete'>@drawable/ab_delete_light</item>
+		<item name='ab_delete_inv'>@drawable/ab_delete_light</item>
+		<item name='ab_display_options'>@drawable/ab_display_options_light</item>
+		<item name='ab_display_options_inv'>@drawable/ab_display_options_light</item>
+		<item name='ab_edit'>@drawable/ab_edit_light</item>
+		<item name='ab_edit_inv'>@drawable/ab_edit_light</item>
+		<item name='ab_filter'>@drawable/ab_filter_light</item>
+		<item name='ab_filter_inv'>@drawable/ab_filter_light</item>
+		<item name='ab_help'>@drawable/ab_help_light</item>
+		<item name='ab_microphone'>@drawable/ab_microphone_light</item>
+		<item name='ab_microphone_inv'>@drawable/ab_microphone_light</item>
+		<item name='ab_multi_select_cancel'>@drawable/ab_multi_select_cancel_light</item>
+		<item name='ab_multi_select'>@drawable/ab_multi_select_light</item>
+		<item name='ab_multi_select_large'>@drawable/ab_multi_select_large_light</item>
+		<item name='ab_my_location'>@drawable/ab_my_location_light</item>
+		<item name='ab_navigate'>@drawable/ab_navigate_light</item>
+		<item name='ab_navigate_inv'>@drawable/ab_navigate_light</item>
+		<item name='ab_overflow'>@drawable/ab_overflow_light</item>
+		<item name='ab_overflow_inv'>@drawable/ab_overflow_light</item>
+		<item name='ab_reassign'>@drawable/ab_reassign_light</item>
+		<item name='ab_reassign_inv'>@drawable/ab_reassign_light</item>
+		<item name='ab_repeating'>@drawable/ab_repeating_light</item>
+		<item name='ab_repeating_large'>@drawable/ab_repeating_large_light</item>
+		<item name='ab_save'>@drawable/ab_save_light</item>
+		<item name='ab_save_inv'>@drawable/ab_save_light</item>
+		<item name='ab_save_view'>@drawable/ab_save_view_light</item>
+		<item name='ab_search'>@drawable/ab_search_light</item>
+		<item name='ab_select_all'>@drawable/ab_select_all_light</item>
+		<item name='ab_settings'>@drawable/ab_settings_light</item>
+		<item name='ab_show_map'>@drawable/ab_show_map_light</item>
+		<item name='ab_show_map_inv'>@drawable/ab_show_map_light</item>
+		<item name='ab_sort'>@drawable/ab_sort_light</item>
+		<item name='ab_sort_inv'>@drawable/ab_sort_light</item>
+		<item name="ab_star_off">@drawable/ic_star_off_black</item>
+		<item name="ab_star_off_inv">@drawable/ic_star_off_black</item>
+		<item name="ab_star_on">@drawable/ic_star_on_black_light_cyan</item>
+		<item name="ab_star_on_inv">@drawable/ic_star_on_black_light_cyan</item>
+		<item name='ab_sync_now'>@drawable/ab_sync_now_light</item>
+		<item name='ab_tags'>@drawable/ab_tags_light</item>
+		<item name='ab_tags_large'>@drawable/ab_tags_large_light</item>
+		<item name="ab_timer_off">@drawable/ic_timer_off_black</item>
+		<item name="ab_timer_off_inv">@drawable/ic_timer_off_black</item>
+		<item name="ab_timer_running">@drawable/ic_timer_on_black_light_cyan</item>
+		<item name="ab_timer_running_inv">@drawable/ic_timer_on_black_light_cyan</item>
+		<item name='ab_view'>@drawable/ab_view_light</item>
+		<item name='ab_view_parent'>@drawable/ab_view_parent_light</item>
+		<item name='ab_view_parent_inv'>@drawable/ab_view_parent_light</item>
+		<item name='ab_view_refresh'>@drawable/ab_view_refresh_light</item>
+		<item name='ab_view_subtasks'>@drawable/ab_view_subtasks_light</item>
+		<item name='ab_view_subtasks_inv'>@drawable/ab_view_subtasks_light</item>
+		<item name='ab_warning'>@drawable/ab_warning_light</item>
+		<item name="delete_row_highlight">@drawable/ab_delete_dark</item>
+	</style>
+
+    <!-- The Dark Theme: -->
+    <style name="UtlStyleDark" parent="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar">
+        <!-- Items that are Identical Between Light and Dark Themes -->
+        
+        <item name="android:textAppearance">@style/UtlTextAppearance</item>
+        <item name="android:textAppearanceLarge">@style/UtlTextAppearance.Large</item>
+		<item name="android:textAppearanceMedium">@style/UtlTextAppearance.Medium</item>
+		<item name="android:textAppearanceSmall">@style/UtlTextAppearance.Small</item>
+        
+		<item name="android:spinnerItemStyle">@style/UtlSpinnerItem</item>
+		
+		<!-- Colors - Global: -->
+		<item name='utl_text_color'>?android:attr/colorForeground</item>
+		
+		<!-- Colors - Nav Drawer: -->
+		<item name='nav_drawer_text_color'>?attr/utl_text_color</item>
+		<item name='nav_drawer_counter_text_color'>?android:attr/textColorSecondary</item>
+		<item name='nav_drawer_text_highlight_color'>?android:attr/textColorPrimaryInverse</item>
+
+		<!-- Font Sizes -->
+		<item name='utl_font_size_small'>12sp</item>
+		<item name='utl_font_size_normal'>14sp</item>
+		<item name='utl_font_size_large'>18sp</item>
+		
+		<!-- Other Colors: -->
+		<item name='list_highlight_text_color'>?android:attr/textColorPrimaryInverse</item>
+		
+		<!-- Colors for a message area to display at the bottom of the screen: -->
+	  	<item name='msg_area_background_color'>?attr/list_highlight_bg_color</item>
+	  	<item name='msg_area_text_color'>?attr/list_highlight_text_color</item>
+	  	
+	  	<!-- Date Picker: -->
+	  	<item name='date_picker_text_color'>@color/black</item>
+		<item name='date_picker_text_color_inv'>@color/white</item>
+	  	<item name='date_picker_out_of_month_color'>@color/medium_gray</item>
+	  	<item name='date_picker_current_date_color'>@color/red</item>
+	  	
+	  	<!-- End of Identical Light/Dark Items -->
+
+		<!-- Main color, used in various places: -->
+		<item name="android:colorPrimary">@color/cyan_light</item>
+		<item name="colorPrimary">@color/cyan_light</item>
+
+		<!-- Status bar color: -->
+		<item name="android:colorPrimaryDark">@color/cyan_dark</item>
+		<item name="colorPrimaryDark">@color/cyan_dark</item>
+
+		<!-- Secondary Color. Used in floating action bar. -->
+		<item name='android:colorSecondary' tools:targetApi='25'>@color/cyan_darker</item>
+		<item name='colorSecondary'>@color/cyan_darker</item>
+
+		<!-- Accent color, used in various place: -->
+		<item name="android:colorAccent">@color/cyan_light</item>
+		<item name="colorAccent">@color/cyan_light</item>
+
+		<item name='android:windowBackground'>@color/almost_black</item>
+		<item name='popup_window_background_color'>?android:attr/windowBackground</item>
+
+        <!-- Colors - Nav Drawer -->
+		<item name='nav_drawer_background'>@color/almost_black</item>
+        <item name='nav_drawer_divider_color1'>#111111</item>
+        <item name='nav_drawer_divider_color2'>#343536</item>
+        <item name='nav_drawer_divider_color3'>@color/almost_black</item>
+        <item name='nav_drawer_list_item_divider_color1'>#111111</item>
+        <item name='nav_drawer_list_item_divider_color2'>#343536</item>
+		<item name='nav_drawer_highlight_bg_color'>@color/nav_drawer_text_highlight_bg_color_dark</item>
+        <item name='nav_drawer_button_divider_color1'>#000000</item>
+        <item name='nav_drawer_button_divider_color2'>#191919</item>
+        <item name='nav_drawer_button_divider_color3'>#3A3A3A</item>
+
+		<!-- Colors for a screen using 3D raised or lowered button and divider effects -->
+		<item name='effect_3d_background'>@color/almost_black</item>
+		<item name='effect_3d_vertical_divider_color1'>#111111</item>
+		<item name='effect_3d_vertical_divider_color2'>#343536</item>
+		<item name='effect_3d_horizontal_divider_color1'>#191919</item>
+		<item name='effect_3d_horizontal_divider_color2'>#3A3A3A</item>
+
+		<!-- Alterations to standard holo widgets and colors: -->
+		<item name="android:buttonStyle">@style/UtlButtonDark</item>
+		<item name="android:imageButtonStyle">@style/UtlButtonDark</item>
+	  	<item name="android:textViewStyle">@style/UtlTextViewDark</item>
+	  	<item name="android:editTextStyle">@style/UtlEditText</item>
+		<item name="editTextStyle">@style/UtlEditText</item>
+		<item name='toodledo_signin_button'>@drawable/toodledo_button_dark</item>
+
+		<!-- Custom Alert Dialog Style: -->
+		<item name='android:alertDialogTheme'>@style/AlertDialogDark</item>
+		<item name='alertDialogTheme'>@style/AlertDialogDark</item>
+		<item name="android:dialogTheme">@style/AlertDialogDark</item>
+		<item name='materialAlertDialogTheme'>@style/AlertDialogDark</item>
+
+		<!-- Custom Time Picker Dialog Style: -->
+		<item name='android:timePickerDialogTheme'>@style/TimePickerDialogDark</item>
+		<item name='android:timePickerStyle'>@style/TimePickerDialogDarkSettings</item>
+
+	  	<!-- Action Bar Styles: -->
+		<!--
+	  	<item name="android:actionButtonStyle" tools:targetApi="11">@style/UtlActionBarButtonDark</item>
+	  	<item name="actionButtonStyle">@style/UtlActionBarButtonDark</item>
+	  	<item name="android:actionBarItemBackground" tools:targetApi="14">@drawable/ab_button_bg_dark</item>
+	  	<item name="actionBarItemBackground">@drawable/ab_button_bg_dark</item>
+	  	<item name="android:actionOverflowButtonStyle" tools:targetApi="11">@style/UtlActionBarOverflowButtonDark</item>
+	  	<item name="actionOverflowButtonStyle">@style/UtlActionBarOverflowButtonDark</item>
+	  	-->
+	  	
+	  	<!-- Action Bar Styles for ActionMode: -->
+		<!--
+	  	<item name="android:actionModeCloseButtonStyle" tools:targetApi="11">@style/UtlActionModeCloseButtonDark</item>
+	  	<item name="actionModeCloseButtonStyle">@style/UtlActionModeCloseButtonDark</item>
+	  	-->
+		<item name='android:actionModeBackground'>@color/cyan_darker</item>
+		<item name='actionModeBackground'>@color/cyan_darker</item>
+
+	  	<!-- Action bar overflow menu: -->
+		<!--
+	  	<item name="android:listChoiceBackgroundIndicator" tools:targetApi="11">@drawable/ab_button_bg_dark</item>
+	  	<item name="listChoiceBackgroundIndicator">@drawable/ab_button_bg_dark</item>
+	  	-->
+
+		<!-- Bottom Toolbar Styles: -->
+		<item name='bottom_toolbar_background'>@color/cyan_light</item>
+        <item name='bottom_toolbar_action_mode_background'>@color/cyan_darker</item>
+		<item name='bottom_toolbar_uses_cradle'>true</item>
+
+		<!-- Other Colors: -->
+	  	<item name='list_divider_color'>@color/medium_gray</item>
+	  	<item name='overdue_text_color'>@color/overdue_text_color_dark</item>
+	  	<item name='list_highlight_bg_color'>@color/list_highlight_bg_color_dark</item>
+	  	<item name='list_highlight_bg_color_inv'>@color/list_highlight_bg_color_light</item>
+	  	<item name='list_archive_text_color'>@color/medium_gray</item>
+	  	<item name='table_field_color'>@color/cyan_light</item>
+	  	<item name='main_background_color'>@color/almost_black</item>
+	  	<item name='resizer_divider_color'>@color/white</item>
+	  	<item name='ss_list_detail_divider_color'>@color/ss_divider_color_dark</item>
+	  	<item name='generic_editor_section_outline_color'>@color/black_75</item>
+	  	<item name='task_list_header_background'>@color/black_75</item>
+
+		<!-- Native Ad Call to Action (CTA) button colors: -->
+		<item name='native_add_cta_background_color'>@color/cyan_light</item>
+		<item name='native_add_cta_text_color'>@color/white</item>
+
+		<!-- White icons in action bar -->
+		<item name="drawerArrowStyle">@style/DrawerArrowStyleWhite</item>
+
+	  	<!-- Styles: -->
+	  	<item name='nav_counter_style'>@style/NavCounterStyleDark</item>	
+	  	<item name='date_picker_nav_style'>@style/DatePickerNavDark</item>
+	  	 
+	  	<!-- Command Bar: -->
+	  	<item name="cb_background_splitscreen">@drawable/cb_background_dark</item>
+		<item name='cb_background_fullscreen'>?attr/colorPrimary</item>
+	  	<item name='cb_button_bg'>?android:attr/selectableItemBackground</item>
+	  	
+	  	<!-- Title Bar (displayed at the top of fragments): -->
+	  	<item name='tb_background'>@drawable/tb_background_dark</item>
+	  	
+	  	<!-- Task Editor: -->
+	  	<item name='task_editor_background'>@color/black_75</item>
+	  	<item name='task_editor_section_bar_background'>@color/almost_black</item>
+	  	<item name='task_editor_section_highlight_color'>@color/cyan_dark</item>
+	  	<item name='task_editor_section_bar_divider_color1'>@color/almost_black</item>
+        <item name='task_editor_section_bar_divider_color2'>@color/black_84</item>
+        <item name='task_editor_section_bar_divider_color3'>@color/almost_black</item>
+        <item name='task_editor_warning_background'>@drawable/cb_background_dark</item>
+	  	
+        <!-- Generic Editor: -->
+        <item name='generic_editor_background'>@color/black_75</item>
+        
+        <!-- Save/Cancel Bar (displayed at top of fragments) -->
+        <item name='save_cancel_bar_background'>@drawable/tb_background_dark</item>
+        <item name='save_cancel_bar_divider_color1'>#000000</item>
+        <item name='save_cancel_bar_divider_color2'>#191919</item>
+        <item name='save_cancel_bar_divider_color3'>#3A3A3A</item>
+
+		<!-- Popup Menu -->
+		<item name="popupMenuStyle">@style/PopupMenuDark</item>
+
+	  	<!-- Drawables: -->
+        <item name='ab_add'>@drawable/ab_add_dark</item>
+		<item name='ab_add_inv'>@drawable/ab_add_dark</item>
+        <item name='ab_calendar'>@drawable/ab_calendar_dark</item>
+        <item name='ab_calendar_large'>@drawable/ab_calendar_large_dark</item>
+	    <item name='ab_cancel'>@drawable/ab_cancel_dark</item>
+	    <item name='ab_cancel_inv'>@drawable/ab_cancel_dark</item>
+	    <item name='ab_clone'>@drawable/ab_clone_dark</item>
+		<item name='ab_clone_inv'>@drawable/ab_clone_dark</item>
+	    <item name='ab_delete'>@drawable/ab_delete_dark</item>
+		<item name='ab_delete_inv'>@drawable/ab_delete_dark</item>
+	    <item name='ab_display_options'>@drawable/ab_display_options_dark</item>
+		<item name='ab_display_options_inv'>@drawable/ab_display_options_dark</item>
+	    <item name='ab_edit'>@drawable/ab_edit_dark</item>
+		<item name='ab_edit_inv'>@drawable/ab_edit_dark</item>
+	    <item name='ab_filter'>@drawable/ab_filter_dark</item>
+		<item name='ab_filter_inv'>@drawable/ab_filter_dark</item>
+	    <item name='ab_help'>@drawable/ab_help_dark</item>
+	    <item name='ab_microphone'>@drawable/ab_microphone_dark</item>
+		<item name='ab_microphone_inv'>@drawable/ab_microphone_dark</item>
+	    <item name='ab_multi_select_cancel'>@drawable/ab_multi_select_cancel_dark</item>
+	    <item name='ab_multi_select'>@drawable/ab_multi_select_dark</item>
+	    <item name='ab_multi_select_large'>@drawable/ab_multi_select_large_dark</item>
+	    <item name='ab_my_location'>@drawable/ab_my_location_dark</item>
+	    <item name='ab_navigate'>@drawable/ab_navigate_dark</item>
+		<item name='ab_navigate_inv'>@drawable/ab_navigate_dark</item>
+	    <item name='ab_overflow'>@drawable/ab_overflow_dark</item>
+		<item name='ab_overflow_inv'>@drawable/ab_overflow_dark</item>
+	    <item name='ab_reassign'>@drawable/ab_reassign_dark</item>
+		<item name='ab_reassign_inv'>@drawable/ab_reassign_dark</item>
+	    <item name='ab_repeating'>@drawable/ab_repeating_dark</item>
+	    <item name='ab_repeating_large'>@drawable/ab_repeating_large_dark</item>
+	    <item name='ab_save'>@drawable/ab_save_dark</item>
+		<item name='ab_save_inv'>@drawable/ab_save_dark</item>
+	    <item name='ab_save_view'>@drawable/ab_save_view_dark</item>
+	    <item name='ab_search'>@drawable/ab_search_dark</item>
+	    <item name='ab_select_all'>@drawable/ab_select_all_dark</item>
+	    <item name='ab_settings'>@drawable/ab_settings_dark</item>
+	    <item name='ab_show_map'>@drawable/ab_show_map_dark</item>
+		<item name='ab_show_map_inv'>@drawable/ab_show_map_dark</item>
+	    <item name='ab_sort'>@drawable/ab_sort_dark</item>
+		<item name='ab_sort_inv'>@drawable/ab_sort_dark</item>
+		<item name="ab_star_off">@drawable/ic_star_off_white</item>
+	    <item name="ab_star_off_inv">@drawable/ic_star_off_white</item>
+		<item name="ab_star_on">@drawable/ic_star_on_white_light_cyan</item>
+	    <item name="ab_star_on_inv">@drawable/ic_star_on_white_light_cyan</item>
+	    <item name='ab_sync_now'>@drawable/ab_sync_now_dark</item>
+	    <item name='ab_tags'>@drawable/ab_tags_dark</item>
+	    <item name='ab_tags_large'>@drawable/ab_tags_large_dark</item>
+		<item name="ab_timer_off">@drawable/ic_timer_off_white</item>
+	    <item name="ab_timer_off_inv">@drawable/ic_timer_off_white</item>
+		<item name="ab_timer_running">@drawable/ic_timer_on_white_light_cyan</item>
+	    <item name="ab_timer_running_inv">@drawable/ic_timer_on_white_light_cyan</item>
+	    <item name='ab_view'>@drawable/ab_view_dark</item>
+	    <item name='ab_view_parent'>@drawable/ab_view_parent_dark</item>
+		<item name='ab_view_parent_inv'>@drawable/ab_view_parent_dark</item>
+	    <item name='ab_view_refresh'>@drawable/ab_view_refresh_dark</item>
+	    <item name='ab_view_subtasks'>@drawable/ab_view_subtasks_dark</item>
+		<item name='ab_view_subtasks_inv'>@drawable/ab_view_subtasks_dark</item>
+		<item name='ab_warning'>@drawable/ab_warning_dark</item>
+	    <item name='arrow_down'>@drawable/arrow_down_dark</item>
+	    <item name='arrow_up'>@drawable/arrow_up_dark</item>
+		<item name="bluetooth">@drawable/ab_bluetooth_dark</item>
+		<item name='button_press'>@drawable/utl_button_pressed_dark</item>
+		<item name='checkbox_checked'>@drawable/ic_checkbox_checked_light_cyan</item>
+		<item name='checkbox_indeterminate'>@drawable/ic_checkbox_indeterminate_light_cyan</item>
+		<item name='checkbox_unchecked'>@drawable/ic_checkbox_unchecked_light_cyan</item>
+		<item name="delete_row_highlight">@drawable/ab_delete_light</item>
+	    <item name='editor_divider'>@drawable/editor_divider_ripple_black_63</item>
+	    <item name='editor_section_bg'>@drawable/editor_section_background_dark</item>
+	    <item name='filter_rule_locked'>@drawable/filter_rule_locked_dark</item>
+		<item name='group_indicator'>@drawable/group_indicator_white</item>
+		<item name='info'>@drawable/ic_info_light_cyan</item>
+	    <item name='mic_ring'>@drawable/mic_ring_dark</item>
+	    <item name='nav_add'>@drawable/nav_add_dark</item>
+	    <item name='nav_all_tasks'>@drawable/nav_all_tasks_dark</item>
+	    <item name='nav_by_status'>@drawable/nav_by_status_dark</item>
+	    <item name='nav_context'>@drawable/nav_context_dark</item>
+	    <item name='nav_contexts'>@drawable/nav_contexts_dark</item>
+	    <item name='nav_delete'>@drawable/nav_delete_dark</item>
+	    <item name='nav_drawer'>@drawable/nav_drawer_dark</item>
+	    <item name='nav_drawer_shadow'>@drawable/nav_drawer_shadow_dark</item>
+	    <item name='nav_drawer_shadow_right'>@drawable/nav_drawer_shadow_right_dark</item>
+	    <item name='nav_due_today_tomorrow'>@drawable/nav_due_today_tomorrow_dark</item>
+	    <item name='nav_edit'>@drawable/nav_edit_dark</item>
+	    <item name='nav_expand'>@drawable/nav_expand_dark</item>
+	    <item name='nav_folder'>@drawable/nav_folder_dark</item>
+	    <item name='nav_folders'>@drawable/nav_folders_dark</item>
+	    <item name='nav_goal'>@drawable/nav_goal_dark</item>
+	    <item name='nav_goals'>@drawable/nav_goals_dark</item>
+	    <item name='nav_help'>@drawable/nav_help_dark</item>
+	    <item name='nav_hotlist'>@drawable/nav_hotlist_dark</item>
+	    <item name='nav_location'>@drawable/nav_location_dark</item>
+	    <item name='nav_locations'>@drawable/nav_locations_dark</item>
+	    <item name='nav_my_view'>@drawable/nav_my_view_dark</item>
+	    <item name='nav_my_views'>@drawable/nav_my_views_dark</item>
+	    <item name='nav_notes'>@drawable/nav_notes_dark</item>
+	    <item name='nav_overdue'>@drawable/nav_overdue_dark</item>
+	    <item name='nav_recently_completed'>@drawable/nav_recently_completed_dark</item>
+	    <item name='nav_refresh'>@drawable/nav_refresh_dark</item>
+	    <item name='nav_right_ptr'>@drawable/nav_right_ptr_dark</item>
+	    <item name='nav_settings'>@drawable/nav_settings_dark</item>
+        <item name='nav_money'>@drawable/nav_money_dark</item>
+	    <item name='nav_show_map'>@drawable/nav_show_map_dark</item>
+	    <item name='nav_show_map_inv'>@drawable/nav_show_map_light</item>
+	    <item name='nav_starred'>@drawable/nav_starred_dark</item>
+	    <item name='nav_status_active'>@drawable/nav_status_active_dark</item>
+	    <item name='nav_status_canceled'>@drawable/nav_status_canceled_dark</item>
+	    <item name='nav_status_delegated'>@drawable/nav_status_delegated_dark</item>
+	    <item name='nav_status_hold'>@drawable/nav_status_hold_dark</item>
+	    <item name='nav_status_next_action'>@drawable/nav_status_next_action_dark</item>
+	    <item name='nav_status_none'>@drawable/nav_status_none_dark</item>
+	    <item name='nav_status_planning'>@drawable/nav_status_planning_dark</item>
+	    <item name='nav_status_postponed'>@drawable/nav_status_postponed_dark</item>
+	    <item name='nav_status_reference'>@drawable/nav_status_reference_dark</item>
+	    <item name='nav_status_someday'>@drawable/nav_status_someday_dark</item>
+	    <item name='nav_status_waiting'>@drawable/nav_status_waiting_dark</item>
+	    <item name='nav_sync_now'>@drawable/nav_sync_now_dark</item>
+	    <item name='nav_tag'>@drawable/nav_tag_dark</item>
+	    <item name='nav_tags'>@drawable/nav_tags_dark</item>
+	  	<item name='nav_add_inv'>@drawable/nav_add_light</item>
+	    <item name='nav_all_tasks_inv'>@drawable/nav_all_tasks_light</item>
+	    <item name='nav_by_status_inv'>@drawable/nav_by_status_light</item>
+	    <item name='nav_context_inv'>@drawable/nav_context_light</item>
+	    <item name='nav_contexts_inv'>@drawable/nav_contexts_light</item>
+	    <item name='nav_delete_inv'>@drawable/nav_delete_light</item>
+	    <item name='nav_due_today_tomorrow_inv'>@drawable/nav_due_today_tomorrow_light</item>
+	    <item name='nav_edit_inv'>@drawable/nav_edit_light</item>
+	    <item name='nav_expand_inv'>@drawable/nav_expand_light</item>
+	    <item name='nav_folder_inv'>@drawable/nav_folder_light</item>
+	    <item name='nav_folders_inv'>@drawable/nav_folders_light</item>
+	    <item name='nav_goal_inv'>@drawable/nav_goal_light</item>
+	    <item name='nav_goals_inv'>@drawable/nav_goals_light</item>
+	    <item name='nav_help_inv'>@drawable/nav_help_light</item>
+	    <item name='nav_hotlist_inv'>@drawable/nav_hotlist_light</item>
+	    <item name='nav_location_inv'>@drawable/nav_location_light</item>
+	    <item name='nav_locations_inv'>@drawable/nav_locations_light</item>
+	    <item name='nav_my_view_inv'>@drawable/nav_my_view_light</item>
+	    <item name='nav_my_views_inv'>@drawable/nav_my_views_light</item>
+	    <item name='nav_notes_inv'>@drawable/nav_notes_light</item>
+	    <item name='nav_overdue_inv'>@drawable/nav_overdue_light</item>
+	    <item name='nav_recently_completed_inv'>@drawable/nav_recently_completed_light</item>
+	    <item name='nav_right_ptr_inv'>@drawable/nav_right_ptr_light</item>
+	    <item name='nav_settings_inv'>@drawable/nav_settings_light</item>
+		<item name='nav_money_inv'>@drawable/nav_money_light</item>
+	    <item name='nav_starred_inv'>@drawable/nav_starred_light</item>
+	    <item name='nav_status_active_inv'>@drawable/nav_status_active_light</item>
+	    <item name='nav_status_canceled_inv'>@drawable/nav_status_canceled_light</item>
+	    <item name='nav_status_delegated_inv'>@drawable/nav_status_delegated_light</item>
+	    <item name='nav_status_hold_inv'>@drawable/nav_status_hold_light</item>
+	    <item name='nav_status_next_action_inv'>@drawable/nav_status_next_action_light</item>
+	    <item name='nav_status_none_inv'>@drawable/nav_status_none_light</item>
+	    <item name='nav_status_planning_inv'>@drawable/nav_status_planning_light</item>
+	    <item name='nav_status_postponed_inv'>@drawable/nav_status_postponed_light</item>
+	    <item name='nav_status_reference_inv'>@drawable/nav_status_reference_light</item>
+	    <item name='nav_status_someday_inv'>@drawable/nav_status_someday_light</item>
+	    <item name='nav_status_waiting_inv'>@drawable/nav_status_waiting_light</item>
+	    <item name='nav_sync_now_inv'>@drawable/nav_sync_now_light</item>
+	    <item name='nav_tag_inv'>@drawable/nav_tag_light</item>
+	    <item name='nav_tags_inv'>@drawable/nav_tags_light</item>
+	    <item name='nav_tree_button_bg'>@drawable/nav_drawer_tree_button_bg_dark</item>
+	    <item name='open_contact'>@drawable/open_contact_dark</item>
+	    <item name='resizer_landscape'>@drawable/resize_landscape_dark</item>
+	    <item name='resizer_portrait'>@drawable/resize_portrait_dark</item>
+	    <item name='small_cancel'>@drawable/small_cancel_dark</item>
+	    <item name='ss_left_border'>@drawable/left_border_dark</item>
+	    <item name='status_contact'>@drawable/status_contact_dark</item>
+	    <item name='status_contact_inv'>@drawable/status_contact_light</item>
+	    <item name='status_note'>@drawable/status_note_dark</item>
+	    <item name='status_note_inv'>@drawable/status_note_light</item>
+	    <item name='status_parent'>@drawable/status_parent_dark</item>
+	    <item name='status_parent_inv'>@drawable/status_parent_light</item>
+	    <item name='status_recurring'>@drawable/status_recurring_dark</item>
+	    <item name='status_recurring_inv'>@drawable/status_recurring_light</item>
+	    <item name='status_reminder'>@drawable/status_reminder_dark</item>
+	    <item name='status_reminder_inv'>@drawable/status_reminder_light</item>
+		<item name='status_shared'>@drawable/status_shared_dark</item>
+		<item name='status_shared_inv'>@drawable/status_shared_light</item>
+		<item name='status_starred'>@drawable/ic_star_on_white_light_cyan</item>
+		<item name='status_starred_inv'>@drawable/ic_star_on_black_light_cyan</item>
+		<item name='status_subtask'>@drawable/status_subtask_dark</item>
+		<item name='status_subtask_inv'>@drawable/status_subtask_light</item>
+		<item name='status_timer_on'>@drawable/ic_timer_on_white_light_cyan</item>
+		<item name='status_timer_on_inv'>@drawable/ic_timer_on_black_light_cyan</item>
+		<item name='store_price_background'>@drawable/store_price_background_dark</item>
+		<item name='tab_task_notes'>@drawable/tab_task_notes_dark</item>
+		<item name='tab_task_props'>@drawable/tab_task_props_dark</item>
+		<item name='tab_task_sharing'>@drawable/tab_task_sharing_dark</item>
+
+		<!-- New vector drawables. Added 6/2020: -->
+		<item name='ic_nav_left'>@drawable/ic_nav_prev_white</item>
+		<item name='ic_nav_double_left'>@drawable/ic_double_left_white</item>
+		<item name='ic_nav_right'>@drawable/ic_nav_next_white</item>
+		<item name='ic_nav_double_right'>@drawable/ic_double_right_white</item>
+    </style>
+
+	<!-- The Darker Theme: -->
+	<style name="UtlStyleDarker" parent="@style/UtlStyleDark">
+		<!-- Main color, used in action bar: -->
+		<item name="android:colorPrimary">@color/cyan_light</item>
+		<item name="colorPrimary">@color/cyan_light</item>
+
+		<!-- Status bar color: -->
+		<item name="android:colorPrimaryDark">@color/cyan_dark</item>
+		<item name="colorPrimaryDark">@color/cyan_dark</item>
+
+		<!-- Secondary Color. Used in floating action bar. -->
+		<item name='android:colorSecondary' tools:targetApi='25'>@color/crusta_orange</item>
+		<item name='colorSecondary'>@color/crusta_orange</item>
+
+		<!-- Accent color, used in various place: -->
+		<item name="android:colorAccent">@color/cyan_light</item>
+		<item name="colorAccent">@color/cyan_light</item>
+
+		<!-- Colors to use when highlighting lists: -->
+		<item name='list_highlight_bg_color'>@color/list_highlight_bg_color_dark</item>
+		<item name='list_highlight_bg_color_inv'>@color/list_highlight_bg_color_light</item>
+		<item name='nav_drawer_highlight_bg_color'>@color/nav_drawer_text_highlight_bg_color_dark</item>
+
+		<!-- Default background color: -->
+		<item name='android:windowBackground'>@color/black</item>
+		<item name='popup_window_background_color'>@color/almost_black</item>
+		<item name='main_background_color'>@color/main_background_color_dark</item>
+
+		<!-- Background color for task list header fields: -->
+		<item name='task_list_header_background'>@color/almost_black</item>
+
+		<!-- White icons in action bar -->
+		<item name="drawerArrowStyle">@style/DrawerArrowStyleWhite</item>
+
+		<!-- Bottom Toolbar Styles: -->
+		<item name='bottom_toolbar_background'>@color/cyan_light</item>
+		<item name='bottom_toolbar_action_mode_background'>@color/cyan_darker</item>
+		<item name='bottom_toolbar_uses_cradle'>true</item>
+
+		<!-- Custom Alert Dialog Style: -->
+		<item name='android:alertDialogTheme'>@style/AlertDialogDarker</item>
+		<item name='alertDialogTheme'>@style/AlertDialogDarker</item>
+		<item name='materialAlertDialogTheme'>@style/AlertDialogDarker</item>
+
+		<!-- Custom Time Picker Dialog Style: -->
+		<item name='android:timePickerDialogTheme'>@style/TimePickerDialogDarker</item>
+		<item name='android:timePickerStyle'>@style/TimePickerDialogDarkerSettings</item>
+
+		<!-- Task Editor: -->
+		<item name='task_editor_background'>@color/almost_black</item>
+		<item name='task_editor_section_bar_background'>@color/black</item>
+		<item name='task_editor_section_highlight_color'>@color/cyan_dark</item>
+		<item name='task_editor_section_bar_divider_color1'>@color/black</item>
+		<item name='task_editor_section_bar_divider_color2'>@color/almost_black</item>
+		<item name='task_editor_section_bar_divider_color3'>@color/black</item>
+		<item name='task_editor_warning_background'>@drawable/cb_background_dark</item>
+
+		<!-- Other Editor Colors: -->
+		<item name='generic_editor_background'>@color/almost_black</item>
+		<item name='editor_section_bg'>@drawable/editor_section_background_darker</item>
+		<item name='editor_divider'>@drawable/editor_divider_ripple_black_75</item>
+	</style>
+
+	<!-- The Darkest Theme: -->
+	<style name="UtlStyleDarkest" parent="@style/UtlStyleDark">
+		<!-- Main color, used in action bar: -->
+		<item name="android:colorPrimary">@color/almost_black</item>
+		<item name="colorPrimary">@color/almost_black</item>
+
+		<!-- Status bar color: -->
+		<item name="android:colorPrimaryDark">@color/cyan_dark</item>
+		<item name="colorPrimaryDark">@color/cyan_dark</item>
+
+		<!-- Secondary Color. Used in floating action bar. -->
+		<item name='android:colorSecondary' tools:targetApi='25'>@color/crusta_orange</item>
+		<item name='colorSecondary'>@color/crusta_orange</item>
+
+		<!-- Accent color, used in various place: -->
+		<item name="android:colorAccent">@color/cyan_light</item>
+		<item name="colorAccent">@color/cyan_light</item>
+
+		<!-- Colors to use when highlighting lists: -->
+		<item name='list_highlight_bg_color'>@color/list_highlight_bg_color_dark</item>
+		<item name='list_highlight_bg_color_inv'>@color/list_highlight_bg_color_light</item>
+		<item name='nav_drawer_highlight_bg_color'>@color/nav_drawer_text_highlight_bg_color_dark</item>
+
+		<!-- Default background color: -->
+		<item name='android:windowBackground'>@color/black</item>
+		<item name='popup_window_background_color'>@color/almost_black</item>
+		<item name='main_background_color'>@color/main_background_color_dark</item>
+
+		<!-- Background color for task list header fields: -->
+		<item name='task_list_header_background'>@color/almost_black</item>
+
+		<!-- Action bar with dark background and a cyan border -->
+		<item name='android:actionBarStyle'>@style/ActionBarDark</item>
+		<item name='actionBarStyle'>@style/ActionBarDark</item>
+		<item name='actionBarTheme'>@style/ActionBarDark</item>
+
+		<!-- White icons in action bar -->
+		<item name="drawerArrowStyle">@style/DrawerArrowStyleWhite</item>
+
+		<!-- Bottom Toolbar Styles: -->
+		<item name='bottom_toolbar_background'>@drawable/bottom_toolbar_background_dark</item>
+		<item name='bottom_toolbar_action_mode_background'>@drawable/bottom_toolbar_am_background_dark</item>
+		<item name='bottom_toolbar_uses_cradle'>false</item>
+
+		<!-- Action mode drawable for top bar: -->
+		<item name='android:actionModeBackground'>@drawable/action_mode_background_dark</item>
+		<item name='actionModeBackground'>@drawable/action_mode_background_dark</item>
+
+		<!-- Custom Alert Dialog Style: -->
+		<item name='android:alertDialogTheme'>@style/AlertDialogDarker</item>
+		<item name='alertDialogTheme'>@style/AlertDialogDarker</item>
+		<item name='materialAlertDialogTheme'>@style/AlertDialogDarker</item>
+
+		<!-- Custom Time Picker Dialog Style: -->
+		<item name='android:timePickerDialogTheme'>@style/TimePickerDialogDarker</item>
+		<item name='android:timePickerStyle'>@style/TimePickerDialogDarkerSettings</item>
+
+		<!-- Task Editor: -->
+		<item name='task_editor_background'>@color/almost_black</item>
+		<item name='task_editor_section_bar_background'>@color/black</item>
+		<item name='task_editor_section_highlight_color'>@color/cyan_dark</item>
+		<item name='task_editor_section_bar_divider_color1'>@color/black</item>
+		<item name='task_editor_section_bar_divider_color2'>@color/almost_black</item>
+		<item name='task_editor_section_bar_divider_color3'>@color/black</item>
+		<item name='task_editor_warning_background'>@drawable/cb_background_dark</item>
+
+		<!-- Other Editor Colors: -->
+		<item name='generic_editor_background'>@color/almost_black</item>
+		<item name='editor_section_bg'>@drawable/editor_section_background_darker</item>
+		<item name='editor_divider'>@drawable/editor_divider_ripple_black_75</item>
+
+		<!-- A custom Button style: -->
+		<item name='materialButtonStyle'>@style/ClassicButton</item>
+
+		<!-- The command bar, which appears at the bottom of the task viewer: -->
+		<item name="cb_background_splitscreen">@drawable/cb_background_dark</item>
+		<item name='cb_background_fullscreen'>@drawable/cb_background_dark</item>
+	</style>
+
+	<!-- Alert dialog style for light theme - Dark Cyan Buttons: -->
+	<style name='AlertDialogLightDarkCyan' parent='@style/Theme.MaterialComponents.Light.Dialog.Alert'>
+		<item name="buttonBarPositiveButtonStyle">@style/DialogButtonDarkCyan</item>
+		<item name="buttonBarNegativeButtonStyle">@style/DialogButtonDarkCyan</item>
+		<item name="buttonBarNeutralButtonStyle">@style/DialogButtonDarkCyan</item>
+		<item name="materialButtonStyle">@style/DialogButtonDarkCyan</item>
+		<item name='colorAccent'>@color/cyan_dark</item>
+	</style>
+
+	<!-- Alert dialog button style for light themes - Dark Cyan Buttons: -->
+	<style name='DialogButtonDarkCyan' parent='Widget.MaterialComponents.Button.TextButton'>
+		<item name="backgroundTint">@color/transparent</item>
+		<item name="rippleColor">@color/cyan_dark</item>
+		<item name="android:textColor">@color/cyan_dark</item>
+	</style>
+
+	<!-- Alert dialog style for light theme - Boston Blue Buttons: -->
+	<style name='AlertDialogLightBostonBlue' parent='@style/Theme.MaterialComponents.Light.Dialog.Alert'>
+		<item name="buttonBarPositiveButtonStyle">@style/DialogButtonBostonBlue</item>
+		<item name="buttonBarNegativeButtonStyle">@style/DialogButtonBostonBlue</item>
+		<item name="buttonBarNeutralButtonStyle">@style/DialogButtonBostonBlue</item>
+		<item name="materialButtonStyle">@style/DialogButtonBostonBlue</item>
+		<item name='colorAccent'>@color/boston_blue</item>
+	</style>
+
+	<!-- Alert dialog button style for light themes - Dark Cyan Buttons: -->
+	<style name='DialogButtonBostonBlue' parent='Widget.MaterialComponents.Button.TextButton'>
+		<item name="backgroundTint">@color/transparent</item>
+		<item name="rippleColor">@color/boston_blue</item>
+		<item name="android:textColor">@color/boston_blue</item>
+	</style>
+
+	<!-- Alert dialog style for the "dark" theme: -->
+	<style name="AlertDialogDark" parent='@style/Theme.MaterialComponents.Dialog.Alert'>
+		<item name="android:background">@color/black_84</item>
+		<item name="buttonBarPositiveButtonStyle">@style/DialogButtonLightCyan</item>
+		<item name="buttonBarNegativeButtonStyle">@style/DialogButtonLightCyan</item>
+		<item name="buttonBarNeutralButtonStyle">@style/DialogButtonLightCyan</item>
+		<item name="materialButtonStyle">@style/DialogButtonLightCyan</item>
+		<item name='colorAccent'>@color/cyan_light</item>
+
+	</style>
+
+	<!-- Alert dialog style for the "darker" and "ultimate dark" themes: -->
+	<style name="AlertDialogDarker" parent='@style/Theme.MaterialComponents.Dialog.Alert'>
+		<item name="android:background">@color/almost_black</item>
+		<item name="buttonBarPositiveButtonStyle">@style/DialogButtonLightCyan</item>
+		<item name="buttonBarNegativeButtonStyle">@style/DialogButtonLightCyan</item>
+		<item name="buttonBarNeutralButtonStyle">@style/DialogButtonLightCyan</item>
+		<item name="materialButtonStyle">@style/DialogButtonLightCyan</item>
+		<item name='colorAccent'>@color/cyan_light</item>
+	</style>
+
+	<!-- Alert dialog button style for light themes - Dark Cyan Buttons: -->
+	<style name='DialogButtonLightCyan' parent='Widget.MaterialComponents.Button.TextButton'>
+		<item name="backgroundTint">@color/transparent</item>
+		<item name="rippleColor">@color/cyan_light</item>
+		<item name="android:textColor">@color/cyan_light</item>
+	</style>
+
+	<!-- Time picker style for light theme: -->
+	<style name='TimePickerDialogLight' parent='Theme.AppCompat.Light.Dialog'>
+		<item name="colorAccent">@color/cyan_dark</item>
+		<item name="materialButtonStyle">@style/DialogButtonDarkCyan</item>
+	</style>
+
+	<!-- Time picker sytle for light theme, used in settings screens: -->
+	<style name='TimePickerDialogLightSettings' parent='android:Widget.Material.Light.TimePicker'>
+		<item name="colorAccent">@color/cyan_dark</item>
+		<item name="materialButtonStyle">@style/DialogButtonDarkCyan</item>
+
+		<!-- These only affect the time picker when started from the settings area. -->
+		<item name="android:timePickerMode">clock</item>
+		<item name="android:headerBackground">@color/cyan_dark</item>
+		<item name="android:numbersTextColor">@color/black</item>
+		<item name="android:numbersSelectorColor">@color/cyan_dark</item>
+		<item name="android:amPmTextColor">@color/white</item>
+	</style>
+
+	<!-- Time picker style for light theme / Boston Blue: -->
+	<style name='TimePickerDialogLightBoston' parent='@style/Theme.AppCompat.Light.Dialog'>
+		<item name="colorAccent">@color/boston_blue</item>
+		<item name="materialButtonStyle">@style/DialogButtonBostonBlue</item>
+	</style>
+
+	<!-- Time picker sytle for Boston theme, used in settings screens: -->
+	<style name='TimePickerDialogLightBostonSettings' parent='android:Widget.Material.Light.TimePicker'>
+		<item name="colorAccent">@color/cyan_dark</item>
+		<item name="materialButtonStyle">@style/DialogButtonDarkCyan</item>
+
+		<!-- These only affect the time picker when started from the settings area. -->
+		<item name="android:timePickerMode">clock</item>
+		<item name="android:headerBackground">@color/boston_blue</item>
+		<item name="android:numbersTextColor">@color/black</item>
+		<item name="android:numbersSelectorColor">@color/boston_blue</item>
+		<item name="android:amPmTextColor">@color/white</item>
+	</style>
+
+	<!-- Time picker style for dark theme: -->
+	<style name='TimePickerDialogDark' parent='@style/Theme.AppCompat.Dialog'>
+		<item name="colorAccent">@color/cyan_light</item>
+		<item name='android:windowBackground'>@color/black_84</item>
+		<item name="materialButtonStyle">@style/DialogButtonLightCyan</item>
+	</style>
+
+	<!-- Time picker style for dark theme, which launched in settings: -->
+	<!-- https://stackoverflow.com/questions/32549992/how-to-customize-timepicker-in-material-design-android -->
+	<style name='TimePickerDialogDarkSettings' parent='android:Widget.Material.TimePicker'>
+		<item name="colorAccent">@color/cyan_light</item>
+		<item name='android:windowBackground'>@color/black_84</item>
+		<item name="materialButtonStyle">@style/DialogButtonLightCyan</item>
+
+		<!-- These only affect the time picker when started from the settings area. -->
+		<item name="android:timePickerMode">clock</item>
+		<item name="android:headerBackground">@color/cyan_light</item>
+		<item name="android:numbersTextColor">@color/white</item>
+		<item name="android:numbersSelectorColor">@color/cyan_light</item>
+	</style>
+
+	<!-- Time picker style for darker and Ultimate Dark themes: -->
+	<style name='TimePickerDialogDarker' parent='@style/Theme.AppCompat.Dialog'>
+		<item name="colorAccent">@color/cyan_light</item>
+		<item name='android:windowBackground'>@color/almost_black</item>
+		<item name="materialButtonStyle">@style/DialogButtonLightCyan</item>
+	</style>
+
+	<!-- Time picker style for darker and Ultimate Dark themes, which launched in settings: -->
+	<style name='TimePickerDialogDarkerSettings' parent='android:Widget.Material.TimePicker'>
+		<item name="colorAccent">@color/cyan_light</item>
+		<item name='android:windowBackground'>@color/almost_black</item>
+		<item name="materialButtonStyle">@style/DialogButtonLightCyan</item>
+
+		<!-- These only affect the time picker when started from the settings area. -->
+		<item name="android:timePickerMode">clock</item>
+		<item name="android:headerBackground">@color/cyan_light</item>
+		<item name="android:numbersTextColor">@color/white</item>
+		<item name="android:numbersSelectorColor">@color/cyan_light</item>
+	</style>
+
+	<!-- Additional Themes, Corresponding to the Font Size Options: -->
+    <style name="UtlStylePacific.SmallFont">
+        <item name='utl_font_size_small'>11sp</item>
+        <item name='utl_font_size_normal'>12sp</item>
+		<item name='utl_font_size_large'>14sp</item>
+    </style>
+    <style name="UtlStylePacific.MediumFont">
+        <item name='utl_font_size_small'>12sp</item>
+        <item name='utl_font_size_normal'>14sp</item>
+		<item name='utl_font_size_large'>18sp</item>
+    </style>
+    <style name="UtlStylePacific.LargeFont">
+        <item name='utl_font_size_small'>14sp</item>
+        <item name='utl_font_size_normal'>18sp</item>
+		<item name='utl_font_size_large'>22sp</item>
+    </style>
+	<style name="UtlStyleBoston.SmallFont">
+		<item name='utl_font_size_small'>11sp</item>
+		<item name='utl_font_size_normal'>12sp</item>
+		<item name='utl_font_size_large'>14sp</item>
+	</style>
+	<style name="UtlStyleBoston.MediumFont">
+		<item name='utl_font_size_small'>12sp</item>
+		<item name='utl_font_size_normal'>14sp</item>
+		<item name='utl_font_size_large'>18sp</item>
+	</style>
+	<style name="UtlStyleBoston.LargeFont">
+		<item name='utl_font_size_small'>14sp</item>
+		<item name='utl_font_size_normal'>18sp</item>
+		<item name='utl_font_size_large'>22sp</item>
+	</style>
+	<style name="UtlStyleClassic.SmallFont">
+		<item name='utl_font_size_small'>11sp</item>
+		<item name='utl_font_size_normal'>12sp</item>
+		<item name='utl_font_size_large'>14sp</item>
+	</style>
+	<style name="UtlStyleClassic.MediumFont">
+		<item name='utl_font_size_small'>12sp</item>
+		<item name='utl_font_size_normal'>14sp</item>
+		<item name='utl_font_size_large'>18sp</item>
+	</style>
+	<style name="UtlStyleClassic.LargeFont">
+		<item name='utl_font_size_small'>14sp</item>
+		<item name='utl_font_size_normal'>18sp</item>
+		<item name='utl_font_size_large'>22sp</item>
+	</style>
+    <style name="UtlStyleDark.SmallFont">
+        <item name='utl_font_size_small'>11sp</item>
+        <item name='utl_font_size_normal'>12sp</item>
+		<item name='utl_font_size_large'>14sp</item>
+    </style>
+    <style name="UtlStyleDark.MediumFont">
+        <item name='utl_font_size_small'>12sp</item>
+        <item name='utl_font_size_normal'>14sp</item>
+		<item name='utl_font_size_large'>18sp</item>
+    </style>
+    <style name="UtlStyleDark.LargeFont">
+        <item name='utl_font_size_small'>14sp</item>
+        <item name='utl_font_size_normal'>18sp</item>
+		<item name='utl_font_size_large'>22sp</item>
+    </style>
+	<style name="UtlStyleDarker.SmallFont">
+		<item name='utl_font_size_small'>11sp</item>
+		<item name='utl_font_size_normal'>12sp</item>
+		<item name='utl_font_size_large'>14sp</item>
+	</style>
+	<style name="UtlStyleDarker.MediumFont">
+		<item name='utl_font_size_small'>12sp</item>
+		<item name='utl_font_size_normal'>14sp</item>
+		<item name='utl_font_size_large'>18sp</item>
+	</style>
+	<style name="UtlStyleDarker.LargeFont">
+		<item name='utl_font_size_small'>14sp</item>
+		<item name='utl_font_size_normal'>18sp</item>
+		<item name='utl_font_size_large'>22sp</item>
+	</style>
+	<style name="UtlStyleDarkest.SmallFont">
+		<item name='utl_font_size_small'>11sp</item>
+		<item name='utl_font_size_normal'>12sp</item>
+		<item name='utl_font_size_large'>14sp</item>
+	</style>
+	<style name="UtlStyleDarkest.MediumFont">
+		<item name='utl_font_size_small'>12sp</item>
+		<item name='utl_font_size_normal'>14sp</item>
+		<item name='utl_font_size_large'>18sp</item>
+	</style>
+	<style name="UtlStyleDarkest.LargeFont">
+		<item name='utl_font_size_small'>14sp</item>
+		<item name='utl_font_size_normal'>18sp</item>
+		<item name='utl_font_size_large'>22sp</item>
+	</style>
+    
+    <!-- This style is used for Activities that appear as a popup window on top of the current Activity -->
+	<style name='UtlStylePacific.Popup'>
+	    <item name="android:windowIsFloating">false</item>
+    	<item name="android:windowContentOverlay">@null</item>
+    	<item name="android:windowSoftInputMode">stateAlwaysHidden</item>
+    	<item tools:targetApi="11" name="android:windowActionModeOverlay">true</item>
+    	<item name="android:windowIsTranslucent">true</item>
+	</style>
+	<style name='UtlStyleBoston.Popup'>
+		<item name="android:windowIsFloating">false</item>
+		<item name="android:windowContentOverlay">@null</item>
+		<item name="android:windowSoftInputMode">stateAlwaysHidden</item>
+		<item tools:targetApi="11" name="android:windowActionModeOverlay">true</item>
+		<item name="android:windowIsTranslucent">true</item>
+	</style>
+	<style name='UtlStyleClassic.Popup'>
+		<item name="android:windowIsFloating">false</item>
+		<item name="android:windowContentOverlay">@null</item>
+		<item name="android:windowSoftInputMode">stateAlwaysHidden</item>
+		<item tools:targetApi="11" name="android:windowActionModeOverlay">true</item>
+		<item name="android:windowIsTranslucent">true</item>
+	</style>
+	<style name='UtlStyleDark.Popup'>
+	    <item name="android:windowIsFloating">false</item>
+    	<item name="android:windowContentOverlay">@null</item>
+    	<item name="android:windowSoftInputMode">stateAlwaysHidden</item>
+    	<item tools:targetApi="11" name="android:windowActionModeOverlay">true</item>
+    	<item name="android:windowIsTranslucent">true</item>
+	</style>
+	<style name='UtlStyleDarker.Popup'>
+		<item name="android:windowIsFloating">false</item>
+		<item name="android:windowContentOverlay">@null</item>
+		<item name="android:windowSoftInputMode">stateAlwaysHidden</item>
+		<item tools:targetApi="11" name="android:windowActionModeOverlay">true</item>
+		<item name="android:windowIsTranslucent">true</item>
+	</style>
+	<style name='UtlStyleDarkest.Popup'>
+		<item name="android:windowIsFloating">false</item>
+		<item name="android:windowContentOverlay">@null</item>
+		<item name="android:windowSoftInputMode">stateAlwaysHidden</item>
+		<item tools:targetApi="11" name="android:windowActionModeOverlay">true</item>
+		<item name="android:windowIsTranslucent">true</item>
+	</style>
+	<style name="UtlStylePacific.Popup.SmallFont">
+        <item name='utl_font_size_small'>11sp</item>
+        <item name='utl_font_size_normal'>12sp</item>
+		<item name='utl_font_size_large'>14sp</item>
+    </style>
+    <style name="UtlStylePacific.Popup.MediumFont">
+        <item name='utl_font_size_small'>12sp</item>
+        <item name='utl_font_size_normal'>14sp</item>
+		<item name='utl_font_size_large'>18sp</item>
+    </style>
+    <style name="UtlStylePacific.Popup.LargeFont">
+        <item name='utl_font_size_small'>14sp</item>
+        <item name='utl_font_size_normal'>18sp</item>
+		<item name='utl_font_size_large'>22sp</item>
+    </style>
+	<style name="UtlStyleBoston.Popup.SmallFont">
+		<item name='utl_font_size_small'>11sp</item>
+		<item name='utl_font_size_normal'>12sp</item>
+		<item name='utl_font_size_large'>14sp</item>
+	</style>
+	<style name="UtlStyleBoston.Popup.MediumFont">
+		<item name='utl_font_size_small'>12sp</item>
+		<item name='utl_font_size_normal'>14sp</item>
+		<item name='utl_font_size_large'>18sp</item>
+	</style>
+	<style name="UtlStyleBoston.Popup.LargeFont">
+		<item name='utl_font_size_small'>14sp</item>
+		<item name='utl_font_size_normal'>18sp</item>
+		<item name='utl_font_size_large'>22sp</item>
+	</style>
+	<style name="UtlStyleClassic.Popup.SmallFont">
+		<item name='utl_font_size_small'>11sp</item>
+		<item name='utl_font_size_normal'>12sp</item>
+		<item name='utl_font_size_large'>14sp</item>
+	</style>
+	<style name="UtlStyleClassic.Popup.MediumFont">
+		<item name='utl_font_size_small'>12sp</item>
+		<item name='utl_font_size_normal'>14sp</item>
+		<item name='utl_font_size_large'>18sp</item>
+	</style>
+	<style name="UtlStyleClassic.Popup.LargeFont">
+		<item name='utl_font_size_small'>14sp</item>
+		<item name='utl_font_size_normal'>18sp</item>
+		<item name='utl_font_size_large'>22sp</item>
+	</style>
+    <style name="UtlStyleDark.Popup.SmallFont">
+        <item name='utl_font_size_small'>11sp</item>
+        <item name='utl_font_size_normal'>12sp</item>
+		<item name='utl_font_size_large'>14sp</item>
+    </style>
+    <style name="UtlStyleDark.Popup.MediumFont">
+        <item name='utl_font_size_small'>12sp</item>
+        <item name='utl_font_size_normal'>14sp</item>
+		<item name='utl_font_size_large'>18sp</item>
+    </style>
+    <style name="UtlStyleDark.Popup.LargeFont">
+        <item name='utl_font_size_small'>14sp</item>
+        <item name='utl_font_size_normal'>18sp</item>
+		<item name='utl_font_size_large'>22sp</item>
+    </style>
+	<style name="UtlStyleDarker.Popup.SmallFont">
+		<item name='utl_font_size_small'>11sp</item>
+		<item name='utl_font_size_normal'>12sp</item>
+		<item name='utl_font_size_large'>14sp</item>
+	</style>
+	<style name="UtlStyleDarker.Popup.MediumFont">
+		<item name='utl_font_size_small'>12sp</item>
+		<item name='utl_font_size_normal'>14sp</item>
+		<item name='utl_font_size_large'>18sp</item>
+	</style>
+	<style name="UtlStyleDarker.Popup.LargeFont">
+		<item name='utl_font_size_small'>14sp</item>
+		<item name='utl_font_size_normal'>18sp</item>
+		<item name='utl_font_size_large'>22sp</item>
+	</style>
+	<style name="UtlStyleDarkest.Popup.SmallFont">
+		<item name='utl_font_size_small'>11sp</item>
+		<item name='utl_font_size_normal'>12sp</item>
+		<item name='utl_font_size_large'>14sp</item>
+	</style>
+	<style name="UtlStyleDarkest.Popup.MediumFont">
+		<item name='utl_font_size_small'>12sp</item>
+		<item name='utl_font_size_normal'>14sp</item>
+		<item name='utl_font_size_large'>18sp</item>
+	</style>
+	<style name="UtlStyleDarkest.Popup.LargeFont">
+		<item name='utl_font_size_small'>14sp</item>
+		<item name='utl_font_size_normal'>18sp</item>
+		<item name='utl_font_size_large'>22sp</item>
+	</style>
+
+	<style name='UtlStylePacific.Transparent'>
+		<item name="android:windowIsTranslucent">true</item>
+		<item name="android:windowBackground">@android:color/transparent</item>
+		<item name="android:windowContentOverlay">@null</item>
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowIsFloating">true</item>
+		<item name="android:backgroundDimEnabled">false</item>
+		<item name='utl_font_size_small'>12sp</item>
+		<item name='utl_font_size_normal'>14sp</item>
+		<item name='utl_font_size_large'>18sp</item>
+	</style>
+
+    <!-- Overrides for the TextAppearance Styles, containing text size and other attributes: -->
+    <style name='UtlTextAppearance' parent='android:TextAppearance'>
+        <item name="android:textSize">?attr/utl_font_size_normal</item>
+    </style>
+    <style name='UtlTextAppearance.Large'>
+        <item name="android:textSize">?attr/utl_font_size_large</item>
+    </style>
+    <style name='UtlTextAppearance.Medium'>
+        <item name="android:textSize">?attr/utl_font_size_normal</item>
+    </style>
+    <style name='UtlTextAppearance.Small'>
+        <item name="android:textSize">?attr/utl_font_size_small</item>
+    </style>
+
+	<!-- TextView Style -->
+	<style name="UtlTextViewLight" parent="android:Widget.TextView">
+	    <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+	  	<item name="android:textColor">?attr/utl_text_color</item>
+	</style>
+	<style name="UtlTextViewDark" parent="android:Widget.TextView">
+	    <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+	  	<item name="android:textColor">?attr/utl_text_color</item>
+	</style>
+	
+	<!-- Spinner Item Style: -->
+	<style name='UtlSpinnerItem' parent='android:Widget.Holo.TextView.SpinnerItem'>
+		<item name="android:textAppearance">@style/UtlSpinnerTextAppearance</item>
+	</style>
+	<style name='UtlSpinnerTextAppearance' parent='android:TextAppearance.Holo.Widget.TextView.SpinnerItem'>
+		<item name='android:textSize'>?attr/utl_font_size_normal</item>
+	</style>
+	
+	<!-- Button Style -->
+	<style name='UtlButtonLight' parent="android:Widget.Holo.Light.Button">
+		<item name='android:background'>@drawable/utl_button_light_ripple</item>
+		<item name='android:textSize'>?attr/utl_font_size_normal</item>
+		<item name='android:textColor'>@color/black</item>
+		<item name="android:textStyle">normal</item>
+	</style>
+	<style name='UtlButtonDark' parent="android:Widget.Holo.Button">
+		<item name='android:background'>@drawable/utl_button_dark_ripple</item>
+		<item name='android:textSize'>?attr/utl_font_size_normal</item>
+		<item name='android:textColor'>@color/black</item>
+		<item name="android:textStyle">normal</item>
+	</style>
+		
+	<!-- Date Picker Navigation Buttons: -->
+	<style name='DatePickerNavLight'>
+		<item name='android:layout_width'>wrap_content</item>
+		<item name='android:layout_height'>48dp</item>
+		<item name='android:layout_weight'>0.1</item>
+		<item name='android:width'>0px</item>
+		<item name="android:minWidth">48dp</item>
+		<item name='android:background'>@drawable/transparent_ripple_button</item>
+	</style>
+	<style name='DatePickerNavDark'>
+		<item name='android:layout_width'>wrap_content</item>
+		<item name='android:layout_height'>48dp</item>
+		<item name='android:layout_weight'>0.1</item>
+		<item name='android:width'>0px</item>
+		<item name="android:minWidth">48dp</item>
+		<item name='android:background'>@drawable/transparent_ripple_button</item>
+	</style>
+
+	<!-- Styles for date picker quick date buttons (today, tomorrow, etc: -->
+	<style name='QuickDateButtonPortrait'>
+		<item name='android:layout_width'>0dp</item>
+		<item name='android:layout_height'>wrap_content</item>
+		<item name='android:layout_weight'>1</item>
+		<item name='android:gravity'>center</item>
+		<item name='android:singleLine'>true</item>
+		<item name='android:ellipsize'>end</item>
+		<item name='android:layout_marginLeft'>3dp</item>
+		<item name='android:layout_marginRight'>3dp</item>
+		<item name='android:textAllCaps'>false</item>
+		<item name='android:letterSpacing'>0</item>
+		<item name='android:textSize'>?attr/utl_font_size_normal</item>
+	</style>
+	<!-- Styles for date picker quick date buttons (today, tomorrow, etc: -->
+	<style name='QuickDateButtonLandscape'>
+		<item name='android:layout_width'>match_parent</item>
+		<item name='android:layout_height'>wrap_content</item>
+		<item name='android:gravity'>center</item>
+		<item name='android:singleLine'>true</item>
+		<item name='android:ellipsize'>end</item>
+		<item name='android:layout_marginLeft'>3dp</item>
+		<item name='android:layout_marginRight'>3dp</item>
+		<item name='android:textAllCaps'>false</item>
+		<item name='android:letterSpacing'>0</item>
+		<item name='android:textSize'>?attr/utl_font_size_normal</item>
+	</style>
+
+	<!-- Style for the button for the classic theme: -->
+	<style name='ClassicButton' parent='Widget.MaterialComponents.Button'>
+		<item name='backgroundTint'>?attr/colorAccent</item>
+	</style>
+
+	<!-- Style for the button for the Ultimate Dark theme: -->
+	<style name='UltimateDarkButton' parent='Widget.MaterialComponents.Button'>
+		<item name='backgroundTint'>?attr/colorAccent</item>
+	</style>
+
+	<!-- Style for the buttons in the task viewer (dismiss, snooze, etc.) -->
+	<style name='TaskViewerButton' parent='Widget.MaterialComponents.Button'>
+		<item name='backgroundTint'>?attr/colorAccent</item>
+		<item name='android:layout_width'>0dp</item>
+		<item name='android:layout_height'>wrap_content</item>
+		<item name='android:layout_weight'>1</item>
+		<item name='android:layout_marginLeft'>3dp</item>
+		<item name='android:layout_marginRight'>3dp</item>
+		<item name='android:gravity'>center</item>
+		<item name='android:singleLine'>true</item>
+		<item name='android:ellipsize'>end</item>
+		<item name='android:textAllCaps'>false</item>
+		<item name='android:letterSpacing'>0</item>
+		<item name='android:textSize'>?attr/utl_font_size_normal</item>
+	</style>
+
+	<!-- EditText Style -->
+	<style name='UtlEditText' parent="android:Widget.EditText">
+	    <item name='android:textSize'>?attr/utl_font_size_large</item>
+	</style>
+	<style name='ClearableEditText' parent='UtlEditText'>
+	    <item name='android:minHeight'>48dp</item>
+	    <item name='android:drawableRight'>?attr/small_cancel</item>
+	    <item name="android:textColor">?attr/utl_text_color</item>
+	</style>
+	
+	<!-- Action Bar Button Style: -->
+	<style name='UtlActionBarButtonDark' parent='Widget.AppCompat.ActionButton'>
+		<item name="android:background">@drawable/ab_button_bg_dark</item>
+	</style>
+	<style name='UtlActionBarButtonLight' parent='Widget.AppCompat.ActionButton'>
+		<item name="android:background">@drawable/ab_button_bg_light</item>
+	</style>
+	<style name='UtlActionBarOverflowButtonLight' parent='Widget.AppCompat.Light.ActionButton.Overflow'>
+		<item name="android:background">@drawable/ab_button_bg_light</item>
+	</style>
+	<style name='UtlActionBarOverflowButtonDark' parent='Widget.AppCompat.ActionButton.Overflow'>
+		<item name="android:background">@drawable/ab_button_bg_dark</item>
+	</style>
+
+	<!-- Action Bar in Action Mode Styles: -->
+	<style name='UtlActionModeCloseButtonDark' parent='Widget.AppCompat.ActionButton.CloseMode'>
+		<item name="android:background">@drawable/ab_button_bg_dark</item>
+	</style>
+	<style name='UtlActionModeCloseButtonLight' parent='Widget.AppCompat.Light.ActionButton.CloseMode'>
+		<item name="android:background">@drawable/ab_button_bg_light</item>
+	</style>
+
+	<!-- Dark Action Bar -->
+	<style name='ActionBarDark' parent='@style/Widget.MaterialComponents.ActionBar.Solid'>
+		<item name="background">@drawable/ab_background_dark</item>
+		<item name="actionOverflowButtonStyle">@style/OverflowButtonWhite</item>
+	</style>
+
+	<!-- Light Action Bar -->
+	<style name='ActionBarLight' parent='@style/Widget.MaterialComponents.Light.ActionBar.Solid'>
+		<item name="background">@drawable/ab_background_light</item>
+	</style>
+
+	<!-- White hamburger icon in action bar. -->
+	<style name='DrawerArrowStyleWhite' parent='@style/Widget.AppCompat.DrawerArrowToggle'>
+		<item name="spinBars">true</item>
+		<item name="color">@android:color/white</item>
+	</style>
+
+	<!-- White overflow button: -->
+	<style name='OverflowButtonWhite' parent="@style/Widget.AppCompat.ActionButton.Overflow">
+		<item name="android:tint">@color/white</item>
+	</style>
+
+    <style name="NavCounterStyleLight" parent="@style/UtlTextViewLight">
+		<item name="android:gravity">center_horizontal|center_vertical</item>
+		<item name="android:layout_gravity">center_vertical</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:text"></item>
+		<item name="android:textColor">?android:attr/textColorSecondary</item>
+		<item name="android:paddingLeft">2dp</item>
+		<item name="android:paddingRight">2dp</item>
+		<item name="android:visibility">gone</item>
+		<item name="android:minWidth">34sp</item>
+		<item name='android:textSize'>?attr/utl_font_size_normal</item>
+	</style>
+    <style name="NavCounterStyleDark" parent="@style/UtlTextViewLight">
+		<item name="android:gravity">center_horizontal|center_vertical</item>
+		<item name="android:layout_gravity">center_vertical</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:text"></item>
+		<item name="android:textColor">?android:attr/textColorSecondary</item>
+		<item name="android:paddingLeft">2dp</item>
+		<item name="android:paddingRight">2dp</item>
+		<item name="android:visibility">gone</item>
+		<item name="android:minWidth">34sp</item>
+		<item name='android:textSize'>?attr/utl_font_size_normal</item>
+	</style>
+    
+	<!-- Horizontal Divider -->
+	<style name="HorizontalDivider">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">1dp</item>
+		<item name="android:background">#808080</item>
+	</style>
+	
+	<!-- TASK EDITOR STYLES: -->
+	
+	<!-- Style for field names in the task viewer: -->
+	<style name='TaskViewerField'>
+	    <item name='android:layout_width'>wrap_content</item>
+	    <item name='android:layout_height'>wrap_content</item>
+	    <item name='android:gravity'>right</item>
+	    <item name='android:textColor'>?attr/table_field_color</item>
+	    <item name='android:textStyle'>bold</item>
+	    <item name='android:paddingLeft'>3dp</item>
+		<item name='android:paddingRight'>3dp</item>
+	</style>
+
+	<!-- Style for field values in the task viewer table: -->
+	<style name='TaskViewerValue'>
+		<item name='android:layout_width'>0dp</item>
+		<item name='android:layout_height'>wrap_content</item>
+	</style>
+
+	<!-- Style for separators in the task viewer field column: -->
+	<style name='TaskViewerFieldSeparator'>
+		<item name='android:layout_height'>1px</item>
+		<item name='android:layout_width'>match_parent</item>
+		<item name='android:background'>?attr/list_divider_color</item>
+	</style>
+
+	<!-- Style for separators in the task viewer value column: -->
+	<style name='TaskViewerValueSeparator'>
+		<item name='android:layout_height'>1px</item>
+		<item name='android:layout_width'>0dp</item>
+		<item name='android:background'>?attr/list_divider_color</item>
+	</style>
+
+	<!-- Style for section layouts in the task editor: -->
+	<style name='TaskEditorSectionLayout'>
+		<item name='android:layout_width'>fill_parent</item>
+		<item name='android:layout_height'>wrap_content</item>
+		<item name='android:background'>?attr/editor_section_bg</item>
+		<item name='android:layout_marginLeft'>3dp</item>
+		<item name='android:layout_marginRight'>3dp</item> 
+		<item name='android:orientation'>vertical</item>
+		<item name='android:layout_marginTop'>8dp</item>
+	</style>
+	
+	<!-- Style for field names in the task editor: -->
+	<style name='TaskEditorField'>
+	    <item name='android:layout_width'>wrap_content</item>
+	    <item name='android:layout_height'>wrap_content</item>
+	    <item name='android:gravity'>left</item>
+	    <item name='android:textColor'>?attr/table_field_color</item>
+	    <item name='android:paddingLeft'>8dp</item>
+	    <item name='android:layout_gravity'>center_vertical</item>
+	</style>
+	<style name='TaskEditorSpinnerField'>
+	    <item name='android:layout_width'>wrap_content</item>
+	    <item name='android:layout_height'>wrap_content</item>
+	    <item name='android:gravity'>left</item>
+	    <item name='android:textColor'>?attr/table_field_color</item>
+	    <item name='android:paddingLeft'>8dp</item>
+	    <item name='android:layout_gravity'>center_vertical</item>
+	    <item name='android:layout_weight'>1</item>
+	</style>
+	
+	<!-- Style for field values in the task editor: -->
+	<style name='TaskEditorValue'>
+	    <item name='android:layout_width'>wrap_content</item>
+	    <item name='android:layout_height'>wrap_content</item>
+	    <item name='android:gravity'>right</item>
+	    <item name='android:textColor'>?attr/utl_text_color</item>
+	    <item name='android:layout_gravity'>right|center_vertical</item>
+	    <item name='android:layout_weight'>1</item>
+	</style>
+	<style name='TaskEditorEdgeValue' parent='@style/TaskEditorValue'>
+	    <item name='android:paddingRight'>13dp</item>
+	</style>
+
+	<!-- Task Editor Spinner: -->
+	<style name='TaskEditorSpinnerValue'>
+		<item name='android:layout_width'>wrap_content</item>
+		<item name='android:layout_height'>wrap_content</item>
+		<item name='android:gravity'>right</item>
+		<item name='android:textColor'>?attr/utl_text_color</item>
+		<item name='android:layout_marginRight'>0dp</item>
+		<item name='android:layout_gravity'>right|center_vertical</item>
+		<item name="android:textSize">?attr/utl_font_size_normal</item>
+		<item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+	</style>
+	
+	<!-- Style for field containers in task editor: -->
+	<style name='TaskEditorContainer'>
+	    <item name='android:layout_width'>fill_parent</item>
+	    <item name='android:layout_height'>wrap_content</item>
+	    <item name='android:orientation'>horizontal</item>
+	    <item name='android:minHeight'>52dp</item>
+	    <item name='android:background'>?attr/editor_divider</item>
+	</style>
+	
+	<!-- END OF TASK EDITOR STYLES -->
+	
+	<!-- STYLES FOR USE IN MOST EDITOR SCREENS: -->
+	
+	<!-- Style for sections for most editor screens: -->
+	<style name='GenericEditorSectionLayout'>
+	    <item name='android:layout_width'>fill_parent</item>
+		<item name='android:layout_height'>wrap_content</item>
+		<item name='android:background'>?attr/editor_section_bg</item>
+		<item name='android:layout_marginLeft'>3dp</item>
+		<item name='android:layout_marginRight'>3dp</item> 
+		<item name='android:orientation'>vertical</item>
+		<item name='android:layout_marginTop'>8dp</item>
+	</style>
+	
+	<!-- Fields names for editors: -->
+	<style name='GenericEditorField'>
+	    <item name='android:layout_width'>wrap_content</item>
+	    <item name='android:layout_height'>wrap_content</item>
+	    <item name='android:gravity'>left</item>
+	    <item name='android:textColor'>?attr/table_field_color</item>
+	    <item name='android:paddingLeft'>8dp</item>
+	    <item name='android:layout_gravity'>center_vertical</item>
+	</style>
+	<style name='GenericEditorSpinnerField'>
+	    <item name='android:layout_width'>wrap_content</item>
+	    <item name='android:layout_height'>wrap_content</item>
+	    <item name='android:gravity'>left</item>
+	    <item name='android:textColor'>?attr/table_field_color</item>
+	    <item name='android:paddingLeft'>8dp</item>
+	    <item name='android:layout_gravity'>center_vertical</item>
+	    <item name='android:layout_weight'>1</item>
+	</style>
+	
+	<!-- Field values for editors: -->
+	<style name='GenericEditorValue'>
+	    <item name='android:layout_width'>wrap_content</item>
+	    <item name='android:layout_height'>wrap_content</item>
+	    <item name='android:gravity'>right</item>
+	    <item name='android:textColor'>?attr/utl_text_color</item>
+	    <item name='android:layout_gravity'>right|center_vertical</item>
+	    <item name='android:layout_weight'>1</item>
+	</style>
+	<style name='GenericEditorEdgeValue' parent='@style/TaskEditorValue'>
+	    <item name='android:paddingRight'>13dp</item>
+	</style>
+
+	<!-- Generic Editor Spinner: -->
+	<style name='GenericEditorSpinnerValue'>
+		<item name='android:layout_width'>wrap_content</item>
+		<item name='android:layout_height'>wrap_content</item>
+		<item name='android:gravity'>right</item>
+		<item name='android:textColor'>?attr/utl_text_color</item>
+		<item name='android:layout_marginRight'>0dp</item>
+		<item name='android:layout_gravity'>right|center_vertical</item>
+		<item name="android:textSize">?attr/utl_font_size_normal</item>
+		<item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+	</style>
+	
+	<!-- Style for field containers in editors: -->
+	<style name='GenericEditorContainer'>
+	    <item name='android:layout_width'>fill_parent</item>
+	    <item name='android:layout_height'>wrap_content</item>
+	    <item name='android:orientation'>horizontal</item>
+	    <item name='android:minHeight'>52dp</item>
+	    <item name='android:background'>?attr/editor_divider</item>
+	</style>
+	<style name='GenericEditorContainerAtBottom'>
+	    <item name='android:layout_width'>fill_parent</item>
+	    <item name='android:layout_height'>wrap_content</item>
+	    <item name='android:orientation'>horizontal</item>
+	    <item name='android:minHeight'>52dp</item>
+		<item name='android:background'>?android:attr/selectableItemBackground</item>
+	</style>
+	
+	<!-- END OF GENERIC EDITOR STYLES -->
+	
+	<!-- Style for image button that appears on command bar, title bar, etc: -->
+	<style name='BarButton'>
+	    <item name='android:layout_width'>wrap_content</item>
+	    <item name='android:layout_height'>wrap_content</item>
+	    <item name='android:background'>@drawable/transparent_ripple_button</item>
+	    <item name='android:paddingTop'>10dp</item>
+	    <item name='android:paddingBottom'>10dp</item>
+	    <item name='android:paddingLeft'>16dp</item>
+	    <item name='android:paddingRight'>16dp</item>
+	    <item name='android:layout_gravity'>center_vertical</item>
+	    <item name='android:textColor'>?attr/utl_text_color</item>
+		<item name='android:textSize'>?attr/utl_font_size_normal</item>
+	</style>
+
+	<style name='BarButtonText' parent='Widget.MaterialComponents.Button.TextButton'>
+		<item name='android:layout_width'>wrap_content</item>
+		<item name='android:layout_height'>wrap_content</item>
+		<item name='android:letterSpacing'>0</item>
+		<item name='android:textAllCaps'>false</item>
+		<item name='android:textColor'>?attr/utl_text_color</item>
+		<item name='android:textSize'>?attr/utl_font_size_normal</item>
+		<item name='rippleColor'>?android:colorControlHighlight</item>
+	</style>
+
+	<!-- Style for an image button that appears in a list view: -->
+	<style name='ListButton'>
+	    <item name='android:layout_width'>wrap_content</item>
+	    <item name='android:layout_height'>wrap_content</item>
+	    <item name='android:background'>@drawable/transparent_ripple_button</item>
+	    <item name='android:paddingTop'>10dp</item>
+	    <item name='android:paddingBottom'>10dp</item>
+	    <item name='android:paddingLeft'>8dp</item>
+	    <item name='android:paddingRight'>8dp</item>
+	    <item name='android:layout_gravity'>center_vertical</item>
+	    <item name='android:textColor'>?attr/utl_text_color</item>
+	</style>
+	
+	<!-- Same as above, but allows buttons to be closer together: -->
+	<style name='ListButtonCompact'>
+	    <item name='android:layout_width'>wrap_content</item>
+	    <item name='android:layout_height'>wrap_content</item>
+	    <item name='android:background'>@drawable/transparent_ripple_button</item>
+	    <item name='android:paddingTop'>10dp</item>
+	    <item name='android:paddingBottom'>10dp</item>
+	    <item name='android:paddingLeft'>0dp</item>
+	    <item name='android:paddingRight'>0dp</item>
+	    <item name='android:layout_gravity'>center_vertical</item>
+	    <item name='android:textColor'>?attr/utl_text_color</item>
+	    <item name='android:minWidth'>48dp</item>
+	</style>
+
+	<!-- Style for popup menu in dark themes. -->
+	<style name='PopupMenuDark' parent="@android:style/Widget.PopupMenu">
+		<item name="android:popupBackground">@color/black_75</item>
+	</style>
+
+	<!-- Style for banner ad: -->
+	<item type='id' name="banner_ad" />
+	<style name="BannerAd">
+		<item name='android:id'>@id/banner_ad</item>
+		<item name='android:layout_width'>match_parent</item>
+		<item name='android:layout_height'>wrap_content</item>
+	</style>
+</resources>

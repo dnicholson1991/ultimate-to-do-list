@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- No left border is needed for the light theme.  The drawer shadow for the right side drawer creates a good enough 
+	border. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="@color/transparent" />
+</shape>

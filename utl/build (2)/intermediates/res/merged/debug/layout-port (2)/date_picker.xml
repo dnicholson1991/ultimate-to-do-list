@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Linear layout for the whole screen: -->
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+>
+	<!-- Top bar, containing buttons and title -->
+	<LinearLayout
+		android:layout_width="match_parent"
+  		android:layout_height="wrap_content"
+  		android:orientation="horizontal"
+  	>
+  		<!-- Previous Year -->
+  		<ImageButton
+  			android:id="@+id/date_chooser_prev_year"
+  			style='?attr/date_picker_nav_style'
+  			android:src='@drawable/nav_double_left_ptr'
+		/>
+		
+		<!-- Previous Month -->
+  		<ImageButton
+  			android:id="@+id/date_chooser_prev_month"
+  			style='?attr/date_picker_nav_style'
+  			android:src='@drawable/nav_left_ptr'
+		/>
+		
+		<!-- Title -->
+		<TextView
+			android:id="@+id/date_chooser_title"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:text="xxx"
+			android:gravity="center"
+			android:layout_gravity='center_vertical'
+			android:layout_weight="0.6"
+			android:width="0px"
+		/>
+		
+		<!-- Next Month -->
+  		<ImageButton
+  			android:id="@+id/date_chooser_next_month"
+  			style='?attr/date_picker_nav_style'
+  			android:src='@drawable/nav_right_ptr'
+		/>
+		
+		<!-- Next Year -->
+  		<ImageButton
+  			android:id="@+id/date_chooser_next_year"
+  			style='?attr/date_picker_nav_style'
+  			android:src='@drawable/nav_double_right_ptr'
+		/>
+  	</LinearLayout>
+  		
+    <!-- The Calendar Days -->
+	<GridView
+	  android:id="@+id/date_chooser_grid"
+	  android:layout_width="match_parent"
+	  android:layout_height="0dp"
+	  android:numColumns="7"
+	  android:stretchMode="columnWidth"
+	  android:layout_weight="1"
+	/>	
+
+	<!-- Quick Date Entry -->
+	<LinearLayout
+		android:id="@+id/date_chooser_quick_date_row_0"
+		android:layout_width="match_parent"
+  		android:layout_height="wrap_content"
+  		android:orientation="horizontal"
+  	>
+ 		<Button
+  			android:id="@+id/date_chooser_quick_date_today"
+  			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/Today2"
+			android:gravity="center"
+		    android:singleLine="true"
+ 			android:ellipsize="end"
+ 			android:layout_weight="1"
+		/>
+ 		<Button
+  			android:id="@+id/date_chooser_quick_date_tomorrow"
+  			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/Tomorrow"
+			android:gravity="center"
+		    android:singleLine="true"
+ 			android:ellipsize="end"
+ 			android:layout_weight="1"
+		/>
+ 		<Button
+  			android:id="@+id/date_chooser_quick_date_dow0"
+  			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/Monday"
+			android:gravity="center"
+		    android:singleLine="true"
+ 			android:ellipsize="end"
+ 			android:layout_weight="1"
+		/>
+ 		<Button
+  			android:id="@+id/date_chooser_quick_date_dow1"
+  			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/Tuesday"
+			android:gravity="center"
+		    android:singleLine="true"
+ 			android:ellipsize="end"
+ 			android:layout_weight="1"
+		/>
+ 	</LinearLayout>						    	
+
+	<!-- Quick Date Entry - 2nd row -->
+	<LinearLayout
+		android:id="@+id/date_chooser_quick_date_row_1"
+		android:layout_width="match_parent"
+  		android:layout_height="wrap_content"
+  		android:orientation="horizontal"
+  	>
+ 		<Button
+  			android:id="@+id/date_chooser_quick_date_dow2"
+  			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/Wednesday"
+			android:gravity="center"
+		    android:singleLine="true"
+ 			android:ellipsize="end"
+ 			android:layout_weight="1"
+		/>
+ 		<Button
+  			android:id="@+id/date_chooser_quick_date_dow3"
+  			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/Thursday"
+			android:gravity="center"
+		    android:singleLine="true"
+ 			android:ellipsize="end"
+ 			android:layout_weight="1"
+		/>
+ 		<Button
+  			android:id="@+id/date_chooser_quick_date_dow4"
+  			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/Friday"
+			android:gravity="center"
+		    android:singleLine="true"
+ 			android:ellipsize="end"
+ 			android:layout_weight="1"
+		/>
+ 		<Button
+  			android:id="@+id/date_chooser_quick_date_one_week"
+  			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/In_1_Week"
+			android:gravity="center"
+		    android:singleLine="true"
+ 			android:ellipsize="end"
+ 			android:layout_weight="1"
+		/>
+ 	</LinearLayout>						    	
+	
+	<!-- Quick Date Entry - 3rd row -->
+	<LinearLayout
+		android:id="@+id/date_chooser_quick_date_row_2"
+		android:layout_width="match_parent"
+  		android:layout_height="wrap_content"
+  		android:orientation="horizontal"
+  	>
+ 		<Button
+  			android:id="@+id/date_chooser_quick_date_one_month"
+  			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/In_1_Month"
+			android:gravity="center"
+		    android:singleLine="true"
+ 			android:ellipsize="end"
+ 			android:layout_weight="1"
+		/>
+ 		<Button
+  			android:id="@+id/date_chooser_quick_date_one_year"
+  			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/In_1_Year"
+			android:gravity="center"
+		    android:singleLine="true"
+ 			android:ellipsize="end"
+ 			android:layout_weight="1"
+		/>
+	</LinearLayout>
+</LinearLayout>
+<!-- From: file:/C:/GDrive-dnicholson/Work/Android_Projects/UTL/uTL/src/main/res/layout-port/date_picker.xml -->

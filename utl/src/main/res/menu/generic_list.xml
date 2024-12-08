@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:utl="http://schemas.android.com/apk/res-auto" >
+    <item
+    	android:id='@+id/menu_generic_list_search'
+        android:icon='?attr/ab_search'
+        android:title='@string/Search'
+        utl:showAsAction='always'
+    />
+	<item 
+    	android:id='@+id/menu_generic_list_sync_now'
+        android:icon='?attr/ab_sync_now'
+        android:title='@string/Sync_Now'
+        utl:showAsAction='ifRoom'
+    />
+</menu>

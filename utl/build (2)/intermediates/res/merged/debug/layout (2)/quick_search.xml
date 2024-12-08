@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id='@+id/search_scrollview'
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+>
+<LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+>
+	<TextView android:id="@+id/search_intro"
+ 		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:text="@string/Quick_Search_Intro"
+		android:textSize='?attr/utl_font_size_large'
+	/>
+	
+	<EditText android:id="@+id/search_edit_text"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:inputType="text"
+	/>
+	
+	<TextView android:id="@+id/search_spacer"
+ 		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:text="@string/spacer"
+	/>
+
+	<TextView android:id="@+id/search_what"
+ 		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:text="@string/What_to_Search"
+		android:textSize='?attr/utl_font_size_large'
+	/>
+	
+	<RadioGroup
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:id="@+id/search_radio_group"
+    >
+      <RadioButton android:id="@+id/search_radio_all_tasks"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/AllTasks"
+          android:textSize='?attr/utl_font_size_large'
+      />
+      <RadioButton android:id="@+id/search_radio_incomplete_tasks"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/Incomplete_Tasks"
+          android:textSize='?attr/utl_font_size_large'
+      />
+      <RadioButton android:id="@+id/search_radio_complete_tasks"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/Completed_Tasks"
+          android:textSize='?attr/utl_font_size_large'
+      />
+      <RadioButton android:id="@+id/search_radio_notes"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/Notes"
+          android:textSize='?attr/utl_font_size_large'
+      />
+    </RadioGroup>
+	
+</LinearLayout>
+</ScrollView><!-- From: file:/C:/GDrive-dnicholson/Work/Android_Projects/UTL/uTL/src/main/res/layout/quick_search.xml -->

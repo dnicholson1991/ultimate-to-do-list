@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+>
+<LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+>
+	<!-- Introduction -->
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/preset_functions_intro"
+		android:text="@string/Choose_Features"
+		android:layout_marginTop='16dp'
+		android:layout_marginBottom='16dp'
+	/>
+		
+	<!-- Separator -->
+	<View
+		android:layout_width="fill_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>
+	
+	<!-- Keep it Simple -->
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:id="@+id/preset_functions_keep_it_simple"
+		android:paddingTop='8dp'
+		android:paddingBottom='8dp'
+		android:background='?attr/cb_button_bg'
+	>
+		<TextView
+			android:layout_width="100dp"
+			android:layout_height="wrap_content"
+			android:gravity="top"
+			android:layout_gravity="top"
+			android:text="@string/Keep_it_Simple"
+			android:id="@+id/preset_functions_keep_it_simple1"
+			android:textColor="?attr/table_field_color"
+			android:paddingLeft='3dp'
+			android:minHeight='32dp'
+		/>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="top"
+			android:layout_gravity="top"
+			android:text="@string/Keep_it_Simple_Description"
+			android:id="@+id/preset_functions_keep_it_simple2"
+			android:paddingRight='3dp'
+			android:paddingLeft='2dp'
+			android:minHeight='32dp'
+		/>
+	</LinearLayout>
+	
+	<!-- Separator -->
+	<View
+		android:layout_width="fill_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>
+
+
+	<!-- Intermediate Level -->
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:id="@+id/preset_functions_intermediate_level"
+		android:paddingTop='8dp'
+		android:paddingBottom='8dp'
+		android:background='?attr/cb_button_bg'
+	>
+		<TextView
+			android:layout_width="100dp"
+			android:layout_height="wrap_content"
+			android:gravity="top"
+			android:layout_gravity="top"
+			android:text="@string/Intermediate_Level"
+			android:id="@+id/preset_functions_intermediate_level1"
+			android:textColor="?attr/table_field_color"
+			android:paddingLeft='3dp'
+			android:minHeight='32dp'
+		/>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="top"
+			android:layout_gravity="top"
+			android:text="@string/Intermediate_Level_Description"
+			android:id="@+id/preset_functions_intermediate_level2"
+			android:paddingRight='3dp'
+			android:paddingLeft='2dp'
+			android:minHeight='32dp'
+		/>
+	</LinearLayout>
+	
+	<!-- Separator -->
+	<View
+		android:layout_width="fill_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>
+
+	<!-- Advanced Level -->
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:id="@+id/preset_functions_advanced_level"
+		android:paddingTop='8dp'
+		android:paddingBottom='8dp'
+		android:background='?attr/cb_button_bg'
+	>
+		<TextView
+			android:layout_width="100dp"
+			android:layout_height="wrap_content"
+			android:gravity="top"
+			android:layout_gravity="top"
+			android:text="@string/Advanced_Level"
+			android:id="@+id/preset_functions_advanced_level1"
+			android:textColor="?attr/table_field_color"
+			android:paddingLeft='3dp'
+			android:minHeight='32dp'
+		/>
+		<TextView android:id="@+id/preset_functions_advanced_level2" 
+			android:layout_gravity="top" 
+			android:layout_height="wrap_content" 
+			android:text="@string/Advanced_Level_Description" 
+			android:gravity="top" 
+			android:layout_width="wrap_content"
+			android:paddingRight='3dp'
+			android:paddingLeft='2dp'
+			android:minHeight='32dp'
+		/>
+	</LinearLayout>
+	
+	<!-- Separator -->
+	<View
+		android:layout_width="fill_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>
+
+	<!-- Power User -->
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:id="@+id/preset_functions_power_user"
+		android:paddingTop='8dp'
+		android:paddingBottom='8dp'
+		android:background='?attr/cb_button_bg'
+	>
+		<TextView
+			android:layout_width="100dp"
+			android:layout_height="wrap_content"
+			android:gravity="top"
+			android:layout_gravity="top"
+			android:text="@string/Power_User"
+			android:id="@+id/preset_functions_power_user1"
+			android:textColor="?attr/table_field_color"
+			android:paddingLeft='3dp'
+			android:minHeight='32dp'
+		/>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="top"
+			android:layout_gravity="top"
+			android:text="@string/Power_User_Description"
+			android:id="@+id/preset_functions_power_user2"
+			android:paddingRight='3dp'
+			android:paddingLeft='2dp'
+			android:minHeight='32dp'
+		/>
+	</LinearLayout>
+	
+	<!-- Separator -->
+	<View
+		android:layout_width="fill_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>
+</LinearLayout>
+</ScrollView><!-- From: file:/C:/GDrive-dnicholson/Work/Android_Projects/UTL/uTL/src/main/res/layout/choose_preset_fields_functions.xml -->

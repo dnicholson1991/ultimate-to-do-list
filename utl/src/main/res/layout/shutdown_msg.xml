@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding='10dp'
+>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+    >
+        <TextView
+            android:id="@+id/shutdown_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shutdown_msg"
+        />
+    </ScrollView>
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:id='@+id/shutdown_button_container'
+        android:layout_width='match_parent'
+        android:layout_height='wrap_content'
+        android:layout_marginTop='10dp'
+        app:flexDirection='row'
+        app:flexWrap='nowrap'
+        app:justifyContent="space_evenly"
+        app:alignItems="stretch"
+        >
+        <Button
+            android:id="@+id/shutdown_remind_later"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text="@string/Remind_Me_Later"
+            android:textSize="?attr/utl_font_size_normal"
+        />
+
+        <Button
+            android:id="@+id/shutdown_done"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="@string/done"
+            android:textSize="?attr/utl_font_size_normal"
+        />
+    </com.google.android.flexbox.FlexboxLayout>
+
+</LinearLayout>

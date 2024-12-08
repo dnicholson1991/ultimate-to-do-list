@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name='file_permission_reason'>Wenn Sie den Zugriff nicht zulassen, kann die App keine Sicherungskopien Ihrer Aufgaben, Notizen und Einstellungen erstellen.</string>
+    <string name='background_location_instructions'>Tippen Sie auf dem nächsten Bildschirm auf die Option \"[option]\", um der App jederzeit Zugriff auf Ihren Standort zu gewähren.</string>
+    <string name='go_to_permissions'>Gehen Sie in den Berechtigungsbereich und aktivieren Sie jederzeit den Standortzugriff.</string>
+
+    <string name='no_download_folder'>Ihr Gerät verfügt nicht über einen Download-Ordner.</string>
+    <string name='unable_to_copy'>Die Sicherung kann nicht in Ihrem Downloads-Ordner gespeichert werden.</string>
+    <string name='cant_access_backup'>Auf die Sicherungsdatei kann nicht zugegriffen werden.</string>
+    <string name="unable_to_uncompress">Die Sicherungsdatei kann nicht dekomprimiert werden.</string>
+    <string name='choose_backup_file'>Wählen Sie auf dem nächsten Bildschirm die Sicherungsdatei aus, aus der Sie wiederherstellen möchten. Standardmäßig legt die App diese in Ihrem Downloads-Ordner mit dem Namen \"Ultimate To-Do List Backup.zip\" ab.</string>
+    <string name='backup_saved_to_downloads'>Das Backup wurde in Ihrem Downloads-Ordner gespeichert.</string>
+</resources>

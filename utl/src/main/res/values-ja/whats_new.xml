@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- What's new in this release (formatted as HTML): -->
+	<string name='whats_new_details'>
+	    <![CDATA[
+	    <p><b>バックアップに関する重要な情報：</b></p>
+	    <p>Googleによって課された新しいファイルアクセス制限により、タスク、メモ、設定を含むバックアップファイルがダウンロードフォルダに配置されるようになりました。 このファイルの名前は「UltimateTo-DoListBackup.zip」です。</p>
+	    <p>このバックアップファイルを使用して、アプリを別のデバイスにすばやく簡単にインストールしたり、誤って削除されたアイテムを復元したりできます。 手順はhttps://todolist.co/helpにあります。</p>
+	    ]]>
+	</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id='@+id/tasker_root'
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+    <!-- Explanation: -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft='10dp'
+        android:paddingRight='10dp'
+        android:paddingTop='16dp'
+        android:textSize="?attr/utl_font_size_large"
+        android:text="@string/event_triggered_when_complete"
+    />
+
+    <!-- Task title -->
+    <org.droidparts.widget.ClearableEditText
+        android:id='@+id/tasker_task_title'
+        style='@style/ClearableEditText'
+        android:layout_width="fill_parent"
+        android:layout_height='wrap_content'
+        android:hint='@string/Title'
+        android:paddingLeft='10dp'
+        android:paddingRight='10dp'
+        android:paddingTop='8dp'
+        android:paddingBottom='16dp'
+        android:inputType="textCapSentences|textMultiLine"
+    />
+</LinearLayout>

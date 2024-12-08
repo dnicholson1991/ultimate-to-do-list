@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/GDrive-dnicholson/Work/Android_Projects/UTL/uTL/src/main/res/values-v13/styles.xml -->
+    <eat-comment/>
+    <style name="UtlSpinnerTextAppearance" parent="android:TextAppearance.Holo.Widget.TextView.SpinnerItem">
+	    <item name="android:textSize">?attr/utl_font_size_normal</item>
+	</style>
+</resources>

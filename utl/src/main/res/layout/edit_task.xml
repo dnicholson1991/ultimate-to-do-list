@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+<!-- Placeholder for the save/cancel bar.  Used if this is displayed with other fragments. -->
+<FrameLayout
+    android:id='@+id/save_cancel_bar_placeholder'
+    android:layout_width='match_parent'
+    android:layout_height='wrap_content'
+/>
+
+<!-- Horizontal bar containing sections (main and note) along with timer, star and complete boxes -->
+<LinearLayout
+    android:id='@+id/edit_task_section_bar'
+    android:layout_width='fill_parent'
+    android:layout_height='wrap_content'
+    android:orientation='horizontal'
+    android:background='?attr/task_editor_section_bar_background'
+>
+	<RelativeLayout
+	    android:id='@+id/edit_task_section_main'
+	    android:layout_width='64dp'
+	    android:layout_height='wrap_content'
+	>
+		<ImageButton
+		    android:id='@+id/edit_task_section_main_button'
+	    	android:src='?attr/tab_task_props'
+	    	style='@style/BarButton'
+		/>
+	    <View
+	        android:id='@+id/edit_task_section_main_underline'
+	        android:layout_width='match_parent'
+	        android:layout_height='6dp'
+	        android:layout_alignBottom='@id/edit_task_section_main_button'
+	        android:background='?attr/task_editor_section_highlight_color'
+	    />
+	</RelativeLayout>
+	<View
+        android:layout_width='1dp'
+        android:layout_height='match_parent'
+        android:background='?attr/task_editor_section_bar_divider_color1'
+    />
+    <View
+        android:layout_width='1dp'
+        android:layout_height='match_parent'
+        android:background='?attr/task_editor_section_bar_divider_color2'
+    />
+    <View
+        android:layout_width='1dp'
+        android:layout_height='match_parent'
+        android:background='?attr/task_editor_section_bar_divider_color3'
+    />
+	<RelativeLayout
+	    android:id='@+id/edit_task_section_note'
+	    android:layout_width='64dp'
+	    android:layout_height='wrap_content'
+	>
+	    <ImageButton
+		    android:id='@+id/edit_task_section_note_button'
+	    	android:src='?attr/tab_task_notes'
+	    	style='@style/BarButton'
+		/>
+	    <View
+	        android:id='@+id/edit_task_section_note_underline'
+	        android:layout_width='match_parent'
+	        android:layout_height='6dp'
+	        android:layout_alignBottom='@id/edit_task_section_note_button'
+	        android:background='@color/transparent'
+	    />
+	</RelativeLayout>
+	<View
+        android:layout_width='1dp'
+        android:layout_height='match_parent'
+        android:background='?attr/task_editor_section_bar_divider_color1'
+    />
+    <View
+        android:layout_width='1dp'
+        android:layout_height='match_parent'
+        android:background='?attr/task_editor_section_bar_divider_color2'
+    />
+    <View
+        android:layout_width='1dp'
+        android:layout_height='match_parent'
+        android:background='?attr/task_editor_section_bar_divider_color3'
+    />
+	<View
+	    android:layout_width='0dp'
+	    android:layout_height='1dp'
+	    android:layout_weight='1'
+	/>
+   	<ImageButton
+	    android:id='@+id/edit_task_timer_button'
+	    android:src='?attr/ab_timer_off_inv'
+	    style='@style/BarButton'
+	    android:contentDescription='@string/Start_Stop_Timer'
+	/>
+	<ImageButton
+	    android:id='@+id/edit_task_star_button'
+	    android:src='?attr/ab_star_off_inv'
+	    style='@style/BarButton'
+	    android:contentDescription='@string/Add_Remove_Star'
+	/>
+	<ImageButton
+	    android:id='@+id/edit_task_completed_button'
+	    android:src='@drawable/checkbox_medium_gray'
+	    style='@style/BarButton'
+	    android:contentDescription='@string/Mark_Complete_or_Incomplete'
+	/>
+	
+</LinearLayout>
+
+<View
+    style='@style/HorizontalDivider'
+/>
+
+<ScrollView
+  android:layout_width="fill_parent"
+  android:layout_height="0dp"
+  android:id="@+id/edit_task_scrollview"
+  android:layout_weight="1"
+  android:background='?attr/task_editor_background'
+>
+	<!-- Linear layout for the scrolling items: -->
+	<LinearLayout
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+	  android:orientation="vertical"
+	> 	
+		<!-- Section for title: -->
+		<LinearLayout
+		   style='@style/TaskEditorSectionLayout'
+		>		    
+	   		<!-- Task title -->
+			<org.droidparts.widget.ClearableEditText
+	  			android:id="@+id/edit_task_title2"
+	  			style='@style/ClearableEditText'
+				android:layout_width="fill_parent"
+				android:layout_height='wrap_content'
+				android:text=""
+				android:hint='@string/Title'
+				android:background='@color/transparent'
+				android:paddingLeft='8dp'
+				android:paddingRight='8dp'
+                android:paddingTop='5dp'
+                android:paddingBottom="5dp"
+				android:inputType="textCapSentences|textMultiLine"
+			/>
+		</LinearLayout>
+		
+		<!-- Section for Timing Information -->
+		<LinearLayout
+		    android:id="@+id/edit_task_timing_table"
+		    style='@style/TaskEditorSectionLayout'
+		>
+		    <!-- Start Date -->
+		    <LinearLayout
+		        android:id="@+id/edit_task_start_date_container"
+		        style='@style/TaskEditorContainer'
+		    >
+		        <LinearLayout
+		            android:id='@+id/edit_task_start_date_hit_area'
+		            android:layout_width='0dp'
+		            android:layout_height='match_parent'
+		            android:orientation='horizontal'
+		            android:layout_weight="1"
+		        >
+		            <TextView
+						android:id="@+id/edit_task_start_date"
+						style='@style/TaskEditorField'
+						android:text="@string/Start_Date_"
+					/>
+		            <TextView
+						android:id="@+id/edit_task_start_date_text"
+						style='@style/TaskEditorValue'
+						android:text="@string/None"
+					/>
+		        </LinearLayout>
+		        <ImageButton
+					android:id="@+id/edit_task_start_date_clear"
+					android:src="?attr/small_cancel"
+					style='@style/BarButton'
+				/>
+		    </LinearLayout>
+		    
+		    <!-- Start Time -->
+		    <LinearLayout
+		        android:id="@+id/edit_task_start_time_container"
+		        style='@style/TaskEditorContainer'
+		    >
+		        <LinearLayout
+		            android:id='@+id/edit_task_start_time_hit_area'
+		            android:layout_width='0dp'
+		            android:layout_height='match_parent'
+		            android:orientation='horizontal'
+		            android:layout_weight="1"
+		        >
+		            <TextView
+						android:id="@+id/edit_task_start_time"
+						style='@style/TaskEditorField'
+						android:text="@string/Start_Time_"
+					/>
+		            <TextView
+						android:id="@+id/edit_task_start_time_text"
+						style='@style/TaskEditorValue'
+						android:text="@string/None"
+					/>
+		        </LinearLayout>
+		        <ImageButton
+					android:id="@+id/edit_task_start_time_clear"
+					android:src="?attr/small_cancel"
+					style='@style/BarButton'
+				/>
+		    </LinearLayout>
+
+		    <!-- Due Date -->
+		    <LinearLayout
+		        android:id="@+id/edit_task_due_date_container"
+		        style='@style/TaskEditorContainer'
+		    >
+		        <LinearLayout
+		            android:id='@+id/edit_task_due_date_hit_area'
+		            android:layout_width='0dp'
+		            android:layout_height='match_parent'
+		            android:orientation='horizontal'
+		            android:layout_weight="1"
+		        >
+		            <TextView
+						android:id="@+id/edit_task_due_date"
+						style='@style/TaskEditorField'
+						android:text="@string/Due_Date_"
+					/>
+		            <TextView
+						android:id="@+id/edit_task_due_date_text"
+						style='@style/TaskEditorValue'
+						android:text="@string/None"
+					/>
+		        </LinearLayout>
+		        <ImageButton
+					android:id="@+id/edit_task_due_date_clear"
+					android:src="?attr/small_cancel"
+					style='@style/BarButton'
+				/>
+		    </LinearLayout>
+		    
+		    <!-- Due Time -->
+		    <LinearLayout
+		        android:id="@+id/edit_task_due_time_container"
+		        style='@style/TaskEditorContainer'
+		    >
+		        <LinearLayout
+		            android:id='@+id/edit_task_due_time_hit_area'
+		            android:layout_width='0dp'
+		            android:layout_height='match_parent'
+		            android:orientation='horizontal'
+		            android:layout_weight="1"
+		        >
+		            <TextView
+						android:id="@+id/edit_task_due_time"
+						style='@style/TaskEditorField'
+						android:text="@string/Due_Time_"
+					/>
+		            <TextView
+						android:id="@+id/edit_task_due_time_text"
+						style='@style/TaskEditorValue'
+						android:text="@string/None"
+					/>
+		        </LinearLayout>
+		        <ImageButton
+					android:id="@+id/edit_task_due_time_clear"
+					android:src="?attr/small_cancel"
+					style='@style/BarButton'
+				/>
+		    </LinearLayout>
+
+		    <!-- Advanced due date modifier: -->
+		    <LinearLayout
+		        android:id="@+id/edit_task_due_date_advanced_container"
+		        style='@style/TaskEditorContainer'
+		    >
+	            <TextView
+					android:id="@+id/edit_task_due_date_advanced"
+					style='@style/TaskEditorField'
+					android:text="@string/Advanced_"
+				/>
+	            <TextView
+					android:id="@+id/edit_task_due_date_advanced_text"
+					style='@style/TaskEditorEdgeValue'
+					android:text="@string/None"
+				/>
+		    </LinearLayout>   		
+		    
+		    <!-- Add to Calendar Option: -->	
+		    <LinearLayout
+		        android:id="@+id/edit_task_calendar_container"
+		        style='@style/TaskEditorContainer'
+		    >
+	            <TextView
+					android:id="@+id/edit_task_calendar_txt"
+					style='@style/TaskEditorField'
+					android:text="@string/Show_In_Calendar_Exp"
+				/>
+	            <View
+	                android:layout_width='0dp'
+	                android:layout_height='1dp'
+	                android:layout_weight='1'
+	            />
+	            <LinearLayout
+	                android:layout_width='56dp'
+	                android:layout_height='wrap_content'
+	                android:layout_gravity='center_vertical'
+	                android:gravity='center_horizontal|center_vertical'
+	            >
+			        <CheckBox
+		                android:id="@+id/edit_task_calendar_checkbox"
+		                android:layout_width='wrap_content'
+		                android:layout_height='wrap_content'
+		                android:layout_gravity='center_vertical'
+		            />
+	            </LinearLayout>
+	        </LinearLayout>
+		</LinearLayout>
+		
+		<!-- Section for Reminder Information -->
+		<LinearLayout
+		    android:id="@+id/edit_task_reminder_table"
+		    style='@style/TaskEditorSectionLayout'
+		>
+		    <!-- Reminder date/time (if chosen based on due time) -->
+		    <LinearLayout
+		        android:id="@+id/edit_task_relative_reminder_container"
+		        style='@style/TaskEditorContainer'
+		    >
+	            <TextView
+					android:id="@+id/edit_task_relative_reminder"
+					style='@style/TaskEditorSpinnerField'
+					android:text="@string/Reminder_"
+				/>
+	            <Spinner
+					android:id="@+id/edit_task_reminder_list"
+					style='@style/TaskEditorSpinnerValue'
+					android:entries="@array/reminder_options"
+				/>
+		    </LinearLayout>
+		    
+		    <!-- Reminder Date (if explicitly chosen) -->
+		    <LinearLayout
+		        android:id="@+id/edit_task_reminder_container"
+		        style='@style/TaskEditorContainer'
+		    >
+		        <LinearLayout
+		            android:id='@+id/edit_task_reminder_hit_area'
+		            android:layout_width='0dp'
+		            android:layout_height='match_parent'
+		            android:orientation='horizontal'
+		            android:layout_weight="1"
+		        >
+		            <TextView
+						android:id="@+id/edit_task_reminder"
+						style='@style/TaskEditorField'
+						android:text="@string/Reminder_Date_"
+					/>
+		            <TextView
+						android:id="@+id/edit_task_reminder_text"
+						style='@style/TaskEditorValue'
+						android:text="@string/None"
+					/>
+		        </LinearLayout>
+		        <ImageButton
+					android:id="@+id/edit_task_reminder_clear"
+					android:src="?attr/small_cancel"
+					style='@style/BarButton'
+				/>
+		    </LinearLayout>
+		    
+		    <!-- Reminder Time (if explicitly chosen) -->
+		    <LinearLayout
+		        android:id="@+id/edit_task_reminder_time_container"
+		        style='@style/TaskEditorContainer'
+		    >
+		        <LinearLayout
+		            android:id='@+id/edit_task_reminder_time_hit_area'
+		            android:layout_width='0dp'
+		            android:layout_height='match_parent'
+		            android:orientation='horizontal'
+		            android:layout_weight="1"
+		        >
+		            <TextView
+						android:id="@+id/edit_task_reminder_time"
+						style='@style/TaskEditorField'
+						android:text="@string/Reminder_Time_"
+					/>
+		            <TextView
+						android:id="@+id/edit_task_reminder_time_text"
+						style='@style/TaskEditorValue'
+						android:text="@string/None"
+					/>
+		        </LinearLayout>
+		        <ImageButton
+					android:id="@+id/edit_task_reminder_time_clear"
+					android:src="?attr/small_cancel"
+					style='@style/BarButton'
+				/>
+		    </LinearLayout>
+
+		  	<!-- Nagging Option: -->	
+		    <LinearLayout
+		        android:id="@+id/edit_task_reminder_nag_container"
+		        style='@style/TaskEditorContainer'
+		    >
+	            <TextView
+					android:id="@+id/edit_task_nag_text"
+					style='@style/TaskEditorField'
+					android:text="@string/Nag_Repeatedly_"
+				/>
+	            <View
+	                android:layout_width='0dp'
+	                android:layout_height='1dp'
+	                android:layout_weight='1'
+	            />
+	            <LinearLayout
+	                android:layout_width='56dp'
+	                android:layout_height='wrap_content'
+	                android:layout_gravity='center_vertical'
+	                android:gravity='center_horizontal|center_vertical'
+	            >
+			        <CheckBox
+		                android:id="@+id/edit_task_nag_checkbox"
+		                android:layout_width='wrap_content'
+		                android:layout_height='wrap_content'
+		                android:layout_gravity='center_vertical'
+		            />
+	            </LinearLayout>
+	        </LinearLayout>
+		</LinearLayout>
+				
+		<!-- Section for Repeat Information: -->
+		<LinearLayout
+		    android:id="@+id/edit_task_repeat_table"
+		    style='@style/TaskEditorSectionLayout'
+		>
+		    <!-- Repeating Option -->
+		    <LinearLayout
+		        android:id="@+id/edit_task_repeat_container"
+		        style='@style/TaskEditorContainer'
+		    >
+	            <TextView
+					android:id="@+id/edit_task_repeat1"
+					style='@style/TaskEditorSpinnerField'
+					android:text="@string/Repeat_"
+				/>
+	            <Spinner
+					android:id="@+id/edit_task_repeat2"
+					style='@style/TaskEditorSpinnerValue'
+					android:entries="@array/repeat_options"
+				/>
+		    </LinearLayout>
+		    
+		    <!-- Advanced Repeat -->
+		    <LinearLayout
+		        android:id="@+id/edit_task_repeat_advanced_container"
+		        style='@style/TaskEditorContainer'
+		    >
+	            <TextView
+					android:id="@+id/edit_task_repeat_advanced1"
+					style='@style/TaskEditorField'
+					android:text="@string/Repeat_Advanced_"
+				/>
+	            <TextView
+					android:id="@+id/edit_task_repeat_advanced2"
+					style='@style/TaskEditorEdgeValue'
+					android:text="@string/None"
+				/>
+		    </LinearLayout>   
+		    
+		    <!-- Repeat From: -->
+		    <LinearLayout
+		        android:id="@+id/edit_task_repeat_from_container"
+		        style='@style/TaskEditorContainer'
+		    >
+	            <TextView
+					android:id="@+id/edit_task_repeat_from1"
+					style='@style/TaskEditorSpinnerField'
+					android:text="@string/Repeat_From2"
+				/>
+	            <Spinner
+					android:id="@+id/edit_task_repeat_from2"
+					style='@style/TaskEditorSpinnerValue'
+					android:entries="@array/repeat_from_options"
+				/>
+		    </LinearLayout>	
+		</LinearLayout>		
+				
+		<!-- Section for Classifying the Task (Status, Priority, Folder, etc.) -->
+		<LinearLayout
+		    android:id="@+id/edit_task_classification_table"
+		    style='@style/TaskEditorSectionLayout'
+		>
+		    <!-- Status: -->
+		    <LinearLayout
+		        android:id="@+id/edit_task_status_container"
+		        style='@style/TaskEditorContainer'
+		    >
+	            <TextView
+					android:id="@+id/edit_task_status1"
+					style='@style/TaskEditorSpinnerField'
+					android:text="@string/Status_"
+				/>
+	            <Spinner
+					android:id="@+id/edit_task_status2"
+					style='@style/TaskEditorSpinnerValue'
+					android:entries="@array/statuses"
+				/>
+		    </LinearLayout>	
+		    
+		    <!-- Priority: -->
+		    <LinearLayout
+		        android:id="@+id/edit_task_priority_container"
+		        style='@style/TaskEditorContainer'
+		    >
+	            <TextView
+					android:id="@+id/edit_task_priority1"
+					style='@style/TaskEditorSpinnerField'
+					android:text="@string/Priority_"
+				/>
+	            <Spinner
+					android:id="@+id/edit_task_priority2"
+					style='@style/TaskEditorSpinnerValue'
+					android:entries="@array/priorities"
+				/>
+		    </LinearLayout>	
+		    
+		    <!-- Folder: -->
+		    <LinearLayout
+		        android:id="@+id/edit_task_folder_container"
+		        style='@style/TaskEditorContainer'
+		    >
+	            <TextView
+					android:id="@+id/edit_task_folder1"
+					style='@style/TaskEditorSpinnerField'
+					android:text="@string/Folder_"
+				/>
+	            <Spinner
+					android:id="@+id/edit_task_folder2"
+					style='@style/TaskEditorSpinnerValue'
+				/>
+		    </LinearLayout>	
+		    
+		    <!-- Context: -->
+		    <LinearLayout
+		        android:id="@+id/edit_task_context_container"
+		        style='@style/TaskEditorContainer'
+		    >
+	            <TextView
+					android:id="@+id/edit_task_context1"
+					style='@style/TaskEditorSpinnerField'
+					android:text="@string/Context_"
+				/>
+	            <Spinner
+					android:id="@+id/edit_task_context2"
+					style='@style/TaskEditorSpinnerValue'
+				/>
+		    </LinearLayout>
+		    
+		    <!-- Goal: -->
+		    <LinearLayout
+		        android:id="@+id/edit_task_goal_container"
+		        style='@style/TaskEditorContainer'
+		    >
+	            <TextView
+					android:id="@+id/edit_task_goal1"
+					style='@style/TaskEditorSpinnerField'
+					android:text="@string/Goal_"
+				/>
+	            <Spinner
+					android:id="@+id/edit_task_goal2"
+					style='@style/TaskEditorSpinnerValue'
+				/>
+		    </LinearLayout>	
+		    
+		    <!-- Tags -->
+		    <LinearLayout
+		        android:id="@+id/edit_task_tags_container"
+		        style='@style/TaskEditorContainer'
+		    >
+	            <TextView
+					android:id="@+id/edit_task_tags1"
+					style='@style/TaskEditorField'
+					android:text="@string/Tags_"
+				/>
+	            <TextView
+					android:id="@+id/edit_task_tags2"
+					style='@style/TaskEditorEdgeValue'
+					android:text="@string/None"
+				/>
+		    </LinearLayout> 
+		    
+		    <!-- Account(s) -->
+		    <LinearLayout
+		        android:id="@+id/edit_task_accounts_container"
+		        style='@style/TaskEditorContainer'
+		    >
+	            <TextView
+					android:id="@+id/edit_task_accounts1"
+					style='@style/TaskEditorField'
+					android:text="@string/Accounts__"
+				/>
+	            <TextView
+					android:id="@+id/edit_task_accounts2"
+					style='@style/TaskEditorEdgeValue'
+					android:text="@string/None"
+				/>
+		    </LinearLayout> 
+		</LinearLayout>		
+	
+		<!-- Section for Location Information: -->
+		<LinearLayout
+		    android:id="@+id/edit_task_location_table"
+		    style='@style/TaskEditorSectionLayout'
+		>
+		    <!-- Location Selector: -->
+		    <LinearLayout
+		        android:id="@+id/edit_task_location_container"
+		        style='@style/TaskEditorContainer'
+		    >
+	            <TextView
+					android:id="@+id/edit_task_location1"
+					style='@style/TaskEditorSpinnerField'
+					android:text="@string/Location_"
+				/>
+	            <Spinner
+					android:id="@+id/edit_task_location2"
+					style='@style/TaskEditorSpinnerValue'
+				/>
+		    </LinearLayout>
+		    
+		    <!-- Location Reminder Option: -->	
+		    <LinearLayout
+		        android:id="@+id/edit_task_location_reminder_container"
+		        style='@style/TaskEditorContainer'
+		    >
+	            <TextView
+					android:id="@+id/edit_task_location_reminder_txt"
+					style='@style/TaskEditorField'
+					android:text="@string/Remind_Upon_Arrival_"
+				/>
+	            <View
+	                android:layout_width='0dp'
+	                android:layout_height='1dp'
+	                android:layout_weight='1'
+	            />
+	            <LinearLayout
+	                android:layout_width='56dp'
+	                android:layout_height='wrap_content'
+	                android:layout_gravity='center_vertical'
+	                android:gravity='center_horizontal|center_vertical'
+	            >
+			        <CheckBox
+		                android:id="@+id/edit_task_location_reminder_checkbox"
+		                android:layout_width='wrap_content'
+		                android:layout_height='wrap_content'
+		                android:layout_gravity='center_vertical'
+		            />
+	            </LinearLayout>
+	        </LinearLayout>
+	        
+		    <!-- Location Nag Option: -->	
+		    <LinearLayout
+		        android:id="@+id/edit_task_location_nag_container"
+		        style='@style/TaskEditorContainer'
+		    >
+	            <TextView
+					android:id="@+id/edit_location_nag_text"
+					style='@style/TaskEditorField'
+					android:text="@string/Nag_Repeatedly_"
+				/>
+	            <View
+	                android:layout_width='0dp'
+	                android:layout_height='1dp'
+	                android:layout_weight='1'
+	            />
+	            <LinearLayout
+	                android:layout_width='56dp'
+	                android:layout_height='wrap_content'
+	                android:layout_gravity='center_vertical'
+	                android:gravity='center_horizontal|center_vertical'
+	            >
+			        <CheckBox
+		                android:id="@+id/edit_task_location_nag_checkbox"
+		                android:layout_width='wrap_content'
+		                android:layout_height='wrap_content'
+		                android:layout_gravity='center_vertical'
+		            />
+	            </LinearLayout>
+	        </LinearLayout>
+		</LinearLayout>
+			
+		<!-- Section for Expected and Actual Length: -->
+		<LinearLayout
+		    android:id="@+id/edit_task_length_table"
+		    style='@style/TaskEditorSectionLayout'
+		>
+		    <!-- Expected Length -->
+		    <LinearLayout
+		        android:id="@+id/edit_task_length_container"
+		        style='@style/TaskEditorContainer'
+		    >
+	            <TextView
+					android:id="@+id/edit_task_expected_length1"
+					style='@style/TaskEditorField'
+					android:text="@string/Expected_Length_"
+				/>
+	            <TextView
+					android:id="@+id/edit_task_expected_length2"
+					style='@style/TaskEditorEdgeValue'
+					android:text="@string/None"
+				/>
+		    </LinearLayout>
+		    
+		    <!-- Actual Length -->
+		    <LinearLayout
+		        android:id="@+id/edit_task_actual_length_container"
+		        style='@style/TaskEditorContainer'
+		    >
+	            <TextView
+					android:id="@+id/edit_task_actual_length1"
+					style='@style/TaskEditorField'
+					android:text="@string/Actual_Length_"
+				/>
+	            <TextView
+					android:id="@+id/edit_task_actual_length2"
+					style='@style/TaskEditorEdgeValue'
+					android:text="@string/None"
+				/>
+		    </LinearLayout>
+		</LinearLayout>
+				
+		<!-- Section for Contact: -->
+		<LinearLayout
+		    android:id="@+id/edit_task_contact_table"
+		    style='@style/TaskEditorSectionLayout'
+		>
+		    <!-- Contact: -->
+		    <LinearLayout
+		        android:id="@+id/edit_task_contact_container"
+		        style='@style/TaskEditorContainer'
+		    >
+		        <LinearLayout
+		            android:id='@+id/edit_task_contact_hit_area'
+		            android:layout_width='0dp'
+		            android:layout_height='match_parent'
+		            android:orientation='horizontal'
+		            android:layout_weight="1"
+		        >
+		            <TextView
+						android:id="@+id/edit_task_contact1"
+						style='@style/TaskEditorField'
+						android:text="@string/Contact_"
+					/>
+		            <TextView
+						android:id="@+id/edit_task_contact2"
+						style='@style/TaskEditorValue'
+						android:text="@string/None"
+					/>
+		        </LinearLayout>
+		        <ImageButton
+					android:id="@+id/edit_task_contact_view"
+					android:src="?attr/nav_my_view"
+					style='@style/BarButton'
+					android:paddingRight='8dp'
+				/>
+		        <ImageButton
+					android:id="@+id/edit_task_contact_clear"
+					android:src="?attr/small_cancel"
+					style='@style/BarButton'
+					android:paddingLeft='8dp'
+				/>
+		    </LinearLayout>
+		</LinearLayout>
+		
+		<!-- Section for Sharing: -->
+		<LinearLayout
+		    android:id="@+id/edit_task_shared_with_table"
+		    style='@style/TaskEditorSectionLayout'
+		    android:layout_marginBottom='8dp'
+		>
+			<!-- Sharing: -->
+		    <LinearLayout
+		        android:id="@+id/edit_task_shared_with_container"
+		        style='@style/TaskEditorContainer'
+		    >
+	            <TextView
+					android:id="@+id/edit_task_shared_with_txt"
+					style='@style/TaskEditorField'
+					android:text="@string/Shared_With_"
+				/>
+	            <TextView
+					android:id="@+id/edit_task_shared_with_value"
+					style='@style/TaskEditorEdgeValue'
+					android:text="@string/None"
+				/>
+		    </LinearLayout> 
+	    </LinearLayout>
+		    
+	</LinearLayout>
+</ScrollView>
+
+<!-- Container for Section Containing Task Note -->
+<LinearLayout
+    android:id='@+id/edit_task_note_container'
+    android:layout_width='fill_parent'
+    android:layout_height='0dp'
+    android:layout_weight='1'
+    android:background='?attr/task_editor_background'
+    android:orientation='vertical'
+    android:visibility='gone'
+    android:paddingLeft='3dp'
+    android:paddingRight='3dp'
+>
+    <!-- Note Header and Clear Button: -->
+    <LinearLayout
+        android:layout_width='match_parent'
+        android:layout_height='wrap_content'
+   		android:orientation='horizontal'
+    >
+        <TextView 
+            android:id="@+id/edit_task_note1"
+            android:layout_width='0dp'
+            android:layout_height='wrap_content'
+            android:layout_gravity="center_vertical"
+            android:gravity='center_vertical'
+            android:text='@string/Note_'
+            android:layout_weight='1'
+           	android:textColor='?attr/table_field_color'
+        />
+        <ImageButton
+			android:id="@+id/edit_task_note_edit"
+			android:src="?attr/nav_edit"
+			style='@style/BarButton'
+			android:visibility='gone'
+		/>
+        <ImageButton
+			android:id="@+id/edit_task_note_clear"
+			android:src="?attr/small_cancel"
+			style='@style/BarButton'
+		/>
+    </LinearLayout>
+
+    <!-- This EditText will not have links. -->
+    <EditText
+        android:id='@+id/edit_task_note2'
+        android:layout_width='match_parent'
+        android:layout_height='0dp'
+        android:layout_weight='1'
+        android:layout_marginBottom='8dp'
+        android:scrollbars="vertical"
+        android:inputType="textCapSentences|textMultiLine"
+        android:gravity="top"
+        android:background='?attr/editor_section_bg'
+        android:paddingLeft='3dp'
+        android:paddingRight='3dp'
+        android:paddingTop='3dp'
+        android:paddingBottom='3dp'
+    />
+</LinearLayout>
+
+<!-- Warning message when a task cannot sync. -->
+<LinearLayout android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:id="@+id/edit_task_sync_warning_container"
+	android:background="?attr/task_editor_warning_background"
+	android:visibility="gone"
+>
+	<TextView
+		android:id="@+id/edit_task_sync_warning_msg"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:text="@string/Reminder_will_not_sync"
+		android:paddingLeft="5dp"
+		android:gravity="center_vertical"
+		android:layout_weight="1"
+	/>
+	<Button
+		android:id="@+id/edit_task_sync_warning_button"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop='2dp'
+		android:layout_marginBottom='2dp'
+		android:text="@string/Why"
+		android:textSize="?attr/utl_font_size_normal"
+	/>
+</LinearLayout>
+
+<com.customsolutions.android.utl.BannerAd style='@style/BannerAd' />
+
+</LinearLayout>

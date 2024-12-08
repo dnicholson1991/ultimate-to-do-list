@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name='file_permission_reason'>Si no permite el acceso, la aplicación no podrá realizar una copia de seguridad de sus tareas, notas y configuraciones.</string>
+    <string name='background_location_instructions'>En la siguiente pantalla, toque la opción \"[option]\" para permitir que la aplicación acceda a su ubicación todo el tiempo.</string>
+    <string name='go_to_permissions'>Vaya al área de permisos y habilite el acceso a la ubicación en todo momento.</string>
+
+    <string name='no_download_folder'>Su dispositivo no tiene una carpeta de Descargas.</string>
+    <string name='unable_to_copy'>No se puede guardar la copia de seguridad en su carpeta de Descargas.</string>
+    <string name='cant_access_backup'>No se puede acceder al archivo de respaldo.</string>
+    <string name="unable_to_uncompress">No se puede descomprimir el archivo de respaldo.</string>
+    <string name='choose_backup_file'>En la siguiente pantalla, elija el archivo de respaldo para restaurar. De forma predeterminada, la aplicación los coloca en su carpeta de Descargas con el nombre \"Ultimate To-Do List Backup.zip\".</string>
+    <string name='backup_saved_to_downloads'>La copia de seguridad se ha guardado en su carpeta de Descargas.</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <CheckBoxPreference
+        android:key='preset_basic'
+        android:title='@string/Keep_it_Simple'
+        android:summary='@string/Keep_it_Simple_Description'
+        android:defaultValue="false"
+    />
+    <CheckBoxPreference
+        android:key='preset_intermediate'
+        android:title='@string/Intermediate_Level'
+        android:summary='@string/Intermediate_Level_Description'
+        android:defaultValue="false"
+    />
+    <CheckBoxPreference
+        android:key='preset_advanced'
+        android:title='@string/Advanced_Level'
+        android:summary='@string/Advanced_Level_Description'
+        android:defaultValue="false"
+    />
+    <CheckBoxPreference
+        android:key='preset_power_user'
+        android:title='@string/Power_User'
+        android:summary='@string/Power_User_Description'
+        android:defaultValue="false"
+    />
+</PreferenceScreen>
+<!-- From: file:/C:/GDrive-dnicholson/Work/Android_Projects/UTL/uTL/src/main/res/xml/prefs_fields_functions_presets.xml -->

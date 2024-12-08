@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <string name="allow_permission">Berechtigung zulassen</string>
+    <string name="reject_permission">Berechtigung verweigern</string>
+    <string name="file_access_permission_needed">Der Zugriff auf Ihren Gerätespeicher ist für das Funktionieren dieser App erforderlich. Sie müssen den Zugriff zulassen, um fortzufahren.</string>
+    <string name="location_permission_recommended">Für die standortbasierten Funktionen der App, wie z.B. die Möglichkeit, Sie an eine Aufgabe zu erinnern, wenn Sie einen bestimmten Ort erreichen, ist der Standortzugriff erforderlich.</string>
+    <string name="accounts_permission_required">Sie müssen den Zugriff auf die Google-Konten auf Ihrem Gerät erlauben, um eine Verbindung zu einem dieser Konten herzustellen.</string>
+    <string name="all_needed_for_advanced_level">Sie müssen diese Berechtigungen akzeptieren, um die erweiterte Ebene nutzen zu können. Der Kalenderzugriff ist erforderlich, um Aufgaben in Ihrem Kalender anzuzeigen. Für standortbasierte Erinnerungen wird der Standortzugriff benötigt. Der Zugriff auf Kontakte ist erforderlich, um Aufgaben mit Ihren Kontakten zu verknüpfen.</string>
+    <string name="Restore_Successful_permissions_issue">Alle Daten wurden wiederhergestellt. Die App wird jetzt neu gestartet. Wenn Sie die Kalender-, Kontakt- oder Standortfunktionen verwendet haben, müssen Sie diese im Einstellungsbereich erneut aktivieren und die Berechtigungen akzeptieren, wenn Sie dazu aufgefordert werden.</string>
+    <string name="task_reminders">Aufgabenerinnerungen</string>
+    <string name="notification_category_for_reminders">Benachrichtigungen für Aufgabenerinnerungen.</string>
+
+    <!-- These updates are due to Google renaming Android Wear to Wear OS: -->
+    <string name="android_wear">Wear OS</string>
+    <string name="purchase_android_wear">Wear OS Add-on kaufen</string>
+    <string name="android_wear_purchased">Sie haben das Wear OS Add-on gekauft</string>
+    <string name="learn_android_wear">Erfahren Sie, wie Sie das Wear OS Add-on verwenden.</string>
+    <string name="android_wear_help_title">Das Wear OS Add-on verwenden</string>
+    <string name="need_to_purchase_wear">Um diese Funktion nutzen zu können, müssen Sie das Wear OS Add-on im Einstellungsbereich von Ultimate To-Do List erwerben.</string>
+    <string name="wear_non_english_limits">Bitte beachten Sie, dass das Wear OS Add-on zur Zeit nur für englischsprachige Benutzer vorgesehen ist.  Sie können das Add-on auch in anderen Sprachen verwenden, aber alle Sprachbefehle müssen in Englisch erfolgen.  Möchten Sie fortfahren?</string>
+    <string name="android_wear_add_on">Wear OS Add-on</string>
+    <string name="android_wear_long_description">
+        <![CDATA[
+            <p>Mit dem Wear OS Add-On kann Ihre Uhr Aufgaben durchsuchen und abhaken sowie Erinnerungen anzeigen und deaktivieren.</p>
+            <p><b>Das Add-on nach dem Kauf aktivieren:</b></p>
+            <ul>
+                <li>Ab Wear OS 2 müssen Sie die App auf Ihrer Uhr installieren, indem Sie den Play Store der Uhr öffnen und die App
+                    im Bereich \"Apps auf Ihrem Handy\" suchen.</li>
+                <li>Wenn die Ultimate To-Do-Liste nicht aufgeführt ist, durchsuchen Sie den Wear OS Play Store nach \"Ultimate To-Do-Liste\" und installieren Sie die App aus der Store-Liste.</li>
+            </ul>
+            <p><b>Aufgaben betrachten:</b></p>
+            <ul>
+                <li>Um Ihre Standard-Aufgabenliste anzuzeigen, sagen Sie \"OK Google. Start Ultimate To-Do List.\"</li>
+                <li>Sie können auch auf Ihre Standard-Aufgabenliste zugreifen, indem Sie Ultimate To-Do List aus der Liste der Apps
+                    auf Ihrer Uhr öffnen.</li>
+                <li>Wenn Sie eine Aufgabenliste geöffnet haben, können Sie auf die Aufgaben tippen, um sie abzuhaken.</li>
+            </ul>
+            <p><b>Erinnerungen verwenden:</b></p>
+            <ul>
+                <li>Erinnerungen erscheinen als Benachrichtigungen sowohl auf Ihrem Mobiltelefon als auch auf Ihrer Uhr.</li>
+                <li>Wenn Sie auf Ihrer Uhr von links nach rechts wischen, wird die Benachrichtigung verworfen.</li>
+                <li>Wenn Sie auf die Benachrichtigung tippen, werden Optionen angezeigt, um die Erinnerung aufzuheben und die
+                    Aufgabe als erledigt zu markieren.</li>
+            </ul>
+        ]]>
+    </string>
+    <string name="ongoing_notifications_warning">Wenn Sie kontinuierliche Benachrichtigungen für Erinnerungen verwenden, werden diese Benachrichtigungen nicht auf Ihrer Wear OS Uhr angezeigt.</string>
+    <string name='syncing_with_watch'>Ultimate To-Do List synchronisiert Daten mit Ihrer Uhr.</string>
+    <string name='bt_for_voice_input'>Verwenden Sie Bluetooth für die Spracheingabe</string>
+</resources>

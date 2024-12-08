@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TODO: 11/15/2020: Google translate is being used. Need human translations. -->
+    <string name='personal_data_consent'>Verwalten Sie die Einwilligung zur Verwendung personenbezogener Daten</string>
+    <string name='location_disclosure'>Erlauben Sie der App, Ihren Standort jederzeit zu verwenden, um Erinnerungen zu erhalten, wenn Sie an den von Ihnen definierten Orten ankommen. Die App verwendet Ihren Standort im Hintergrund, um festzustellen, ob an Ihrem aktuellen Standort Aufgaben vorhanden sind, an die Sie erinnert werden müssen.</string>
+</resources>

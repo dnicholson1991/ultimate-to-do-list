@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <!-- This refers to add-ons that can be purchased within the app, also known as extensions or
+        plug-ins. -->
+    <string name="add_ons">アドオン</string>
+
+    <string name="manual_sort_order">手動での並び替え順</string>
+    <string name="manual_sort">手動での並び替え</string>
+    <string name="manual_sort_ui_change">手動で並び替えられた項目が最初の項目である場合、タスクリストの並び替えボタンを押すと、手動並び替えモードに切り替えられます。「並び替え」メニューオプションを選択して、この画面に戻ることもできます。</string>
+    <string name="sort_order_set_incorrectly">手動で並び替えをするには、このビューの最初の並び替え順のオプションを手動並び替え順に設定する必要があります。今すぐ、修正しますか？</string>
+    <string name="incorrect_sort_order">不適切な並び替え順</string>
+    <string name="manual_sort_instructions">タスクをドラッグして並べ替える</string>
+    <string name="license">ライセンス</string>
+    <string name="upgraded_license">アップグレード ライセンス</string>
+    <string name="license_description">アプリのロックを解除すると、試用期間を終えても続けてご利用いただけます。</string>
+    <string name="upgraded_license_description">簡単なライセンス管理。毎回ダウンロードをする代わりに、アプリ内購入を利用していただけます。</string>
+    <string name="manual_sort_add_on">手動並び替えアドオン</string>
+    <string name="manual_sort_description">タスク用に、独自の並び替え順序を設定することができます。同期も含まれます。</string>
+    <string name="tap_on_item">詳しくは、項目をタップしてください。</string>
+    <string name="purchased">購入済み</string>
+    <string name="purchased_with_checkmark">✓購入済み</string>
+    <string name="buy_now">今すぐ購入する</string>
+    <string name="buy">購入する</string>
+    <string name="manual_sort_not_purchased">独自の並び替え順序を指定するためには、手動の並べ替えアドオンを購入する必要があります。</string>
+    <string name="learn_more">もっと詳しく</string>
+    <string name="add_on_missing">アドオンがありません</string>
+    <string name="sort_order_">並び替え順...</string>
+    <string name="subtasks_must_be_indented">このビューの最初の並び替え順が手動並び替えに設定されているため、手動並び替えが正しく動作するようサブタスクはインデントされます。</string>
+    <string name="subtasks_hidden_if_parent_hidden">このビューでは、最初の並び替え順が手動での並び替えに設定されているため、フィルターアウトされたペアレントのサブタスクは表示されません。これは、手動での並び替えが正しく動作するために必要です。</string>
+    <string name="unable_to_sort">並び替えできません</string>
+    <string name="must_be_in_same_account">並び替えされているタスクは、同じアカウントにリンクする必要があります。</string>
+    <string name="manual_sort_on_long_press">長押しトリガー手動並び替え</string>
+    <string name="first_sort_order_manusl">最初の並び替え順が手動並び替えに設定されている場合</string>
+    <string name="sign_in_needed">サインインが必要です。通知エリアを確認してください。</string>
+
+    <string name="upgrade_license_long_description">&lt;p&gt;アプリ内購入でライセンスをアップグレードすると、登録コードを入力したり、一々アプリをダウンロードする必要性がなくなります。&lt;/p&gt; &lt;p&gt;アップグレードライセンスは、全Androidデバイス上-スマートフォンやタブレットを含む-で動作し、アップグレードまたはデバイスを交換しても、自動的にアプリを移動させる事ができます。&lt;/p&gt;</string>
+
+    <string name="manual_sort_long_description">&lt;p&gt;手動並び替えアドオンでは、自分の好きな並べ替え順序を選択することができます。購入後、ドラッグ&amp;リスト内へドロップして、お好きなように設定していただけます。&lt;/p&gt; &lt;p&gt;&lt;b&gt;手動並び替えの使い方：&lt;/b&gt;&lt;/p&gt; &lt;p&gt;タスクリストを表示中に、並び替えオプションに移動し、最初の並び替え順序として「手動で並び替え」を選択します。すると、タスクリストから「手動で並び替え」コマンド、もしくは「並び替えボタン」をタップして、タスクの並べ替え開始することができます。タスクは「ドラッグ＆新しい場所にドロップ」することによって並べ替えられます。&lt;/p&gt; &lt;p&gt;設定の表示および編集セクションから、タスクを長押しして並び替えできるオプションもご利用いただけます。&lt;/p&gt; &lt;p&gt;&lt;b&gt;Googleの同期：&lt;/b&gt;&lt;/p&gt; &lt;p&gt;手動での並び替えは、Googleのタスクとの同期できますが、いくつかの機能が制限されています。Googleはフォルダレベルで並び替え順序をトラッキングし、究極のToDoリストはアカウントレベルでの並び替え順序をトラッキングします。アカウントレベルでの並び替えは、複数のフォルダからタスクを表示(例えばホットリストまたは全タスクリストなど)するのに対し、Googleアカウントにログインしてウェブ上でタスクを表示すると、アプリで表示する場合とはビューが異なります。究極のToDoリストから単一フォルダを表示させると、ビューはアプリ上のものと同様となります。&lt;/p&gt; &lt;p&gt;サブタスクの並び替え順序は、完全にGoogleのウェブインターフェースと同期しています。並び替え順序も、複数のデバイスと完全に同期されます。&lt;/p&gt; &lt;p&gt;&lt;b&gt;Toodledo.com同期：&lt;/b&gt;&lt;/p&gt; &lt;p&gt;Toodledoでは手動並び替え機能を提供していません。しかし、手動並び替え順序は、同じToodledoアカウントにリンクされている、究極のToDoリストを実行している複数デバイス上で同期されます。Toodledoの並び替え順情報は、サーバー館を通過できるようになっております。&lt;/p&gt; &lt;p&gt;Toodledoでは、サブタスクの並び替え順を指定できる機能も提供しています。しかし、Toodledoが携帯アプリに提供しているインターフェース側に制限があるため、この並び替え順を同期させることができません。&lt;/p&gt; &lt;p&gt;Toodledoのタスクが並び替えされていない状態で起動されていることをご確認ください。並び替え順を指定していない場合、タスクは異なるデバイス上で、異なる順序で表示されることがあります。&lt;/p&gt;</string>
+</resources>

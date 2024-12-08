@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <string name="no_subtasks_in_subtasks2">Google no permite subtareas dentro de subtareas</string>
+    <string name="google_tasks_conflict">Esta cuenta no es compatible con Google Tasks porque tiene subtareas dentro de las subtareas. Una de las tareas incompatibles tiene el siguiente título:</string>
+    <string name="link_google_or_toodledo">Vincula tu cuenta de Google o Toodledo para acceder a tus tareas desde cualquier dispositivo</string>
+    <string name="hotlist_info">La Hotlist muestra tus tareas más importantes de un vistazo</string>
+    <string name="view_many_ways">Ve tus tareas de muchas maneras y configura tus propias vistas personalizadas</string>
+    <string name="supported_fields">Compatible con fechas de inicio/vencimiento, recordatorios, carpetas, repetición, temporizadores y más</string>
+    <string name="filter_info">Filtra y ordena tus tareas como quieras</string>
+    <string name="use_notes">Utiliza el área de notas para hacer un seguimiento de la información de referencia</string>
+    <string name="link_to_locations">Vincula tus tareas a lugares y planifica tu día</string>
+    <string name="split_screen_info">Múltiples vistas de pantalla dividida disponibles para tablets</string>
+    <string name="widget_info">Los widgets personalizables te ayudan a acceder a tus tareas rápidamente</string>
+    <string name="customize_display">Personaliza la pantalla para mostrar la información más importante para ti</string>
+    <string name="numerous_options">Existen numerosas opciones disponibles para personalizar la aplicación según tus necesidades</string>
+    <string name="enable_disable_features">Activa las funciones que desees y desactiva las que no</string>
+    <string name="supported_fields2">Compatible con fechas de inicio y vencimiento, recordatorios, carpetas, repetición, temporizadores, prioridades, etiquetas y más</string>
+</resources>

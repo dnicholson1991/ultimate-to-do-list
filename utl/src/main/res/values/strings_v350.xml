@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- This refers to add-ons that can be purchased within the app, also known as extensions or
+        plug-ins. -->
+    <string name='add_ons'>Add-Ons</string>
+
+    <string name='manual_sort_order'>Manual Sort Order</string>
+    <string name='manual_sort'>Manual Sort</string>
+    <string name='manual_sort_ui_change'>When the manual sort order is the first item here, then
+        pressing the sort button in the task list will enter manual sort mode.  You can still
+        return to this screen by choosing the \"Sort Order\" menu option.</string>
+    <string name='sort_order_set_incorrectly'>In order to sort manually, the first sort order option
+        for this view must be set to the manual sort order.  Would you like to fix this now?</string>
+    <string name='incorrect_sort_order'>Incorrect Sort Order</string>
+    <string name='manual_sort_instructions'>Drag the tasks to reorder</string>
+    <string name='license'>License</string>
+    <string name='upgraded_license'>Upgraded License</string>
+    <string name='license_description'>Unlocks the app so it can be used beyond the trial
+        period.</string>
+    <string name='upgraded_license_description'>Easier license management. Uses an in-app purchase
+        instead of a separate download.</string>
+    <string name='manual_sort_add_on'>Manual Sort Add-On</string>
+    <string name='manual_sort_description'>Allows you to specify your own sort order for
+        tasks. Includes synchronization.</string>
+    <string name='tap_on_item'>Tap on an item to learn more.</string>
+    <string name='purchased'>Purchased</string>
+    <string name='purchased_with_checkmark'>&#x2713; Already Purchased</string>
+    <string name='buy_now'>Buy Now</string>
+    <string name='buy'>Buy</string>
+    <string name='manual_sort_not_purchased'>You will need to purchase the manual sort add-on in
+        order to specify your own sort order.</string>
+    <string name='learn_more'>Learn More</string>
+    <string name='add_on_missing'>Add-On Missing</string>
+    <string name='sort_order_'>Sort Order...</string>
+    <string name='subtasks_must_be_indented'>Because the first sort order for this view is set to
+        manual sort, subtasks will be indented for manual sorting to work properly.</string>
+    <string name='subtasks_hidden_if_parent_hidden'>Because the first sort order for this view is
+        set to manual sort, subtasks whose parents are filtered out will not be visible. This is
+        necessary for manual sorting to work properly.</string>
+    <string name='unable_to_sort'>Unable to Sort</string>
+    <string name='must_be_in_same_account'>The tasks being sorted must be linked to the same
+        account.</string>
+    <string name='manual_sort_on_long_press'>Long press triggers manual sort</string>
+    <string name='first_sort_order_manusl'>When first sort order is set to manual sort</string>
+    <string name='sign_in_needed'>Sign-in needed. Check your notification area.</string>
+
+    <string name='upgrade_license_long_description'>
+        <![CDATA[
+            <p>You can upgrade your license to an in-app purchase and eliminate the need to enter a
+                registration code or download a separate app that holds the license.  The upgraded
+                license works on all of your Android devices - including smartphones and tablets -
+                and travels with the app automatically as you upgrade or replace devices.</p>
+            <p>This is an optional upgrade. You can continue to enter a registration code or download
+                the separate license even though it has been de-listed.</p>
+        ]]>
+    </string>
+
+    <string name='manual_sort_long_description'>
+        <![CDATA[
+            <p>The manual sort add-on gives you the ability to choose your own sort order.  Once
+                purchased, you can drag and drop tasks within a list to set their order.</p>
+            <p><b>How to Perform Manual Sorting:</b></p>
+            <p>When viewing a task list, go to the sort order options and choose \"Manual Sort
+                Order\" as the first sort order.  Once this is done, you can either select the
+                \"Manual Sort\" command from the task list or tap on the sort order button to
+                begin sorting your tasks.  Tasks are sorted by dragging and dropping them into their
+                new locations.</p>
+            <p>An option is also available in the Viewing and Editing section of the settings to
+                perform sorting by long-pressing on a task.</p>
+            <p><b>Google Synchronization:</b></p>
+            <p>The manual sort order will synchronize with Google Tasks, but with a few limitations.
+                Google keeps track of the sort order at the folder level, and Ultimate To-Do List
+                keeps track of the sort order at the account level. This means that views that
+                display tasks from multiple folders (such as the Hotlist or All Tasks list), will
+                not show tasks in the exact same order that you see when logged into your Google
+                account from a web browser.  When viewing a single folder from Ultimate To-Do List,
+                the views will be in sync.</p>
+            <p>The sort order of subtasks will be fully in sync with Google\'s web interface. The
+                sort order also syncs fully with multiple devices.</p>
+            <p><b>Toodledo.com Synchronization:</b></p>
+            <p>Toodledo does not offer manual sorting capability.  However, the manual sort order
+                will synchronize with multiple devices running Ultimate To-Do List that are linked
+                to the same Toodledo account.  Toodledo does allow the sort order information to
+                pass through its servers.</p>
+            <p>Toodledo does offer the ability to specify a sort order for subtasks.  However, due
+                to limits in the interface Toodledo provides to mobile apps, this sort order cannot
+                be synchronized.</p>
+            <p>Note that Toodledo tasks will start out in an unsorted state.  Until you have
+                specified a sort order, tasks may appear in a different order on different
+                devices.</p>
+        ]]>
+    </string>
+</resources>

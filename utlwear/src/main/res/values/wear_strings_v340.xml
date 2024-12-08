@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name='show_tasks'>Show Tasks</string>
+    <string name='play_services_out_of_date'>This device is using an out of date version of Google Play Services.
+        To fix, open the Wear OS app on your phone, go to settings, and use the command to resync apps.</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Strings for the Android Wear add-on.  This add-on allows access to tasks using an
+         Android Wear watch. -->
+    <!-- 9/4/2018: Some of these are moved to strings_v390 due to Google's name change to Wear OS -->
+    <string name='default_list'>Default List to Show</string>
+    <string name='default_list_extra'>When starting the app on your watch</string>
+    <string name='android_wear_features'>Browse and check-off tasks. View and snooze reminders.</string>
+    <string name='processing'>Processing...</string>
+    <string name='success'>Success</string>
+
+    <!-- End of strings for the Android Wear Addon -->
+
+    <!-- Version 3.3 starts using the latest API for synchronizing with Toodledo.com.  These strings are related to the upgrade: -->
+    <string name='communicating_with_toodledo'>Communicating with Toodledo...</string>
+    <string name='toodledo_signin_mismatch'>The Toodledo account you signed into is not the account I\'m
+        expecting.  I am expecting an account under this email address: </string>
+    <string name="toodledo_re_sign_in">You have successfully signed-in to your Toodledo account and
+        a synchronization has been started.</string>
+    <string name="toodledo_merge_confirmation">The link has been set up, and your tasks are now being
+        synchronized with Toodledo\'s.</string>
+    <string name='toodledo_sign_in_needed'>Toodledo wants you to sign in to your account again.</string>
+    <string name='toodledo_rate_limit'>Toodledo\'s request limit has been reached. Try again in a few minutes.</string>
+    <string name='sign_in_again'>Sign In Again</string>
+    <string name='toodledo_sign_in_needed2'>To continue syncing, Toodledo needs you to sign into the account with
+        this e-mail address: </string>
+    <string name='sign_in'>Sign In</string>
+    <string name="Free_Account_Limits_2">\nYour free Toodledo account imposes the following limitations. Upgrading to a paid account will remove these:\n\n
+        Subtasks may be entered on your handset, but will not sync.\n\n
+        Reminders will only sync if they are one hour before a task\'s due time. If a due time is omitted, reminders will sync if they are on the same day as the due date.
+    </string>
+</resources>

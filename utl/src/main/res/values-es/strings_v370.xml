@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <string name="show_ads_during_trial">Los anuncios aparecerán durante la prueba gratuita. Si compra una licencia para utilizar la aplicación a largo plazo, los anuncios desaparecerán.</string>
+
+    <string name="license_long_description">&lt;p&gt;La compra de una licencia le permite utilizar Ultimate To-Do List después del período de prueba gratuito. Su licencia está vinculada a su cuenta de Google o Amazon. Funciona en todos los dispositivos Android (incluyendo smartphones y tablets) y viaja con la aplicación automáticamente a medida que actualiza o sustituye dispositivos.&lt;/p&gt; &lt;p&gt;La compra de una licencia también eliminará todos los anuncios de la aplicación.&lt;/p&gt;</string>
+
+    <string name="warning">Advertencia</string>
+    <string name="edit_parent_task">Editar tarea de Padres</string>
+
+    <!-- Note to translators: Do not translate [count] in this string. This will be filled in with
+         a number. -->
+    <string name="merge_warning">Esto fusionará las [count] tareas almacenadas en el dispositivo con las tareas almacenadas en la cuenta en línea. ¿Seguro que desea hacerlo?</string>
+</resources>

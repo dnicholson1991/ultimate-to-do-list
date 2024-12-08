@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <string name="td_max_tasks_reached">Достигнут лимит задач Toodledo. Вам необходимо удалить некоторые задачи, чтобы добавить новые.</string>
+    <string name="privacy_policy">Политика конфиденциальности</string>
+</resources>

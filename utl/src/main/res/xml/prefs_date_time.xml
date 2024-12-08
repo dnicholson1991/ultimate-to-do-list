@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- EntryValues is the value stored in the database or SharedPreferenes. -->
+    <com.customsolutions.android.utl.UtlListPreference
+        android:key='week_start'
+        android:title='@string/First_Day_of_Week'
+        android:defaultValue='Sunday'
+        android:entries='@array/first_day_of_week'
+        android:entryValues="@array/first_day_of_week_db"
+        android:widgetLayout='@layout/pref_value'
+    />
+	<com.customsolutions.android.utl.IntListPreference
+	    android:key='date_format'
+	    android:title='@string/Date_Format'
+	    android:entries='@array/date_formats'
+	    android:entryValues='@array/date_formats'
+	    android:widgetLayout='@layout/pref_value'
+	/>
+	<com.customsolutions.android.utl.IntListPreference
+	    android:key='time_format'
+	    android:title='@string/Time_Format'
+	    android:entries='@array/time_formats'
+	    android:entryValues='@array/time_formats'
+	    android:widgetLayout='@layout/pref_value'
+	/>
+</PreferenceScreen>

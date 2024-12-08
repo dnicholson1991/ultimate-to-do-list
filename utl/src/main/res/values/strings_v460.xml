@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name='shutdown_msg'
+        >If you\'re too busy to read this important message now, you can view it in the
+        Help area later.\n
+
+        \nIn July of 2024, we notified our users about the need to raise additional revenue to
+        keep this app on Google Play, in order to cover increased overhead imposed by Google. We
+        conducted a survey to help us decide our next step. We received many positive responses
+        about the app\'s usefulness, but there was insufficient interest in paying for an annual
+        subscription or adding more intrusive advertising. As a result, we will be unpublishing
+        the app from Google Play on February 28, 2025.\n
+
+        \nAfter the app is unpublished, it will continue to work on your device. However, you
+        will not be able to install the app from Google Play on any new devices. To allow you to
+        continue using the app, we have published a downloadable installer on our website. You
+        will find the download link in the app\'s Help section. Distributing the app in this way
+        will allow us to continue making it available at a fraction of the cost we incur with
+        Google.\n
+
+        \nAll paid add-ons have been unlocked within the app, so you can now access them at no
+        charge. If you purchased a paid add-on on or after January 1, 2023, send us an email
+        and we will issue a refund upon request.\n
+
+        \nGoing forward, updates to the app will be limited to critical bug fixes only. While
+        we cannot predict the future, at this time we have no reason to believe the app will
+        stop working as new Android versions are released in the coming years. One potential
+        issue would be if Toodledo or Google make changes to their tasks interface that requires
+        corresponding changes on our side. If these changes are extensive, then it may not be
+        possible for us to make the needed updates. We will keep you updated through the website:
+        https://customsolutions.us/utl\n
+
+        \nIf you\'re a software developer and are interested in using our code as the basis for
+        your own app, we have published the source code on GitHub. You can find a link to the
+        repository in the Help area.
+    </string>
+
+    <!-- New strings for help screen: -->
+    <string name='removal_soon'>About the upcoming removal from Google Play</string>
+    <string name='download_latest'>Download Latest Version</string>
+    <string name='contact_by_email'>Contact Us By Email</string>
+    <string name='view_source'>View Source Code</string>
+    <string name='view_source2'>Visit the app\'s repository on GitHub</string>
+</resources>

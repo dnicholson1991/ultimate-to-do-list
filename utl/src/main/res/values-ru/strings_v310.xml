@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name='Currently_Own_Product'>Вы в настоящее время этот продукт.</string>
+    <string name='top_of_nav_drawer'>Показать на верх навигационной Ящик</string>
+    <string name='how_to_resize'>Чтобы изменить размер виджет, нажмите и удерживайте палец на нем в течение приблизительно 2
+         секунд и отпустите. Вы увидите размер появится управления.</string>
+</resources>

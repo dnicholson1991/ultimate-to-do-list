@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <com.customsolutions.android.utl.UtlRingtonePreference
+        android:key='ringtone'
+        android:title='@string/Sound_to_Play'
+        android:ringtoneType="notification|alarm"
+        android:widgetLayout='@layout/pref_value'
+    />
+	<com.customsolutions.android.utl.UtlListPreference
+	    android:key='vibe_pattern'
+	    android:title='@string/Vibe_Pattern'
+	    android:defaultValue='0,200,100,1000,100,200,100,1000'
+        android:entries='@array/vibe_patterns_readable'
+        android:entryValues="@array/vibe_patterns_system"
+        android:widgetLayout='@layout/pref_value'
+	/>
+	<com.customsolutions.android.utl.IntListPreference
+	    android:key='reminder_light'
+	    android:title='@string/Light_Color'
+	    android:defaultValue='Red'
+	    android:entries='@array/readable_light_colors'
+	    android:entryValues='@array/readable_light_colors'
+	    android:widgetLayout='@layout/pref_value'
+	/>
+	<com.customsolutions.android.utl.IntEditTextPreference 
+        android:key='nag_interval'
+        android:title='@string/Nag_Interval2'
+        android:summary='@string/_Minutes_'
+        android:defaultValue='15'
+        android:inputType='number'
+        android:widgetLayout='@layout/pref_value'
+    />
+	<com.customsolutions.android.utl.IntListPreference
+	    android:key='notification_priority'
+	    android:title='@string/Notification_Priority'
+	    android:summary='@string/Notification_Priority_Summary'
+	    android:defaultValue='0'
+	    android:entries='@array/notification_priorities'
+	    android:entryValues='@array/notification_priorities'
+	    android:widgetLayout='@layout/pref_value'
+	/>
+	<CheckBoxPreference
+        android:key='use_ongoing_notifications'
+        android:title='@string/Use_Ongoing_Notifications'
+        android:summary='@string/Ongoing_Notifications_Summary'
+        android:defaultValue="false"
+    />
+</PreferenceScreen>
+<!-- From: file:/C:/GDrive-dnicholson/Work/Android_Projects/UTL/uTL/src/main/res/xml/prefs_reminder_options.xml -->

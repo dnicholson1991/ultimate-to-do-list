@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <string name="Currently_Own_Product">あなたは現在、この製品を所有しています。</string>
+    <string name="top_of_nav_drawer">ナビゲーション ドロワーの一番上に表示します</string>
+    <string name="how_to_resize">ウィジェットのサイズ変更するには、約2秒間ウィジェットを長押ししてください。すると、サイズ変更コントローラが表示されます。</string>
+</resources>

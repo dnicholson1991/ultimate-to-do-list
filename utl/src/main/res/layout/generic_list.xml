@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This is a generic list that includes a progress bar for sync status. -->
+
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+>
+	<androidx.coordinatorlayout.widget.CoordinatorLayout
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1"
+	>
+		<LinearLayout
+			android:id='@+id/generic_list_container'
+			android:layout_width='match_parent'
+			android:layout_height='match_parent'
+			android:orientation="vertical"
+		>
+			<ListView
+				android:id="@+id/android:list"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_gravity="fill_vertical"
+				android:gravity="fill_vertical"
+				android:dividerHeight="1px"
+				android:divider="?attr/list_divider_color"
+			/>
+
+			<!-- Classes using this layout will need to assign a message to the 'empty' TextView: -->
+			<TextView android:id="@+id/android:empty"
+				android:layout_width="wrap_content"
+				android:layout_height="fill_parent"
+				android:layout_marginTop='16dp'
+			/>
+		</LinearLayout>
+
+		<com.google.android.material.floatingactionbutton.FloatingActionButton
+			android:id="@+id/generic_list_fab"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			app:srcCompat='@drawable/ic_add_white'
+			app:tint='#FFFFFFFF'
+			android:layout_gravity="end|bottom"
+			android:layout_margin="16dp"
+			android:visibility="visible"
+			/>
+	</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+	<!-- A progress bar for sync status: -->
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:gravity="left|bottom"
+		android:layout_gravity="left|bottom"
+		android:id="@+id/sync_status_progress_bar_container"
+		android:visibility="gone"
+		>
+		<View android:layout_height="1dp"
+			android:layout_width="fill_parent"
+			android:background="?attr/list_divider_color"
+			/>
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:id="@+id/sync_status_progress_bar_container2"
+			android:gravity='center_vertical'
+			>
+			<TextView
+				android:id="@+id/sync_status_progress_txt"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="?attr/utl_font_size_small"
+				android:text="@string/Sync_Progress"
+				android:paddingRight="3dp"
+				android:gravity="center_vertical"
+				android:layout_gravity="center_vertical"
+				/>
+
+			<ProgressBar
+				android:layout_width="0dp"
+				android:layout_height='wrap_content'
+				android:indeterminate="false"
+				android:layout_weight="1"
+				android:gravity="center_vertical"
+				android:layout_gravity="center_vertical"
+				style="?android:attr/progressBarStyleHorizontal"
+				android:id="@+id/sync_status_progress_bar"
+				/>
+		</LinearLayout>
+	</LinearLayout>
+
+	<com.customsolutions.android.utl.BannerAd style='@style/BannerAd' />
+</LinearLayout>

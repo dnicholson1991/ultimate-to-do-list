@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name='resorting_tasks'>Updating the sort order of your tasks. This may take a few seconds.</string>
+</resources>

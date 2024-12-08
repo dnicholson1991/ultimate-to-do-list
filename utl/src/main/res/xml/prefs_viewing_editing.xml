@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <com.customsolutions.android.utl.TwoLineCheckboxPreference
+        android:key='open_editor_on_tap'
+        android:title='@string/Open_Editor_On_Tap'
+        android:summary='@string/_Viewer_is_shown_otherwise_'
+        android:defaultValue="true"
+    />
+    <com.customsolutions.android.utl.TwoLineCheckboxPreference
+        android:key='open_note_editor_on_tap'
+        android:title='@string/Open_Note_Editor_On_Tap'
+        android:summary='@string/_Viewer_is_shown_otherwise_'
+        android:defaultValue="false"
+    />
+    <com.customsolutions.android.utl.TwoLineCheckboxPreference
+        android:key='hide_completed_subtasks'
+        android:title='@string/Hide_completed_subtasks'
+        android:summary='@string/In_subtask_views'
+        android:defaultValue="false"
+    />
+    <com.customsolutions.android.utl.TwoLineCheckboxPreference
+        android:key='manual_sort_on_long_press'
+        android:title='@string/manual_sort_on_long_press'
+        android:summary='@string/first_sort_order_manusl'
+        android:defaultValue="false"
+    />
+	<com.customsolutions.android.utl.IntListPreference
+	    android:key='undated_sort_order'
+	    android:title='@string/Sort_order_for_undated'
+	    android:entries='@array/undated_sort_order'
+	    android:entryValues='@array/undated_sort_order'
+	    android:widgetLayout='@layout/pref_value'
+	/>
+</PreferenceScreen>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Layout for the save/cancel bar that appears in the top of a fragment.  To use, a FrameLayout must exist 
+	with an ID of save_cancel_bar_placeholder.  The bar is placed within this placeholder. -->
+	
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/save_cancel_bar_wrapper"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/save_cancel_bar_background"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" 
+    android:paddingBottom='2dp'
+>
+
+    <TextView
+        android:id='@+id/save_cancel_bar_title'
+        android:layout_width='0dp'
+        android:layout_height='wrap_content'
+        android:layout_gravity='center_vertical'
+        android:gravity='center_vertical'
+        android:textSize='?attr/utl_font_size_large'
+        android:ellipsize="end"
+		android:maxLines="1"
+		android:singleLine="true"
+		android:layout_weight="1"
+		android:paddingLeft='3dp'
+    />
+    <View
+        android:layout_width='1dp'
+        android:layout_height='match_parent'
+        android:background='?attr/save_cancel_bar_divider_color1'
+    />
+    <View
+        android:layout_width='1dp'
+        android:layout_height='match_parent'
+        android:background='?attr/save_cancel_bar_divider_color2'
+    />
+    <View
+        android:layout_width='1dp'
+        android:layout_height='match_parent'
+        android:background='?attr/save_cancel_bar_divider_color3'
+    />
+    <Button
+		android:id="@+id/save_cancel_bar_cancel_button"
+		android:drawableLeft="?attr/ab_cancel"
+		style='@style/BarButton'
+		android:text='@string/Cancel'
+	/>
+    <View
+        android:layout_width='1dp'
+        android:layout_height='match_parent'
+        android:background='?attr/save_cancel_bar_divider_color1'
+    />
+    <View
+        android:layout_width='1dp'
+        android:layout_height='match_parent'
+        android:background='?attr/save_cancel_bar_divider_color2'
+    />
+    <View
+        android:layout_width='1dp'
+        android:layout_height='match_parent'
+        android:background='?attr/save_cancel_bar_divider_color3'
+    />
+    <Button
+		android:id="@+id/save_cancel_bar_save_button"
+		android:drawableLeft="?attr/ab_save"
+		style='@style/BarButton'
+		android:text='@string/Save'
+	/>
+    
+    <!-- Optional Overflow Menu -->
+    <LinearLayout
+        android:id='@+id/save_cancel_bar_overflow_group'
+        android:layout_width='wrap_content'
+        android:layout_height='wrap_content'
+        android:orientation='horizontal'
+    >
+        <View
+	        android:layout_width='1dp'
+	        android:layout_height='match_parent'
+	        android:background='?attr/save_cancel_bar_divider_color1'
+	    />
+	    <View
+	        android:layout_width='1dp'
+	        android:layout_height='match_parent'
+	        android:background='?attr/save_cancel_bar_divider_color2'
+	    />
+	    <View
+	        android:layout_width='1dp'
+	        android:layout_height='match_parent'
+	        android:background='?attr/save_cancel_bar_divider_color3'
+	    />
+	    <ImageButton
+	        android:id='@+id/save_cancel_bar_overflow_button'
+	        android:src='?attr/ab_overflow'
+	        style='@style/BarButton'
+	    />
+    </LinearLayout>
+</LinearLayout>
+<!-- From: file:/C:/GDrive-dnicholson/Work/Android_Projects/UTL/uTL/src/main/res/layout/save_cancel_top_bar.xml -->

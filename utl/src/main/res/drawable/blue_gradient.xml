@@ -1,0 +1,12 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!-- endColor is on top -->
+    <gradient 
+    	android:endColor=  "#729AC7"
+    	android:startColor="#46607C"
+        android:angle="90"
+    />
+</shape>
+<!-- Original Colors -->
+<!-- Top: #6386AD -->
+<!-- Bottom: #527194 -->

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name='file_permission_reason'>Если вы не разрешите доступ, приложение не сможет создать резервную копию ваших задач, заметок и настроек.</string>
+    <string name='background_location_instructions'>На следующем экране нажмите на опцию «[option]», чтобы разрешить приложению постоянный доступ к вашему местоположению.</string>
+    <string name='go_to_permissions'>Перейдите в область разрешений и включите доступ к местоположению в любое время.</string>
+
+    <string name='no_download_folder'>На вашем устройстве нет папки "Загрузки".</string>
+    <string name='unable_to_copy'>Не удалось сохранить резервную копию в папке «Загрузки».</string>
+    <string name='cant_access_backup'>Невозможно получить доступ к файлу резервной копии.</string>
+    <string name="unable_to_uncompress">Невозможно распаковать файл резервной копии.</string>
+    <string name='choose_backup_file'>На следующем экране выберите файл резервной копии для восстановления. По умолчанию приложение помещает их в папку «Загрузки» с именем «Ultimate To-Do List Backup.zip».</string>
+    <string name='backup_saved_to_downloads'>Резервная копия была сохранена в папке "Загрузки".</string>
+</resources>

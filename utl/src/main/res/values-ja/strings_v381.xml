@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <string name="td_max_tasks_reached">Toodledo で作成できるタスクが上限に達しています。より多くのタスクを作成するには、不要なタスクを削除してください。</string>
+    <string name="privacy_policy">個人情報保護方針</string>
+</resources>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/task_list_swipe_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+    >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/task_list_container"
+        >
+
+            <ListView
+                android:id="@+id/android:list"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="fill_vertical"
+                android:gravity="fill_vertical"
+                android:dividerHeight="1px"
+                android:divider="?attr/list_divider_color"
+            />
+
+            <TextView android:id="@+id/android:empty"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="@string/No_Tasks_Match2"
+            />
+
+        </LinearLayout>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+	<!-- A progress bar for sync status: -->
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:gravity="left|bottom"
+	    android:layout_gravity="left|bottom"
+	    android:id="@+id/sync_status_progress_bar_container"
+	    android:visibility="gone"
+	>
+		<View android:layout_height="1dp"
+			android:layout_width="fill_parent"
+			android:background="?attr/list_divider_color"
+		/>
+	
+		<LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal"
+		    android:id="@+id/sync_status_progress_bar_container2"
+		    android:gravity='center_vertical'
+		>
+			<TextView
+				android:id="@+id/sync_status_progress_txt"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="?attr/utl_font_size_small"
+				android:text="@string/Sync_Progress"
+				android:paddingRight="3dp"
+				android:gravity="center_vertical"
+				android:layout_gravity="center_vertical"
+			/>
+			
+			<ProgressBar
+				android:layout_width="0dp"
+				android:layout_height='wrap_content'
+				android:indeterminate="false" 
+				android:layout_weight="1"
+				android:gravity="center_vertical"
+				android:layout_gravity="center_vertical"
+				style="?android:attr/progressBarStyleHorizontal"
+				android:id="@+id/sync_status_progress_bar"
+			/>
+		</LinearLayout>
+	</LinearLayout>
+	
+	<TextView
+		android:id="@+id/task_list_trial_msg"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/Trial_Expiry_Notice"
+		android:textSize="?attr/utl_font_size_large"
+		android:textStyle='bold'
+		android:paddingLeft="5dp"
+		android:paddingTop="6dp"
+		android:paddingBottom="6dp"
+		android:singleLine="true"
+		android:ellipsize="end"
+		android:layout_gravity="center_vertical"
+		android:background="?attr/msg_area_background_color"
+		android:textColor="?attr/msg_area_text_color"
+	/>	
+</LinearLayout>
+
+<!-- From: file:/C:/GDrive-dnicholson/Work/Android_Projects/UTL/uTL/src/main/res/layout/task_list.xml -->

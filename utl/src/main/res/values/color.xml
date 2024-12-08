@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Quick Reference: Standard Holo Highlight Colors Used in Android 4.x: -->
+<!-- holo_blue_light:  #ff33b5e5 (51,181,229) -->
+<!-- holo_blue_dark:   #ff0099cc (00,153,204) -->
+<!-- holo_blue_bright: #ff00ddff (00,221,255) -->
+
+<!-- A good resources for getting names of colors: http://www.color-blindness.com/color-name-hue/ -->
+
+<resources>
+    <!-- Specific colors by name: -->
+    <color name="transparent">#00000000</color>
+    <color name='cyan_light'>#ff33b5e5</color>
+    <color name='summer_sky'>#ff32ADE7</color>
+    <color name='cyan_dark'>#ff0099cc</color>
+    <color name="boston_blue">#ff408da6</color>
+    <color name='cyan_dark_whitened'>#ff55bbdd</color>
+    <color name='cyan_darker'>#ff006385</color>
+    <color name='cyan_darkest'>#ff002e3e</color>
+    <color name='cyan_bright'>#ff00ddff</color>
+    <color name='alexa_cyan'>#ff00CAFF</color>
+    <color name='red'>#FF0000</color>
+    <color name='crusta_orange'>#fff17560</color>
+    <color name='dark_midnight_blue'>#ff003366 </color>
+    
+    <!-- White, Black, and Shades of Gray: -->
+    <color name='black'>#000000</color>
+    <color name='almost_black'>#262626</color>   <!-- Example: nav drawer background for dark theme -->
+    <color name='black_84'>#FF282828</color>     <!-- Example: background for popup activities in dark theme -->
+    <color name='black_75'>#FF404040</color>     <!-- Example: field borders in task editor for dark theme -->
+    <color name='black_63'>#FF606060</color>
+    <color name='medium_gray'>#FF808080</color>
+    <color name='white_70'>#FFB4B4B4</color>     <!-- Example: field borders in task editor for light theme -->
+    <color name='white_87'>#FFDDDDDD</color>     <!-- Example: light action bar -->
+    <color name='almost_white'>#FFF3F3F3</color> <!-- Example: title bar and save/cancel bar background -->
+    <color name='white'>#FFFFFF</color>
+
+    <!-- The black color used in icons. Generally displayed with 60% opacity. -->
+    <color name='icon_black'>#333333</color>
+
+    <!-- A color used for buttons. -->
+    <color name='white_ripple'>#40FFFFFF</color>
+
+    <!-- Colors representing priorities: -->
+    <color name='priority_none'>#FF808080</color>
+    <color name='priority_negative'>#FF00FF00</color>
+    <color name='priority_low'>#FF0000FF</color>
+    <color name='priority_medium'>#FFFFFF00</color>
+    <color name='priority_high'>#FFFFAA00</color>
+    <color name='priority_top'>#FFFF0000</color>
+    
+    <!-- Widget Colors: -->
+    <color name='widget_background_color_light'>@color/white</color>
+    <color name='widget_background_color_dark'>@color/black</color>
+    <color name='widget_text_color_light'>@color/black</color>
+    <color name='widget_text_color_dark'>@color/white</color>
+    <color name='widget_divider_color'>@color/medium_gray</color>
+    
+    <!-- Colors for the themes. -->
+    
+    <!-- Navigation Drawer -->
+    <color name='nav_drawer_text_highlight_bg_color_light'>@color/cyan_dark</color>
+    <color name='nav_drawer_text_highlight_bg_color_dark'>@color/cyan_light</color>
+    
+    <!-- Lists: -->
+    <color name='list_highlight_bg_color_light'>@color/cyan_dark</color>
+    <color name='list_highlight_bg_color_dark'>@color/cyan_light</color>
+    
+    <!-- Action Bar Buttons -->
+    <color name='ab_button_press_bg_light'>#cc33b5e5</color>
+    <color name='ab_button_press_bg_dark'>@color/cyan_dark</color>
+    <color name='ab_icon_color_light'>#99333333</color>
+    <color name='ab_icon_color_dark'>#CCFFFFFF</color>
+    
+    <!-- Text Color for Overdue -->
+    <color name='overdue_text_color_light'>@color/red</color>
+    <color name='overdue_text_color_dark'>@color/red</color>
+    
+    <!-- Background color -->
+    <color name='main_background_color_light'>@color/white</color>
+    <color name='main_background_color_dark'>@color/black</color>
+    
+    <!-- Split-Screen Dividers: -->
+    <color name='ss_divider_color_dark'>@color/cyan_light</color>
+    <color name='ss_divider_color_light'>@color/white_70</color>
+    
+    <!-- Section Backgrounds in Editors -->
+    <color name='editor_section_bg_light'>@color/white</color>
+    <color name='editor_section_outline_light'>@color/white_70</color>
+    <color name='editor_section_bg_dark'>@color/almost_black</color>
+    <color name='editor_section_bg_darker'>@color/black</color>
+    <color name='editor_section_outline_dark'>@color/medium_gray</color>
+</resources>

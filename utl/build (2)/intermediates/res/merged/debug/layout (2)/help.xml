@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+>
+	<!-- Upload a Log -->
+	<LinearLayout
+	    android:id="@+id/help_upload_log"
+	    android:layout_width='match_parent'
+	    android:layout_height='wrap_content'
+	    android:minHeight='48dp'
+	    android:orientation='vertical'
+	    android:gravity='center_vertical'
+	    android:paddingLeft='8dp'
+	    android:paddingRight='8dp'
+	    android:background='?attr/cb_button_bg'
+	>
+	    <TextView
+	        android:layout_width='wrap_content'
+	        android:layout_height='wrap_content'
+	        android:textSize='?attr/utl_font_size_large'
+	        android:text='@string/Upload_Usage_Info'
+	    />
+	    <TextView
+	        android:layout_width='wrap_content'
+	        android:layout_height='wrap_content'
+	        android:text='@string/Upload_Usage_Info2'
+	        android:textStyle="italic"
+	    />
+	</LinearLayout>
+
+	<!-- Separator -->
+	<View android:layout_width="match_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>
+	
+	<!-- Ask a Question. Get an Answer. -->
+	<LinearLayout
+	    android:id="@+id/help_ask_a_question"
+	    android:layout_width='match_parent'
+	    android:layout_height='wrap_content'
+	    android:minHeight='48dp'
+	    android:orientation='vertical'
+	    android:gravity='center_vertical'
+	    android:paddingLeft='8dp'
+	    android:paddingRight='8dp'
+	    android:background='?attr/cb_button_bg'
+	>
+	    <TextView
+	        android:layout_width='wrap_content'
+	        android:layout_height='wrap_content'
+	        android:textSize='?attr/utl_font_size_large'
+	        android:text='@string/Ask_a_Question'
+	    />
+	    <TextView
+	        android:layout_width='wrap_content'
+	        android:layout_height='wrap_content'
+	        android:text='@string/Search_Support_Articles'
+	        android:textStyle="italic"
+	    />
+	</LinearLayout>
+
+	<!-- Separator -->
+	<View android:layout_width="match_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>
+	
+	<!-- Browse support and feedback site -->
+	<LinearLayout
+	    android:id="@+id/help_support"
+	    android:layout_width='match_parent'
+	    android:layout_height='wrap_content'
+	    android:minHeight='48dp'
+	    android:orientation='vertical'
+	    android:gravity='center_vertical'
+	    android:paddingLeft='8dp'
+	    android:paddingRight='8dp'
+	    android:background='?attr/cb_button_bg'
+	>
+	    <TextView
+	        android:layout_width='wrap_content'
+	        android:layout_height='wrap_content'
+	        android:textSize='?attr/utl_font_size_large'
+	        android:text='@string/Browse_Support_Site'
+	    />
+	    <TextView
+	        android:layout_width='wrap_content'
+	        android:layout_height='wrap_content'
+	        android:text='@string/Browse_Support_Site2'
+	        android:textStyle="italic"
+	    />
+	</LinearLayout>
+	
+	<!-- Separator -->
+	<View android:layout_width="match_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>
+	
+	<!-- Web Site -->
+	<LinearLayout
+	    android:id="@+id/help_web_link"
+	    android:layout_width='match_parent'
+	    android:layout_height='wrap_content'
+	    android:minHeight='48dp'
+	    android:orientation='vertical'
+	    android:gravity='center_vertical'
+	    android:paddingLeft='8dp'
+	    android:paddingRight='8dp'
+	    android:background='?attr/cb_button_bg'
+	>
+	    <TextView
+	        android:layout_width='wrap_content'
+	        android:layout_height='wrap_content'
+	        android:textSize='?attr/utl_font_size_large'
+	        android:text='@string/Visit_web_site'
+	    />
+	    <TextView
+	        android:layout_width='wrap_content'
+	        android:layout_height='wrap_content'
+	        android:text='@string/Visit_web_site_info'
+	        android:textStyle="italic"
+	    />
+	</LinearLayout>
+
+	
+	<!-- Separator -->
+	<View android:layout_width="match_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>
+	
+	<!-- Color-Coding -->
+	<LinearLayout
+	    android:id="@+id/help_color_code"
+	    android:layout_width='match_parent'
+	    android:layout_height='wrap_content'
+	    android:minHeight='48dp'
+	    android:orientation='vertical'
+	    android:gravity='center_vertical'
+	    android:paddingLeft='8dp'
+	    android:paddingRight='8dp'
+	    android:background='?attr/cb_button_bg'
+	>
+	    <TextView
+	        android:layout_width='wrap_content'
+	        android:layout_height='wrap_content'
+	        android:textSize='?attr/utl_font_size_large'
+	        android:text='@string/Color_Code_Reference'
+	    />
+	    <TextView
+	        android:layout_width='wrap_content'
+	        android:layout_height='wrap_content'
+	        android:text='@string/Color_Code_Reference2'
+	        android:textStyle="italic"
+	    />
+	</LinearLayout>
+	
+	<!-- Separator -->
+	<View android:layout_width="match_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>
+	
+	<!-- What's New -->
+	<LinearLayout
+	    android:id="@+id/help_whats_new"
+	    android:layout_width='match_parent'
+	    android:layout_height='wrap_content'
+	    android:minHeight='48dp'
+	    android:orientation='vertical'
+	    android:gravity='center_vertical'
+	    android:paddingLeft='8dp'
+	    android:paddingRight='8dp'
+	    android:background='?attr/cb_button_bg'
+	>
+	    <TextView
+	        android:layout_width='wrap_content'
+	        android:layout_height='wrap_content'
+	        android:textSize='?attr/utl_font_size_large'
+	        android:text='@string/Whats_New'
+	    />
+	</LinearLayout>
+	
+	<!-- Separator -->
+	<View android:layout_width="match_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>
+	
+	<!-- Current Version -->
+	<LinearLayout
+	    android:id="@+id/help_version"
+	    android:layout_width='match_parent'
+	    android:layout_height='wrap_content'
+	    android:minHeight='48dp'
+	    android:orientation='horizontal'
+	    android:gravity='center_vertical'
+	    android:paddingLeft='8dp'
+	    android:paddingRight='8dp'
+	    android:background='?attr/cb_button_bg'
+	>
+	    <TextView
+	        android:layout_width='0dp'
+	        android:layout_height='wrap_content'
+	        android:textSize='?attr/utl_font_size_large'
+	        android:text='@string/Current_Version_'
+	        android:layout_weight='1'
+	    />
+	    <TextView
+	        android:id='@+id/help_version_txt2'
+	        android:layout_width='wrap_content'
+	        android:layout_height='wrap_content'
+	        android:textSize='?attr/utl_font_size_large'
+	    />
+	</LinearLayout>
+	
+	
+	<!-- Separator -->
+	<View android:layout_width="match_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>
+	
+	<!-- Device's Unique ID -->
+	<LinearLayout
+	    android:id="@+id/help_android_id"
+	    android:layout_width='match_parent'
+	    android:layout_height='wrap_content'
+	    android:minHeight='48dp'
+	    android:orientation='vertical'
+	    android:gravity='center_vertical'
+	    android:paddingLeft='8dp'
+	    android:paddingRight='8dp'
+	>
+	    <TextView
+	        android:layout_width='wrap_content'
+	        android:layout_height='wrap_content'
+	        android:textSize='?attr/utl_font_size_large'
+	        android:text='@string/Device_Unique_ID_'
+	    />
+	    <TextView
+	        android:id="@+id/help_android_id_txt2"
+	        android:layout_width='wrap_content'
+	        android:layout_height='wrap_content'
+	        android:textStyle="italic"
+	    />
+	</LinearLayout>
+	
+	<!-- Separator -->
+	<View android:layout_width="match_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>	
+
+	<!-- License Status -->
+	<LinearLayout
+	    android:id="@+id/help_license_status"
+	    android:layout_width='match_parent'
+	    android:layout_height='wrap_content'
+	    android:minHeight='48dp'
+	    android:orientation='vertical'
+	    android:gravity='center_vertical'
+	    android:paddingLeft='8dp'
+	    android:paddingRight='8dp'
+	    android:background='?attr/cb_button_bg'
+	>
+	    <TextView
+	        android:id='@+id/help_license_txt1'
+	        android:layout_width='wrap_content'
+	        android:layout_height='wrap_content'
+	        android:textSize='?attr/utl_font_size_large'
+	    />
+	    <TextView
+	        android:id="@+id/help_license_txt2"
+	        android:layout_width='wrap_content'
+	        android:layout_height='wrap_content'
+	        android:textStyle="italic"
+	    />
+	</LinearLayout>
+	
+	<!-- Separator -->
+	<View
+	    android:id='@+id/help_license_divider' 
+	    android:layout_width="match_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>	
+	
+</LinearLayout>
+</ScrollView><!-- From: file:/C:/GDrive-dnicholson/Work/Android_Projects/UTL/uTL/src/main/res/layout/help.xml -->

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id='@+id/snoozer_linear_layout'
+    android:layout_width="match_parent"
+    android:layout_height='wrap_content'
+    android:orientation="horizontal"
+    android:scaleX="0.8"
+    android:scaleY="0.8"
+    android:alpha="0.6"
+>
+    <ImageView
+        android:id="@+id/snoozer_item_image"
+        android:layout_height="52dp"
+        android:layout_width="52dp"
+        android:background='@drawable/list_item_circle'
+        android:src='@drawable/ab_timer_off_dark'
+    />
+
+    <TextView
+        android:id="@+id/snoozer_item_text"
+        android:gravity="center_vertical"
+        android:layout_height="52dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_marginLeft='12dp'
+    />
+</LinearLayout><!-- From: file:/C:/GDrive-dnicholson/Work/Android_Projects/UTL/utlwear/src/main/res/layout/snoozer_item.xml -->

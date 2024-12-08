@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name='email_collection_info'>Você precisa fornecer o seu endereço de e-mail para estabelecer sincronização.
+        O endereço será usado unicamente para prover serviços de sincronização e não será compartilhado com nenhum
+        outro aplicativo ou serviço.</string>
+</resources>

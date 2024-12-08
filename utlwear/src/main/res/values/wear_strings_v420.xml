@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TODO: Use a human translation: -->
+    <string name='utl_not_installed'>Your watch is either not connected to your phone or
+        the phone version of the app is not installed.</string>
+</resources>

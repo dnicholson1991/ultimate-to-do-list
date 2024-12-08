@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+>
+	<!-- The "Add Rule" button -->
+	<View android:layout_height="1px"
+		android:layout_width="fill_parent"
+		android:background="?attr/list_divider_color"
+	/>
+	<TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:id='@+id/rules_list_add_rule_button'
+	    android:minHeight='52dp'
+	    android:background='?android:attr/selectableItemBackground'
+	    android:paddingTop='10dp'
+	    android:paddingBottom='10dp'
+	    android:layout_gravity='center_vertical'
+	    android:textColor='?attr/utl_text_color'
+	    android:drawableLeft='?attr/ab_add_inv'
+	    android:text="@string/Add_filter_rule"
+	    android:gravity='left|center_vertical'
+	    android:textSize='?attr/utl_font_size_large'
+  		android:paddingLeft='5dp'
+	/>
+ 	<View android:layout_height="1px"
+		android:layout_width="fill_parent"
+		android:background="?attr/list_divider_color"
+	/>
+</LinearLayout>

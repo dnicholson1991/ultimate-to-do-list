@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">究極のto-doリスト</string>
+
+    <string name='processing'>処理</string>
+    <string name='try_again'>もう一度試す</string>
+    <string name='cancel'>キャンセル</string>
+    <string name='success'>成功</string>
+
+    <!-- A reminder for a task can be snoozed (postponed) by one of these amounts: -->
+    <string name="snooze_5_min">5分</string>
+    <string name="snooze_15_min">15分</string>
+    <string name="snooze_30_min">30分</string>
+    <string name="snooze_1_hour">1時間</string>
+    <string name="snooze_2_hours">2時間</string>
+    <string name="snooze_3_hours">3時間</string>
+    <string name="snooze_4_hours">4時間</string>
+    <string name="snooze_5_hours">5時間</string>
+    <string name="snooze_6_hours">6時間</string>
+    <string name="snooze_9_hours">9時間</string>
+    <string name="snooze_12_hours">12時間</string>
+    <string name="snooze_1_day">1日</string>
+
+</resources>

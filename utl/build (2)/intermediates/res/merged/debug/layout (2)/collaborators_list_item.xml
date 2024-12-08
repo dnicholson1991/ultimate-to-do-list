@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:id='@+id/coll_item_collaborator_row'
+>
+    <TextView
+        android:id="@+id/coll_item_collaborator_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Name"
+        android:layout_weight="1"
+		android:layout_gravity="left|center_vertical"
+		android:gravity="left|center_vertical"
+    />
+    
+    <LinearLayout
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_weight="1"
+	>
+		<CheckBox
+			android:id="@+id/coll_item_reassignable_cb"
+			android:layout_gravity="center|center_vertical"
+			android:gravity="center|center_vertical"
+			android:layout_width='0dp'
+		    android:layout_height="wrap_content"
+			android:clickable="false"
+			android:layout_weight='0.6'
+		/>
+		
+		<CheckBox
+			android:id="@+id/coll_item_sharable_cb"
+			android:layout_gravity="center|center_vertical"
+			android:gravity="center|center_vertical"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+			android:clickable="false"
+			android:layout_weight=".40"
+		/>
+	</LinearLayout>
+</LinearLayout>
+<!-- From: file:/C:/GDrive-dnicholson/Work/Android_Projects/UTL/uTL/src/main/res/layout/collaborators_list_item.xml -->

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android" >
+    <header
+        android:fragment='com.customsolutions.android.utl.PrefsFragment'
+        android:title='@string/Account_Management'
+    >
+        <extra android:name='section' android:value='account_management' />
+    </header>
+
+    <header
+        android:fragment='com.customsolutions.android.utl.StoreItemListFragment'
+        android:title='@string/add_ons'
+    />
+
+    <header
+        android:fragment='com.customsolutions.android.utl.PrefsFragment'
+        android:title='@string/android_wear'
+        android:id='@+id/prefs_header_android_wear'
+        >
+        <extra android:name='section' android:value='android_wear' />
+    </header>
+
+    <header
+        android:fragment='com.customsolutions.android.utl.PrefsFragment'
+        android:title='@string/Backup_And_Restore'
+    >
+        <extra android:name='section' android:value='backup_and_restore' />
+    </header>
+    
+    <header
+        android:fragment='com.customsolutions.android.utl.PrefsFragment'
+        android:title='@string/Date_and_Time'
+    >
+        <extra android:name='section' android:value='date_and_time' />
+    </header>
+    
+    <header
+        android:fragment='com.customsolutions.android.utl.PrefsFragment'
+        android:title='@string/Display_Options'
+    >
+        <extra android:name='section' android:value='display' />
+    </header>
+    
+    <header
+        android:fragment='com.customsolutions.android.utl.PrefsFragment'
+        android:title='@string/Fields_Functions_Used'
+    >
+        <extra android:name='section' android:value='fields_functions_used' />
+    </header>
+    
+    <header
+        android:fragment='com.customsolutions.android.utl.PrefsFragment'
+        android:title='@string/Location_Tracking'
+        android:id='@+id/prefs_header_location_tracking'
+    >
+        <extra android:name='section' android:value='location_tracking' />
+    </header>
+    
+    <header
+        android:fragment='com.customsolutions.android.utl.PrefsFragment'
+        android:title='@string/Miscellaneous'
+    >
+        <extra android:name='section' android:value='miscellaneous' />
+    </header>
+    
+    <header
+        android:fragment='com.customsolutions.android.utl.PrefsFragment'
+        android:title='@string/Navigation_Drawer'
+    >
+        <extra android:name='section' android:value='nav_drawer' />
+    </header>
+    
+    <header
+        android:fragment='com.customsolutions.android.utl.PrefsFragment'
+        android:title='@string/New_Task_Defaults'
+    >
+        <extra android:name='section' android:value='new_task_defaults' />
+    </header>
+    
+    <header
+        android:fragment='com.customsolutions.android.utl.PrefsFragment'
+        android:title='@string/Reminder_Options'
+    >
+        <extra android:name='section' android:value='reminder_options' />
+    </header>
+
+    <header
+        android:fragment='com.customsolutions.android.utl.PrefsFragment'
+        android:title='@string/Sync_Options'
+    >
+        <extra android:name='section' android:value='sync_options' />
+    </header>
+
+    <header
+        android:fragment='com.customsolutions.android.utl.PrefsFragment'
+        android:title='@string/View_Edit_Options'
+    >
+        <extra android:name='section' android:value='viewing_and_editing' />
+    </header>
+    
+    <header
+        android:fragment='com.customsolutions.android.utl.PrefsFragment'
+        android:title='@string/Voice_Mode'
+        android:id='@+id/prefs_header_voice_mode'
+    >
+        <extra android:name='section' android:value='voice_mode' />
+    </header>
+</preference-headers>
+<!-- From: file:/C:/GDrive-dnicholson/Work/Android_Projects/UTL/uTL/src/main/res/xml/preference_headers.xml -->

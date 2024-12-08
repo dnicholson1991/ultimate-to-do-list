@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="syncing_with_phone">Синхронизация данных с телефоном.</string>
+    <string name="misc">Разнообразный</string>
+</resources>

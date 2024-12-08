@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <string name="show_tasks">Показывать задачи</string>
+    <string name="play_services_out_of_date">Версия службы Google Play на устройстве устарела. Откройте приложение Wear OS на телефоне, перейдите в настройки и выполните синхронизацию приложений.</string>
+</resources>

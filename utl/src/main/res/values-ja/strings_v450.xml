@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="survey_header">重要な情報</string>
+    <string name="help_us_keep">アプリをGoogle Playに残すためにご協力ください</string>
+    <string name="survey_description" examples="Ultimate To-Do List">忙しくてこの重要なメッセージを今読むことができない場合は、後でヘルプ領域で表示できます。
+\n
+\n%1$s岐路に立っています。ポリシーに準拠し、Android の新バージョンでの動作変更に対応するために Google が課す経費が増加しているため、追加収入なしにアプリを維持することは不可能になっています。邪魔にならないバナー広告と 1 回限りの購入を組み合わせた現在のシステムは不十分です。追加収入がなければ、アプリは最終的に Google Play から削除されることになります。
+\n
+\n今後の方針を決めるために、長期ユーザーからのフィードバックを募集しています。特に、アプリを引き続きご利用いただくために、少額の年間使用料を支払うか、より煩わしい広告 (ポップアップなど) を受け入れる意思があるかどうかを知りたいと考えています。その見返りとして、アプリを維持し、少なくとも年に 1 回は新機能をリリースすることをお約束します。また、既存の有料アドオンはすべて追加料金なしで提供されます。
+\n
+\n次の 3 つの質問のアンケートでは、あなたが何をしたいのか、またどのような新機能に最も興味があるのか​​をお尋ねします。</string>
+    <string name="dont_ask_again">二度と聞かないで</string>
+    <string name="start_survey">調査を開始</string>
+    <string name="survey">調査</string>
+    <string name="survey_q1">質問 1/3: アプリへのアクセスを維持し、新しい機能を利用するために、年間いくら支払ってもよいと思いますか?</string>
+    <string name="pay_up_to" examples="$5.00">年間%1$sを支払います。</string>
+    <string name="rather_have_ads">お金を払うつもりはありませんが、ポップアップなどのより邪魔な広告があっても構いません。</string>
+    <string name="no_ads_or_purchases">どちらでもありません。別のアプリに切り替えたいです。</string>
+    <string name="next">次</string>
+    <string name="back">戻る</string>
+    <string name="survey_q2">質問 2/3: どのような新機能に興味がありますか? (該当するものをすべてチェックしてください。)</string>
+    <string name="wear_task_creation">Wear OS アプリを使用して新しいタスクを作成する機能。</string>
+    <string name="voice_support">英語以外の言語での音声入力をサポートします。</string>
+    <string name="task_dependencies">あるタスクが別のタスクに依存するタイミングを指定する機能。</string>
+    <string name="modern_ui">ユーザーインターフェースの近代化。</string>
+    <string name="checklists">リセット可能なチェックリスト（買い物リスト、梱包リストなど）</string>
+    <string name="more_sync_options">Google ドライブや私たちが作成する新しいサービスなどへの追加の同期オプション。これは有料の Toodledo アカウントよりも安価で、Google Tasks のバグや制限を回避し、アプリのすべての機能をデバイス間で利用および同期できます。たとえば、このオプションではサブタスクのサブタスクやカスタム ビューの同期がサポートされます。このオプションの欠点は、コンピューターでタスクを管理するための Web ベースのインターフェースがないことです。ただし、Android エミュレーターを使用することはできます。</string>
+    <string name="other_features">他にご覧になりたい機能:</string>
+    <string name="no_features">新しい機能には興味がありません。</string>
+    <string name="please_select_option">オプションを選んでください。</string>
+    <string name="survey_q3">質問 3/3: 選択した新機能の中で、最も優先度が高いのはどれですか?</string>
+    <string name="survey_q3_2">質問 3/3 (オプション): 他にフィードバックがある場合は、ここに自由に記入してください。</string>
+    <string name="more_sync_options2">より多くの同期オプション。</string>
+    <string name="the_other_features">私が指定したその他の機能。</string>
+    <string name="other_feedback">他にフィードバックがある場合は、ここに記入してください:</string>
+    <string name="submit_survey">回答を送信</string>
+    <string name="submitting">送信中…</string>
+    <string name="survey_submitted">回答が送信されました。フィードバックをありがとうございます。次のステップが決まりましたら、アプリに更新情報を投稿します。</string>
+    <string name="technical_error">申し訳ございませんが、技術的なエラーが発生しました。</string>
+    <string name="network_error">接続できません。インターネット接続を確認してください。</string>
+</resources>

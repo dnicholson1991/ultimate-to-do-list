@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <string name="google_sign_in_needed">Google requiere que inicies sesión en la cuenta %s de nuevo para sincronizar.</string>
+
+    <!-- Names of themes: -->
+    <string name="theme_pacific">Pacífico</string>
+    <string name="theme_boston">Boston</string>
+    <string name="theme_classic">Clásico</string>
+    <string name="theme_darker">Más oscuro</string>
+    <string name="theme_darkest">Súper oscuro</string>
+
+    <!-- Options for widgets: A compact (compressed) display or a normal sized display. -->
+    <string name="format_">Formato:</string>
+    <string name="compact">Compacto</string>
+    <string name="normal">Normal</string>
+
+    <!-- Prompts to help the user choose which features to enable: -->
+    <string name="common_features">Funciones comunes</string>
+    <string name="almost_everyone">Casi todos deberían activarlas.</string>
+    <string name="time_management">Gestión del tiempo</string>
+    <string name="precisely_plan">Planifica tu tiempo de forma precisa.</string>
+    <string name="task_organization">Organización de tareas</string>
+    <string name="group_and_arrange">Agrupa y organiza tus tareas de varias maneras.</string>
+    <string name="project_management">Gestión de proyectos</string>
+    <string name="advanced_features">Funciones avanzadas para equipos, contratistas y otras necesidades complejas.</string>
+    <string name="due_date_description">Esta es la fecha en que debe completarse la tarea.</string>
+    <string name="folder_description">Las carpetas se pueden usar para organizar tus tareas y notas en categorías, proyectos o áreas de interés. Las carpetas típicas pueden representar categorías amplias como \"Trabajo\" o \"Personal\". O bien, podrían centrarse en proyectos específicos como \"Investigación de productos\" o \"Remodelación del sótano\".</string>
+    <string name="priority_description">Esto te permite especificar la importancia de una tarea. Hay 5 niveles de prioridad disponibles.</string>
+    <string name="reminders_description">Permite que tu dispositivo vibre y/o suene para recordarte una tarea importante.  La tarea también aparecerá en tu área de notificaciones. Opcionalmente, puedes activar recordatorios molestos para una tarea, de modo que recibas recordatorios a intervalos regulares hasta que descartes el recordatorio o completes la tarea.</string>
+    <string name="repeating_description">Te permite repetir una tarea a intervalos regulares. Usa esta función para tareas que deben realizarse diariamente, semanalmente o mensualmente. También puedes especificar patrones de repetición avanzados, como el segundo lunes o el último día del mes.</string>
+    <string name="calendar_description">Esto te da la opción de ver las tareas que selecciones en la aplicación de calendario de tu dispositivo. Esto es útil si quieres ver tus tareas y eventos de calendario en una pantalla.</string>
+    <string name="due_time_description">Te permite especificar la hora exacta en la que debe realizarse una tarea. El campo de fecha de vencimiento debe estar activado para usar esto.</string>
+    <string name="start_date_description">Te permite especificar la fecha en la que quieras comenzar a trabajar en una tarea. El uso de fechas de inicio en combinación con las opciones de filtrado de la aplicación hace que sea fácil ocultar tareas de tu lista en las que sólo trabajarás en el futuro.</string>
+    <string name="start_time_description">Te permite especificar una hora de inicio exacta para una tarea. El campo de fecha de inicio debe estar activado para usar esto.</string>
+    <string name="contexts_description">Los contextos te permiten asignar tareas a ciertas ubicaciones o ajustes en los que deben completarse. Por ejemplo, \"Trabajo\", \"Casa\", \"Compras\" y \"Reunión\" son algunos contextos de uso común. La idea detrás de los contextos es que no es productivo que te recuerden las tareas de un contexto cuando estás en otro contexto. Por ejemplo, cuando estás en el trabajo, no quieres ver todas las tareas que sólo puedes completar en casa.</string>
+    <string name="goals_description">Los objetivos proporcionan una forma de especificar los elementos que quieres lograr. A diferencia de las tareas, los objetivos suelen ser más vagos y difíciles de cuantificar. Por ejemplo: \"Conseguir un ascenso\", \"Ser mejor padre\", \"Mejorar mi salud\". Puedes crear objetivos de por vida, a largo y corto plazo y asignar dichos objetivos a tareas individuales. Esto te permitirá llevar un registro de las acciones que contribuyen a tus objetivos, y de las acciones que posiblemente no hagan un buen uso de tu tiempo.</string>
+    <string name="locations_description">Las ubicaciones te permiten marcar dónde se deben completar ciertas tareas. Esto te permite ubicar convenientemente las tareas cercanas. Cuando tocas el botón \"Mostrar mapa\" dentro de la aplicación, puedes ver qué ubicaciones están más cerca de tu ubicación actual. La aplicación también puede recordarte tareas en una ubicación particular cuando llegues a dicha ubicación.</string>
+    <string name="star_description">La estrella puede encenderse o apagarse como lo desees para cada tarea. Puedes usarla como quieras. Algunos usos comunes incluyen: marcar tareas activas, marcar tareas que quieras completar hoy y marcar tareas que tengan la máxima prioridad.</string>
+    <string name="subtasks_description">Una subtarea es una tarea dentro de una tarea. Las subtareas generalmente se usan para agrupar tareas relacionadas o para registrar los pasos necesarios para completar una tarea. Las subtareas están disponibles dentro de la aplicación independientemente de la cuenta en línea a la que te conectes (si la tienes), pero si utilizas Toodledo se requiere una cuenta de pago para que las subtareas se sincronicen y sean visibles en el sitio web.</string>
+    <string name="tags_description">Las etiquetas son palabras clave o frases que puedes usar para ayudar a describir y agrupar tus tareas. Una tarea puede tener varias etiquetas. Algunos usos comunes incluyen: hacer un seguimiento del estado o progreso, realizar un seguimiento del siguiente paso y clasificar la tarea.</string>
+    <string name="contacts_description">El campo de contacto de una tarea te permite vincular la tarea a un contacto en tu dispositivo. Esto se puede usar para otorgar acceso rápido al número de teléfono o dirección de correo electrónico de tu contacto cuando una tarea involucre contactar a alguien. También se puede usar para agrupar tareas que requieran información o asistencia de una persona específica.</string>
+    <string name="expected_length_description">Esto te permite registrar una estimación de cuánto tiempo se necesitará para completar la tarea.</string>
+    <string name="timer_actual_length">Temporizador / duración real</string>
+    <string name="timer_description">El temporizador te permite registrar la cantidad real de tiempo que se dedicó a una tarea. El temporizador puede encenderse cuando se realiza el trabajo, y pausarse y reanudarse según sea necesario.  La aplicación llevará un registro del tiempo total empleado.</string>
+    <string name="status_description">Esto te permite hacer un seguimiento del estado actual de la tarea. Algunos ejemplos incluyen: siguiente acción, activa, planificación, delegada y en espera.</string>
+    <string name="collaboration_description">Esta función está disponible sólo para usuarios de Toodledo y te permite compartir tareas con otros, así como asignar tareas a personas específicas. Para obtener más información, consulta la documentación de Toodleo en toodledo.com/info/sharing.php.</string>
+    <string name="due_time_without_due_date">Debes activar las fechas de vencimiento para usar los tiempos de vencimiento.</string>
+    <string name="start_time_without_start_date">Debes activar las fechas de inicio para usar las horas de inicio.</string>
+    <string name="calendar_cannot_be_enabled">No se puede activar la integración del calendario porque se ha denegado el permiso para acceder al calendario.</string>
+    <string name="contacts_cannot_be_enabled">No se puede activar la integración de los contactos porque se ha denegado el permiso para acceder a tus contactos.</string>
+    <string name="locations_cannot_be_enabled">No se pueden activar las ubicaciones porque se ha denegado el permiso para acceder a la ubicación de tu dispositivo.</string>
+    <string name="locations_cannot_be_enabled2">No se pueden activar las ubicaciones porque se ha denegado el permiso para acceder a la ubicación de tu dispositivo en todo momento.</string>
+    <string name="folders_required">Las carpetas deben estar activadas para las cuentas de Google.</string>
+    <string name="due_date_required">Toodledo requiere que las fechas de vencimiento estén activadas si los recordatorios están habilitados.</string>
+    <string name="features_intro">Aquí, puedes activar las funciones que necesitas y desactivar las que no necesites.</string>
+    <string name="tap_on_group">Toca un grupo abajo para gestionar las funciones dentro de dicho grupo. Toca los botones de información para obtener más información sobre cada función.</string>
+    <string name="choose_your_features">Elige tus funciones</string>
+
+    <!-- Miscellaneous Strings: -->
+    <string name="name_of_new_folder">Nombre de la nueva carpeta:</string>
+    <string name="name_of_new_context">Nombre del nuevo contexto:</string>
+    <string name="name_of_new_goal">Nombre del nuevo objetivo:</string>
+    <string name="restore_successful_android10">Todos los datos se han restaurado y estarán disponibles después de reiniciar la aplicación. Si estabas utilizando el calendario, los contactos o las funciones de ubicación, deberás volver a activarlos en el área de ajustes y aceptar los permisos cuando se te solicite.</string>
+    <string name="learn_more_about_utl">Obtén más información sobre About Ultimate To-Do List\n\n\n\n</string>
+    <string name="tasker_overlay_permission">IMPORTANTE: si tu dispositivo ejecuta Android 10 o posterior y quieres que Tasker pueda iniciar una lista de tareas, deberás otorgarle permiso a Ultimate To-Do List para aparecer sobre otras aplicaciones. Puedes hacerlo en Aplicaciones, en los ajustes de tu sistema.</string>
+    <string name="unable_to_open_list">No se puede abrir la lista de tareas</string>
+    <string name="overlay_permission_needed">Tasker no puede abrir tu lista de tareas por falta de permiso. Toca aquí para otorgarle el permiso a Ultimate To-Do List para aparecer sobre otras aplicaciones.</string>
+    <string name="choose_between_themes">Elige entre 6 temas.</string>
+</resources>

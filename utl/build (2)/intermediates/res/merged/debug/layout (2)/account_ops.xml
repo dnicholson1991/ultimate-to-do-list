@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+>
+<LinearLayout
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+>
+	<!-- Account Status -->
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/account_ops_status_txt"
+		android:text="@string/Account_Status_No_Sync"
+		android:gravity="center_vertical"
+		android:minHeight='48dp'
+		android:paddingLeft='6dp'
+		android:paddingRight='6dp'
+	/>
+	
+	<!-- Separator -->
+	<View android:layout_width="match_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>
+
+    <!-- Show Reminders and Notifications -->
+	<CheckedTextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/account_ops_show_reminders"
+		android:minHeight='48dp'
+		android:background='?attr/cb_button_bg'
+		android:text="@string/Show_Time_Reminders"
+		android:layout_gravity="center_vertical"
+		android:gravity="center_vertical"
+		android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+		android:paddingLeft='6dp'
+		android:paddingRight='6dp'
+	/>
+	
+	<!-- Separator -->
+	<View android:layout_width="match_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>
+
+	<!-- Show Location Reminders -->
+	<CheckedTextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/account_ops_show_loc_reminders"
+		android:minHeight='48dp'
+		android:background='?attr/cb_button_bg'
+		android:text="@string/Show_Location_Reminders"
+		android:layout_gravity="center_vertical"
+		android:gravity="center_vertical"
+		android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+		android:paddingLeft='6dp'
+		android:paddingRight='6dp'
+	/>
+	
+	<!-- Separator -->
+	<View android:layout_width="match_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>
+
+	<!-- Change Username/Password -->
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/account_ops_change_login"
+		android:minHeight='48dp'
+		android:background='?attr/cb_button_bg'
+		android:text="@string/Change_Username_Password"
+		android:layout_gravity="center_vertical"
+		android:gravity="center_vertical"
+		android:paddingLeft='6dp'
+		android:paddingRight='6dp'
+	/>
+	
+	<!-- Separator -->
+	<View
+		android:id="@+id/account_ops_change_login_separator" 
+		android:layout_width="match_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>
+
+	<!-- Rename Account -->
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/account_ops_rename"
+		android:minHeight='48dp'
+		android:background='?attr/cb_button_bg'
+		android:text="@string/Rename_Account"
+		android:layout_gravity="center_vertical"
+		android:gravity="center_vertical"
+		android:paddingLeft='6dp'
+		android:paddingRight='6dp'
+	/>
+	
+	<!-- Separator -->
+	<View 
+		android:id="@+id/account_ops_rename_separator" 
+		android:layout_width="match_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>
+
+    <!-- Sign In Again: -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/account_ops_sign_in"
+        android:minHeight='48dp'
+        android:background='?attr/cb_button_bg'
+        android:text="@string/sign_in_again"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:paddingLeft='6dp'
+        android:paddingRight='6dp'
+        />
+
+    <!-- Separator -->
+    <View
+        android:id="@+id/account_ops_sign_in_separator"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="?attr/list_divider_color"
+        />
+
+    <!-- Reset Synchronization -->
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/account_ops_reset_sync"
+		android:minHeight='48dp'
+		android:background='?attr/cb_button_bg'
+		android:text="@string/Reset_Sync"
+		android:layout_gravity="center_vertical"
+		android:gravity="center_vertical"
+		android:paddingLeft='6dp'
+		android:paddingRight='6dp'
+	/>
+	
+	<!-- Separator -->
+	<View 
+		android:id="@+id/account_ops_reset_sync_separator" 
+		android:layout_width="match_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>
+
+	<!-- View Collaborators -->
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/account_ops_view_collaborators"
+		android:minHeight='48dp'
+		android:background='?attr/cb_button_bg'
+		android:text="@string/view_collaborators"
+		android:layout_gravity="center_vertical"
+		android:gravity="center_vertical"
+		android:paddingLeft='6dp'
+		android:paddingRight='6dp'
+	/>
+	
+	<!-- Separator -->
+	<View 
+		android:id="@+id/account_ops_view_collaborators_separator" 
+		android:layout_width="match_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>
+	
+	<!-- Link to a Toodledo Account -->
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/account_ops_link_to_td"
+		android:minHeight='48dp'
+		android:background='?attr/cb_button_bg'
+		android:text="@string/Link_To_TD"
+		android:layout_gravity="center_vertical"
+		android:gravity="center_vertical"
+		android:paddingLeft='6dp'
+		android:paddingRight='6dp'
+	/>
+	
+	<!-- Separator -->
+	<View 
+		android:id="@+id/account_ops_link_to_td_separator" 
+		android:layout_width="match_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>
+
+	<!-- Unlink from Toodledo -->
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/account_ops_unlink_from_td"
+		android:minHeight='48dp'
+		android:background='?attr/cb_button_bg'
+		android:text="@string/Unlink_From_TD"
+		android:layout_gravity="center_vertical"
+		android:gravity="center_vertical"
+		android:paddingLeft='6dp'
+		android:paddingRight='6dp'
+	/>
+	
+	<!-- Separator -->
+	<View 
+		android:id="@+id/account_ops_unlink_from_td_separator" 
+		android:layout_width="match_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>
+
+	<!-- Link to a Google Account -->
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/account_ops_link_to_google"
+		android:minHeight='48dp'
+		android:background='?attr/cb_button_bg'
+		android:text="@string/Link_To_Google"
+		android:layout_gravity="center_vertical"
+		android:gravity="center_vertical"
+		android:paddingLeft='6dp'
+		android:paddingRight='6dp'
+	/>
+	
+	<!-- Separator -->
+	<View 
+		android:id="@+id/account_ops_link_to_google_separator" 
+		android:layout_width="match_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>
+
+	<!-- Unlink from Google -->
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/account_ops_unlink_from_google"
+		android:minHeight='48dp'
+		android:background='?attr/cb_button_bg'
+		android:text="@string/Unlink_From_Google"
+		android:layout_gravity="center_vertical"
+		android:gravity="center_vertical"
+		android:paddingLeft='6dp'
+		android:paddingRight='6dp'
+	/>
+	
+	<!-- Separator -->
+	<View 
+		android:id="@+id/account_ops_unlink_from_google_separator" 
+		android:layout_width="match_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>
+
+	<!-- Delete Account -->
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/account_ops_delete"
+		android:minHeight='48dp'
+		android:background='?attr/cb_button_bg'
+		android:text="@string/Delete_Account"
+		android:layout_gravity="center_vertical"
+		android:gravity="center_vertical"
+		android:paddingLeft='6dp'
+		android:paddingRight='6dp'
+	/>
+
+	<!-- Separator -->
+	<View 
+		android:id="@+id/account_ops_delete_separator" 
+		android:layout_width="match_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>
+
+</LinearLayout>
+</ScrollView><!-- From: file:/C:/GDrive-dnicholson/Work/Android_Projects/UTL/uTL/src/main/res/layout/account_ops.xml -->

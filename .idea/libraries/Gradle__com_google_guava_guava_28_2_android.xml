@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.guava:guava:28.2-android" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="com.google.guava" artifactId="guava" version="28.2-android" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/28.2-android/e11db6e27f5d1ec19826848a865c496c798398fa/guava-28.2-android.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/28.2-android/d826a80d6169868df307ebe63cfd9caa018be04f/guava-28.2-android-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/28.2-android/e20d0252d48adea65a96e44d8d4bfb1febb6e7b/guava-28.2-android-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

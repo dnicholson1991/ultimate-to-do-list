@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <!-- Note to Translators: This release includes an in-app purchase which provides a plugin
+         for the Tasker automation app for Android. The word "Tasker" in this file refers to
+         this app. -->
+    <string name="tasker_plugin">Tasker プラグイン</string>
+    <string name="tasker_plugin_short_description">Tasker アプリ向けプラグイン。自動化されたタスク作成および終了をサポートいたします。</string>
+    <string name="tasker_plugin_description">Tasker 自動かアプリ向けプラグイン。自動タスク作成、タスク終了のマーキング、リスト表示をサポートしています。</string>
+    <string name="tasker_plugin_long_description">&lt;p&gt;このプラグインは、&lt;a href= \'https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm\' &gt;Tasker&lt;/a&gt;自動化アプリと一緒にご利用いただけます。このプラグインを使うと、通常タスクを自動化できます。例えば不在着信があった際、折り返し電話することをTo-Doアイテムとして追加できます。&lt;/p&gt; &lt;p&gt;次の手続きもサポートされており、それらは特定のイベントが発生した際に作動させる事ができます。&lt;/p&gt; &lt;ul&gt; &lt;li&gt;新しいTo-Doアイテムを作成する。タイトル、ノート、日付、リマインダー、繰り返し作業、フォルダ、その他のフィールドを特定できます。&lt;/li&gt; &lt;li&gt;To-Doアイテムが完了した事をマーキングします。&lt;/li&gt; &lt;li&gt;選択したTo-Doリストを表示します。&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;プラグインは、選択したTo-Doアイテムが「完了した」とマーキングされた時に作動するTaskerイベントも提供しております。To-Doアイテムが完了すると、Taskerに一連の動作を実行させる事ができます。&lt;/p&gt; &lt;p&gt;To-Doアイテムのタイトルやノートの内容変更に柔軟に対応したり、編集することが可能です。例えば、最近に不在着信した人の%C名前をタイトルに挿入するなど。&lt;/p&gt;&lt;p&gt;重要：デバイスで Android 10 以降を実行していて、Tasker が To-Do リストを起動できるようにする場合、他のアプリを重ねて表示するために Ultimate To-Do List に許可を与える必要があります。これは、システム設定の アプリのエリアで実行できます。&lt;/p&gt;</string>
+
+    <string name="task_options">タスクのオプション</string>
+    <string name="account_doesnt_exist">選択したアカウントは存在しません。</string>
+    <string name="Minutes">分</string>
+    <string name="Hours">時間</string>
+    <string name="reminder_time_needed">リマインダーの日付が設定されている場合、通知時刻も設定する必要があります。</string>
+    <string name="cannot_create_task">このタスクを作成することができません。</string>
+    <string name="missing_title">このタスクのタイトルはありません。</string>
+    <string name="task_account_deleted">このタスクのアカウントは存在しません。</string>
+    <string name="task_folder_deleted">このタスクのフォルダは存在しません。</string>
+    <string name="mark_task_complete">タスクの完了をマーキングする</string>
+    <string name="show_task_list">タスクリストを表示する</string>
+    <string name="select_task_list">リストを選択してください</string>
+    <string name="task_list_deleted">このタスクリストは、既に削除されています。</string>
+    <string name="task_completed">タスクが完了しました</string>
+    <string name="event_triggered_when_complete">このタスクが「完了した」とマーキングされたときに、イベントを実行します：</string>
+    <string name="task_completion_event">タスク完了イベント</string>
+    <string name="tasker_plugin_needed">Taskerプラグインを購入する必要があります。</string>
+    <string name="please_run_utl_first">まずは究極のTo-Doリストを実行し、タスクリストを設定してください。</string>
+
+    <!-- Note to translators: [title] will be replaced with an actual task title in the code. Do not
+         translate [title]. -->
+    <string name="triggered_when_marked_complete">「[title]」が完了された際に実行されます。</string>
+
+    <!-- Note to translators: In the following strings, [count] will be replaced with a number,
+         so do not translate [count]. -->
+    <string name="in_1_minute">1分以内</string>
+    <string name="in_x_minutes">[count]分以内</string>
+    <string name="in_1_hour">1時間以内</string>
+    <string name="in_x_hours">[count]時間以内</string>
+    <string name="in_x_days">[count]日以内</string>
+    <string name="in_1_week">1週間以内</string>
+    <string name="in_x_weeks">[count]週間以内</string>
+    <string name="in_1_month">1ヶ月以内</string>
+    <string name="in_x_months">[count]ヶ月以内</string>
+    <string name="in_1_year">1年以内</string>
+    <string name="in_x_years">[count]年以内</string>
+
+    <!-- Note to translators: The app will display the next 2 strings as one sentence, with a time
+         duration in between, such as "2 days", "5 minutes", and "1 week".
+         For example: "Set the date/time to 2 days from the current date/time." -->
+    <string name="set_date_time_to">日時を設定</string>
+    <string name="from_current_date_time">現在の日時から</string>
+
+    <!-- Note to translators: To not translate [task_name] in this string. -->
+    <string name="no_task_with_name">「[task_name]」という名のタスクは存在しません。</string>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="syncing_with_phone">Sincronización de datos con su teléfono.</string>
+    <string name="misc">Misceláneas</string>
+</resources>

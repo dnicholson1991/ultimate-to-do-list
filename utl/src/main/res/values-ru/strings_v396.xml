@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <string name="no_subtasks_in_subtasks2">Google не разрешает подзадачи в подзадачах</string>
+    <string name="google_tasks_conflict">Этот аккаунт не совместим с Google Tasks, поскольку в нем есть подзадачи внутри подзадач. Одна из несовместимых задач имеет следующий заголовок:</string>
+    <string name="link_google_or_toodledo">Свяжите свою учетную запись Google или Toodledo, чтобы ваши задачи были доступны с любого устройства</string>
+    <string name="hotlist_info">Горячий список мгновенно покажет ваши самые важные задачи</string>
+    <string name="view_many_ways">Просматривайте свои задачи разными способами и настраивайте способы просмотра, как вам удобно</string>
+    <string name="supported_fields">Поддерживает даты начала / окончания, напоминания, папки, повторения, таймеры и многое другое</string>
+    <string name="filter_info">Фильтруйте и сортируйте ваши задачи, как вам нравится</string>
+    <string name="use_notes">Используйте область заметок, чтобы отслеживать справочную информацию</string>
+    <string name="link_to_locations">Свяжите свои задачи с местами и спланируйте свой день</string>
+    <string name="split_screen_info">Для планшетов доступно несколько видов разделения экрана</string>
+    <string name="widget_info">Настраиваемые виджеты помогут вам быстро получить доступ к вашим задачам</string>
+    <string name="customize_display">Настройте дисплей так, чтобы он отображал наиболее важную для вас информацию</string>
+    <string name="numerous_options">Доступны многочисленные опции для настройки приложения под ваши нужды</string>
+    <string name="enable_disable_features">Включите нужные вам функции и отключите те, которые вам не нужны</string>
+    <string name="supported_fields2">Поддерживает даты начала и окончания, напоминания, папки, повторения, таймеры, приоритеты, теги и многое другое</string>
+</resources>

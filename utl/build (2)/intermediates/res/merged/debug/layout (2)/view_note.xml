@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background='?attr/main_background_color'
+>
+	<!-- Placeholder for Top Title Bar -->
+	<FrameLayout
+		android:id="@+id/title_bar_placeholder"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+	/>
+	
+	<!-- The ScrollView holds the note body: -->
+	<ScrollView
+	  android:layout_width="fill_parent"
+	  android:layout_height="0dp"
+	  android:layout_weight="1"
+	>
+		<TextView
+		    android:id='@+id/view_note_body'
+		    android:layout_width='wrap_content'
+		    android:layout_height='wrap_content'
+		    android:paddingLeft='6dp'
+		    android:paddingRight='6dp'
+		    android:paddingTop='6dp'
+		/>
+	</ScrollView>
+	
+</LinearLayout>
+<!-- From: file:/C:/GDrive-dnicholson/Work/Android_Projects/UTL/uTL/src/main/res/layout/view_note.xml -->

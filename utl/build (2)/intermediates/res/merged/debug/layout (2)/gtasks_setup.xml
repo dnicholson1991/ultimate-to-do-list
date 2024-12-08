@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:id="@+id/gtasks_setup_container"
+>
+	<!-- This layout is used for choosing a Google account: -->
+	<LinearLayout
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+	  android:orientation="vertical"
+	  android:id="@+id/gtasks_setup_account_choice_container"
+	>
+    	<TextView android:id="@+id/gtasks_setup_instructions"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/Select_Google_Account"
+	        android:textSize='?attr/utl_font_size_large'
+	        android:minHeight='48dp'
+	        android:layout_marginLeft='6dp'
+	        android:gravity='center_vertical'
+	    />
+
+		<View style="@style/HorizontalDivider"/>
+		
+		<ListView 
+	    	android:id="@+id/android:list"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:divider="?attr/list_divider_color"
+	   		android:dividerHeight="1px"
+	    />
+    
+    	<TextView android:id="@+id/android:empty"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/No_Google_Accounts"
+	    />
+
+		<View style="@style/HorizontalDivider"/>
+		
+  		<CheckedTextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/gtasks_setup_email_opt_in1"
+			android:text="@string/Email_Opt_In"
+			android:gravity='center_vertical'
+			android:paddingLeft='6dp'
+			android:paddingRight='6dp'
+			android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+			android:checked='true'
+			android:minHeight='48dp'
+		/>
+		
+		<View style="@style/HorizontalDivider"/>
+		
+  		<Button
+  			android:id="@+id/gtasks_setup_use_other"
+  			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop='12dp'
+			android:layout_marginLeft='3dp'
+			android:text="@string/Use_Other_Account"
+			android:layout_gravity='center_horizontal'
+		/>
+
+  	</LinearLayout>
+
+    <!-- This webview is used for oauth2 through Google: -->
+    <WebView
+        android:id='@+id/oath2_webview'
+        android:layout_width='match_parent'
+        android:layout_height='match_parent'
+        android:paddingLeft='8dp'
+        android:paddingTop='8dp'
+        android:paddingRight='8dp'
+        android:paddingBottom='8dp'
+        android:visibility="gone"
+    />
+
+	<!-- This layout prompts the user for their Google username and password (when needed) -->
+	<ScrollView
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent"
+	  android:visibility='gone'
+	  android:id="@+id/gtasks_setup_login_container"
+	>
+	<LinearLayout
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+	  android:orientation="vertical"
+	>
+	  
+	 	<TextView android:id="@+id/gtasks_setup_login_intro"
+	 		android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:text="@string/Enter_Google_Login_Info"
+			android:layout_marginLeft='6dp'
+			android:textSize='?attr/utl_font_size_large'
+			android:minHeight='48dp'
+			android:gravity='center_vertical'
+		/>
+	
+	 	<TextView android:id="@+id/gtasks_setup_login_email1"
+	 		android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:text="@string/td_email"
+			android:layout_marginLeft='6dp'
+			android:textSize='?attr/utl_font_size_large'
+			android:minHeight='48dp'
+			android:gravity='bottom'
+		/>
+	 	
+		<EditText android:id="@+id/gtasks_setup_login_email2"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:inputType="textEmailAddress"
+			android:maxWidth='500dp'
+		/>
+			
+		<TextView android:id="@+id/gtasks_setup_login_password1"
+	 		android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:text="@string/td_password"
+			android:layout_marginLeft='6dp'
+			android:textSize='?attr/utl_font_size_large'
+			android:minHeight='48dp'
+			android:gravity='bottom'
+		/>
+			
+		<EditText android:id="@+id/gtasks_setup_login_password2"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:inputType="textPassword"
+			android:maxWidth='500dp'
+		/>
+			
+		<CheckedTextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/gtasks_setup_email_opt_in2"
+			android:text="@string/Email_Opt_In"
+			android:layout_gravity="center_vertical"
+			android:gravity="center_vertical"
+			android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+			android:checked='true'
+			android:layout_marginTop='6dp'
+			android:paddingLeft='6dp'
+			android:paddingRight='3dp'
+		/>
+		
+		<TextView android:id="@+id/gtasks_setup_login_spacer2"
+	 		android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:text=" "
+			/>
+	
+		<TextView android:id="@+id/gtasks_setup_login_captcha_1"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:text="@string/Captcha"
+			android:visibility="gone"
+		/>
+		
+		<ImageView android:id="@+id/gtasks_setup_login_captcha_2"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:visibility="gone"
+		/>
+		
+		<EditText android:id="@+id/gtasks_setup_login_captcha_3"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:visibility="gone"
+		/>
+		
+		<TextView android:id="@+id/gtasks_setup_login_captcha_4"
+	 		android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:text=" "
+			android:visibility="gone"
+		/>
+	
+		<TextView
+		    android:id='@+id/gtasks_setup_login_tips'
+		    android:layout_width="wrap_content"
+		    android:layout_height='wrap_content'
+		    android:text='@string/Google_Login_Tips'
+		    android:layout_marginLeft='6dp'
+		    android:layout_marginRight='6dp'
+		    android:visibility='gone'
+		/>
+		
+		<Button
+  			android:id="@+id/gtasks_setup_login_done"
+  			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop='8dp'
+			android:text="@string/done"
+			android:layout_gravity='center_horizontal'
+		/>			
+	</LinearLayout>
+	</ScrollView>
+	
+	<!-- This layout displays the result of the account setup: -->
+	<LinearLayout
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent"
+	  android:orientation="vertical"
+	  android:id="@+id/gtasks_setup_result_container"
+	>
+
+		<ScrollView
+		  android:layout_width="fill_parent"
+		  android:layout_height="0dp"
+		  android:layout_weight="1"
+		>
+
+		<LinearLayout
+		  android:layout_width="fill_parent"
+		  android:layout_height="wrap_content"
+		  android:orientation="vertical"
+		  android:id="@+id/gtasks_setup_result_container2"
+		  android:layout_gravity="top|center_horizontal" 
+		  android:gravity="top|center_horizontal"	
+		>
+			<TextView android:id="@+id/gtasks_setup_result_msg"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text=""
+		        android:paddingTop='12dp'
+		        android:layout_marginLeft='6dp'
+			    android:layout_marginRight='6dp'
+		    />
+	
+			<Button
+				android:id="@+id/gtasks_setup_result_continue"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/Continue"
+			/>
+			
+			<Button
+				android:id="@+id/gtasks_setup_result_try_again"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/Try_Again"
+			/>
+			
+			<Button
+				android:id="@+id/gtasks_setup_result_cancel"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/Cancel"
+			/>
+			
+		</LinearLayout>
+		</ScrollView>
+		
+		<!-- A progress bar for the initial sync: -->
+		<LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical"
+		    android:gravity="left|bottom"
+		    android:layout_gravity="left|bottom"
+		    android:id="@+id/gtasks_setup_progress_bar_container"
+		>
+			<View android:layout_height="1dp"
+				android:layout_width="fill_parent"
+				android:background="?attr/list_divider_color"
+			/>
+	
+			<TextView
+				android:id="@+id/gtasks_setup_sync_progress_txt"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/Sync_Progress"
+			/>
+			
+			<ProgressBar
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:indeterminate="false" 
+				style="?android:attr/progressBarStyleHorizontal"
+				android:id="@+id/gtasks_setup_sync_progress_bar"
+			/>
+		</LinearLayout>
+		
+	</LinearLayout>
+</LinearLayout>
+<!-- From: file:/C:/GDrive-dnicholson/Work/Android_Projects/UTL/uTL/src/main/res/layout/gtasks_setup.xml -->

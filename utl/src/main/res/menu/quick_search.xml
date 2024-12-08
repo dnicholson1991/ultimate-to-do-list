@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:utl="http://schemas.android.com/apk/res-auto" >
+    <item 
+    	android:id='@+id/menu_search'
+        android:icon='?attr/ab_search'
+        android:title='@string/Search_Now'
+        utl:showAsAction='always|withText'
+    />
+    <item 
+    	android:id='@+id/menu_advanced'
+        android:icon='?attr/ab_settings'
+        android:title='@string/Advanced_Search'
+        utl:showAsAction='always|withText'
+    />
+</menu>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name='syncing_with_phone'>Syncing data with your phone.</string>
+    <string name='misc'>Miscellaneous</string>
+</resources>

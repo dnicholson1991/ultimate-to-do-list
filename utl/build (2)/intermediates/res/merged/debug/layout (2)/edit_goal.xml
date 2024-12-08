@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+>
+    <!-- Placeholder for the save/cancel bar.  Used if this is displayed with other fragments. -->
+	<FrameLayout
+	    android:id='@+id/save_cancel_bar_placeholder'
+	    android:layout_width='match_parent'
+	    android:layout_height='wrap_content'
+	/>
+	
+	<!-- Scrollview, containing all editing controls: -->
+	<ScrollView
+	  android:layout_width="fill_parent"
+	  android:layout_height="0dp"
+	  android:id="@+id/edit_goal_scrollview"
+	  android:layout_weight="1"
+	  android:background='?attr/generic_editor_background'
+	>
+		<!-- Linear layout for the scrolling items: -->
+		<LinearLayout
+		  android:layout_width="fill_parent"
+		  android:layout_height="wrap_content"
+		  android:orientation="vertical"
+		> 
+			<!-- Section for title: -->
+			<LinearLayout
+			   style='@style/GenericEditorSectionLayout'
+			>
+				<!-- The Title of the Goal: -->
+				<org.droidparts.widget.ClearableEditText
+		  			android:id="@+id/edit_goal_title"
+		  			style='@style/ClearableEditText'
+					android:layout_width="fill_parent"
+					android:layout_height='wrap_content'
+					android:text=""
+					android:hint='@string/Title'
+					android:background='@color/transparent'
+					android:paddingLeft='8dp'
+					android:paddingRight='8dp'
+					android:lines="1"
+					android:maxLines="1"
+					android:singleLine="true"
+					android:inputType="textCapSentences"
+				/>
+			</LinearLayout>
+		
+			<!-- Section for options: -->
+			<LinearLayout
+			   	style='@style/GenericEditorSectionLayout'
+			>
+				<!-- The Row containing the archived option: -->
+				<LinearLayout
+			        android:id="@+id/edit_goal_archived_container"
+			        style='@style/GenericEditorContainer'
+			    >
+			    	<TextView
+			    	    style='@style/GenericEditorField'
+			    	    android:text='@string/Archived_'
+			    	/>
+			    	<View
+	                	android:layout_width='0dp'
+	                	android:layout_height='1dp'
+	                	android:layout_weight='1'
+	            	/>
+			    	<LinearLayout
+		                android:layout_width='56dp'
+		                android:layout_height='wrap_content'
+		                android:layout_gravity='center_vertical'
+		                android:gravity='center_horizontal|center_vertical'
+		            >
+				        <CheckBox
+			                android:id="@+id/edit_goal_archived_checkbox"
+			                android:layout_width='wrap_content'
+			                android:layout_height='wrap_content'
+			                android:layout_gravity='center_vertical'
+			            />
+	            	</LinearLayout>
+			    </LinearLayout>
+			    
+			    <!-- The Row containing the level option: -->
+				<LinearLayout
+			        android:id="@+id/edit_goal_level_container"
+			        style='@style/GenericEditorContainer'
+			    >
+			    	<TextView
+			    	    style='@style/GenericEditorSpinnerField'
+			    	    android:text='@string/Goal_Level_'
+			    	/>
+			    	<Spinner
+						android:id="@+id/edit_goal_level_value"
+						style='@style/GenericEditorSpinnerValue'
+						android:entries="@array/goal_levels"
+					/>
+			    </LinearLayout>
+			    
+				<!-- The Row containing the contributes option: -->
+				<LinearLayout
+			        android:id="@+id/edit_goal_contributes_container"
+			        style='@style/GenericEditorContainerAtBottom'
+			    >
+			    	<TextView
+			    	    style='@style/GenericEditorSpinnerField'
+			    	    android:text='@string/Contributes_To_'
+			    	/>
+			    	<Spinner
+						android:id="@+id/edit_goal_contributes_value"
+						style='@style/GenericEditorSpinnerValue'
+					/>
+			    </LinearLayout>
+			    
+			</LinearLayout>
+			
+			<!-- Section for account: -->
+			<LinearLayout
+			    android:id='@+id/edit_goal_account_section'
+			   	style='@style/GenericEditorSectionLayout'
+			>
+				<!-- The row containing the account setting: -->
+				<LinearLayout
+			        android:id="@+id/edit_goal_account_container"
+			        style='@style/GenericEditorContainerAtBottom'
+			    >
+			    	<TextView
+			    	    android:id='@+id/edit_goal_account_field'
+			    	    style='@style/GenericEditorSpinnerField'
+			    	    android:text='@string/Add_to_Account_'
+			    	/>
+			    	<Spinner
+						android:id="@+id/edit_goal_account_value"
+						style='@style/GenericEditorSpinnerValue'
+					/>
+			    </LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+
+</LinearLayout>
+<!-- From: file:/C:/GDrive-dnicholson/Work/Android_Projects/UTL/uTL/src/main/res/layout/edit_goal.xml -->

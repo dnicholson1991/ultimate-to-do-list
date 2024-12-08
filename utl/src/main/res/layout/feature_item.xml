@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Contains one feature that can be enabled or disabled when selecting fields/functions. -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="?android:attr/selectableItemBackground"
+    android:focusable="true"
+    android:clickable="true"
+>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:orientation="horizontal"
+        android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+    >
+        <CheckBox
+            android:id='@+id/feature_item_checkbox'
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:gravity='center'
+            android:button="?android:attr/listChoiceIndicatorMultiple"
+            android:focusable="false"
+        />
+
+        <TextView
+            android:id='@+id/feature_item_name'
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textSize="?attr/utl_font_size_large"
+            android:text='@string/Due_Date'
+        />
+
+        <ImageView
+            android:id='@+id/feature_item_info_button'
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            android:padding='12dp'
+            android:background="?android:attr/selectableItemBackground"
+            android:src='?attr/info'
+        />
+    </LinearLayout>
+
+    <View
+        android:id='@+id/feature_item_separator'
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="?attr/list_divider_color"
+    />
+</LinearLayout>

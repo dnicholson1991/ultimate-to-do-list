@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ultimate To-Do List</string>
+
+    <string name="processing">Обработка данных</string>
+    <string name='try_again'>Повторите попытку</string>
+    <string name='cancel'>Отменить</string>
+    <string name="success">Готово</string>
+
+    <!-- A reminder for a task can be snoozed (postponed) by one of these amounts: -->
+    <string name="snooze_5_min">5 минут</string>
+    <string name="snooze_15_min">15 минут</string>
+    <string name="snooze_30_min">30 минут</string>
+    <string name="snooze_1_hour">1 час</string>
+    <string name="snooze_2_hours">2 часа</string>
+    <string name="snooze_3_hours">3 часа</string>
+    <string name="snooze_4_hours">4 часа</string>
+    <string name="snooze_5_hours">5 часов</string>
+    <string name="snooze_6_hours">6 часов</string>
+    <string name="snooze_9_hours">9 часов</string>
+    <string name="snooze_12_hours">12 часов</string>
+    <string name="snooze_1_day">1 день</string>
+
+</resources>

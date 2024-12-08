@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <string name="no_subtasks_in_subtasks2">O Google não permite sub-tarefas dentro de sub-tarefas</string>
+    <string name="google_tasks_conflict">Esta conta não é compatível com o Google Tasks porque contém sub-tarefas dentro de sub-tarefas. Uma das tarefas incompatíveis tem o seguinte título:</string>
+    <string name="link_google_or_toodledo">Ligue a sua conta do Google ou Toodledo para aceder às suas tarefas em qualquer dispositivo</string>
+    <string name="hotlist_info">A Hotlist mostra, num piscar de olhos, as suas tarefas mais importantes</string>
+    <string name="view_many_ways">Visualize de várias formas as suas tarefas e configure as suas próprias visualizações personalizadas</string>
+    <string name="supported_fields">Suporta datas de início/conclusão, lembretes, pastas, repetições, temporizadores e muito mais</string>
+    <string name="filter_info">Filtre e classifique as suas tarefas como quiser</string>
+    <string name="use_notes">Use a área de notas para acompanhar a informação de referência</string>
+    <string name="link_to_locations">Associe as suas tarefas a locais e planeie o seu dia</string>
+    <string name="split_screen_info">Estão disponíveis para tablets várias visualizações de ecrã dividido</string>
+    <string name="widget_info">Os widgets personalizáveis ​​ajudam-no a aceder rapidamente às suas tarefas</string>
+    <string name="customize_display">Personalize o ecrã para que ele lhe mostra as informações mais importantes para si</string>
+    <string name="numerous_options">Estão disponíveis inúmeras opções para moldar a aplicação às suas necessidades</string>
+    <string name="enable_disable_features">Ative os recursos desejados e desative os que não utiliza</string>
+    <string name="supported_fields2">Suporta datas de início e conclusão, lembretes, pastas, repetição, temporizadores, prioridades, tags e muito mais</string>
+</resources>

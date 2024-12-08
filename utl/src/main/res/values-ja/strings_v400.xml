@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <string name="internet_failure">インターネット接続の問題が本アプリの操作を妨げています。</string>
+    <string name="technical_failure">申し訳ございませんが、現在、技術的な問題が発生しています。後でもう一度お試しください。</string>
+    <string name="reg_code_notice">申し訳ございませんが、本アプリは2014 年 12 月以前の購入の一部で使用されていた旧登録コードシステムをサポートしなくなりました。%sの割引価格で広告を削除できます。または、%sにメールでご連絡いただければ、無料でアップグレードする方法をご案内します。</string>
+    <string name="ad_remover">広告リムーバー</string>
+    <string name="ad_remover_summary">アプリからすべての広告を削除します。</string>
+    <string name="ad_remover_long_description">&lt;p&gt;広告リムーバーをご購入いただけると、広告なしでアプリをいつまでもご利用できます。ご購入は Google または Amazon アカウントにリンクされています。スマートフォンやタブレットなどすべての Android デバイスで動作し、デバイスをアップグレードまたは交換する場合は、アプリとともに自動的に移動します。&lt;/p&gt;</string>
+    <string name="ad_remover_upgrade_summary">別途ダウンロードするのではなく、アプリ内購入で広告を削除します。</string>
+    <string name="location_permission_recommended2">特定の場所へ行ったときにタスクについて通知する機能など、アプリの位置情報ベース機能を働かせるには、位置情報への常時アクセスを許可する必要があります。</string>
+
+    <!-- This is used for the "Ad" badge that appears in native ads within the app. When
+        translating, please use the shortest word possible that conveys to the user that the
+        content is an advertisement. -->
+    <string name="ad">広告</string>
+</resources>

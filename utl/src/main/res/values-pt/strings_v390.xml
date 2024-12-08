@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <string name="allow_permission">Aceitar permissão</string>
+    <string name="reject_permission">Rejeitar permissão</string>
+    <string name="file_access_permission_needed">O acesso ao armazenamento no seu dispositivo é essencial para que esta aplicação funcione. Tem de permitir o acesso para continuar.</string>
+    <string name="location_permission_recommended">Permitir o acesso à localização é necessário para os recursos da aplicação relacionados com localização, como a capacidade de lhe lembrar uma tarefa quando chega a um determinado local.</string>
+    <string name="accounts_permission_required">Tem de permitir o acesso às Contas do Google no seu dispositivo para se vincular a uma dessas contas.</string>
+    <string name="all_needed_for_advanced_level">Tem de aceitar estas permissões para usar o nível avançado. O acesso ao calendário é necessário para mostrar tarefas no seu calendário. O acesso à localização é necessário para lembretes baseados na localização. O acesso aos contactos é necessário para vincular tarefas aos seus contactos.</string>
+    <string name="Restore_Successful_permissions_issue">Todos os dados foram restaurados. A aplicação será reiniciada agora. Se estava a usar o calendário, os contactos ou os recursos de localização, terá de os reativar na área de configurações e aceitar as permissões quando solicitado.</string>
+    <string name="task_reminders">Lembretes de tarefas</string>
+    <string name="notification_category_for_reminders">Notificações para lembretes de tarefas.</string>
+
+    <!-- These updates are due to Google renaming Android Wear to Wear OS: -->
+    <string name="android_wear">Wear OS</string>
+    <string name="purchase_android_wear">Compre o add-on Wear OS</string>
+    <string name="android_wear_purchased">Comprou o add-on Wear OS</string>
+    <string name="learn_android_wear">Aprenda a usar o add-on Wear OS.</string>
+    <string name="android_wear_help_title">Usar o add-on Wear OS</string>
+    <string name="need_to_purchase_wear">Para usar este recurso, tem de comprar add-on Wear OS na área de configurações da Ultimate To-Do List.</string>
+    <string name="wear_non_english_limits">Tenha em atenção de que o add-on Wear OS está atualmente projetado para falantes de inglês. Pode usar o add-on noutros idiomas, mas qualquer comando de voz deve ser em inglês. Quer continuar?</string>
+    <string name="android_wear_add_on">Add-On Wear OS</string>
+    <string name="android_wear_long_description">
+        <![CDATA[
+            <p>O complemento Wear OS oferece ao seu relógio a capacidade de navegar e desmarcar tarefas, além de exibir e adiar lembretes.</p>
+            <p><b>Ativar o add-on após a compra:</b></p>
+            <ul>
+                <li>A partir do Wear OS 2, terá de instalar a aplicação no seu relógio, abrindo a Play Store do relógio e, em
+                    seguida, encontrar a aplicação na secção \"Apps on your phone\".</li>
+                <li>Se você não encontrar a lista de tarefas pendentes definitivas, tente pesquisar a \"Ultimate To-Do List\" na Wear OS Play Store e instale o aplicativo a partir da lista da loja.</li>
+            </ul>
+            <p><b>Como ver as suas tarefas:</b></p>
+            <ul>
+                <li>para exibir a lista padrão de tarefas, diga \"OK Google. Start Ultimate To-Do List.\"</li>
+                <li>Também pode aceder à sua lista padrão de tarefas abrindo Ultimate To-Do List na lista de aplicações no seu
+                    relógio.</li>
+                <li>Depois de abrir uma lista de tarefas, pode tocar nas tarefas para as riscar.</li>
+            </ul>
+            <p><b>Lidar com lembretes:</b></p>
+            <ul>
+                <li>os lembretes aparecem como notificações tanto no seu smartphone como no seu relógio.</li>
+                <li>No seu relógio, se deslizar da esquerda para a direita rejeitará a notificação.</li>
+                <li>Tocar na notificação revelará as opções para adiar o lembrete e marcar a tarefa como concluída.</li>
+            </ul>
+        ]]>
+    </string>
+    <string name="ongoing_notifications_warning">Se usar notificações em movimento para lembretes, essas notificações não serão exibidas no seu relógio Wear OS.</string>
+    <string name='syncing_with_watch'>Ultimate To-Do List está sincronizando dados com seu relógio.</string>
+    <string name='bt_for_voice_input'>Use Bluetooth para entrada de voz</string>
+</resources>

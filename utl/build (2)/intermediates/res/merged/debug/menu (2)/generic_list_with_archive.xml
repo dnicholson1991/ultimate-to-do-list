@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:utl="http://schemas.android.com/apk/res-auto" >
+    <item 
+    	android:id='@+id/menu_generic_list_add'
+        android:icon='?attr/ab_add'
+        android:title='@string/New_Task'
+        utl:showAsAction='always'
+    />
+    <item 
+    	android:id='@+id/menu_generic_list_search'
+        android:icon='?attr/ab_search'
+        android:title='@string/Search'
+        utl:showAsAction='always'
+    />
+	<item 
+    	android:id='@+id/menu_generic_list_sync_now'
+        android:icon='?attr/ab_sync_now'
+        android:title='@string/Sync_Now'
+        utl:showAsAction='ifRoom'
+    />
+	<item 
+    	android:id='@+id/menu_generic_list_refresh'
+        android:icon='?attr/ab_view_refresh'
+        android:title='@string/Refresh_This_View'
+        utl:showAsAction='ifRoom'
+    />
+	<item 
+    	android:id='@+id/menu_generic_list_show_archived'
+        android:title='@string/Show_Archived'
+        utl:showAsAction='never'
+    />
+	<item 
+    	android:id='@+id/menu_generic_list_hide_archived'
+        android:title='@string/Hide_Archived'
+        utl:showAsAction='never'
+    />
+</menu>
+<!-- From: file:/C:/GDrive-dnicholson/Work/Android_Projects/UTL/uTL/src/main/res/menu/generic_list_with_archive.xml -->

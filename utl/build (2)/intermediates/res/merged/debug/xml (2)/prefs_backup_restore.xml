@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <CheckBoxPreference
+        android:key='run_backup_daily'
+        android:title='@string/Backup_Daily'
+        android:defaultValue="true"
+    />
+    <Preference
+        android:key='run_backup_now'
+        android:title='@string/Create_Backup'
+    />
+    <Preference
+        android:key='run_restore_now'
+        android:title='@string/Restore_From_Backup'
+    />
+</PreferenceScreen>
+<!-- From: file:/C:/GDrive-dnicholson/Work/Android_Projects/UTL/uTL/src/main/res/xml/prefs_backup_restore.xml -->

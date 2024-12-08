@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Strings for the Android Wear add-on.  This add-on allows access to tasks using an
+         Android Wear watch. -->
+
+    <string name='default_list'>Lista Padrão a se Mostrar</string>
+    <string name='default_list_extra'>Quando iniciar o app no seu relógio</string>
+    <string name='android_wear_features'>Navegue e marque tarefas. Ver e adiar lembretes.</string>
+    <string name='processing'>Processando...</string>
+    <string name='success'>Sucesso</string>
+
+    <!-- End of strings for the Android Wear Addon -->
+
+    <!-- Version 3.3 starts using the latest API for synchronizing with Toodledo.com.  These strings are related to the upgrade: -->
+    <string name='communicating_with_toodledo'>Comunicando com Toodledo...</string>
+    <string name='toodledo_signin_mismatch'>A conta Toodledo que você acessou não é a conta que estou esperando.
+          Eu estou esperando uma conta que use seguinte conta de email: </string>
+    <string name="toodledo_re_sign_in">Você acessou com sucesso a sua conta Toodledo e a sincronização
+        inicial começou.</string>
+    <string name="toodledo_merge_confirmation">A conexão foi estabelecida, e suas tarefas estão agora
+        sendo sincronizadas com o Toodledo.</string>
+    <string name='toodledo_sign_in_needed'>Toodledo solicita que você conecte a sua conta novamente.</string>
+    <string name='toodledo_rate_limit'>O limite de requisições de Toodledo foi atingido. Tente de novo em alguns minutos.</string>
+    <string name='sign_in_again'>Conecte de Novo</string>
+    <string name='toodledo_sign_in_needed2'>Para continuar sincronizando, Toodledo necessita que conecte na conta com o seguinte
+        endereço de email: </string>
+    <string name='sign_in'>Conectar</string>
+    <string name="Free_Account_Limits_2">\nSua conta gratuita do Toodledo impõe as seguintes limitações. Atualizar para uma conta paga retira as limitações:\n\n
+        Subtarefas podem ser criadas no seu relógio, mas não sincronizarão.\n\n
+        Lembretes sincronizarão somente se configurados para no máximo 1 hora antes do horário da tarefa. Se a tarefa não tiver horário, lembretes somente sincronizarão se forem no mesmo dia do dia final da tarefa.
+    </string>
+</resources>

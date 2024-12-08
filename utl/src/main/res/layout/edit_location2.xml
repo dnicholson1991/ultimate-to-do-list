@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+>
+    <!-- Placeholder for the save/cancel bar.  Used if this is displayed with other fragments. -->
+	<FrameLayout
+	    android:id='@+id/save_cancel_bar_placeholder'
+	    android:layout_width='match_parent'
+	    android:layout_height='wrap_content'
+	/>
+	
+	<!-- Scrollview, containing all editing controls: -->
+	<ScrollView
+	  android:layout_width="fill_parent"
+	  android:layout_height="0dp"
+	  android:id="@+id/edit_location_scrollview"
+	  android:layout_weight="1"
+	  android:background='?attr/generic_editor_background'
+	>
+		<!-- Linear layout for the scrolling items: -->
+		<LinearLayout
+		  android:layout_width="fill_parent"
+		  android:layout_height="wrap_content"
+		  android:orientation="vertical"
+		> 
+			<!-- Section for title: -->
+			<LinearLayout
+			   style='@style/GenericEditorSectionLayout'
+			>
+				<!-- The Title of the Location: -->
+				<org.droidparts.widget.ClearableEditText
+		  			android:id="@+id/edit_location_title"
+		  			style='@style/ClearableEditText'
+					android:layout_width="fill_parent"
+					android:layout_height='wrap_content'
+					android:text=""
+					android:hint='@string/Title'
+					android:background='@color/transparent'
+					android:paddingLeft='8dp'
+					android:paddingRight='8dp'
+					android:lines="1"
+					android:maxLines="1"
+					android:singleLine="true"
+					android:inputType="textCapSentences"
+				/>
+			</LinearLayout>
+		
+			<!-- Section for more info (latitude/longitude and address): -->
+			<LinearLayout
+			    android:id='@+id/edit_location_info_section'
+			   	style='@style/GenericEditorSectionLayout'
+			>
+				<!-- The Row containing the latitude: -->
+				<LinearLayout
+			        android:id="@+id/edit_location_latitude_container"
+			        style='@style/GenericEditorContainer'
+			    >
+			    	<TextView
+			    	    style='@style/GenericEditorField'
+			    	    android:text='@string/Latitude_'
+			    	/>
+			    	<TextView
+			    	    android:id='@+id/edit_location_latitude_value'
+			    	    style='@style/GenericEditorEdgeValue'
+			    	    android:text='@string/None'
+			    	/>
+			    </LinearLayout>
+			    
+				<!-- The Row containing the longitude: -->
+				<LinearLayout
+			        android:id="@+id/edit_location_longitude_container"
+			        style='@style/GenericEditorContainer'
+			    >
+			    	<TextView
+			    	    style='@style/GenericEditorField'
+			    	    android:text='@string/Longitude_'
+			    	/>
+			    	<TextView
+			    	    android:id='@+id/edit_location_longitude_value'
+			    	    style='@style/GenericEditorEdgeValue'
+			    	    android:text='@string/None'
+			    	/>
+			    </LinearLayout>
+			    
+				<!-- The Row containing the approximate address: -->
+				<LinearLayout
+			        android:id="@+id/edit_location_address_container"
+			        style='@style/GenericEditorContainerAtBottom'
+			    >
+			    	<TextView
+			    	    style='@style/GenericEditorField'
+			    	    android:text='@string/Address_'
+			    	/>
+			    	<TextView
+			    	    android:id='@+id/edit_location_address_value'
+			    	    style='@style/GenericEditorEdgeValue'
+			    	    android:text='@string/Looking_Up'
+			    	/>
+			    </LinearLayout>
+			</LinearLayout>
+			
+			<!-- Section for entry options (enter address or use current location) -->
+			<LinearLayout
+			    android:id='@+id/edit_location_button_section'
+			   	style='@style/GenericEditorSectionLayout'
+			>
+				<!-- The row containing the account setting: -->
+				<LinearLayout
+			        android:id="@+id/edit_location_button_container"
+			        style='@style/GenericEditorContainerAtBottom'
+			    >
+			    	<TextView
+			    	    android:id='@+id/edit_location_enter_address'
+			    	    android:layout_width='0dp'
+			    	    android:layout_height='match_parent'
+			    	    android:layout_weight='1'
+			    	    android:gravity='center_vertical|center_horizontal'
+			    	    android:textColor='?attr/utl_text_color'
+			    	    android:textSize='?attr/utl_font_size_large'
+			    	    android:background='?attr/cb_button_bg'
+			    	    android:text='@string/Enter_Address'
+			    	/>
+			    	<View
+			    	  	android:layout_width='1dp'
+			    	  	android:layout_height='match_parent'
+			    	  	android:background='?attr/generic_editor_section_outline_color'
+			    	/>  
+			    	<TextView
+			    	    android:id='@+id/edit_location_use_current'
+			    	    android:layout_width='0dp'
+			    	    android:layout_height='match_parent'
+			    	    android:layout_weight='1'
+			    	    android:gravity='center_vertical|center_horizontal'
+			    	    android:textColor='?attr/utl_text_color'
+			    	    android:textSize='?attr/utl_font_size_large'
+			    	    android:background='?attr/cb_button_bg'
+			    	    android:text='@string/Use_Current_Loc'
+			    	/>
+			    </LinearLayout>
+			</LinearLayout>
+			
+			<!-- Section for account: -->
+			<LinearLayout
+			    android:id='@+id/edit_location_account_section'
+			   	style='@style/GenericEditorSectionLayout'
+			>
+				<!-- The row containing the account setting: -->
+				<LinearLayout
+			        android:id="@+id/edit_location_account_container"
+			        style='@style/GenericEditorContainerAtBottom'
+			    >
+			    	<TextView
+			    	    android:id='@+id/edit_location_account_field'
+			    	    style='@style/GenericEditorField'
+			    	    android:text='@string/Add_to_Accounts_'
+			    	/>
+			    	<TextView
+			    	    android:id='@+id/edit_location_account_value'
+			    	    style='@style/GenericEditorEdgeValue'
+			    	    android:text='@string/None'
+			    	/>
+			    </LinearLayout>
+			</LinearLayout>
+			
+			<LinearLayout
+			    android:id='@+id/edit_location_map_section'
+			   	style='@style/GenericEditorSectionLayout'
+			>
+				<!-- Driving Navigation: -->
+				<LinearLayout
+				    android:id='@+id/edit_location_navigation_container'
+			        style='@style/GenericEditorContainer'
+			    >
+			    	<TextView
+			    	    android:id='@+id/edit_location_navigation'
+			    	    style='@style/GenericEditorField'
+			    	    android:gravity='center_vertical'
+			    	    android:textColor='?attr/utl_text_color'
+			    	    android:textSize='?attr/utl_font_size_large'
+			    	    android:drawableLeft='?attr/ab_navigate_inv'
+			    	    android:text='@string/Driving_Navigation'
+			    	/>
+			    </LinearLayout>
+			    
+				<!-- Open map: -->
+				<LinearLayout
+				    android:id='@+id/edit_location_map_container'
+			        style='@style/GenericEditorContainerAtBottom'
+			    >
+			    	<TextView
+			    	    android:id='@+id/edit_location_map'
+			    	    style='@style/GenericEditorField'
+			    	    android:gravity='center_vertical'
+			    	    android:textColor='?attr/utl_text_color'
+			    	    android:textSize='?attr/utl_font_size_large'
+			    	    android:drawableLeft='?attr/ab_show_map_inv'
+			    	    android:text='@string/Open_in_Google_Maps'
+			    	/>
+			    </LinearLayout>
+			</LinearLayout>
+			<!-- Section for description: -->
+			<LinearLayout
+			   style='@style/GenericEditorSectionLayout'
+			>
+				<org.droidparts.widget.ClearableEditText
+		  			android:id="@+id/edit_location_description"
+		  			style='@style/ClearableEditText'
+					android:layout_width="fill_parent"
+					android:layout_height='wrap_content'
+					android:text=""
+					android:hint='@string/Description'
+					android:background='@color/transparent'
+					android:paddingLeft='8dp'
+					android:paddingRight='8dp'
+					android:textSize='?attr/utl_font_size_normal'
+				/>
+			</LinearLayout>			
+		</LinearLayout>
+	</ScrollView>
+
+	<com.customsolutions.android.utl.BannerAd style='@style/BannerAd' />
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <string name="google_sign_in_needed">Sie müssen sich erneut bei Ihrem Google-Konto %s anmelden, damit die Synchronisierung durchgeführt werden kann.</string>
+
+    <!-- Names of themes: -->
+    <string name="theme_pacific">Pazifik</string>
+    <string name="theme_boston">Boston</string>
+    <string name="theme_classic">Klassisch</string>
+    <string name="theme_darker">Dunkler</string>
+    <string name="theme_darkest">Ultimative Dunkelheit</string>
+
+    <!-- Options for widgets: A compact (compressed) display or a normal sized display. -->
+    <string name="format_">Format:</string>
+    <string name="compact">Kompakt</string>
+    <string name="normal">Normal</string>
+
+    <!-- Prompts to help the user choose which features to enable: -->
+    <string name="common_features">Allgemeine Funktionen</string>
+    <string name="almost_everyone">Diese Funktionen sollten im Allgemeinen aktiviert werden.</string>
+    <string name="time_management">Zeit-Management</string>
+    <string name="precisely_plan">Planen Sie Ihre Zeit genau.</string>
+    <string name="task_organization">Aufgabenorganisation</string>
+    <string name="group_and_arrange">Gruppieren und ordnen Sie Ihre Aufgaben auf verschiedene Weise.</string>
+    <string name="project_management">Projektmanagement</string>
+    <string name="advanced_features">Erweiterte Funktionen für Teams, Auftragnehmer und andere komplexe Anforderungen.</string>
+    <string name="due_date_description">Das ist das Datum, bis zu dem die Aufgabe abgeschlossen sein soll.</string>
+    <string name="folder_description">Es können Ordner verwendet werden, um Ihre Aufgaben und Notizen nach Kategorien, Projekten oder Schwerpunktbereichen zu organisieren. Typische Ordner können umfassendere Kategorien wie \"Arbeit\" oder \"Persönlich\" darstellen. Andere könnten sich auf spezifische Projekte wie „Produktforschung“ oder „Kellerumbau“ konzentrieren.</string>
+    <string name="priority_description">Auf diese Weise können Sie auch festlegen, wie wichtig eine Aufgabe ist. Es stehen 5 Prioritäten-Stufen zur Verfügung.</string>
+    <string name="reminders_description">Ihr Gerät kann vibrieren und/oder klingeln, um Sie an eine wichtige Aufgabe zu erinnern.  Die Aufgabe wird auch in Ihrem Benachrichtigungsbereich angezeigt. Optional können Sie nörgelnde Erinnerungen für eine Aufgabe aktivieren, sodass Sie in regelmäßigen Abständen Erinnerungen erhalten, bis Sie die Erinnerung schließen oder die Aufgabe abgeschlossen haben.</string>
+    <string name="repeating_description">Die App erlaubt Ihnen die Wiederholung einer Aufgabe in regelmäßigen Abständen. Verwenden Sie diese Option für Aufgaben, die täglich, wöchentlich oder monatlich ausgeführt werden müssen. Sie können auch erweiterte Wiederholungsmuster angeben z. B. jeden zweiten Montag oder am letzten Tag des Monats.</string>
+    <string name="calendar_description">Auf diese Weise können Sie Aufgaben anzeigen, die Sie in der Kalender-App Ihres Geräts ausgewählt haben. Das ist praktische, wenn Sie Ihre Aufgaben und Kalenderereignisse auf einem Bildschirm anzeigen möchten.</string>
+    <string name="due_time_description">Hier können Sie den genauen Zeitpunkt angeben, zu dem eine Aufgabe erledigt werden muss. Damit Sie diese Funktion verwenden können, muss das Fälligkeitsdatum aktiviert sein.</string>
+    <string name="start_date_description">Sie können das Datum angeben, an dem Sie mit der Arbeit an einer Aufgabe beginnen möchten. Die Verwendung von Startdaten in Kombination mit den Filteroptionen der App erleichtert das Ausblenden von Aufgaben aus Ihrer Liste, an denen Sie erst viel später arbeiten werden.</string>
+    <string name="start_time_description">Hier können Sie eine genaue Startzeit für eine Aufgabe angeben. Damit Sie diese Funktion verwenden können, muss das Feld Startdatum aktiviert sein.</string>
+    <string name="contexts_description">Im Bereich Kontexte können Sie Aufgaben bestimmte Orte oder Einstellungen zuweisen, an denen sie durchgeführt werden sollen. Beispielsweise sind \"Arbeit\", \"Zuhause\", \"Einkaufen\" und \"Besprechung\" einige der häufig verwendeten Kontexte. Die Idee hinter Kontexten ist, dass es nicht produktiv ist, an Aufgaben aus einem Kontext erinnert zu werden, wenn Sie sich in einem anderen Kontext befinden. Wenn Sie beispielsweise bei der Arbeit sind, möchten Sie die Aufgaben nicht sehen, die nur zu Hause erledigt werden können.</string>
+    <string name="goals_description">Mit Zielen können Sie Elemente angeben, die Sie erreichen möchten. Im Gegensatz zu Aufgaben sind Ziele normalerweise vager und schwerer zu quantifizieren. Zum Beispiel: \"Beförderung\", \"bessere Eltern werden\", \"meine Gesundheit verbessern\". Sie können lebenslange, langfristige und kurzfristige Ziele erstellen und diesen Zielen einzelne Aufgaben zuordnen. Auf diese Weise können Sie verfolgen, welche Aktionen zu Ihren Zielen beitragen und mit welchen Maßnahmen Sie Ihre Zeit möglicherweise nicht sinnvoll nutzen.</string>
+    <string name="locations_description">Im Bereich Standorte können Sie markieren, wo bestimmte Aufgaben durchgeführt werden müssen. Auf diese Weise können Sie Aufgaben in der Nähe bequem finden. Wenn Sie in der App auf die Schaltfläche „Karte anzeigen“ tippen, können Sie sehen, welche Standorte Ihrem aktuellen Standort am nächsten liegen. Die App kann Sie auch an Aufgaben an einem bestimmten Ort erinnern, wenn Sie an diesem Ort ankommen.</string>
+    <string name="star_description">Der Stern kann nach Belieben für jede Aufgabe ein- oder ausgeschaltet werden. Sie können ihn verwenden, wie Sie möchten. Einige häufige Verwendungszwecke sind: Markieren aktiver Aufgaben, Markieren von Aufgaben, die Sie heute ausführen möchten und Markieren von Aufgaben mit der höchsten Priorität.</string>
+    <string name="subtasks_description">Eine Unteraufgabe ist eine Aufgabe innerhalb einer Aufgabe. Unteraufgaben werden normalerweise verwendet, um verwandte Aufgaben zu gruppieren oder um die Schritte aufzuzeichnen, die zur Erledigung einer Aufgabe erforderlich sind. Unteraufgaben sind in der App verfügbar, unabhängig davon, mit welchem Online-Konto Sie verknüpft sind (falls vorhanden). Wenn Sie jedoch Toodledo verwenden, müssen Sie ein kostenpflichtiges Konto haben, damit Unteraufgaben synchronisiert und auf der Website angezeigt werden können.</string>
+    <string name="tags_description">Tags sind Schlüsselwörter oder Ausdrücke, mit denen Sie Ihre Aufgaben beschreiben und gruppieren können. Eine Aufgabe kann mehrere Tags haben. Häufige Verwendungszwecke sind: Verfolgen des Status oder Fortschritts, Verfolgen des nächsten Schrittes und Klassifizieren der Aufgabe.</string>
+    <string name="contacts_description">Über das Kontaktfeld für eine Aufgabe können Sie die Aufgabe mit einem Kontakt auf Ihrem Gerät verknüpfen. Diese Funktion kann verwendet werden, um einen schnellen Zugriff auf die Telefonnummer oder E-Mail-Adresse Ihres Kontakts zu ermöglichen, wenn eine Aufgabe darin besteht, jemanden zu kontaktieren. Sie kann auch genutzt werden, um Aufgaben zu gruppieren, die Eingaben oder Unterstützung einer bestimmten Person erfordern.</string>
+    <string name="expected_length_description">Auf diese Weise können Sie eine Schätzung aufzeichnen, wie viel Zeit Sie für die Erledigung der Aufgabe benötigen.</string>
+    <string name="timer_actual_length">Timer/Tatsächliche Dauer</string>
+    <string name="timer_description">Mit dem Timer können Sie die tatsächliche Zeit aufzeichnen, die für eine Aufgabe aufgewendet wurde. Der Timer kann eingeschaltet werden, wenn die Arbeit erledigt ist, und bei Bedarf angehalten und fortgesetzt werden.  Die App verfolgt die Gesamtzeit.</string>
+    <string name="status_description">Auf diese Weise können Sie den aktuellen Status der Aufgabe verfolgen. Beispiele sind: nächste Aktion, aktiv, geplant, delegiert und wartend.</string>
+    <string name="collaboration_description">Diese Funktion steht nur Toodledo-Benutzern zur Verfügung und ermöglicht es Ihnen, Aufgaben mit anderen zu teilen und bestimmten Personen Aufgaben zuzuweisen. Weitere Informationen finden Sie in der Dokumentation von Toodleo unter toodledo.com/info/sharing.php.</string>
+    <string name="due_time_without_due_date">Damit Sie Fälligkeitszeiten verwenden können, müssen Sie Fälligkeitstermine aktivieren.</string>
+    <string name="start_time_without_start_date">Sie müssen Startdaten aktivieren, damit Sie Startzeiten verwenden können.</string>
+    <string name="calendar_cannot_be_enabled">Die Kalenderintegration kann nicht aktiviert werden, da die Zugriffsberechtigung für den Kalender nicht gewährt wurde.</string>
+    <string name="contacts_cannot_be_enabled">Die Kontaktintegration kann nicht aktiviert werden, da die Zugriffsberechtigung auf Ihre Kontakte nicht gewährt wurde.</string>
+    <string name="locations_cannot_be_enabled">Standorte können nicht aktiviert werden, da die Zugriffsberechtigung auf den Standort Ihres Geräts nicht gewährt wurde.</string>
+    <string name="locations_cannot_be_enabled2">Standorte können nicht aktiviert werden, da die Berechtigung für den kontinuierlichen Zugriff auf den Standort Ihres Geräts nicht gewährt wurde.</string>
+    <string name="folders_required">Die Ordner müssen für Google-Konten aktiviert sein.</string>
+    <string name="due_date_required">Für Toodledo müssen Fälligkeitstermine aktiviert sein, wenn Erinnerungen aktiviert sind.</string>
+    <string name="features_intro">Hier können Sie die Funktionen aktivieren, die Sie benötigen, und diejenigen deaktivieren, die Sie nicht benötigen.</string>
+    <string name="tap_on_group">Tippen Sie unten auf eine Gruppe, um Funktionen innerhalb dieser Gruppe zu verwalten. Tippen Sie auf die Info-Schaltflächen, um mehr über die einzelnen Funktionen zu erfahren.</string>
+    <string name="choose_your_features">Wählen Sie Ihre Funktionen aus</string>
+
+    <!-- Miscellaneous Strings: -->
+    <string name="name_of_new_folder">Name des neuen Ordners:</string>
+    <string name="name_of_new_context">Name des neuen Kontexts:</string>
+    <string name="name_of_new_goal">Name des neuen Ziels:</string>
+    <string name="restore_successful_android10">Alle Daten wurden wiederhergestellt und sind nach dem Neustart der App verfügbar. Wenn Sie die Kalender-, Kontakt- oder Standortfunktionen verwendet haben, müssen Sie sie im Einstellungsbereich erneut aktivieren und die Berechtigungen gewähren, wenn Sie dazu aufgefordert werden.</string>
+    <string name="learn_more_about_utl">Erfahren Sie mehr über die ultimative Aufgabenliste</string>
+    <string name="tasker_overlay_permission">WICHTIG: Wenn auf Ihrem Gerät Android 10 oder höher ausgeführt wird und Sie möchten, dass Tasker eine Aufgabenliste starten kann, müssen Sie der Ultimate To-Do List die Berechtigung zum Zeichnen über andere Apps gewähren. Das können Sie im Bereich Apps Ihrer Systemeinstellungen tun.</string>
+    <string name="unable_to_open_list">Aufgabenliste kann nicht geöffnet werden</string>
+    <string name="overlay_permission_needed">Ihre Aufgabenliste kann aufgrund fehlender Berechtigung vom Tasker nicht geöffnet werden. Tippen Sie hier, um Ultimate To-Do List die Berechtigung zum Zeichnen über andere Apps zu gewähren.</string>
+    <string name="choose_between_themes">Wählen Sie aus 6 Designs aus.</string>
+</resources>

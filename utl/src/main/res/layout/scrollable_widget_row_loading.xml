@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!-- Loading Message -->
+	<TextView
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:text="@string/Loading_" 
+  		android:singleLine="true"
+  		android:textColor="#808080"
+  		android:id="@+id/widget_task_list_loading"
+  		android:textSize="14dp"
+  	    android:gravity="center_horizontal"
+	  	android:layout_gravity="center_horizontal"
+  	/>

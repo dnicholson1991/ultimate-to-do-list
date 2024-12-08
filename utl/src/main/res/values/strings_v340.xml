@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name='one_task_today'>1 Task Today</string>
+    <string name='two_tasks_today'>2 Tasks Today</string>
+    <string name='swipe_for_details'>Swipe Left For Details</string>
+    <string name='show_summary'>Show a daily summary every morning</string>
+    <string name='of_default_list'>Of your default list</string>
+    <string name='time_for_summary'>Show the summary at this time</string>
+</resources>

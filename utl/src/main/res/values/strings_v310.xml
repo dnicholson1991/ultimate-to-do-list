@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name='Currently_Own_Product'>You currently own this product.</string>
+    <string name='top_of_nav_drawer'>Show at the Top of the Navigation Drawer</string>
+    <string name='how_to_resize'>To resize the widget, press and hold your finger on it for about 2
+        seconds and release.  You will then see resize controls appear.</string>
+</resources>

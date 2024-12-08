@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <string name="internet_failure">Problemas na sua ligação à internet estão a interferir com esta aplicação.</string>
+    <string name="technical_failure">Neste momento, temos problemas técnicos. Tente novamente mais tarde.</string>
+    <string name="reg_code_notice">O aplicação já oferece suporte ao sistema de código de registo desatualizado usado em algumas compras anteriores a dezembro de 2014. Pode remover os anúncios agora por um preço com desconto de %s. Ou pode contactar-nos por e-mail para %s e forneceremos um método para atualizar sem qualquer custo.</string>
+    <string name="ad_remover">Removedor de anúncios</string>
+    <string name="ad_remover_summary">Remove todos os anúncios publicitários da aplicação.</string>
+    <string name="ad_remover_long_description">&lt;p&gt;A compra do Removedor de anúncios permite-lhe usar a aplicação sem anúncios para sempre. A compra está vinculada à sua conta Google ou Amazon.  Funciona em todos os seus dispositivos Android - incluindo smartphones e tablets - e viaja automaticamente com a aplicação à medida que você atualiza ou substitui dispositivos.&lt;/p&gt;</string>
+    <string name="ad_remover_upgrade_summary">Remova os anúncios com uma compra na aplicação em vez de fazer uma instalação separada.</string>
+    <string name="location_permission_recommended2">Os recursos da aplicação baseados na localização necessitam de permissão para aceder, a qualquer momento, aos serviços de localização para, por exemplo, lembrar uma tarefa quando chega a um local específico.</string>
+
+    <!-- This is used for the "Ad" badge that appears in native ads within the app. When
+        translating, please use the shortest word possible that conveys to the user that the
+        content is an advertisement. -->
+    <string name="ad">Anúncio</string>
+</resources>

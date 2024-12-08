@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name='Currently_Own_Product'>Você atualmente possui este produto.</string>
+    <string name='top_of_nav_drawer'>Mostrar no Topo da Gaveta de Navegação</string>
+    <string name='how_to_resize'>Para redimensionar o widget, pressione e mantenha seu dedo neste por 2
+         segundos e solte.  Você visualizará então os controles de redimensionamento.</string>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+>
+    <!-- Placeholder for the save/cancel bar.  Used if this is displayed with other fragments. -->
+	<FrameLayout
+	    android:id='@+id/save_cancel_bar_placeholder'
+	    android:layout_width='match_parent'
+	    android:layout_height='wrap_content'
+	/>
+	
+	<!-- Scrollview, containing all editing controls: -->
+	<ScrollView
+	  android:layout_width="fill_parent"
+	  android:layout_height="0dp"
+	  android:id="@+id/edit_tag_scrollview"
+	  android:layout_weight="1"
+	  android:background='?attr/generic_editor_background'
+	>
+		<!-- Linear layout for the scrolling items: -->
+		<LinearLayout
+		  android:layout_width="fill_parent"
+		  android:layout_height="wrap_content"
+		  android:orientation="vertical"
+		> 
+			<!-- Section for title: -->
+			<LinearLayout
+			   style='@style/GenericEditorSectionLayout'
+			>
+				<!-- The Title of the Context: -->
+				<org.droidparts.widget.ClearableEditText
+		  			android:id="@+id/edit_tag_title"
+		  			style='@style/ClearableEditText'
+					android:layout_width="fill_parent"
+					android:layout_height='wrap_content'
+					android:text=""
+					android:hint='@string/Title'
+					android:background='@color/transparent'
+					android:paddingLeft='8dp'
+					android:paddingRight='8dp'
+					android:lines="1"
+					android:maxLines="1"
+					android:singleLine="true"
+				/>
+			</LinearLayout>
+		
+			<!-- Section for renaming information: -->
+			<LinearLayout
+			   	style='@style/GenericEditorSectionLayout'
+			>
+				<LinearLayout
+			        style='@style/GenericEditorContainerAtBottom'
+			    >
+			    	<TextView
+			    	    style='@style/GenericEditorField'
+			    	    android:text='@string/Tag_Rename_Confirmation'
+			    	    android:paddingTop='5dp'
+			    	    android:paddingBottom='5dp'
+			    	/>
+			    </LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+
+	<com.customsolutions.android.utl.BannerAd style='@style/BannerAd' />
+</LinearLayout>

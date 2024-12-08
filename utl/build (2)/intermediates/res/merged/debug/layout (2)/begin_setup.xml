@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+>
+	<LinearLayout
+	    android:layout_height='wrap_content'
+	    android:layout_width='wrap_content'
+	    android:orientation='horizontal'
+	    android:gravity='center_vertical'
+	    android:layout_gravity='center_horizontal'
+	    android:layout_marginTop='8sp'
+	    android:id='@+id/welcome_logo_wrapper'
+	>
+	    <ImageView
+	        android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:src='@drawable/icon'
+	    />
+		<TextView 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:gravity='center_vertical'
+			android:paddingLeft='8dp'
+			android:paddingTop='6dp'
+			android:textSize='?attr/utl_font_size_large'
+			android:text="@string/app_name"
+		/>   	    
+	</LinearLayout>
+	
+	<TextView
+	    android:id='@+id/welcome_organize_simplify'
+	    android:layout_height='wrap_content'
+	    android:layout_width='wrap_content'
+	    android:layout_gravity='center_horizontal'
+	    android:text='@string/Your_To_Do_List'
+	/>
+	
+	<ScrollView
+	    android:layout_width='fill_parent'
+	    android:layout_height='0dp'
+	    android:layout_weight='1'
+	>
+	<LinearLayout
+	    android:layout_width='fill_parent'
+	    android:layout_height='wrap_content'
+	    android:orientation='vertical'
+	    android:gravity='center_horizontal'
+	    android:layout_gravity='center_vertical'
+	>
+		<TextView
+		    android:id='@+id/welcome_msg'
+		    android:layout_width='wrap_content'
+		    android:layout_height='wrap_content'
+		    android:gravity='center_horizontal'
+		    android:text='@string/welcome3'
+		    android:layout_marginBottom='32dp'
+		    android:maxWidth='500dp'
+		    android:paddingTop='16dp'
+		/>
+		
+		<Button android:id="@+id/welcome_existing_gtasks"
+			android:text="@string/Link_with_Google"
+			android:layout_width="300dp"
+			android:layout_height="wrap_content" 
+			android:drawableLeft='@drawable/google_logo'
+		/>
+			
+		<Button android:id="@+id/welcome_toodledo_account"
+			android:text="@string/Link_with_Toodledo"
+			android:layout_width="300dp"
+			android:layout_height="wrap_content" 
+			android:drawableLeft='@drawable/toodledo_logo'
+		/>
+			
+		<Button android:id="@+id/welcome_no_td"
+			android:text="@string/Dont_Link"
+			android:layout_width="300dp"
+			android:layout_height="wrap_content" 
+			android:drawableLeft='@drawable/ab_multi_select_cancel_light'
+		/>
+		
+		<Button
+		    android:id='@+id/welcome_help'
+			android:text="@string/Help_Me_Decide"
+			android:layout_width="300dp"
+			android:layout_height="wrap_content" 
+			android:drawableLeft='@drawable/ab_help_light'
+		/>
+			
+		<Button android:id="@+id/welcome_restore"
+			android:text="@string/Restore_From_Backup2"
+			android:layout_width="300dp"
+			android:layout_height="wrap_content" 
+			android:drawableLeft='@drawable/ab_disk_load_light'
+			android:visibility='gone'
+		/>
+	</LinearLayout>
+	</ScrollView>
+</LinearLayout><!-- From: file:/C:/GDrive-dnicholson/Work/Android_Projects/UTL/uTL/src/main/res/layout/begin_setup.xml -->

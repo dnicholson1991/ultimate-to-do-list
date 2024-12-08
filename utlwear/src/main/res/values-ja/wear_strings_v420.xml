@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TODO: Use a human translation: -->
+    <string name='utl_not_installed'>時計がスマートフォンに接続されていないか、スマートフォン版のアプリがインストールされていません。</string>
+</resources>

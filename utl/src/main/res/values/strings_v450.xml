@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name='survey_header'>Important Information</string>
+    <string name='help_us_keep'>Help keep the app on Google Play</string>
+    <string name='survey_description' examples='Ultimate To-Do List'
+        >If you\'re too busy to read this important message now, you can view it in the Help
+        area later.\n
+
+        \n%1$s is at a crossroads. Increasing overhead imposed by Google to stay compliant with
+        policy and to accommodate behavior changes in new versions of Android are making it
+        impossible for us to maintain the app without additional revenue. The
+        current system that uses a combination of non-intrusive banner ads and one-time purchases
+        is insufficient. Without additional revenue, the app will eventually be removed from
+        Google Play.\n
+
+        \nWe are asking for feedback from our long-term users to help us decide how to proceed.
+        We specifically want to know if you would be willing either pay a small annual fee or
+        accept more intrusive ads (such as popups) in order to continue using the app. In
+        exchange we would promise to both maintain the app and release new features at a minimum
+        of once per year. Also, all of the existing paid add-ons would be offered at no
+        additional cost.\n
+
+        \nIn the following 3 question survey, we will ask you what you would be willing to do
+        and what new features you are most interested in.
+    </string>
+    <string name='dont_ask_again'>Don\'t Ask Again</string>
+    <string name='start_survey'>Start Survey</string>
+
+    <string name='survey'>Survey</string>
+    <string name='survey_q1'>Question 1 of 3: What would you be willing to pay annually
+        to maintain access to the app and receive new features?</string>
+    <string name='pay_up_to' examples='$5.00'>I would pay up to %1$s per year.</string>
+    <string name='rather_have_ads'>I won\'t pay, but am willing to have more intrusive ads, such
+        as popups.</string>
+    <string name='no_ads_or_purchases'>Neither. I would rather switch to another app.</string>
+    <string name='next'>Next</string>
+    <string name='back'>Back</string>
+
+    <string name='survey_q2'>Question 2 of 3: What new features would you be interested in?
+        (Check all that apply.)</string>
+    <string name='wear_task_creation'>Ability to create new tasks using the Wear OS app.</string>
+    <string name='voice_support'>Support for voice entry in languages other than English.</string>
+    <string name='task_dependencies'>The ability to specify when one task depends on
+        another.</string>
+    <string name='modern_ui'>Modernization of the user interface.</string>
+    <string name='checklists'>Resettable checklists (grocery list, packing list, etc.)</string>
+    <string name='more_sync_options'>An additional sync option, such as to Google Drive or a new
+        service we create. This would be cheaper than a paid Toodledo account, avoid the bugs
+        and limitations of Google Tasks, and allow all features of the app to be available and
+        synchronized across devices. For example, this option would support subtasks of subtasks
+        and sync of custom views. A disadvantage of this option is that there would be no
+        web-based interface for managing tasks on a computer, although you could use an Android
+        emulator for this.</string>
+    <string name='other_features'>Other features you would like to see:</string>
+    <string name='no_features'>I\'m not interested in new features.</string>
+    <string name='please_select_option'>Please select an option.</string>
+
+    <string name='survey_q3'>Question 3 of 3: Among the new features you selected, which one
+        would be the highest priority for you?</string>
+    <string name='survey_q3_2'>Question 3 of 3 (optional): If you have any other feedback,
+        feel free to include it here:</string>
+    <string name='more_sync_options2'>More sync options.</string>
+    <string name='the_other_features'>The other features I specified.</string>
+    <string name='other_feedback'>If you have any other feedback, include it here:</string>
+    <string name='submit_survey'>Submit My Answers</string>
+
+    <string name='submitting'>Submitting…</string>
+    <string name='survey_submitted'>Your answers have been submitted. Thanks for the
+        feedback! We will post an update in the app when we have decided on next steps.</string>
+    <string name='technical_error'>Sorry, a technical error occurred.</string>
+    <string name='network_error'>Can\'t connect. Check your internet connection.</string>
+</resources>

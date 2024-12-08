@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Note to Translators: This release includes an in-app purchase which provides a plugin
+         for the Tasker automation app for Android. The word "Tasker" in this file refers to
+         this app. -->
+    <string name='tasker_plugin'>Tasker Plugin</string>
+    <string name='tasker_plugin_short_description'>A plugin for the Tasker app. Supports automated
+        task creation and completion.</string>
+    <string name='tasker_plugin_description'>A plugin for the Tasker automation app. Supports
+        automated task creation, marking of tasks complete, and display of lists.</string>
+    <string name='tasker_plugin_long_description'>
+        <![CDATA[
+            <p>This plugin works with the <a href=
+                \'https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm\'
+                >Tasker</a> automation app.  It allows you to automate some common tasks. For
+                example, after missing a call, a to-do item could be created to call the person
+                back.</p>
+            <p>The following actions are supported.  These can be triggered when events occur that
+                you specify.</p>
+            <ul>
+                <li>Create a new to-do item. You can specify the title, note, dates,
+                    reminder, repeating pattern, folder, and many other fields.</li>
+                <li>Mark a to-do item as complete.</li>
+                <li>Display a to-do list of your choice.</li>
+            </ul>
+            <p>The plugin also provides a Tasker event which will be triggered when a to-do item of
+                your choice is marked as complete. Upon the completion of the to-do item, you can
+                have Tasker perform a series of actions.</p>
+            <p>Variable replacement is also supported in the title and note fields of to-do
+                items. For example, you can include %CNAME in the title to insert the name of
+                the last person who called.</p>
+            <p>IMPORTANT: If your device runs Android 10 or
+                later and you want Tasker to be able to launch a to-do list, you will need to give
+                Ultimate To-Do List permission to draw over other apps. You can do this in the Apps area
+                of your system settings.</p>
+        ]]>
+    </string>
+
+    <string name='task_options'>Task Options</string>
+    <string name='account_doesnt_exist'>The selected account no longer exists.</string>
+    <string name='Minutes'>Minutes</string>
+    <string name='Hours'>Hours</string>
+    <string name='reminder_time_needed'>A reminder time must be set if a reminder date is
+        set.</string>
+    <string name='cannot_create_task'>Cannot create task.</string>
+    <string name='missing_title'>The task\'s title is missing.</string>
+    <string name='task_account_deleted'>The task\'s account no longer exists.</string>
+    <string name='task_folder_deleted'>The task\'s folder no longer exists.</string>
+    <string name='mark_task_complete'>Mark Task Complete</string>
+    <string name='show_task_list'>Show Task List</string>
+    <string name='select_task_list'>Choose A List</string>
+    <string name='task_list_deleted'>This task list has been deleted.</string>
+    <string name='task_completed'>Task is Completed</string>
+    <string name='event_triggered_when_complete'>Trigger the event when this task is
+        marked as complete:</string>
+    <string name='task_completion_event'>Task Completion Event</string>
+    <string name='tasker_plugin_needed'>This requires a purchase of the Tasker plugin.</string>
+    <string name='please_run_utl_first'>Please run Ultimate To-Do List and set up your task
+        list first.</string>
+
+    <!-- Note to translators: [title] will be replaced with an actual task title in the code. Do not
+         translate [title]. -->
+    <string name='triggered_when_marked_complete'>Triggered when \"[title]\" is marked as
+        complete.</string>
+
+    <!-- Note to translators: In the following strings, [count] will be replaced with a number,
+         so do not translate [count]. -->
+    <string name='in_1_minute'>In 1 minute</string>
+    <string name='in_x_minutes'>In [count] minutes</string>
+    <string name='in_1_hour'>In 1 hour</string>
+    <string name='in_x_hours'>In [count] hours</string>
+    <string name='in_x_days'>In [count] days</string>
+    <string name='in_1_week'>In 1 week</string>
+    <string name='in_x_weeks'>In [count] weeks</string>
+    <string name='in_1_month'>In 1 month</string>
+    <string name='in_x_months'>In [count] months</string>
+    <string name='in_1_year'>In 1 year</string>
+    <string name='in_x_years'>In [count] years</string>
+
+    <!-- Note to translators: The app will display the next 2 strings as one sentence, with a time
+         duration in between, such as "2 days", "5 minutes", and "1 week".
+         For example: "Set the date/time to 2 days from the current date/time." -->
+    <string name='set_date_time_to'>Set the date/time to</string>
+    <string name='from_current_date_time'>from the current date/time.</string>
+
+    <!-- Note to translators: To not translate [task_name] in this string. -->
+    <string name='no_task_with_name'>No task was found named \"[task_name]\".</string>
+</resources>

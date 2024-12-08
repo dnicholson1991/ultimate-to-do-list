@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This LinearLayout contains the list of rules: -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:id="@+id/rules_list_container"
+>
+	<ListView 
+    	android:id="@+id/android:list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_vertical"
+	    android:gravity="fill_vertical"
+	    android:divider="?attr/list_divider_color"
+	    android:dividerHeight="0px"
+    />
+    
+    <!-- Display the following if there are no rules: -->
+	<LinearLayout
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:id="@+id/android:empty"
+	>
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/View_has_no_rules"
+	        android:id="@+id/rules_list_no_rules_txt"
+	        android:layout_marginTop='16dp'
+	        android:paddingLeft='5dp'
+	    />		   
+
+		<!-- The "Add Rule" button (displayed only if there are no rules) -->
+		<View android:layout_height="1px"
+			android:layout_width="fill_parent"
+			android:background="?attr/list_divider_color"
+		/>
+		<Button 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:id='@+id/rules_list_empty_add_rule_button'
+		    android:minHeight='52dp'
+		    android:background='?attr/cb_button_bg'
+		    android:paddingTop='10dp'
+		    android:paddingBottom='10dp'
+		    android:layout_gravity='center_vertical'
+		    android:textColor='?attr/utl_text_color'
+		    android:drawableLeft='?attr/ab_add'
+		    android:text="@string/Add_filter_rule"
+		    android:gravity='left|center_vertical'
+		    android:textSize='?attr/utl_font_size_large'
+		    android:paddingLeft='5dp'
+		/>
+	 	<View android:layout_height="1px"
+			android:layout_width="fill_parent"
+			android:background="?attr/list_divider_color"
+		/>
+	</LinearLayout>
+</LinearLayout>
+	
+<!-- From: file:/C:/GDrive-dnicholson/Work/Android_Projects/UTL/uTL/src/main/res/layout/rules_list.xml -->

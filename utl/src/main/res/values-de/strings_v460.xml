@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="shutdown_msg">Wenn Sie zu beschäftigt sind, um diese wichtige Nachricht jetzt zu lesen, können Sie sie später im Hilfebereich anzeigen.
+\n
+\nIm Juli 2024 haben wir unsere Nutzer darüber informiert, dass wir zusätzliche Einnahmen erzielen müssen, um diese App bei Google Play zu behalten und die von Google auferlegten Mehrkosten zu decken. Wir haben eine Umfrage durchgeführt, um uns bei der Entscheidung über unseren nächsten Schritt zu helfen. Wir haben viele positive Rückmeldungen zur Nützlichkeit der App erhalten, aber es bestand nicht genügend Interesse daran, ein Jahresabonnement zu bezahlen oder weitere aufdringliche Werbung hinzuzufügen. Aus diesem Grund werden wir die App am 28. Februar 2025 aus Google Play entfernen.
+\n
+\nNachdem die App nicht mehr veröffentlicht wurde, funktioniert sie weiterhin auf Ihrem Gerät. Sie können die App jedoch nicht von Google Play auf neuen Geräten installieren. Damit Sie die App weiterhin verwenden können, haben wir auf unserer Website ein herunterladbares Installationsprogramm veröffentlicht. Den Download-Link finden Sie im Hilfebereich der App. Wenn wir die App auf diese Weise verteilen, können wir sie weiterhin zu einem Bruchteil der Kosten anbieten, die uns bei Google entstehen.
+\n
+\nAlle kostenpflichtigen Add-Ons wurden in der App freigeschaltet, sodass Sie jetzt kostenlos darauf zugreifen können. Wenn Sie am oder nach dem 1. Januar 2023 ein kostenpflichtiges Add-On gekauft haben, senden Sie uns eine E-Mail und wir erstatten Ihnen auf Anfrage den Betrag.
+\n
+\nKünftig werden App-Updates nur noch auf kritische Fehlerbehebungen beschränkt sein. Wir können die Zukunft zwar nicht vorhersagen, haben aber zum jetzigen Zeitpunkt keinen Grund zu der Annahme, dass die App nicht mehr funktionieren wird, wenn in den kommenden Jahren neue Android-Versionen veröffentlicht werden. Ein mögliches Problem wäre, wenn Toodledo oder Google Änderungen an ihrer Aufgabenoberfläche vornehmen würden, die entsprechende Änderungen auf unserer Seite erfordern würden. Wenn diese Änderungen umfangreich sind, ist es uns möglicherweise nicht möglich, die erforderlichen Updates durchzuführen. Wir halten Sie über die Website auf dem Laufenden: https://customsolutions.us/utl
+\n
+\nWenn Sie Softwareentwickler sind und unseren Code als Grundlage für Ihre eigene App verwenden möchten, haben wir den Quellcode auf GitHub veröffentlicht. Einen Link zum Repository finden Sie im Hilfebereich.</string>
+    <string name="removal_soon">Über die bevorstehende Entfernung aus Google Play</string>
+    <string name="download_latest">Lade die neueste Version herunter</string>
+    <string name="contact_by_email">Kontaktieren Sie uns per E-Mail</string>
+    <string name="view_source">Quellcode anzeigen</string>
+    <string name="view_source2">Besuchen Sie das Repository der App auf GitHub</string>
+</resources>

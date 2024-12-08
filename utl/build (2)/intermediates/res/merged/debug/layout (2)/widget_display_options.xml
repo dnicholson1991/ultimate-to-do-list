@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+>
+	<!-- Introductory Text -->
+	<TextView
+		android:id="@+id/widget_display_intro"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity='center_vertical'
+		android:paddingLeft='6dp'
+		android:paddingRight='6dp'
+		android:minHeight='48dp'
+		android:text="@string/Widget_display_options_intro"
+	/>	
+	
+	<!-- Theme: -->
+	<TextView
+		android:text="@string/_Theme_"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingLeft='6dp'
+		android:id="@+id/widget_display_theme_text"
+	/>
+	<Spinner
+	 	android:id="@+id/widget_display_theme_spinner"
+	 	android:layout_width="wrap_content"
+	 	android:layout_height="wrap_content"
+	 	android:entries='@array/widget_themes'
+	/>	
+
+	<TextView
+	    android:id='@+id/widget_display_theme_info'
+	    android:layout_width="wrap_content"
+	 	android:layout_height="wrap_content"
+	 	android:paddingLeft='6dp'
+		android:paddingRight='6dp'
+	 	android:text='@string/Widget_Theme_Info_Compact'
+	/>
+	
+	<TextView
+	    android:layout_width='wrap_content'
+	    android:layout_height='wrap_content'
+	    android:layout_marginTop='12dp'
+	    android:paddingLeft='6dp'
+	    android:text='@string/List_Layout_'
+	/>
+	
+	<!-- This holds the diagram showing the normal layout: -->
+	<LinearLayout
+	    android:id='@+id/widget_display_normal_diagram_wrapper'
+	    android:layout_width='match_parent'
+	    android:layout_height='wrap_content'
+	    android:orientation='vertical'
+	>
+		<!-- Top Border -->
+		<View android:layout_height="1dp"
+			android:layout_width="match_parent"
+			android:background="?attr/list_divider_color"
+		/>
+		
+		<!-- Top Level Horizontal LinearLayout, Containing Everything -->
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal"
+		>
+			<!-- The completed checkbox: -->
+			<ImageView 
+			    android:layout_width='wrap_content'
+			    android:layout_height='wrap_content'
+			    android:layout_gravity='center'
+			    android:gravity='center'
+			    android:src='@drawable/checkbox_medium_gray'
+			    android:paddingRight='2dp'
+			/>
+			
+			<!-- This linear layout contains everything except the completed checkbox -->
+			<LinearLayout
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:layout_weight="1"
+			>
+		  		<View android:layout_width="1dp"
+					android:layout_height="match_parent"
+					android:background="?attr/list_divider_color"
+				/>
+				
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+				>
+					<!-- The Title: -->
+					<TextView
+					    android:layout_width='wrap_content'
+					    android:layout_height='wrap_content'
+					    android:gravity='left|center_vertical'
+					    android:ellipsize="end"
+						android:maxLines="1"
+						android:singleLine="true"
+	  					android:paddingLeft='3dp'
+	  					android:textSize='?attr/utl_font_size_large'
+					    android:text="@string/Title_of_Task"
+					/>
+					
+					<!-- Border -->
+					<View android:layout_width="match_parent"
+						android:layout_height="1dp"
+						android:background="?attr/list_divider_color"
+					/>
+	
+					<!-- The extra field: -->
+					<TextView
+					    android:layout_width='wrap_content'
+					    android:layout_height='wrap_content'
+					    android:gravity='left|center_vertical'
+					    android:ellipsize="end"
+						android:maxLines="1"
+						android:singleLine="true"
+	  					android:paddingLeft='3dp'
+					    android:text="@string/Extra_Field"
+					    android:textStyle='italic'
+					/>
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+		
+		<!-- Bottom Border -->
+		<View android:layout_height="1dp"
+			android:layout_width="match_parent"
+			android:background="?attr/list_divider_color"
+		/>
+	
+		<!-- Line pointing to color-coded checkbox on left -->
+		<LinearLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal"
+		>
+			<View android:layout_height="29dp"
+				android:layout_width="16dp"
+				android:background="@android:color/transparent"
+			/>
+			<View android:layout_height="15dp"
+				android:layout_width="1dp"
+				android:background="?attr/list_divider_color"
+				android:layout_gravity="top"
+			/>
+			<View android:layout_height="1dp"
+				android:layout_width="15dp"
+				android:background="?attr/list_divider_color"
+				android:layout_gravity="left|center_vertical"
+			/>
+			<TextView
+				android:text = "@string/Completed_Checkbox"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+				android:layout_gravity="left|center_vertical"
+			/>					
+		</LinearLayout>
+		
+	    		
+	</LinearLayout>
+	
+	<!-- This holds the diagram showing the compact layout: -->
+	<LinearLayout
+	    android:id='@+id/widget_display_compact_diagram_wrapper'
+	    android:layout_width='match_parent'
+	    android:layout_height='wrap_content'
+	    android:orientation='vertical'
+	>
+		<!-- Top Border -->
+		<View android:layout_height="1dp"
+			android:layout_width="match_parent"
+			android:background="?attr/list_divider_color"
+		/>
+		
+		<!-- Horizontal linear layout, containing the bar and fields -->
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal"
+		>
+			<!-- Color Coded Bar for Parent Tasks -->
+	  		<View android:layout_width="5dp"
+				android:layout_height="match_parent"
+				android:background="?attr/list_divider_color"
+				android:id="@+id/widget_display_parent_color"
+			/>
+			
+			<!-- The Extra Field -->
+			<TextView
+				android:text = "@string/Extra_Field"
+				android:gravity="left|center_vertical"
+				android:layout_gravity="left|center_vertical"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+				android:ellipsize="end"
+				android:maxLines="1"
+				android:singleLine="true"
+				android:id="@+id/widget_display_extra_field"
+				android:paddingLeft="1dp" 
+				android:paddingRight="1dp"
+			/>
+			
+			<!-- Border -->
+			<View android:layout_width="1dp"
+				android:layout_height="match_parent"
+				android:background="?attr/list_divider_color"
+			/>
+	
+			<!-- The Title of the Task -->
+			<TextView
+				android:text = "@string/Title_of_Task"
+				android:gravity="left|center_vertical"
+				android:layout_gravity="left|center_vertical"
+			    android:layout_width="0dp"
+			    android:layout_height="wrap_content"
+			    android:layout_weight="1"
+				android:ellipsize="end"
+				android:maxLines="1"
+				android:singleLine="true"
+				android:id="@+id/widget_display_title"
+				android:paddingLeft="1dp"
+			/>
+	
+			<!-- Border -->
+			<View android:layout_width="1dp"
+				android:layout_height="match_parent"
+				android:background="?attr/list_divider_color"
+			/>
+		</LinearLayout>
+	
+		<!-- Bottom Border -->
+		<View android:layout_height="1dp"
+			android:layout_width="match_parent"
+			android:background="?attr/list_divider_color"
+		/>
+	
+		<!-- Line pointing to color-coded bar on left -->
+		<LinearLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal"
+		>
+			<View android:layout_height="29dp"
+				android:layout_width="2dp"
+				android:background="@android:color/transparent"
+			/>
+			<View android:layout_height="15dp"
+				android:layout_width="1dp"
+				android:background="?attr/list_divider_color"
+				android:layout_gravity="top"
+			/>
+			<View android:layout_height="1dp"
+				android:layout_width="15dp"
+				android:background="?attr/list_divider_color"
+				android:layout_gravity="left|center_vertical"
+			/>
+			<TextView
+				android:text = "@string/Color_Coded_Bar"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+				android:layout_gravity="left|center_vertical"
+				android:id="@+id/widget_display_color_bar"
+			/>					
+		</LinearLayout>
+	</LinearLayout>
+
+	<!-- Extra field Selection: -->
+	<TextView
+		android:text="@string/Extra_Field_to_Display_"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingLeft='6dp'
+		android:layout_marginTop='12dp'
+	/>
+	 <Spinner
+	 	android:id="@+id/widget_display_extra_spinner"
+	 	android:layout_width="wrap_content"
+	 	android:layout_height="wrap_content"
+	 />	
+
+	<!-- Width of the left field (for scrollable compact widget) -->
+	<LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/widget_display_left_field_width_container"
+	    android:visibility="gone"
+	>
+		<TextView
+			android:id="@+id/widget_display_left_field_width1"
+	    	android:text="@string/Width_Of_Left_Field"
+	    	android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingLeft='6dp'
+		/>
+		<EditText
+		    android:id="@+id/widget_display_left_field_width2"
+		    android:layout_width="60dp"
+		    android:layout_height="wrap_content"
+		    android:inputType="number"
+		    android:maxLength="3"
+		/>
+	</LinearLayout>
+	
+	<!-- Color-Coded Bar or Checkbox: -->
+	<TextView
+		android:id="@+id/widget_display_color_code_text"
+		android:text="@string/_Field_for_Color_Coded_Bar_"
+		android:paddingLeft='6dp'
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	/>
+	 <Spinner
+	 	android:id="@+id/widget_display_color_code_spinner"
+	 	android:layout_width="wrap_content"
+	 	android:layout_height="wrap_content"
+	 />	
+
+	<!-- Subtask format: -->
+	<TextView
+		android:text="@string/_Format_of_Subtasks_"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingLeft='6dp'
+		android:id="@+id/widget_display_subtask_format_text"
+	/>
+	 <Spinner
+	 	android:id="@+id/widget_display_subtask_format_spinner"
+	 	android:layout_width="wrap_content"
+	 	android:layout_height="wrap_content"
+	 	android:entries='@array/subtask_widget_display_options'
+	 />	
+
+	<!-- Parent Options: -->
+	<TextView
+		android:text="@string/_If_parent_is_filtered_out"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingLeft='6dp'
+		android:id="@+id/widget_display_parent_options_text"
+	/>
+	 <Spinner
+	 	android:id="@+id/widget_display_parent_options_spinner"
+	 	android:layout_width="wrap_content"
+	 	android:layout_height="wrap_content"
+	 	android:entries='@array/parent_display_options'
+	 />	
+
+	<!--  Widget Title: -->
+	<TextView
+		android:text="@string/_Widget_Title_"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingLeft='6dp'
+		android:id="@+id/widget_display_title_text"
+	/>
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/widget_display_title_edittext"
+		android:inputType="text|textCapSentences"
+	/>
+	 <TextView
+	 	android:gravity="left"
+	 	android:layout_gravity="left"
+	 	android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/spacer"
+	 />
+
+</LinearLayout>
+</ScrollView>
+<!-- From: file:/C:/GDrive-dnicholson/Work/Android_Projects/UTL/uTL/src/main/res/layout/widget_display_options.xml -->

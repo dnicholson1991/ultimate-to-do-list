@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name='file_permission_reason'>アクセスを許可しない場合、アプリはタスク、メモ、設定のバックアップを作成できません。</string>
+    <string name='background_location_instructions'>次の画面で、オプションをタップして、アプリが常に現在地にアクセスできるようにします。</string>
+    <string name='go_to_permissions'>権限エリアに移動し、常に位置情報へのアクセスを有効にします。</string>
+
+    <string name='no_download_folder'>お使いのデバイスにはダウンロードフォルダがありません。</string>
+    <string name='unable_to_copy'>バックアップをダウンロードフォルダに保存できません。</string>
+    <string name='cant_access_backup'>バックアップファイルにアクセスできません。</string>
+    <string name="unable_to_uncompress">バックアップファイルを解凍できません。</string>
+    <string name='choose_backup_file'>次の画面で、復元元のバックアップファイルを選択します。 デフォルトでは、アプリはこれらを「Ultimate To-Do List Backup.zip」という名前のダウンロードフォルダーに配置します。</string>
+    <string name='backup_saved_to_downloads'>バックアップはダウンロードフォルダに保存されています。</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <com.customsolutions.android.utl.TwoLineCheckboxPreference
+        android:key='auto_sync'
+        android:title='@string/Automatically_Sync'
+        android:defaultValue="true"
+    />
+    <com.customsolutions.android.utl.IntEditTextPreference 
+        android:key='sync_interval'
+        android:title='@string/Sync_Interval'
+        android:defaultValue='60'
+        android:inputType='number'
+        android:widgetLayout='@layout/pref_value'
+    />
+	<com.customsolutions.android.utl.TwoLineCheckboxPreference
+        android:key='instant_upload'
+        android:title='@string/Instantly_Upload'
+        android:defaultValue="true"
+    />
+	<com.customsolutions.android.utl.TwoLineCheckboxPreference
+        android:key='warn_on_no_sync'
+        android:title='@string/Sync_Warning'
+        android:defaultValue="true"
+    />
+</PreferenceScreen>

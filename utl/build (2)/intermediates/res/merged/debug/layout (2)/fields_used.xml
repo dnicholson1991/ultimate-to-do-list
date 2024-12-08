@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+>
+<LinearLayout
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+>
+	<!-- Instructions -->
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/fields_instructions"
+		android:text="@string/Features_Functions_Intro_3"
+		android:layout_marginTop='16dp'
+		android:layout_marginBottom='16dp'
+	/>
+
+	<!-- Separator -->
+	<View android:layout_width="fill_parent"
+		android:layout_height="1dp"
+		android:background="?attr/list_divider_color"
+	/>	
+
+	<CheckedTextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/fields_calendar"
+		android:paddingTop="8dp"
+		android:paddingBottom="8dp"
+		android:background='?attr/cb_button_bg'
+		android:text="@string/Calendar_Integration"
+		android:layout_gravity="center_vertical"
+		android:gravity="center_vertical"
+		android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+	/>
+	
+	<!-- Separator -->
+	<View android:layout_width="fill_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+		android:id="@+id/fields_calendar_separator"
+	/>	
+
+	<CheckedTextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/fields_collaboration"
+		android:paddingTop="8dp"
+		android:paddingBottom="8dp"
+		android:background='?attr/cb_button_bg'
+		android:text="@string/collaboration_for_td"
+		android:layout_gravity="center_vertical"
+		android:gravity="center_vertical"
+		android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+	/>
+	
+	<!-- Separator -->
+	<View android:layout_width="fill_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+		android:id="@+id/fields_collaboration_separator"
+	/>	
+
+	<CheckedTextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/fields_contacts"
+		android:paddingTop="8dp"
+		android:paddingBottom="8dp"
+		android:background='?attr/cb_button_bg'
+		android:text="@string/Contacts"
+		android:layout_gravity="center_vertical"
+		android:gravity="center_vertical"
+		android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+	/>
+	
+	<!-- Separator -->
+	<View android:layout_width="fill_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+		android:id="@+id/fields_contacts_separator"
+	/>	
+
+	<CheckedTextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/fields_contexts"
+		android:paddingTop="8dp"
+		android:paddingBottom="8dp"
+		android:background='?attr/cb_button_bg'
+		android:text="@string/Contexts"
+		android:layout_gravity="center_vertical"
+		android:gravity="center_vertical"
+		android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+	/>
+	
+	<!-- Separator -->
+	<View android:layout_width="fill_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>	
+
+	<CheckedTextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/fields_due_date"
+		android:paddingTop="8dp"
+		android:paddingBottom="8dp"
+		android:background='?attr/cb_button_bg'
+		android:text="@string/DueDate"
+		android:layout_gravity="center_vertical"
+		android:gravity="center_vertical"
+		android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+	/>
+	
+	<!-- Separator -->
+	<View android:layout_width="fill_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+		android:id="@+id/fields_due_time_separator"
+	/>	
+	
+	<CheckedTextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/fields_due_time"
+		android:paddingTop="8dp"
+		android:paddingBottom="8dp"
+		android:paddingLeft="15dp"
+		android:background='?attr/cb_button_bg'
+		android:text="@string/Due_Time"
+		android:layout_gravity="center_vertical"
+		android:gravity="center_vertical"
+		android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+	/>
+	
+	<!-- Separator -->
+	<View android:layout_width="fill_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>	
+	
+	<CheckedTextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/fields_length"
+		android:paddingTop="8dp"
+		android:paddingBottom="8dp"
+		android:background='?attr/cb_button_bg'
+		android:text="@string/Expected_Length"
+		android:layout_gravity="center_vertical"
+		android:gravity="center_vertical"
+		android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+	/>
+	
+	<!-- Separator -->
+	<View android:layout_width="fill_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>	
+
+	<CheckedTextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/fields_note_folders"
+		android:paddingTop="8dp"
+		android:paddingBottom="8dp"
+		android:background='?attr/cb_button_bg'
+		android:text="@string/Folders_for_Notes"
+		android:layout_gravity="center_vertical"
+		android:gravity="center_vertical"
+		android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+	/>
+	
+	<!-- Separator -->
+	<View android:layout_width="fill_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>	
+
+	<CheckedTextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/fields_folders"
+		android:paddingTop="8dp"
+		android:paddingBottom="8dp"
+		android:background='?attr/cb_button_bg'
+		android:text="@string/Folders_for_Tasks"
+		android:layout_gravity="center_vertical"
+		android:gravity="center_vertical"
+		android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+	/>
+	
+	<!-- Separator -->
+	<View android:layout_width="fill_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>	
+
+	<CheckedTextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/fields_goals"
+		android:paddingTop="8dp"
+		android:paddingBottom="8dp"
+		android:background='?attr/cb_button_bg'
+		android:text="@string/Goals"
+		android:layout_gravity="center_vertical"
+		android:gravity="center_vertical"
+		android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+	/>
+	
+	<!-- Separator -->
+	<View android:layout_width="fill_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>	
+
+	<CheckedTextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/fields_locations"
+		android:paddingTop="8dp"
+		android:paddingBottom="8dp"
+		android:background='?attr/cb_button_bg'
+		android:text="@string/Locations"
+		android:layout_gravity="center_vertical"
+		android:gravity="center_vertical"
+		android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+	/>
+	
+	<!-- Separator -->
+	<View android:layout_width="fill_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>	
+
+	<CheckedTextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/fields_priority"
+		android:paddingTop="8dp"
+		android:paddingBottom="8dp"
+		android:background='?attr/cb_button_bg'
+		android:text="@string/Priority"
+		android:layout_gravity="center_vertical"
+		android:gravity="center_vertical"
+		android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+	/>
+	
+	<!-- Separator -->
+	<View android:layout_width="fill_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>	
+
+	<CheckedTextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/fields_reminder"
+		android:paddingTop="8dp"
+		android:paddingBottom="8dp"
+		android:background='?attr/cb_button_bg'
+		android:text="@string/Reminders"
+		android:layout_gravity="center_vertical"
+		android:gravity="center_vertical"
+		android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+	/>
+	
+	<!-- Separator -->
+	<View android:layout_width="fill_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>	
+	<CheckedTextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/fields_repeat"
+		android:paddingTop="8dp"
+		android:paddingBottom="8dp"
+		android:background='?attr/cb_button_bg'
+		android:text="@string/Repeating_Tasks"
+		android:layout_gravity="center_vertical"
+		android:gravity="center_vertical"
+		android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+	/>
+	
+	<!-- Separator -->
+	<View android:layout_width="fill_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>	
+	
+	<CheckedTextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/fields_star"
+		android:paddingTop="8dp"
+		android:paddingBottom="8dp"
+		android:background='?attr/cb_button_bg'
+		android:text="@string/Star"
+		android:layout_gravity="center_vertical"
+		android:gravity="center_vertical"
+		android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+	/>
+	
+	<!-- Separator -->
+	<View android:layout_width="fill_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>	
+
+	<CheckedTextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/fields_start_date"
+		android:paddingTop="8dp"
+		android:paddingBottom="8dp"
+		android:background='?attr/cb_button_bg'
+		android:text="@string/StartDate"
+		android:layout_gravity="center_vertical"
+		android:gravity="center_vertical"
+		android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+	/>
+	
+	<!-- Separator -->
+	<View android:layout_width="fill_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+		android:id="@+id/fields_start_time_separator"
+	/>	
+	
+	<CheckedTextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/fields_start_time"
+		android:paddingTop="8dp"
+		android:paddingBottom="8dp"
+		android:paddingLeft="15dp"
+		android:background='?attr/cb_button_bg'
+		android:text="@string/Start_Time"
+		android:layout_gravity="center_vertical"
+		android:gravity="center_vertical"
+		android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+	/>
+	
+	<!-- Separator -->
+	<View android:layout_width="fill_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>	
+	
+	<CheckedTextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/fields_status"
+		android:paddingTop="8dp"
+		android:paddingBottom="8dp"
+		android:background='?attr/cb_button_bg'
+		android:text="@string/Status"
+		android:layout_gravity="center_vertical"
+		android:gravity="center_vertical"
+		android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+	/>
+	
+	<!-- Separator -->
+	<View android:layout_width="fill_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>	
+	
+	<CheckedTextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/fields_subtasks"
+		android:paddingTop="8dp"
+		android:paddingBottom="8dp"
+		android:background='?attr/cb_button_bg'
+		android:text="@string/Subtasks"
+		android:layout_gravity="center_vertical"
+		android:gravity="center_vertical"
+		android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+	/>
+	
+	<!-- Separator -->
+	<View android:layout_width="fill_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>	
+
+	<CheckedTextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/fields_tags"
+		android:paddingTop="8dp"
+		android:paddingBottom="8dp"
+		android:background='?attr/cb_button_bg'
+		android:text="@string/Tags"
+		android:layout_gravity="center_vertical"
+		android:gravity="center_vertical"
+		android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+	/>
+	
+	<!-- Separator -->
+	<View android:layout_width="fill_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>	
+
+	<CheckedTextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/fields_timer"
+		android:paddingTop="8dp"
+		android:paddingBottom="8dp"
+		android:background='?attr/cb_button_bg'
+		android:text="@string/Timer"
+		android:layout_gravity="center_vertical"
+		android:gravity="center_vertical"
+		android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+	/>
+	
+	<!-- Separator -->
+	<View android:layout_width="fill_parent"
+		android:layout_height="1px"
+		android:background="?attr/list_divider_color"
+	/>	
+</LinearLayout>
+</ScrollView><!-- From: file:/C:/GDrive-dnicholson/Work/Android_Projects/UTL/uTL/src/main/res/layout/fields_used.xml -->

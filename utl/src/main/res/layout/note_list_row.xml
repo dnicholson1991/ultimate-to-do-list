@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/note_row_container"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+  	android:gravity='center_vertical'
+>
+	<LinearLayout
+		android:id='@+id/note_list_row_main'
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:layout_gravity="center_vertical"
+		android:background="?android:attr/selectableItemBackground"
+	>
+		<TextView
+			android:id="@+id/note_row_title"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:minHeight="20dp"
+			android:gravity="left|center_vertical"
+			android:layout_gravity="left|center_vertical"
+			android:text=""
+			android:textSize="?attr/utl_font_size_large"
+			android:ellipsize="end"
+			android:maxLines="1"
+			android:singleLine="true"
+			android:paddingLeft='6dp'
+		/>
+
+		<TextView
+			android:id="@+id/note_row_note_body"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:minHeight="20dp"
+			android:gravity="left|center_vertical"
+			android:layout_gravity="left|center_vertical"
+			android:text=""
+			android:ellipsize="end"
+			android:maxLines="1"
+			android:singleLine="true"
+			android:textStyle="italic"
+			android:textSize="?attr/utl_font_size_normal"
+			android:paddingLeft='6dp'
+		/>
+	</LinearLayout>
+
+	<!-- A container for the native ad. -->
+	<LinearLayout
+		android:id='@+id/note_ad_container'
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		>
+		<!-- A divider to separate the note from the ad. -->
+		<View
+			android:id='@+id/note_ad_divider'
+			android:layout_width='match_parent'
+			android:layout_height='1px'
+			android:background='?attr/list_divider_color'
+			/>
+
+		<!-- This receives a native ad when necessary. -->
+		<FrameLayout
+			android:id='@+id/note_native_ad_placeholder'
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			/>
+	</LinearLayout>
+</LinearLayout>

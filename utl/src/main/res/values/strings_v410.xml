@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name='google_sign_in_needed'>Google requires that you sign in to the account %s
+        again in order to sync.</string>
+
+    <!-- Names of themes: -->
+    <string name='theme_pacific'>Pacific</string>
+    <string name='theme_boston'>Boston</string>
+    <string name='theme_classic'>Classic</string>
+    <string name='theme_darker'>Darker</string>
+    <string name='theme_darkest'>Ultimate Dark</string>
+
+    <!-- Options for widgets: A compact (compressed) display or a normal sized display. -->
+    <string name='format_'>Format:</string>
+    <string name='compact'>Compact</string>
+    <string name='normal'>Normal</string>
+
+    <!-- Prompts to help the user choose which features to enable: -->
+    <string name='common_features'>Common Features</string>
+    <string name='almost_everyone'>Almost everyone should enable these.</string>
+    <string name='time_management'>Time Management</string>
+    <string name='precisely_plan'>Precisely plan your time.</string>
+    <string name='task_organization'>Task Organization</string>
+    <string name='group_and_arrange'>Group and arrange your tasks in a variety of ways.</string>
+    <string name='project_management'>Project Management</string>
+    <string name='advanced_features'>Advanced features for teams, contractors, and other
+        complex needs.</string>
+    <string name='due_date_description'>This is the date that the task should be completed
+        by.</string>
+    <string name='folder_description'>Folders can be used to organize your tasks and notes into categories, projects, or areas of focus. Typical folders might represent broad categories such as “Work” or “Personal”. Or, they could focus on specific projects such as “Product Research” or “Basement Remodeling”.</string>
+    <string name='priority_description'>This lets you specify how important a task is. 5 priority
+        levels are available.</string>
+    <string name='reminders_description'>Allows your device to vibrate and/or ring to remind
+        you about an important task.  The task will also show up in your notification area.
+        You can optionally turn on nagging reminders for a task, so that you receive reminders
+        at regular intervals until you dismiss the reminder or complete the task.</string>
+    <string name='repeating_description'>Allows you to have a task repeat at regular intervals.
+        Use this for tasks that need to be done on a daily, weekly or monthly basis. You can also
+        specify advanced repeating patters, such as the second Monday or last day of the
+        month.</string>
+    <string name='calendar_description'>This gives you the option to see tasks you select on your
+        device\'s calendar app. This is useful if you want to see your tasks and calendar events
+        on one screen.</string>
+    <string name='due_time_description'>Allows you to specify the exact time a task must be done
+        by. The due date field must be enabled in order to use this.</string>
+    <string name='start_date_description'>Allow you to specify the date in which you want to start working
+        on a task. Using start dates in combination with the app\'s filtering options makes it easy
+        to hide tasks from your list that will only be worked on in the future.</string>
+    <string name='start_time_description'>Allows you to specify an exact start time for a task.
+        The start date field must be enabled in order to use this.</string>
+    <string name='contexts_description'>Contexts allow you to assign tasks to certain locations or settings in which they are to be completed. For example, “Work”, “Home”, “Shopping”, and “Meeting” are some commonly used contexts. The idea behind contexts is that it isn’t productive to be reminded about tasks from one context when you are in another context. For example, when you are at work, you don’t want to see all your tasks that can only be completed at home.</string>
+    <string name='goals_description'>Goals provide a way to specify items you want to achieve. Unlike tasks, goals are usually more vague and difficult to quantify. For example: “Get a promotion”, “Be a better parent”, “Improve my health”. You can create lifelong, long-term and short-term goals and assign these goals to individual tasks. This will allow you to keep track of which actions contribute to your goals, and which actions may not be a good use of your time.</string>
+    <string name='locations_description'>Locations allow you to mark where certain tasks must be completed. This allows you to conveniently locate tasks that are nearby. When you tap on the “Show Map” button within the app, you can see which locations are closest to your current location. The app can also remind you about tasks at a particular location when you arrive at that location.</string>
+    <string name='star_description'>The star can be turned on or off as you wish for each task.
+        You can use it any way you like. Some common uses include: marking active tasks, marking
+        tasks that you want to complete today, and marking tasks that have the highest priority.</string>
+    <string name='subtasks_description'>A subtask is a task within a task. Subtasks are typically
+        used to group related tasks together, or to record the steps needed to complete a
+        task. Subtasks are available within the app regardless of which online account you link
+        to (if any), but if you use Toodledo a paid account is required for subtasks to sync and
+        be visible on the web site.</string>
+    <string name='tags_description'>Tags are keywords or phrases that you can use to help
+        describe and group your tasks. A task can have multiple tags. Common uses include:
+        keeping track of the state or progress, keeping track of the next step, and
+        classifying the task.</string>
+    <string name='contacts_description'>The contact field for a task allows you to link the
+        task to a contact on your device. This can be used to provide quick access to your
+        contact\'s phone number or email address when a task involves contacting someone. It can
+        also be used to group together tasks that require input or assistance from a specific
+        person.</string>
+    <string name='expected_length_description'>This allows you to record an estimate of how much time
+        will be required to complete the task.</string>
+    <string name='timer_actual_length'>Timer / Actual Length</string>
+    <string name='timer_description'>The timer allows you to record the actual amount of time
+        that was spent on a task. The timer may be turned on when work is being done, and
+        paused and resumed as needed.  The app will keep track of the total time spent.</string>
+    <string name='status_description'>This allows you to keep track of the current state of the
+        task. Examples include: next action, active, planning, delegated, and waiting.</string>
+    <string name='collaboration_description'>This feature is available only to Toodledo users,
+        and allows you to share tasks with others, as well as assign tasks to specific people.
+        For details, refer to Toodleo\'s documentation at toodledo.com/info/sharing.php.</string>
+    <string name='due_time_without_due_date'>You must enable due dates in order to use
+        due times.</string>
+    <string name='start_time_without_start_date'>You must enable start dates in order to use
+        start times.</string>
+    <string name='calendar_cannot_be_enabled'>Calendar integration cannot be enabled because
+        permission has been denied to access the calendar.</string>
+    <string name='contacts_cannot_be_enabled'>Contacts integration cannot be enabled because
+        permission has been denied to access your contacts.</string>
+    <string name='locations_cannot_be_enabled'>Locations cannot be enabled because
+        permission has been denied to access your device\'s location.</string>
+    <string name='locations_cannot_be_enabled2'>Locations cannot be enabled because
+        permission has been denied to access your device\'s location at all times.</string>
+    <string name='folders_required'>Folders must be enabled for Google accounts.</string>
+    <string name='due_date_required'>Toodledo requires due dates to be enabled if
+        reminders are enabled.</string>
+    <string name='features_intro'>Here, you can turn on the features you need and turn off those
+        you don\'t.</string>
+    <string name='tap_on_group'>Tap on a group below to manage features within that group. Tap
+        on the information buttons to learn more about each feature.</string>
+    <string name='choose_your_features'>Choose your Features</string>
+
+    <!-- Miscellaneous Strings: -->
+    <string name='name_of_new_folder'>Name of the New Folder:</string>
+    <string name='name_of_new_context'>Name of the New Context:</string>
+    <string name='name_of_new_goal'>Name of the New Goal:</string>
+    <string name='restore_successful_android10'>All data has been restored, and will be available
+        after you restart the app. If you were using the calendar, contacts, or location
+        features, you will need to re-enable them in the settings area and accept the
+        permissions when asked.</string>
+    <string name='learn_more_about_utl'>Learn More About Ultimate To-Do List</string>
+    <string name='tasker_overlay_permission'>IMPORTANT: If your device runs Android 10 or
+        later and you want Tasker to be able to launch a to-do list, you will need to give
+        Ultimate To-Do List permission to draw over other apps. You can do this in the Apps area
+        of your system settings.</string>
+    <string name='unable_to_open_list'>Unable to Open To-Do List</string>
+    <string name='overlay_permission_needed'>Your to-do list cannot be opened from Tasker due to
+        lack of permission. Tap here to give Ultimate To-Do List permission to draw over other
+        apps.</string>
+    <string name='choose_between_themes'>Choose between 6 themes.</string>
+</resources>

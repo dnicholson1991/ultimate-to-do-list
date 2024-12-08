@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <string name="allow_permission">パーミッションを許可</string>
+    <string name="reject_permission">パーミッションを拒否</string>
+    <string name="file_access_permission_needed">このアプリが動作するには、端末のストレージにアクセスすることが不可欠です。続行するには、アクセスを許可する必要があります。</string>
+    <string name="location_permission_recommended">ロケーションへのアクセスを許可するには、アプリの位置情報に基づいた機能（特定のロケーションに到着したときにタスクをリマインドする機能など）が必要です。</string>
+    <string name="accounts_permission_required">これらのアカウントの1つにリンクするには、端末のGoogleアカウントへのアクセスを許可する必要があります。</string>
+    <string name="all_needed_for_advanced_level">上級レベルを使用するには、これらの権限を受け入れる必要があります。カレンダーにタスクを表示するには、カレンダーへのアクセスが必要です。位置情報に基づいたリマインダーにはロケーションへのアクセスが必要です。連絡先とタスクをリンクするには、連絡先にアクセスする必要があります。</string>
+    <string name="Restore_Successful_permissions_issue">すべてのデータが復元されました。アプリケーションが再起動します。カレンダー、連絡先、またはロケーションの機能を使用していた場合は、設定領域で再度有効にし、プロンプトが表示されたらパーミッションを受け入れる必要があります。</string>
+    <string name="task_reminders">タスクリマインダー</string>
+    <string name="notification_category_for_reminders">タスクリマインダーの通知。</string>
+
+    <!-- These updates are due to Google renaming Android Wear to Wear OS: -->
+    <string name="android_wear">Wear OS</string>
+    <string name="purchase_android_wear">Wear OSアドオンの購入</string>
+    <string name="android_wear_purchased">Wear OSアドオンを購入済みです</string>
+    <string name="learn_android_wear">Wear OSアドオンの使用方法を学ぶ。</string>
+    <string name="android_wear_help_title">Wear OSアドオンの使用</string>
+    <string name="need_to_purchase_wear">この機能を使用するには、Ultimate To-Do Listの設定領域でWear OSアドオンを購入する必要があります。</string>
+    <string name="wear_non_english_limits">Wear OSアドオンは現在、英語話者用に設計されています。アドオンは他の言語でも使用できますが、音声コマンドはすべて英語でなければなりません。続行しますか？</string>
+    <string name="android_wear_add_on">Wear OSアドオン</string>
+    <string name="android_wear_long_description">
+        <![CDATA[
+            <p>Wear OSアドオンを使用すると、時計でタスクを参照してチェックオフしたり、リマインダーを表示したりスヌーズしたりできます。</p>
+            <p><b>購入後のアドオンの有効化:</b></p>
+            <ul>
+                <li>Wear OS 2以降は、時計のPlayストアを開いてアプリを「電話アプリ」セクションに配置し、時計にアプリをインストールします。</li>
+                <li>Ultimate To-Doリストが表示されない場合は、Wear OSPlayストアで「UltimateTo-DoList」を検索し、ストアリストからアプリをインストールしてみてください。</li>
+            </ul>
+            <p><b>タスク表示方法:</b></p>
+            <ul>
+                <li>デフォルトのタスクリストを表示するには、「OK Google、Ultimate To-Do Listを開始する」と呼びかけます。</li>
+                <li>また、時計上のアプリリストからUltimate To-Do Listを開き、デフォルトのタスクリストにアクセスできます。</li>
+                <li>タスクリストを開くと、タスクをタップして確認できます。</li>
+            </ul>
+            <p><b>リマインダーの処理:</b></p>
+            <ul>
+                <li>リマインダーは、ハンドセットと時計に通知として表示されます。</li>
+                <li>時計で、左から右にスワイプすると通知が消えます。</li>
+                <li>通知をタップすると、リマインダーをスヌーズし、タスクに完了マークを付けるオプションが表示されます。</li>
+            </ul>
+        ]]>
+    </string>
+    <string name="ongoing_notifications_warning">リマインダーに進行中の通知を使用する場合、これらの通知はWear OSウォッチには表示されません。</string>
+    <string name='syncing_with_watch'>究極のToDoリストが時計とデータを同期しています。</string>
+    <string name='bt_for_voice_input'>音声入力にBluetoothを使用する</string>
+</resources>

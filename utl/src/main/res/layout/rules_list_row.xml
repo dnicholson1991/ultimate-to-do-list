@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+>
+	<!-- "And" Line -->
+	<LinearLayout
+		android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+	  	android:orientation="horizontal"
+	  	android:id="@+id/rules_list_and_line"
+	>
+		<View 
+			android:layout_height="1px"
+			android:layout_width="10dp"
+			android:background="?attr/list_divider_color"
+			android:gravity="center_vertical"
+			android:layout_gravity="center_vertical"
+		/>
+		
+		<TextView
+			android:text="@string/And"
+			android:gravity="center_vertical"
+			android:layout_gravity="center_vertical"
+			android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		/>
+		
+		<View 
+			android:layout_height="1px"
+			android:layout_width="0dp"
+			android:background="?attr/list_divider_color"
+			android:layout_weight="1"
+			android:gravity="center_vertical"
+			android:layout_gravity="center_vertical"
+		/>
+	</LinearLayout>
+	
+	<!-- "Or" line -->
+	<LinearLayout
+		android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+	  	android:orientation="horizontal"
+	  	android:id="@+id/rules_list_or_line"
+	>
+		<View 
+			android:layout_height="1px"
+			android:layout_width="10dp"
+			android:background="?attr/list_divider_color"
+			android:gravity="center_vertical"
+			android:layout_gravity="center_vertical"
+		/>
+		
+		<TextView
+			android:text="@string/Or"
+			android:gravity="center_vertical"
+			android:layout_gravity="center_vertical"
+			android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		/>
+		
+		<View 
+			android:layout_height="1px"
+			android:layout_width="10dp"
+			android:background="?attr/list_divider_color"
+			android:gravity="center_vertical"
+			android:layout_gravity="center_vertical"
+		/>
+	</LinearLayout>
+	
+	<!-- The main list item, containing the rule description, along with locked, edit, and delete icons -->
+	<LinearLayout
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+	  android:orientation="horizontal"
+	  android:id="@+id/rules_list_row_container"
+  	  android:minHeight='52dp'
+  	  android:paddingLeft='5dp'
+  	  android:paddingRight='4dp'
+	>
+		<TextView
+			android:gravity="left|center_vertical"
+			android:layout_gravity="left|center_vertical"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:id="@+id/rules_list_description"
+		/>
+		
+		<ImageButton
+	    	android:id='@+id/rules_list_up'
+	    	android:src="?attr/arrow_up"
+	    	style='@style/ListButtonCompact'
+		/>
+		
+		<ImageButton
+	    	android:id='@+id/rules_list_down'
+	    	android:src="?attr/arrow_down"
+	    	style='@style/ListButtonCompact'
+		/>
+		
+		<ImageButton
+	    	android:id='@+id/rules_list_locked'
+	    	android:src="?attr/filter_rule_locked"
+	    	style='@style/ListButtonCompact'
+		/>
+	
+		<ImageButton
+	    	android:id='@+id/rules_list_delete'
+	    	android:src="?attr/ab_delete_inv"
+	    	style='@style/ListButtonCompact'
+		/>
+		
+		<ImageButton
+	    	android:id='@+id/rules_list_edit'
+	    	android:src="?attr/ab_edit_inv"
+	    	style='@style/ListButtonCompact'
+		/>
+		
+	</LinearLayout>
+</LinearLayout>

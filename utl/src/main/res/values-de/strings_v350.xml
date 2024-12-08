@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <!-- This refers to add-ons that can be purchased within the app, also known as extensions or
+        plug-ins. -->
+    <string name="add_ons">Add-Ons</string>
+
+    <string name="manual_sort_order">Manuelle Sortierreihenfolge</string>
+    <string name="manual_sort">Manuelle Sortierung</string>
+    <string name="manual_sort_ui_change">Wenn die manuelle Sortierreihenfolge hier das erste Element ist, dann gelangen Sie durch drücken der Sortieren-Schaltfläche in der Aufgabenliste in den manuellen Sortiermodus. Sie können zu diesem Bildschirm zurückkehren, indem Sie die Menüoption \"Manuelle Sortiereihenfolge\" auswählen.</string>
+    <string name="sort_order_set_incorrectly">Für die manuelle Sortierung muss die erste Sortierreihenfolgenoption für diese Ansicht auf manuelle Sortierreihenfolge eingestellt sein. Möchten Sie dies jetzt tun?</string>
+    <string name="incorrect_sort_order">Falsche Sortierreihenfolge</string>
+    <string name="manual_sort_instructions">Ziehen Sie die Aufgaben, um sie neu zu ordnen</string>
+    <string name="license">Lizenz</string>
+    <string name="upgraded_license">Erweiterte Lizenz</string>
+    <string name="license_description">Schaltet die App frei, damit sie nach dem Testzeitraum verwendet werden kann.</string>
+    <string name="upgraded_license_description">Einfache Lizenzverwaltung. Verwendet In-App-Kauf statt separaten Download.</string>
+    <string name="manual_sort_add_on">Add-On Manuelle Sortierung</string>
+    <string name="manual_sort_description">Hiermit können Sie Ihre eigene Sortierreihenfolge für Aufgaben festlegen. Einschließlich Synchronisierung.</string>
+    <string name="tap_on_item">Tippen Sie auf ein Element, um mehr zu erfahren.</string>
+    <string name="purchased">Gekauft</string>
+    <string name="purchased_with_checkmark">✓ Bereits gekauft</string>
+    <string name="buy_now">Jetzt kaufen</string>
+    <string name="buy">Kaufen</string>
+    <string name="manual_sort_not_purchased">Sie müssen das Add-On für die manuelle Sortierung kaufen, um Ihre eigenen Sortierreihenfolge festzulegen.</string>
+    <string name="learn_more">Mehr erfahren</string>
+    <string name="add_on_missing">Add-On fehlt</string>
+    <string name="sort_order_">Sortierreihenfolge...</string>
+    <string name="subtasks_must_be_indented">Da die erste Sortierreihenfolge für diese Ansicht auf die manuelle Sortierung eingestellt ist, werden Teilaufgaben für die manuelle Sortierung eingerückt, damit es korrekt funktioniert.</string>
+    <string name="subtasks_hidden_if_parent_hidden">Da die erste Sortierreihenfolge für diese Ansicht auf die manuelle Sortierung eingestellt ist, sind Teilaufgaben, deren übergeordnete Elemente heraus gefiltert werden, nicht sichtbar. Dies ist notwendig, damit die manuelle Sortierung korrekt funktioniert.</string>
+    <string name="unable_to_sort">Sortieren nicht möglich</string>
+    <string name="must_be_in_same_account">Die sortierten Aufgaben müssen mit dem gleichen Konto verknüpft sein.</string>
+    <string name="manual_sort_on_long_press">Lange Betätigung manuelle Sortierung</string>
+    <string name="first_sort_order_manusl">Wenn die erste Sortierreihenfolge auf manuelle Sortierung eingestellt ist</string>
+    <string name="sign_in_needed">Anmeldung erforderlich. Überprüfen Sie Ihren Benachrichtigungsbereich.</string>
+
+    <string name="upgrade_license_long_description">&lt;p&gt;Sie können Ihre Lizenz zu einem In-App-Kauf erweitern und müssen damit weder einen Registrierungscode eingeben, noch eine separate App herunterladen, die die Lizenz enthält. Die erweiterte Lizenz ist auf allen Ihren Android-Geräten - einschließlich Smartphones und Tablets - gültig und wird automatisch übertragen, wenn Sie Ihre Geräte aufrüsten oder ersetzen.&lt;/p&gt; &lt;p&gt;Hierbei handelt es sich um eine optionale Erweiterung. Sie können auch weiterhin Ihren Registrierungscode eingeben oder die separate Lizenz herunterladen, auch wenn sie nicht mehr angezeigt wird.&lt;/p&gt;</string>
+
+    <string name="manual_sort_long_description">&lt;p&gt;Mit dem Add-On für die manuelle Sortierung können Sie Ihre eigene Sortierungsmethode auswählen.  Sobald Sie das Add-On erworben haben, können Sie Aufgaben per Drag-and-Drop innerhalb der Liste sortieren.&lt;/p&gt; &lt;p&gt;&lt;b&gt;So gelingt die manuelle Sortierung:&lt;/b&gt;&lt;/p&gt; &lt;p&gt;Wählen Sie beim Betrachten einer Aufgabenliste die Optionen für die Sortierreihenfolge und wählen Sie dort \"Manuelle Sortierreihenfolge\" als erste Sortierreihenfolge aus.  Sobald Sie dies erledigt haben, können Sie entweder in der Aufgabenliste den Befehl \"Manuell Sortieren\" auswählen oder auf die Sortierreihenfolge-Schaltfläche tippen, um Ihre Aufgaben zu sortieren.  Sie können die Aufgaben per Drag-and-Drop sortieren.&lt;/p&gt; &lt;p&gt;Im Einstellungen-Abschnitt Betrachten und Bearbeiten finden Sie außerdem eine Option zum Sortieren durch gedrückt halten einer Aufgabe.&lt;/p&gt; &lt;p&gt;&lt;b&gt;Google-Synchronisierung:&lt;/b&gt;&lt;/p&gt; &lt;p&gt;Die manuelle Sortierreihenfolge wird, mit einigen Einschränkungen, mit Google Tasks synchronisiert. Google verwaltet die Sortierrehenfolge auf Ordnerebene, während Ultimate To-Do List sie auf Kontoebene verwaltet. Das bedeutet, dass Ihnen Aufgaben, die über mehrere Ordner (wie Hotlist oder All Tasks) verteilt sind, nicht in der gleichen Reihenfolge angezeigt werden, wie Sie Ihnen in Ihrem Google-Konto angezeigt werden.  Wenn Sie einen einzelnen Ordner in Ultimate To-Do List anzeigen, stimmen die Reihenfolgen überein.&lt;/p&gt; &lt;p&gt;Die Sortierreihenfolge der Unteraufgaben entspricht exakt der über die Web-Oberfläche von Google angezeigten Reihenfolge. Die Sortierreihenfolge wird außerdem vollständig mit anderen Geräten synchronisert.&lt;/p&gt; &lt;p&gt;&lt;b&gt;Toodledo.com-Synchronisierung:&lt;/b&gt;&lt;/p&gt; &lt;p&gt;Toodledo bietet keine manuelle Sortierung an.  Die manuelle Sortierreihenfolge wird aber mit verschiedenen Geräten, auf denen Ultimate To-Do List ausgeführt wird und die mit dem gleichen Toodledo-Konto verknüpft sind, synchronisiert.  Toodledo lässt die Übertragung der Sortierreihenfolge über seine Server zu.&lt;/p&gt; &lt;p&gt;Toodledo ermöglicht es nicht, eine Sortierreihenfolge für Unteraufgaben festzulegen.  Aufgrund von Einschränkungen bei der App-Schnittstelle von Toogledo kann diese Sortierreihenfolge nicht synchronisiert werden.&lt;/p&gt;</string>
+</resources>

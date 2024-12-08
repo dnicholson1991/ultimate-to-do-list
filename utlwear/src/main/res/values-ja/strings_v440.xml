@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="syncing_with_phone">携帯電話とデータを同期しています。</string>
+    <string name="misc">その他</string>
+</resources>

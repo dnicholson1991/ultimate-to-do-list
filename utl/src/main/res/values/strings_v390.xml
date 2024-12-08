@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name='allow_permission'>Allow Permission</string>
+    <string name='reject_permission'>Reject Permission</string>
+    <string name='file_access_permission_needed'>Access to the storage on your device is essential
+        for this app to operate. You must allow access to continue.</string>
+    <string name='location_permission_recommended'>Allowing location access is required for
+        the app\'s location based features, such as the ability to remind you about a task when
+        you reach a particular location.</string>
+    <string name='accounts_permission_required'>You must allow access to the Google accounts on your
+        device in order to link to one of those accounts.</string>
+    <string name='all_needed_for_advanced_level'>You must accept these permissions in order to
+        use the advanced level. Calendar access is needed to show tasks on your calendar.
+        Location access is needed for location-based reminders. Contacts access is needed to
+        link tasks with your contacts.</string>
+    <string name="Restore_Successful_permissions_issue">All data has been restored. The
+        application will now reboot. If you were using the calendar, contacts, or location
+        features, you will need to re-enable them in the settings area and accept the
+        permissions when asked.</string>
+    <string name='task_reminders'>Task Reminders</string>
+    <string name="notification_category_for_reminders">Notifications for task reminders.</string>
+
+    <!-- These updates are due to Google renaming Android Wear to Wear OS: -->
+    <string name='android_wear'>Wear OS</string>
+    <string name='purchase_android_wear'>Purchase the Wear OS Add-On</string>
+    <string name='android_wear_purchased'>You have purchased the Wear OS add-on</string>
+    <string name='learn_android_wear'>Learn how to use the Wear OS add-on.</string>
+    <string name='android_wear_help_title'>Using the Wear OS Add-On</string>
+    <string name='need_to_purchase_wear'>To use this feature, you will need to purchase the Wear
+        OS add-on in the settings area of Ultimate To-Do List.</string>
+    <string name='wear_non_english_limits'>Please be aware that the Wear OS add-on is currently designed
+        for English speakers.  You can use the add-on in other languages, but any voice commands must be in
+        English.  Would you like to continue?</string>
+    <string name='android_wear_add_on'>Wear OS Add-On</string>
+    <!-- TODO: Get a human translation for the 2nd <li> under the heading for enabling the add-on: -->
+    <string name='android_wear_long_description'>
+        <![CDATA[
+            <p>The Wear OS add-on gives your watch the ability to browse and check-off tasks, and
+                view and snooze reminders.</p>
+            <p><b>Enabling the Add-On After Purchasing:</b></p>
+            <ul>
+                <li>Install the app on your watch by opening the watch\'s Play Store, then
+                    locate the app in the \"Apps on your Phone\" section.</li>
+                <li>If you don\'t see Ultimate To-Do List listed, try searching the Wear OS play
+                    store for \"Ultimate To-Do List\" and installing the app from the store listing.</li>
+            </ul>
+            <p><b>How to View Your Tasks:</b></p>
+            <ul>
+                <li>To show your default task list, say \"OK Google. Start Ultimate To-Do List.\"</li>
+                <li>You can also access your default task list by opening Ultimate To-Do List from the list of apps on your watch.
+                </li>
+                <li>Once you have opened a task list, you can tap on tasks to check-them off.</li>
+            </ul>
+            <p><b>Handling Reminders:</b></p>
+            <ul>
+                <li>Reminders appear as notifications both on your handset and on your watch.</li>
+                <li>On your watch, swiping from left to right will dismiss the notification.</li>
+                <li>Tapping on the notification will reveal options to snooze the reminder and mark the task complete.</li>
+            </ul>
+        ]]></string>
+    <string name='ongoing_notifications_warning'>If you use ongoing notifications for reminders,
+        these notifications will not appear on your Wear OS watch.</string>
+
+    <string name='syncing_with_watch'>Ultimate To-Do List is syncing data with your watch.</string>
+    <string name='bt_for_voice_input'>Use Bluetooth for Voice Input</string>
+</resources>

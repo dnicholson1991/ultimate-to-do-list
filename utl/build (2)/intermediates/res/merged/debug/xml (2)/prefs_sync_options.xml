@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <CheckBoxPreference
+        android:key='auto_sync'
+        android:title='@string/Automatically_Sync'
+        android:defaultValue="true"
+    />
+    <com.customsolutions.android.utl.IntEditTextPreference 
+        android:key='sync_interval'
+        android:title='@string/Sync_Interval'
+        android:defaultValue='60'
+        android:inputType='number'
+        android:widgetLayout='@layout/pref_value'
+    />
+	<CheckBoxPreference
+        android:key='instant_upload'
+        android:title='@string/Instantly_Upload'
+        android:defaultValue="true"
+    />
+	<CheckBoxPreference
+        android:key='use_toodledo_ssl'
+        android:title='@string/Use_SSL_Toodledo'
+        android:defaultValue="true"
+    />
+	<CheckBoxPreference
+        android:key='warn_on_no_sync'
+        android:title='@string/Sync_Warning'
+        android:defaultValue="true"
+    />
+</PreferenceScreen>
+<!-- From: file:/C:/GDrive-dnicholson/Work/Android_Projects/UTL/uTL/src/main/res/xml/prefs_sync_options.xml -->

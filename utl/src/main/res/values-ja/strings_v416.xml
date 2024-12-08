@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name='resorting_tasks'>タスクのソート順を更新します。 これには数秒かかる場合があります。</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <com.customsolutions.android.utl.IntListPreference
+	    android:key='location_providers'
+	    android:title='@string/Location_Methods'
+	    android:entries='@array/location_methods'
+	    android:entryValues='@array/location_methods'
+	    android:widgetLayout='@layout/pref_value'
+	/>
+
+    <com.customsolutions.android.utl.IntEditTextPreference 
+        android:key='location_check_interval'
+        android:title='@string/How_Often_to_Check'
+ 		android:summary='@string/_Minutes_'
+        android:defaultValue='4'
+        android:inputType='number'
+        android:widgetLayout='@layout/pref_value'
+    />
+    
+    <com.customsolutions.android.utl.IntListPreference
+	    android:key='distance_measure'
+	    android:title='@string/Distance_Units'
+	    android:entries='@array/distance_measures'
+	    android:entryValues='@array/distance_measures'
+	    android:widgetLayout='@layout/pref_value'
+	/>
+    
+    <com.customsolutions.android.utl.IntEditTextPreference 
+        android:key='loc_alarm_radius'
+        android:title='@string/Remind_Within_this_Distance'
+ 		android:summary='@string/_Meters_'
+        android:defaultValue='100'
+        android:inputType='number'
+        android:widgetLayout='@layout/pref_value'
+    />
+</PreferenceScreen>
+<!-- From: file:/C:/GDrive-dnicholson/Work/Android_Projects/UTL/uTL/src/main/res/xml/prefs_location_tracking.xml -->

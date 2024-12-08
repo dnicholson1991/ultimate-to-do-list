@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name='orphaned_subtasks_warning'>Some child tasks are not displayed because their
+        parent task is filtered out.</string>
+</resources>

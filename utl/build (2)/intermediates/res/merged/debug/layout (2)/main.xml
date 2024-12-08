@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/No_Android_ID"
+	    android:id="@+id/main_no_android_id"
+	    android:textSize="?attr/utl_font_size_large"
+	    android:paddingLeft='6dp'
+	    android:paddingRight='6dp'
+	    android:paddingTop='6dp'
+	    android:visibility='gone'
+	/>
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/Purchase_Now"
+		android:id="@+id/main_purchase_button"
+		android:layout_gravity='center_horizontal'
+		android:visibility='gone'
+	/>
+</LinearLayout>
+<!-- From: file:/C:/GDrive-dnicholson/Work/Android_Projects/UTL/uTL/src/main/res/layout/main.xml -->

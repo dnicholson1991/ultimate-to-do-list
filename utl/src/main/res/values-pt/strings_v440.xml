@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notif_permission_needed">Para receber lembretes de suas tarefas, você deve permitir que o aplicativo publique notificações.</string>
+    <string name="deny_disable_reminders">Negar e desativar lembretes</string>
+    <string name="upload_usage_info">Isso carregará um registro de uso do aplicativo em nosso servidor, que pode ser usado para ajudar a resolver problemas técnicos. O registro incluirá informações sobre como o aplicativo foi usado nas últimas 72 horas. Isso incluirá os nomes de suas tarefas, mas não as notas contidas nelas. Também incluirá os títulos das suas notas, mas não o seu conteúdo. Os dados serão descartados quando não forem mais necessários.</string>
+    <string name="mandatory_upgrade_notice">Atualmente, você está usando o aplicativo sem anúncios por meio de um método de pagamento que foi desativado em 2014. Você tem um aplicativo separado em seu dispositivo chamado \"Licença Ultimate To-Do List\" que mantém um registro de seu pagamento anterior. Para cumprir as políticas da Play Store do Google, removeremos este aplicativo licenciado em 31 de janeiro de 2024 e você não poderá mais baixá-lo para seu dispositivo e usá-lo como registro de pagamento. Para continuar usando o aplicativo sem anúncios, faça upgrade para uma compra dentro do aplicativo.</string>
+    <string name="reminde_in_1_week">Lembre-me em 1 semana</string>
+    <string name="important_information">Informação importante</string>
+    <string name="close_and_delete">Fechar conta/excluir dados</string>
+    <string name="overlay_permission_for_tasker">O plug-in Tasker requer que você conceda permissão a este aplicativo para se sobrepor a outros aplicativos.</string>
+    <string name="cancel_and_disable">Cancelar e desativar</string>
+</resources>

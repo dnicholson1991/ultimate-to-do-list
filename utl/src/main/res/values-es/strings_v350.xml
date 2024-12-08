@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <!-- This refers to add-ons that can be purchased within the app, also known as extensions or
+        plug-ins. -->
+    <string name="add_ons">Complementos</string>
+
+    <string name="manual_sort_order">Criterio de ordenamiento manual</string>
+    <string name="manual_sort">Ordenar manualmente</string>
+    <string name="manual_sort_ui_change">Cuando el criterio de ordenación manual es el primer elemento aquí, presionar el botón Ordenar en la lista de tareas ingresará al modo de ordenamiento manual. Aún puede regresar a esta pantalla eligiendo la opción de menú \"Criterio de ordenación\".</string>
+    <string name="sort_order_set_incorrectly">Para poder ordenar manualmente, la primera opción del criterio de ordenación para esta vista debe estar definida en criterio de ordenación manual. ¿Desea corregir esto ahora?</string>
+    <string name="incorrect_sort_order">Criterio de ordenación incorrecto</string>
+    <string name="manual_sort_instructions">Arrastre las tareas para reordenarlas</string>
+    <string name="license">Licencia</string>
+    <string name="upgraded_license">Licencia mejorada</string>
+    <string name="license_description">Desbloquea la app para que pueda usarla después del periodo de prueba.</string>
+    <string name="upgraded_license_description">Administración de licencia más fácil. Usa la compra desde la aplicación en vez de una descarga aparte.</string>
+    <string name="manual_sort_add_on">Complemento de ordenamiento manual</string>
+    <string name="manual_sort_description">Permite que especifique su propio criterio de ordenación para las tareas. Incluye sincronización.</string>
+    <string name="tap_on_item">Toque un elemento para conocer más.</string>
+    <string name="purchased">Comprado</string>
+    <string name="purchased_with_checkmark">✓ Ya comprado</string>
+    <string name="buy_now">Comprar ahora</string>
+    <string name="buy">Comprar</string>
+    <string name="manual_sort_not_purchased">Debe comprar el complemento de ordenamiento manual para poder especificar su propio criterio de ordenación.</string>
+    <string name="learn_more">Conozca más</string>
+    <string name="add_on_missing">No se encuentra el complemento</string>
+    <string name="sort_order_">Criterio de ordenación...</string>
+    <string name="subtasks_must_be_indented">Debido a que el primer criterio de ordenación para esta vista está definido en ordenamiento manual, las subtareas tendrán sangrías para que el ordenamiento manual funcione correctamente.</string>
+    <string name="subtasks_hidden_if_parent_hidden">Debido a que el primer criterio de ordenación para esta vista está definido en ordenamiento manual, las subtareas cuyos antecesores están filtrados no serán visibles. Esto es necesario para que el ordenamiento manual funcione correctamente.</string>
+    <string name="unable_to_sort">No se pudo ordenar</string>
+    <string name="must_be_in_same_account">Las tareas que se ordenan deben estar vinculadas a la misma cuenta.</string>
+    <string name="manual_sort_on_long_press">La presión larga activa el ordenamiento manual</string>
+    <string name="first_sort_order_manusl">Cuando el primer criterio de ordenación está definido en ordenamiento manual</string>
+    <string name="sign_in_needed">es necesario iniciar sesión. Compruebe su área de notificación.</string>
+
+    <string name="upgrade_license_long_description">&lt;p&gt;Puede mejorar su licencia con una compra desde la aplicación y eliminar la necesidad de ingresar un código de registro o descargar una app diferente que contiene la licencia. La licencia mejorada funciona en todos sus dispositivos Android, incluyendo teléfonos inteligentes y tabletas, y migra con la app automáticamente cuando mejora o reemplaza dispositivos.&lt;/p&gt;&lt;p&gt;Esta es una mejora opcional. Puede continuar para ingresar un código de registro o descargar una licencia aparte incluso cuando ha sido sacada de la lista.&lt;/p&gt;</string>
+
+    <string name="manual_sort_long_description">&lt;p&gt;El complemento de ordenamiento manual le da la posibilidad de elegir su propio criterio de ordenación. Una vez comprado, puede arrastrar y soltar tareas en una lista para definir el orden.&lt;/p&gt; &lt;p&gt;&lt;b&gt;Cómo realizar un ordenamiento manual:&lt;/b&gt;&lt;/p&gt; &lt;p&gt;Al ver la lista de tareas, vaya a las opciones de ordenación y seleccione \"Criterio de ordenación manual\" como el primer criterio de ordenación. Una vez realizado, puede seleccionar el comando \"Ordenamiento manual\" de la lista de tareas o tocar el botón de criterio de ordenación para comenzar a ordenar sus tareas. Las tareas se ordenan arrastrándolas y soltándolas en sus nuevas ubicaciones.&lt;/p&gt; &lt;p&gt;También hay una opción disponible en la sección de Vista y Edición de los ajustes para realizar ordenamiento mediante presión larga en la tarea.&lt;/p&gt; &lt;p&gt;&lt;b&gt;Sincronización Google:&lt;/b&gt;&lt;/p&gt; &lt;p&gt;El criterio de ordenación manual se sincroniza con Google Tasks, pero tiene unas limitaciones. Google hace seguimiento al criterio de ordenación a nivel de carpetas y Ultimate To-Do List lleva cuenta del criterio de ordenación a nivel de cuenta. Esto significa que las vistas que muestran tareas de múltiples carpetas (como la Lista activa o Todas las tareas), no mostrarán las tareas en el mismo orden exacto que ve cuando inicia sesión en su cuenta Google en un navegador web.  Al ver una sola carpeta desde Ultimate To-Do List, las vistas estarán sincronizadas.&lt;/p&gt; &lt;p&gt;El orden de las subtareas estará completamente sincronizado con la interfaz web de Google. El criterio de ordenación también se sincroniza completamente en múltiples dispositivos.&lt;/p&gt; &lt;p&gt;&lt;b&gt;Sincronización Toodledo.com:&lt;/b&gt;&lt;/p&gt; &lt;p&gt;Toodledo no ofrece capacidad de ordenamiento manual.  Sin embargo, el criterio de ordenamiento manual se sincronizará con múltiples dispositivos que ejecuten Ultimate To-Do List vinculados a la misma cuenta Toodledo.  Toodledo permite que la información del criterio de ordenación pase por sus servidores.&lt;/p&gt; &lt;p&gt;Toodledo ofrece la capacidad de especificar el criterio de ordenación de las subtareas.  Sin embargo, debido a los límites de la interfaz que Toodledo brinda a las apps móviles, este criterio de ordenación no puede sincronizarse.&lt;/p&gt;</string>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name='email_collection_info'>Die Bereitstellung Ihrer E-Mail-Adresse ist erforderlich, um zu verknüpfen. Die Adresse wird ausschließlich zur Bereitstellung von Synchronisationsdiensten verwendet und wird nicht mit einer anderen App oder Dienstleistung geteilt.</string>
+</resources>

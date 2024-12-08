@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:utl="http://schemas.android.com/apk/res-auto" >
+    <item 
+    	android:id='@+id/menu_cancel'
+        android:icon='?attr/ab_cancel'
+        android:title='@string/Cancel'
+        utl:showAsAction='always|withText'
+    />
+    <item 
+    	android:id='@+id/menu_save'
+        android:icon='?attr/ab_search'
+        android:title='@string/Search_Now'
+        utl:showAsAction='always|withText'
+    />
+</menu>

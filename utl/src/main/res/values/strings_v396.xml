@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_subtasks_in_subtasks2">Google does not allow subtasks within subtasks</string>
+    <string name="google_tasks_conflict">This account is not compatible with Google Tasks because it has subtasks within subtasks. One of the incompatible tasks has the following title:</string>
+    <string name='link_google_or_toodledo'>Link your Google or Toodledo account to access
+        your tasks from any device</string>
+    <string name='hotlist_info'>The Hotlist shows your most important tasks at a glance</string>
+    <string name='view_many_ways'>View your tasks in many ways and set up your own custom views</string>
+    <string name='supported_fields'>Supports start/due dates, reminders, folders, repetition,
+        timers, and more</string>
+    <string name='filter_info'>Filter and sort your tasks any way you like</string>
+    <string name='use_notes'>Use the notes area to keep track of reference information</string>
+    <string name='link_to_locations'>Link your tasks to locations and plan your day</string>
+    <string name='split_screen_info'>Multiple split-screen views are available for tablets</string>
+    <string name='widget_info'>Customizable widgets help you access your tasks quickly</string>
+    <string name='customize_display'>Customize the display to show the information most
+        important to you</string>
+    <string name='numerous_options'>Numerous options are available to customize the app for
+        your needs</string>
+    <string name='enable_disable_features'>Enable the features you want, and disable the ones
+        you don\'t</string>
+    <string name='supported_fields2'>Supports start and due dates, reminders, folders,
+        repetition, timers, priorities, tags, and more</string>
+</resources>

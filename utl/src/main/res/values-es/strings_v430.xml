@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name='need_exact_alarm_permission'>Para configurar recordatorios para horas exactas, debe otorgar permiso a esta aplicación para hacerlo.</string>
+</resources>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <string name="orphaned_subtasks_warning">Algunas tareas secundarias no se muestran ya que su tarea primaria está filtrada.</string>
+</resources>

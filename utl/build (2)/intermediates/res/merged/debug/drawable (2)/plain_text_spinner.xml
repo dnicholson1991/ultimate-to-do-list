@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"
+          android:drawable="@drawable/ab_button_press_bg_dark" />
+    <item android:state_pressed="false" android:state_focused="true"
+          android:drawable="@drawable/ab_button_press_bg_dark" />
+    <item android:drawable="@android:color/transparent" />
+</selector><!-- From: file:/C:/GDrive-dnicholson/Work/Android_Projects/UTL/uTL/src/main/res/drawable/plain_text_spinner.xml -->

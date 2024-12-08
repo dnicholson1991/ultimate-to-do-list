@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notif_permission_needed">Para recibir recordatorios de sus tareas, debe otorgar permiso a la aplicación para publicar notificaciones.</string>
+    <string name="deny_disable_reminders">Denegar y deshabilitar recordatorios</string>
+    <string name="upload_usage_info">Esto cargará un registro del uso de la aplicación en nuestro servidor, que puede usarse para ayudar a resolver problemas técnicos. El registro incluirá información sobre cómo se utilizó la aplicación durante las últimas 72 horas. Esto incluirá los nombres de sus tareas, pero no las notas que contienen. También incluirá los títulos de sus notas pero no su contenido. Los datos se descartarán cuando ya no sean necesarios.</string>
+    <string name="mandatory_upgrade_notice">Actualmente estás utilizando la aplicación sin publicidad a través de un método de pago que se retiró en 2014. Tienes una aplicación separada en tu dispositivo llamada \"Ultimate To-Do List License\" que mantiene un registro de tu pago anterior. Para cumplir con las políticas de Play Store de Google, eliminaremos esta aplicación con licencia el 31 de enero de 2024 y ya no podrá descargarla en su dispositivo ni usarla como registro de pago. Para continuar usando la aplicación sin anuncios, actualice a una compra dentro de la aplicación.</string>
+    <string name="reminde_in_1_week">Recuérdamelo en 1 semana</string>
+    <string name="important_information">Información importante</string>
+    <string name="close_and_delete">Cerrar cuenta/eliminar datos</string>
+    <string name="overlay_permission_for_tasker">El complemento Tasker requiere que le otorgue permiso a esta aplicación para dibujar sobre otras aplicaciones.</string>
+    <string name="cancel_and_disable">Cancelar y deshabilitar</string>
+</resources>

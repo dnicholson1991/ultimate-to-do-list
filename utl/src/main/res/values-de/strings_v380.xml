@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <!-- Note to Translators: This release includes an in-app purchase which provides a plugin
+         for the Tasker automation app for Android. The word "Tasker" in this file refers to
+         this app. -->
+    <string name="tasker_plugin">Tasker-Plugin</string>
+    <string name="tasker_plugin_short_description">Ein Plugin für die Tasker-App. Es unterstützt die automatische Aufgabenerstellung und Fertigstellung.</string>
+    <string name="tasker_plugin_description">Ein Plugin für die Tasker-Automatisierungs-App. Es unterstützt die automatische Aufgabenerstellung, die Kennzeichnung von Aufgaben als abgeschlossen und die Anzeige von Listen.</string>
+    <string name="tasker_plugin_long_description">&lt;p&gt; Dieses Plugin arbeitet mit der &lt;a href=\'https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm\'&gt;Tasker&lt;/a&gt; Automatisierungs-App. Sie ermöglicht Ihnen, einige gemeinsame Aufgaben zu automatisieren. Zum Beispiel könnte nach einem verpassten Anruf ein Aufgabenelement erstellt werden, um die Person zurückzurufen. &lt;/p&gt; &lt;p&gt; Die folgenden Aktionen werden unterstützt. Diese können ausgelöst werden, wenn Ereignisse eintreten, die Sie angegeben haben. &lt;/p&gt; &lt;ul&gt; &lt;li&gt; Erstellen Sie ein neues Aufgabenelement. Sie können den Titel angeben oder eine Notiz, Daten, eine Erinnerung, sich wiederholende Muster, Verzeichnisse und viele andere Bereiche. &lt;/li&gt; &lt;li&gt; Markieren Sie ein Aufgabenelement als abgeschlossen. &lt;/li&gt; &lt;li&gt; Rufen Sie eine Aufgabenliste Ihrer Wahl auf. &lt;/li&gt; &lt;/ul&gt; &lt;p&gt; Das Plugin stellt auch ein Tasker-Ereignis bereit, das ausgelöst wird, wenn ein Aufgabenelement Ihrer Wahl als abgeschlossen markiert wurde. Nach dem Abschluss der Aufgabenelemente können Sie Tasker eine Reihe von Aktionen durchführen lassen. &lt;/p&gt; &lt;p&gt; Variablenersetzung wird auch in den Titel- und Notizenfeldern der Aufgabenelemente unterstützt. Zum Beispiel können Sie %C NAME im Titel eingeben, wodurch der Name der Person eingesetzt wird, die zuletzt anrief. &lt;/p&gt;&lt;p&gt;WICHTIG: Wenn auf Ihrem Gerät Android 10 oder höher ausgeführt wird und Sie möchten, dass Tasker eine Aufgabenliste starten kann, müssen Sie der Ultimate To-Do List die Berechtigung zum Zeichnen über andere Apps gewähren. Das können Sie im Bereich Apps Ihrer Systemeinstellungen tun.&lt;/p&gt;</string>
+
+    <string name="task_options">Aufgabenoptionen</string>
+    <string name="account_doesnt_exist">Das ausgewählte Konto existiert nicht mehr.</string>
+    <string name="Minutes">Minuten</string>
+    <string name="Hours">Stunden</string>
+    <string name="reminder_time_needed">Es muss eine Erinnerungszeit eingestellt werden, wenn ein Erinnerungsdatum festgelegt wurde.</string>
+    <string name="cannot_create_task">Kann Aufgabe nicht erstellen.</string>
+    <string name="missing_title">Der Titel der Aufgabe fehlt.</string>
+    <string name="task_account_deleted">Das Konto des Aufgabe existiert nicht mehr.</string>
+    <string name="task_folder_deleted">Das Aufgabenverzeichnis existiert nicht mehr.</string>
+    <string name="mark_task_complete">Aufgabe als abgeschlossen markieren</string>
+    <string name="show_task_list">Aufgabenliste zeigen</string>
+    <string name="select_task_list">Liste wählen</string>
+    <string name="task_list_deleted">Diese Aufgabenliste wurde gelöscht.</string>
+    <string name="task_completed">Die Aufgabe ist abgeschlossen</string>
+    <string name="event_triggered_when_complete">Ereignis auslösen, wenn diese Aufgabe als abgeschlossen gekennzeichnet wurde:</string>
+    <string name="task_completion_event">Aufgabenabschluss-Ereignis</string>
+    <string name="tasker_plugin_needed">Dies erfordert einen Kauf des Tasker-Plugins.</string>
+    <string name="please_run_utl_first">Bitte führen Sie \"Ultimate To-Do List\" aus und richten Sie zuerst Ihre Aufgabenliste ein.</string>
+
+    <!-- Note to translators: [title] will be replaced with an actual task title in the code. Do not
+         translate [title]. -->
+    <string name="triggered_when_marked_complete">Wird ausgelöst, wenn \"[title]\" als abgeschlossen markiert wird.</string>
+
+    <!-- Note to translators: In the following strings, [count] will be replaced with a number,
+         so do not translate [count]. -->
+    <string name="in_1_minute">In 1 Minute</string>
+    <string name="in_x_minutes">In [count] Minuten</string>
+    <string name="in_1_hour">In 1 Stunde</string>
+    <string name="in_x_hours">In [count] Stunden</string>
+    <string name="in_x_days">In [count] Tagen</string>
+    <string name="in_1_week">In 1 Woche</string>
+    <string name="in_x_weeks">In [count] Wochen</string>
+    <string name="in_1_month">In 1 Monat</string>
+    <string name="in_x_months">In [count] Monaten</string>
+    <string name="in_1_year">In 1 Jahr</string>
+    <string name="in_x_years">In [count] Jahren</string>
+
+    <!-- Note to translators: The app will display the next 2 strings as one sentence, with a time
+         duration in between, such as "2 days", "5 minutes", and "1 week".
+         For example: "Set the date/time to 2 days from the current date/time." -->
+    <string name="set_date_time_to">Datum/Zeit auf</string>
+    <string name="from_current_date_time">ab aktuellem Datum/Uhrzeit stellen.</string>
+
+    <!-- Note to translators: To not translate [task_name] in this string. -->
+    <string name="no_task_with_name">Keine Aufgabe mit der Bezeichnung \"[task_name]\" wurde gefunden.</string>
+</resources>

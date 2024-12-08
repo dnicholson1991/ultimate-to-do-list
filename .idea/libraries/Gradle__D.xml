@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: D" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/uTL/libs/in-app-purchasing-2.0.76.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

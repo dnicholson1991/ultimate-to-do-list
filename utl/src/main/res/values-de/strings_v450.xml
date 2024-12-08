@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="survey_header">Wichtige Informationen</string>
+    <string name="help_us_keep">Helfen Sie mit, die App im Google Play Store zu behalten</string>
+    <string name="survey_description" examples="Ultimate To-Do List">Wenn Sie zu beschäftigt sind, um diese wichtige Nachricht jetzt zu lesen, können Sie sie später im Hilfebereich anzeigen.
+\n
+\n%1$s steht an einem Scheideweg. Der steigende Aufwand, den Google auferlegt, um die Richtlinien einzuhalten und Verhaltensänderungen in neuen Android-Versionen zu berücksichtigen, macht es uns unmöglich, die App ohne zusätzliche Einnahmen aufrechtzuerhalten. Das aktuelle System, das eine Kombination aus nicht aufdringlichen Banneranzeigen und einmaligen Käufen verwendet, ist unzureichend. Ohne zusätzliche Einnahmen wird die App irgendwann aus Google Play entfernt.
+\n
+\nWir bitten unsere langjährigen Nutzer um Feedback, das uns bei der Entscheidung hilft, wie wir weiter vorgehen. Insbesondere möchten wir wissen, ob Sie bereit sind, entweder eine geringe jährliche Gebühr zu zahlen oder aufdringlichere Werbung (wie Popups) zu akzeptieren, um die App weiterhin nutzen zu können. Im Gegenzug versprechen wir, die App zu pflegen und mindestens einmal pro Jahr neue Funktionen zu veröffentlichen. Außerdem würden alle bestehenden kostenpflichtigen Add-Ons ohne zusätzliche Kosten angeboten.
+\n
+\nIn der folgenden Umfrage mit drei Fragen möchten wir Sie fragen, wozu Sie bereit wären und an welchen neuen Funktionen Sie am meisten interessiert sind.</string>
+    <string name="dont_ask_again">Nicht noch einmal fragen</string>
+    <string name="start_survey">Umfrage starten</string>
+    <string name="survey">Umfrage</string>
+    <string name="survey_q1">Frage 1 von 3: Was wären Sie bereit, jährlich zu zahlen, um weiterhin Zugriff auf die App zu haben und neue Funktionen zu erhalten?</string>
+    <string name="pay_up_to" examples="$5.00">Ich würde bis zu %1$s pro Jahr zahlen.</string>
+    <string name="rather_have_ads">Ich werde nicht zahlen, bin aber bereit, aufdringlichere Werbung, beispielsweise Popups, in Kauf zu nehmen.</string>
+    <string name="no_ads_or_purchases">Weder noch. Ich würde lieber zu einer anderen App wechseln.</string>
+    <string name="next">Nächste</string>
+    <string name="back">Zurück</string>
+    <string name="survey_q2">Frage 2 von 3: An welchen neuen Funktionen wären Sie interessiert? (Alle zutreffenden Antworten ankreuzen.)</string>
+    <string name="wear_task_creation">Möglichkeit, mit der Wear OS-App neue Aufgaben zu erstellen.</string>
+    <string name="voice_support">Unterstützung für Spracheingabe in anderen Sprachen als Englisch.</string>
+    <string name="task_dependencies">Die Möglichkeit anzugeben, wann eine Aufgabe von einer anderen abhängt.</string>
+    <string name="modern_ui">Modernisierung der Benutzeroberfläche.</string>
+    <string name="checklists">Zurücksetzbare Checklisten (Einkaufsliste, Packliste etc.)</string>
+    <string name="more_sync_options">Eine zusätzliche Synchronisierungsoption, beispielsweise zu Google Drive oder einem neuen Dienst, den wir erstellen. Dies wäre günstiger als ein kostenpflichtiges Toodledo-Konto, vermeidet die Fehler und Einschränkungen von Google Tasks und ermöglicht die Verfügbarkeit und Synchronisierung aller Funktionen der App auf allen Geräten. Diese Option würde beispielsweise Unteraufgaben von Unteraufgaben und die Synchronisierung von benutzerdefinierten Ansichten unterstützen. Ein Nachteil dieser Option ist, dass es keine webbasierte Schnittstelle zum Verwalten von Aufgaben auf einem Computer gäbe, obwohl Sie hierfür einen Android-Emulator verwenden könnten.</string>
+    <string name="other_features">Weitere Funktionen, die Sie gerne sehen würden:</string>
+    <string name="no_features">An neuen Features bin ich nicht interessiert.</string>
+    <string name="please_select_option">Bitte wähle eine Option.</string>
+    <string name="survey_q3">Frage 3 von 3: Welche der von Ihnen ausgewählten neuen Funktionen hätte für Sie die höchste Priorität?</string>
+    <string name="survey_q3_2">Frage 3 von 3 (optional): Wenn Sie noch weiteres Feedback haben, können Sie es hier gerne einfügen:</string>
+    <string name="more_sync_options2">Weitere Synchronisierungsoptionen.</string>
+    <string name="the_other_features">Die weiteren von mir angegebenen Funktionen.</string>
+    <string name="other_feedback">Wenn Sie sonstiges Feedback haben, geben Sie es hier ein:</string>
+    <string name="submit_survey">Meine Antworten senden</string>
+    <string name="submitting">Senden…</string>
+    <string name="survey_submitted">Ihre Antworten wurden übermittelt. Vielen Dank für das Feedback! Wir werden ein Update in der App veröffentlichen, sobald wir uns über die nächsten Schritte entschieden haben.</string>
+    <string name="technical_error">Entschuldigung, es ist ein technischer Fehler aufgetreten.</string>
+    <string name="network_error">Keine Verbindung möglich. Überprüfen Sie Ihre Internetverbindung.</string>
+</resources>

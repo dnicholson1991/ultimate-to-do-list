@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ultimate To-Do List</string>
+
+    <string name="processing">Wird bearbeitet ...</string>
+    <string name='try_again'>Erneut versuchen</string>
+    <string name='cancel'>Abbrechen</string>
+    <string name="success">Erfolg</string>
+
+    <!-- A reminder for a task can be snoozed (postponed) by one of these amounts: -->
+    <string name="snooze_5_min">5 Minuten</string>
+    <string name="snooze_15_min">15 Minuten</string>
+    <string name="snooze_30_min">30 Minuten</string>
+    <string name="snooze_1_hour">1 Stunde</string>
+    <string name="snooze_2_hours">2 Stunden</string>
+    <string name="snooze_3_hours">3 Stunden</string>
+    <string name="snooze_4_hours">4 Stunden</string>
+    <string name="snooze_5_hours">5 Stunden</string>
+    <string name="snooze_6_hours">6 Stunden</string>
+    <string name="snooze_9_hours">9 Stunden</string>
+    <string name="snooze_12_hours">12 Stunden</string>
+    <string name="snooze_1_day">1 Tag</string>
+
+</resources>

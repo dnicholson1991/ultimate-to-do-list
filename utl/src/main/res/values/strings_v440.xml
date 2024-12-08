@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name='notif_permission_needed'>In order to receive reminders for your tasks,
+        you must allow permission for the app to post notifications.</string>
+    <string name='deny_disable_reminders'>Deny and Disable Reminders</string>
+    <string name='upload_usage_info'>This will upload a log of the app\'s usage to our
+        server, which can be used to help solve technical problems. The log will include
+        information on how the app was used over the past 72 hours. This will include the names of
+        your tasks, but not the notes within. It will also include the titles of your notes but
+        not their contents. The data will be discarded when it is no longer needed.</string>
+    <string name='mandatory_upgrade_notice'>You are currently using the app ad-free through
+        a payment method that was retired in 2014. You have a separate app on your device named
+        \"Ultimate To-Do List License\" that keeps a record of your prior payment. To comply
+        with Google\'s Play Store policies, we will be removing this license app on January
+        31, 2024, and you will no longer be able to download this to your device and use it
+        as a record of payment. To continue using the app without ads, please upgrade to
+        an in-app purchase.</string>
+    <string name='reminde_in_1_week'>Remind me in 1 week</string>
+    <string name='important_information'>Important Information</string>
+    <string name='close_and_delete'>Close Account / Delete Data</string>
+    <string name='overlay_permission_for_tasker'>The Tasker plugin requires that you grant this
+        app permission to draw over other apps.</string>
+    <string name='cancel_and_disable'>Cancel and Disable</string>
+</resources>

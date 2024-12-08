@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name='email_collection_info'>Providing your e-mail address is required in order to
+        link. The address will be used solely to provide synchronization services and will not
+        be shared with any other app or service.</string>
+</resources>

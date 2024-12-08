@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:utl="http://schemas.android.com/apk/res-auto" >
+    <item 
+    	android:id='@+id/menu_note_list_add'
+        android:icon='?attr/ab_add'
+        android:title='@string/New_Task'
+        utl:showAsAction='always'
+    />
+    <item 
+    	android:id='@+id/menu_note_list_search'
+        android:icon='?attr/ab_search'
+        android:title='@string/Search'
+        utl:showAsAction='always'
+    />
+    <item 
+    	android:id='@+id/menu_task_list_voice_mode'
+        android:icon='?attr/ab_microphone'
+        android:title='@string/Start_Voice_Mode'
+        utl:showAsAction='always'
+    />
+    <item 
+    	android:id='@+id/menu_note_list_start_multi_select'
+        android:icon='?attr/ab_multi_select'
+        android:title='@string/Multi_Select'
+        utl:showAsAction='ifRoom'
+    />
+	<item 
+    	android:id='@+id/menu_note_list_sync_now'
+        android:icon='?attr/ab_sync_now'
+        android:title='@string/Sync_Now'
+        utl:showAsAction='ifRoom'
+    />
+	<item 
+    	android:id='@+id/menu_note_list_view_refresh'
+        android:icon='?attr/ab_view_refresh'
+        android:title='@string/Refresh_This_View'
+        utl:showAsAction='ifRoom'
+    />
+</menu>
+<!-- From: file:/C:/GDrive-dnicholson/Work/Android_Projects/UTL/uTL/src/main/res/menu/note_list.xml -->

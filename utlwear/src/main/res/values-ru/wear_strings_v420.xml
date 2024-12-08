@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TODO: Use a human translation: -->
+    <string name='utl_not_installed'>Ваши часы либо не подключены к вашему телефону, либо версия приложения для телефона не установлена.</string>
+</resources>

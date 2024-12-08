@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Layout for the scrollable task list widget with larger rows to be more finger-friendly.  Light Theme -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/widget_background_color_light"
+    android:id="@+id/widget_task_list_container"
+>
+	<!-- A command and title bar at the top: -->
+	<LinearLayout
+		android:id="@+id/widget_task_list_top_bar_container"
+		android:layout_width="match_parent"
+		android:layout_height="48dp"
+		android:orientation="horizontal"
+		android:background='@drawable/tb_background_light'
+		android:gravity="center_vertical"
+	>
+		<TextView
+	  		android:id="@+id/widget_task_list_title"
+			android:layout_width="0dp"
+	  		android:layout_height="wrap_content"
+	  		android:text="@string/To_Do_List_Underline"
+	  		android:textColor="@color/widget_text_color_light"
+	  		android:scrollHorizontally="true"
+	  		android:layout_weight="1"
+	  		android:gravity="center_vertical"
+	  		android:layout_gravity="center_vertical"
+	  		android:paddingLeft='6dp'
+	  		android:textSize='@dimen/widget_text_size_large'
+	  		android:ellipsize="end"
+			android:maxLines="1"
+			android:singleLine="true"
+	  	/>
+		<ImageView
+			android:id="@+id/widget_task_list_settings"
+			android:src="@drawable/ab_settings_light"
+			android:layout_width='42dp'
+			android:layout_height='match_parent'
+			android:background="?android:attr/selectableItemBackground"
+			android:paddingTop='5dp'
+			android:paddingBottom='5dp'
+			android:paddingLeft='5dp'
+			android:paddingRight='5dp'
+			android:layout_gravity='center_vertical'
+		/>
+		<ImageView
+			android:id="@+id/widget_task_list_add"
+			android:src="@drawable/ab_add_light"
+			android:layout_width='40dp'
+			android:layout_height='match_parent'
+			android:background="?android:attr/selectableItemBackground"
+			android:paddingTop='6dp'
+			android:paddingBottom='6dp'
+			android:paddingLeft='6dp'
+			android:paddingRight='6dp'
+			android:layout_gravity='center_vertical'
+		/>
+		<ImageView
+			android:id="@+id/widget_task_list_refresh"
+			android:src="@drawable/ab_refresh_light"
+			android:layout_width='40dp'
+			android:layout_height='match_parent'
+			android:background="?android:attr/selectableItemBackground"
+			android:paddingTop='6dp'
+			android:paddingBottom='6dp'
+			android:paddingLeft='6dp'
+			android:paddingRight='6dp'
+			android:layout_gravity='center_vertical'
+		/>
+	</LinearLayout>
+	
+	<!-- The Actual List -->
+	<ListView 
+    	android:id="@+id/widget_task_list_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight='1'
+        android:layout_gravity="fill_vertical"
+	    android:gravity="fill_vertical"
+	    android:dividerHeight="1px"
+	    android:divider="@color/widget_divider_color"
+    	android:fadingEdgeLength="0px"
+    />
+	
+	<!-- Display this when there are no items -->
+	<TextView
+  		android:id="@+id/widget_task_list_empty"
+		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:text="@string/Nothing_to_do"
+  		android:textColor="@color/widget_text_color_light"
+  		android:textSize='@dimen/widget_text_size_normal'
+  	/>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1" 
+    android:paddingLeft='6dp'
+    android:paddingRight='3dp'
+>
+    <TableRow android:id="@+id/tag_picker_row">
+	<TextView
+ 		android:id="@+id/tag_name"
+		android:gravity="center_vertical"
+		android:layout_gravity="center_vertical"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:minHeight='48dp'
+	    android:textSize="?attr/utl_font_size_normal"
+	/>		
+	<CheckBox
+		android:id="@+id/tag_checkbox"
+		android:layout_gravity="right|center_vertical"
+		android:gravity="right|center_vertical"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+		android:clickable="false"
+	/>
+	</TableRow>
+	
+</TableLayout>
+<!-- From: file:/C:/GDrive-dnicholson/Work/Android_Projects/UTL/uTL/src/main/res/layout/tag_picker_row.xml -->

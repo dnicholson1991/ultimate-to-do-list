@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	>
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight='1'
+	>
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+		>
+			<!-- Upload a Log -->
+			<LinearLayout
+				android:id="@+id/help_upload_log"
+				android:layout_width='match_parent'
+				android:layout_height='wrap_content'
+				android:minHeight='48dp'
+				android:orientation='vertical'
+				android:gravity='center_vertical'
+				android:paddingLeft='8dp'
+				android:paddingRight='8dp'
+				android:background='?attr/cb_button_bg'
+			>
+				<TextView
+					android:layout_width='wrap_content'
+					android:layout_height='wrap_content'
+					android:textSize='?attr/utl_font_size_large'
+					android:text='@string/Upload_Usage_Info'
+				/>
+				<TextView
+					android:layout_width='wrap_content'
+					android:layout_height='wrap_content'
+					android:text='@string/Upload_Usage_Info2'
+					android:textStyle="italic"
+				/>
+			</LinearLayout>
+
+			<!-- Separator -->
+			<View
+				android:id='@+id/help_upload_separator'
+				android:layout_width="match_parent"
+				android:layout_height="1px"
+				android:background="?attr/list_divider_color"
+			/>
+
+			<!-- Download -->
+			<LinearLayout
+				android:id="@+id/help_download"
+				android:layout_width='match_parent'
+				android:layout_height='wrap_content'
+				android:minHeight='48dp'
+				android:orientation='vertical'
+				android:gravity='center_vertical'
+				android:paddingLeft='8dp'
+				android:paddingRight='8dp'
+				android:background='?attr/cb_button_bg'
+				>
+				<TextView
+					android:layout_width='wrap_content'
+					android:layout_height='wrap_content'
+					android:textSize='?attr/utl_font_size_large'
+					android:text='@string/download_latest'
+					/>
+				<TextView
+					android:layout_width='wrap_content'
+					android:layout_height='wrap_content'
+					android:text='https://customsolutions.us/utl'
+					android:textStyle="italic"
+					/>
+			</LinearLayout>
+
+			<!-- Separator -->
+			<View
+				android:id='@+id/help_download_separator'
+				android:layout_width="match_parent"
+				android:layout_height="1px"
+				android:background="?attr/list_divider_color"
+				/>
+
+			<!-- Contact by Email -->
+			<LinearLayout
+				android:id="@+id/help_email"
+				android:layout_width='match_parent'
+				android:layout_height='wrap_content'
+				android:minHeight='48dp'
+				android:orientation='vertical'
+				android:gravity='center_vertical'
+				android:paddingLeft='8dp'
+				android:paddingRight='8dp'
+				android:background='?attr/cb_button_bg'
+				>
+				<TextView
+					android:layout_width='wrap_content'
+					android:layout_height='wrap_content'
+					android:textSize='?attr/utl_font_size_large'
+					android:text='@string/contact_by_email'
+					/>
+				<TextView
+					android:layout_width='wrap_content'
+					android:layout_height='wrap_content'
+					android:text='support@customsolutions.us'
+					android:textStyle="italic"
+					/>
+			</LinearLayout>
+
+			<!-- Separator -->
+			<View
+				android:id='@+id/help_email_separator'
+				android:layout_width="match_parent"
+				android:layout_height="1px"
+				android:background="?attr/list_divider_color"
+				/>
+
+
+			<!-- Color-Coding -->
+			<LinearLayout
+				android:id="@+id/help_color_code"
+				android:layout_width='match_parent'
+				android:layout_height='wrap_content'
+				android:minHeight='48dp'
+				android:orientation='vertical'
+				android:gravity='center_vertical'
+				android:paddingLeft='8dp'
+				android:paddingRight='8dp'
+				android:background='?attr/cb_button_bg'
+			>
+				<TextView
+					android:layout_width='wrap_content'
+					android:layout_height='wrap_content'
+					android:textSize='?attr/utl_font_size_large'
+					android:text='@string/Color_Code_Reference'
+				/>
+				<TextView
+					android:layout_width='wrap_content'
+					android:layout_height='wrap_content'
+					android:text='@string/Color_Code_Reference2'
+					android:textStyle="italic"
+				/>
+			</LinearLayout>
+
+			<!-- Separator -->
+			<View android:layout_width="match_parent"
+				android:layout_height="1px"
+				android:background="?attr/list_divider_color"
+			/>
+
+			<!-- Browse Source -->
+			<LinearLayout
+				android:id="@+id/help_source"
+				android:layout_width='match_parent'
+				android:layout_height='wrap_content'
+				android:minHeight='48dp'
+				android:orientation='vertical'
+				android:gravity='center_vertical'
+				android:paddingLeft='8dp'
+				android:paddingRight='8dp'
+				android:background='?attr/cb_button_bg'
+				>
+				<TextView
+					android:layout_width='wrap_content'
+					android:layout_height='wrap_content'
+					android:textSize='?attr/utl_font_size_large'
+					android:text='@string/view_source'
+					/>
+				<TextView
+					android:layout_width='wrap_content'
+					android:layout_height='wrap_content'
+					android:text='@string/view_source2'
+					android:textStyle="italic"
+					/>
+			</LinearLayout>
+
+			<!-- Separator -->
+			<View
+				android:id='@+id/help_source_separator'
+				android:layout_width="match_parent"
+				android:layout_height="1px"
+				android:background="?attr/list_divider_color"
+				/>
+
+			<!-- Privacy Policy: -->
+			<LinearLayout
+				android:id="@+id/help_privacy_policy"
+				android:layout_width='match_parent'
+				android:layout_height='wrap_content'
+				android:minHeight='48dp'
+				android:orientation='vertical'
+				android:gravity='center_vertical'
+				android:paddingLeft='8dp'
+				android:paddingRight='8dp'
+				android:background='?attr/cb_button_bg'
+				>
+				<TextView
+					android:layout_width='wrap_content'
+					android:layout_height='wrap_content'
+					android:textSize='?attr/utl_font_size_large'
+					android:text='@string/privacy_policy'
+					/>
+			</LinearLayout>
+
+			<!-- Separator -->
+			<View android:layout_width="match_parent"
+				  android:layout_height="1px"
+				  android:background="?attr/list_divider_color"
+				/>
+
+			<!-- Close Account / Delete Data: -->
+			<LinearLayout
+				android:id="@+id/help_close_and_delete"
+				android:layout_width='match_parent'
+				android:layout_height='wrap_content'
+				android:minHeight='48dp'
+				android:orientation='vertical'
+				android:gravity='center_vertical'
+				android:paddingLeft='8dp'
+				android:paddingRight='8dp'
+				android:background='?attr/cb_button_bg'
+				>
+				<TextView
+					android:layout_width='wrap_content'
+					android:layout_height='wrap_content'
+					android:textSize='?attr/utl_font_size_large'
+					android:text='@string/close_and_delete'
+					/>
+			</LinearLayout>
+
+			<!-- Separator -->
+			<View android:layout_width="match_parent"
+				android:layout_height="1px"
+				android:background="?attr/list_divider_color"
+				/>
+
+			<!-- Current Version -->
+			<LinearLayout
+				android:id="@+id/help_version"
+				android:layout_width='match_parent'
+				android:layout_height='wrap_content'
+				android:minHeight='48dp'
+				android:orientation='horizontal'
+				android:gravity='center_vertical'
+				android:paddingLeft='8dp'
+				android:paddingRight='8dp'
+				android:background='?attr/cb_button_bg'
+			>
+				<TextView
+					android:layout_width='0dp'
+					android:layout_height='wrap_content'
+					android:textSize='?attr/utl_font_size_large'
+					android:text='@string/Current_Version_'
+					android:layout_weight='1'
+				/>
+				<TextView
+					android:id='@+id/help_version_txt2'
+					android:layout_width='wrap_content'
+					android:layout_height='wrap_content'
+					android:textSize='?attr/utl_font_size_large'
+				/>
+			</LinearLayout>
+
+			<!-- Separator -->
+			<View
+				android:id='@+id/help_license_divider'
+				android:layout_width="match_parent"
+				android:layout_height="1px"
+				android:background="?attr/list_divider_color"
+			/>
+
+		</LinearLayout>
+	</ScrollView>
+	<com.customsolutions.android.utl.BannerAd style='@style/BannerAd' />
+</LinearLayout>

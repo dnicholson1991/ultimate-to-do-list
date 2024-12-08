@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <!-- Note to Translators: This release includes an in-app purchase which provides a plugin
+         for the Tasker automation app for Android. The word "Tasker" in this file refers to
+         this app. -->
+    <string name="tasker_plugin">Plug-in para Tasker</string>
+    <string name="tasker_plugin_short_description">Un plug-in para la aplicación Tasker. Permite la creación y finalización automatizada de tareas.</string>
+    <string name="tasker_plugin_description">Un plug-in para la aplicación de automatización Tasker. Permite la creación automatizada de tareas, el marcado de las tareas completadas y la visualización de listas.</string>
+    <string name="tasker_plugin_long_description">&lt;p&gt;Este plug-in funciona con la aplicación de automatización &lt;a href= \'https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm\' &gt; Tasker&lt;/a&gt;. Le permite automatizar algunas tareas comunes. Por ejemplo, después de perder una llamada, puede crear una tarea para devolver la llamada.&lt;/p&gt; &lt;p&gt;Las siguientes acciones son compatibles. Éstas se pueden activar cuando ocurran los eventos que usted especifique.&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Cree una nueva tarea. Puede especificar el título, notas, fechas, recordatorios, patrones de repetición, carpetas y muchos otros campos.&lt;/li&gt; &lt;li&gt;Marque una tarea como completada.&lt;/li&gt; &lt;li&gt;Muestre una lista de tareas de su elección.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;El plug-in también ofrece un evento Tasker que será activado cuando una tarea de su elección se marque como completada. Tras la finalización de la tarea, puede hacer que Tasker realice una serie de acciones.&lt;/p&gt; &lt;p&gt;La sustitución variable también está disponible para los campos de los títulos y notas de las tareas. Por ejemplo, puede incluir %CNOMBRE en el título para insertar el nombre de la última persona que llamó.&lt;/p&gt;&lt;p&gt;IMPORTANTE: si tu dispositivo ejecuta Android 10 o posterior y quieres que Tasker pueda iniciar una lista de tareas, deberás otorgarle permiso a Ultimate To-Do List para aparecer sobre otras aplicaciones. Puedes hacerlo en Aplicaciones, en los ajustes de tu sistema.&lt;/p&gt;</string>
+
+    <string name="task_options">Opciones de tarea</string>
+    <string name="account_doesnt_exist">La cuenta seleccionada ya no existe.</string>
+    <string name="Minutes">Minutos</string>
+    <string name="Hours">Horas</string>
+    <string name="reminder_time_needed">Se debe establecer una hora para el recordatorio si se establece una fecha para el recordatorio.</string>
+    <string name="cannot_create_task">No se puede crear la tarea.</string>
+    <string name="missing_title">Falta el título de la tarea.</string>
+    <string name="task_account_deleted">La cuenta de la tarea ya no existe.</string>
+    <string name="task_folder_deleted">La carpeta de la tarea ya no existe.</string>
+    <string name="mark_task_complete">Marcar tarea como completada</string>
+    <string name="show_task_list">Mostrar lista de tareas</string>
+    <string name="select_task_list">Elija una lista</string>
+    <string name="task_list_deleted">Esta lista de tareas ha sido eliminada.</string>
+    <string name="task_completed">La tarea se ha completado</string>
+    <string name="event_triggered_when_complete">Activar el evento cuando esta tarea se marque como completada:</string>
+    <string name="task_completion_event">Evento de finalización de las tareas</string>
+    <string name="tasker_plugin_needed">Es necesario comprar el plug-in para Tasker.</string>
+    <string name="please_run_utl_first">Por favor, ejecute Ultimate To-Do List y configure su lista de tareas en primer lugar.</string>
+
+    <!-- Note to translators: [title] will be replaced with an actual task title in the code. Do not
+         translate [title]. -->
+    <string name="triggered_when_marked_complete">Se activa cuando \"[title]\" se marca como completada.</string>
+
+    <!-- Note to translators: In the following strings, [count] will be replaced with a number,
+         so do not translate [count]. -->
+    <string name="in_1_minute">En 1 minuto</string>
+    <string name="in_x_minutes">En [count] minutos</string>
+    <string name="in_1_hour">En 1 hora</string>
+    <string name="in_x_hours">En [count] horas</string>
+    <string name="in_x_days">En [count] días</string>
+    <string name="in_1_week">En 1 semana</string>
+    <string name="in_x_weeks">En [count] semanas</string>
+    <string name="in_1_month">En 1 mes</string>
+    <string name="in_x_months">En [count] meses</string>
+    <string name="in_1_year">En 1 año</string>
+    <string name="in_x_years">En [count] años</string>
+
+    <!-- Note to translators: The app will display the next 2 strings as one sentence, with a time
+         duration in between, such as "2 days", "5 minutes", and "1 week".
+         For example: "Set the date/time to 2 days from the current date/time." -->
+    <string name="set_date_time_to">Ajuste la fecha/hora para</string>
+    <string name="from_current_date_time">de la fecha/hora actual.</string>
+
+    <!-- Note to translators: To not translate [task_name] in this string. -->
+    <string name="no_task_with_name">No se encontró ninguna tarea con el nombre \"[task_name]\".</string>
+</resources>

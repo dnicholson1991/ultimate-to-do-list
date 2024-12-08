@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notif_permission_needed">タスクのリマインダーを受け取るには、アプリに通知を投稿する権限を許可する必要があります。</string>
+    <string name="deny_disable_reminders">リマインダーを拒否および無効にする</string>
+    <string name="upload_usage_info">これにより、アプリの使用状況のログがサーバーにアップロードされ、技術的な問題の解決に役立てることができます。ログには、過去 72 時間にアプリがどのように使用されたかに関する情報が含まれます。これにはタスクの名前が含まれますが、その中のメモは含まれません。また、メモのタイトルは含まれますが、内容は含まれません。データは不要になった場合には破棄されます。</string>
+    <string name="mandatory_upgrade_notice">現在、2014 年に廃止された支払い方法を使用して、広告なしでアプリを使用しています。デバイスには、以前の支払いの記録を保持する「Ultimate To-Do List License」という名前の別のアプリがあります。 Google の Play ストア ポリシーに準拠するため、このライセンス アプリは 2024 年 1 月 31 日に削除され、これをデバイスにダウンロードして支払い記録として使用することはできなくなります。広告なしでアプリを使い続けるには、アプリ内購入にアップグレードしてください。</string>
+    <string name="reminde_in_1_week">1週間後にリマインド</string>
+    <string name="important_information">重要な情報</string>
+    <string name="close_and_delete">アカウントの閉鎖 / データの削除</string>
+    <string name="overlay_permission_for_tasker">Tasker プラグインでは、このアプリに他のアプリを上書きする権限を付与する必要があります。</string>
+    <string name="cancel_and_disable">キャンセルして無効にする</string>
+</resources>

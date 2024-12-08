@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/nav_drawer_shadow_light" 
+    android:fromDegrees="180" 
+    android:pivotX="50%"
+    android:pivotY="50%" 
+    android:toDegrees="180"
+/>
+<!-- From: file:/C:/GDrive-dnicholson/Work/Android_Projects/UTL/uTL/src/main/res/drawable/nav_drawer_shadow_right_light.xml -->

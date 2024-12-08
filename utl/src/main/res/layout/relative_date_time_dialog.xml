@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop='8dp'
+    android:paddingBottom='8dp'
+    android:paddingLeft='16dp'
+>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/set_date_time_to"
+        android:textSize="?attr/utl_font_size_large"
+    />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop='8dp'
+        android:paddingBottom="8dp"
+    >
+        <EditText
+            android:id='@+id/relative_date_time_count'
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:maxLength="3"
+            android:inputType="number"
+            android:textSize="?attr/utl_font_size_large"
+        />
+        <Spinner
+            android:id='@+id/relative_date_time_units'
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/time_units"
+            android:textSize="?attr/utl_font_size_large"
+            android:paddingLeft='8dp'
+        />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='@string/from_current_date_time'
+        android:textSize="?attr/utl_font_size_large"
+    />
+</LinearLayout>

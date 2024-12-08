@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <string name="no_subtasks_in_subtasks2">Googleはサブタスク内のサブタスクを許可していません</string>
+    <string name="google_tasks_conflict">このアカウントは、サブタスク内にサブタスクがあるため、Googleタスクと互換性がありません。互換性のないタスクの1つには、次のようなタイトルがあります：</string>
+    <string name="link_google_or_toodledo">GoogleまたはToodledoアカウントをリンクすると、任意のデバイスからタスクにアクセスできます。</string>
+    <string name="hotlist_info">ホットリストは最も重要なタスクがすぐわかるように表示します</string>
+    <string name="view_many_ways">さまざまな方法でタスクを表示し、自分専用のカスタムビューを設定</string>
+    <string name="supported_fields">開始日/期限日、リマインダー、フォルダ、リピート、タイマーなどに対応</string>
+    <string name="filter_info">タスクを好きなようにフィルタリング、ソート</string>
+    <string name="use_notes">メモ領域を使用して、参照情報を追跡</string>
+    <string name="link_to_locations">タスクを位置情報にリンクして一日の計画を立てる</string>
+    <string name="split_screen_info">タブレットにはマルチ分割画面ビューが表示</string>
+    <string name="widget_info">カスタマイズ可能なウィジェットでタスクに素早くアクセス</string>
+    <string name="customize_display">画面をカスタマイズして、自分にとって最も重要な情報を表示</string>
+    <string name="numerous_options">ニーズに合うアプリをカスタマイズするための多数のオプション</string>
+    <string name="enable_disable_features">必要な機能を有効化し、不要な機能を無効化</string>
+    <string name="supported_fields2">開始日/期限日、リマインダー、フォルダ、リピート、タイマー、優先、タグなどに対応</string>
+</resources>

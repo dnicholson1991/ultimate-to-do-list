@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <string name="google_sign_in_needed">Google では同期する際にはもう一度アカウント%sにログインする必要があります。</string>
+
+    <!-- Names of themes: -->
+    <string name="theme_pacific">パシフィック</string>
+    <string name="theme_boston">ボストン</string>
+    <string name="theme_classic">クラシック</string>
+    <string name="theme_darker">よりダークな</string>
+    <string name="theme_darkest">究極のダーク</string>
+
+    <!-- Options for widgets: A compact (compressed) display or a normal sized display. -->
+    <string name="format_">フォーマット：</string>
+    <string name="compact">コンパクト</string>
+    <string name="normal">ノーマル</string>
+
+    <!-- Prompts to help the user choose which features to enable: -->
+    <string name="common_features">共通の特徴</string>
+    <string name="almost_everyone">ほとんどの人がこれらを有効にする必要があります。</string>
+    <string name="time_management">時間管理</string>
+    <string name="precisely_plan">時間どおり計画します。</string>
+    <string name="task_organization">タスク担当組織</string>
+    <string name="group_and_arrange">さまざまな方法でタスクをグループ化し、配置します。</string>
+    <string name="project_management">プロジェクト管理</string>
+    <string name="advanced_features">チーム、請負業者、その他のさまざまなニーズに対応できる高度な機能。</string>
+    <string name="due_date_description">これはタスクが完了しなければならない日付です。</string>
+    <string name="folder_description">フォルダを使用すればタスクとメモをカテゴリ、プロジェクト、注目エリアに整理できます。通常のフォルダは、「仕事」や「パーソナル」など幅広いカテゴリを表示し、または、「製品リサーチ」や「地下室改造」など特定のプロジェクトにも対応します。</string>
+    <string name="priority_description">この機能により、5段階の優先度でタスクの重要度を指定できます。</string>
+    <string name="reminders_description">重要なタスクの通知では、デバイスが振動したり、着信音が鳴ったりして知らせます。タスクは通知エリアにも表示されます。必要に応じて、タスクの通知音をオンにして、通知を停止するかタスクを完了するまで定期的に通知を受け取ることができます。</string>
+    <string name="repeating_description">定期的な時間の間隔をおいてタスクをリピートできます。この機能は毎日、毎週、毎月実行する必要があるタスクに使用します。このほか、第 2 月曜日や月の最終日など詳細なリピートパターンも指定できます。</string>
+    <string name="calendar_description">この機能により、お使いのデバイスのカレンダーアプリで選択したタスクを表示することができます。この機能は、1 つの画面でタスクとカレンダーイベントを表示する場合に便利です。</string>
+    <string name="due_time_description">タスクを実行する正確な時間を指定できます。この機能を使用するには、期日フィールドを有効にする必要があります。</string>
+    <string name="start_date_description">タスクで作業を開始する日付を指定できます。アプリのフィルターオプションとともに開始日を設定すると、今後作業をするリストからタスクを簡単に非表示にすることができます。</string>
+    <string name="start_time_description">タスクの正確な開始時間を指定できます。この機能を使用するには、開始日フィールドを有効にする必要があります。</string>
+    <string name="contexts_description">コンテキストを使用すると、完了すべきタスクについて特定の場所または設定にタスクを割り当てることができます。たとえば、「仕事」、「自宅」、「ショッピング」、「会議」はよく使用されるコンテキストです。コンテキストの考え方としては、ある状況にいるときに、別の状況からのタスクの通知を受けることは生産的ではないということです。たとえば、職場で仕事中に自宅でしか完了できないタスクを表示する必要はありません。</string>
+    <string name="goals_description">達成したい項目を指定するには目標を定めることです。タスクとは異なり、目標は漠然としていて数量で表すのも困難です。例：「プロモーションを取得」、「より良い親になる」、「健康を改善する」など。一生涯、長期および短期の目標を設定し、これらの目標を個々のタスクに割り当てることができます。この機能により、どの行動が目標達成に寄与し、どの行動が時間を有効に活用していないかを確認できます。</string>
+    <string name="locations_description">位置情報の機能を使用すると、特定のタスクを完了する場所にマークを付けることができます。この機能により、近くにあるタスクを簡単に見つけることができます。アプリ内の「マップを表示」ボタンをタップすると、現在地に最も近い場所を確認できます。アプリは、特定の場所に到着したときに、その場所でのタスクについて通知をします。</string>
+    <string name="star_description">各タスクは必要に応じてスターでオンまたはオフにすることができます。この機能は好きなように使用できます。一般的な使用方法としては、アクティブなタスクのマーク付け、今日完了したいタスクのマーク付け、優先度の最も高いタスクのマーク付けなどがあります。</string>
+    <string name="subtasks_description">サブタスクはタスク内のタスクです。サブタスクは通常、関連するタスクをまとめてグループ化するため、またはタスクを完了するために必要なステップを記録するために使用されます。サブタスクは、リンクしているオンラインアカウント（ある場合）に関係なくアプリ内で利用できますが、Toodledo を使用する場合、サブタスクを同期して Web サイトに表示するには有料アカウントが必要です。</string>
+    <string name="tags_description">タグは、タスクを説明、グループ化する際に役立つキーワードまたはフレーズです。タスクは複数のタグを含めることができます。一般的な使用方法としては、状況や進行状況の確認、次のステップの確認、タスクの分類などがあります。</string>
+    <string name="contacts_description">タスクの連絡先フィールドを使用すると、タスクをデバイスの連絡先にリンクできます。この機能により、誰かに連絡することがタスクに含まれている場合に連絡先の電話番号またはメールアドレスにすばやくアクセスできます。また、特定の人からの情報や支援を必要とするタスクをグループ化する場合にも使用できます。</string>
+    <string name="expected_length_description">この機能より、タスクを完了するために必要な概算時間を記録できます。</string>
+    <string name="timer_actual_length">タイマー / 実際の長さ</string>
+    <string name="timer_description">タイマーを使用すると、タスクにかかった実際の時間を記録できます。タイマーは、作業の完了時にオンにし、状況に応じて一時停止、再開することができます。アプリはタスクにかかった合計時間を確認します。</string>
+    <string name="status_description">この機能により、タスクの現在の状況を確認できます。たとえば、次のアクション、アクティブ、計画、委任、待機中などです。</string>
+    <string name="collaboration_description">この機能は Toodledo ユーザーのみが利用でき、タスクを他のユーザーと共有したり、特定のユーザーにタスクを割り当てたりすることができます。詳細については、toodledo.com/info/sharing.php にある Toodleo のドキュメントを参照してください。</string>
+    <string name="due_time_without_due_date">予定時間の機能を使用するには、期日を有効にする必要があります。</string>
+    <string name="start_time_without_start_date">開始時間の機能を使用するには、開始日を有効にする必要があります。</string>
+    <string name="calendar_cannot_be_enabled">カレンダー統合は、カレンダーへのアクセス許可が拒否されているため有効にできません。</string>
+    <string name="contacts_cannot_be_enabled">連絡先へのアクセスが許可されていないため、連絡先の統合を有効にできません。</string>
+    <string name="locations_cannot_be_enabled">デバイスの位置情報へのアクセスが許可されていないため、位置情報を有効にできません。</string>
+    <string name="locations_cannot_be_enabled2">デバイスの位置情報へのアクセスが常時拒否されているため、位置情報を有効にできません。</string>
+    <string name="folders_required">Google アカウントではフォルダを有効にする必要があります。</string>
+    <string name="due_date_required">リマインダーが有効になっている場合、Toodledo では期日を有効にする必要があります。</string>
+    <string name="features_intro">ここでは、必要な機能をオンにし、不要な機能はオフにすることができます。</string>
+    <string name="tap_on_group">下のグループをタップして、そのグループ内の機能を管理します。各機能の詳細については、情報ボタンをタップしてください。</string>
+    <string name="choose_your_features">機能を選択</string>
+
+    <!-- Miscellaneous Strings: -->
+    <string name="name_of_new_folder">新しいフォルダの名称：</string>
+    <string name="name_of_new_context">新しいコンテキストの名称：</string>
+    <string name="name_of_new_goal">新しい目標の名称：</string>
+    <string name="restore_successful_android10">すべてのデータが復元され、アプリを再起動すると利用できるようになります。カレンダー、連絡先、位置情報機能を使用していた場合は、設定エリアでそれらを再度有効にし、要求されたときに許可をする必要があります。</string>
+    <string name="learn_more_about_utl">Ultimate To-Do List の詳細</string>
+    <string name="tasker_overlay_permission">重要：デバイスで Android 10 以降を実行していて、Tasker が To-Do リストを起動できるようにする場合、他のアプリを重ねて表示するために Ultimate To-Do List に許可を与える必要があります。これは、システム設定の アプリのエリアで実行できます。</string>
+    <string name="unable_to_open_list">To-Do リストを開くことができません</string>
+    <string name="overlay_permission_needed">許可がないため、Tasker からToDo リストを開くことができません。ここをタップして、Ultimate To-Do List に他のアプリを重ねて表示するための許可を与えます。</string>
+    <string name="choose_between_themes">6 つのテーマから選択します。</string>
+</resources>

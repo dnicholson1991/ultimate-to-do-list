@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <!-- Strings for the Android Wear add-on.  This add-on allows access to tasks using an
+         Android Wear watch. -->
+
+    <string name="default_list">表示するデフォルト リスト</string>
+    <string name="default_list_extra">時計でアプリを起動するとき</string>
+    <string name="android_wear_features">タスクを参照してチェックオフします。 リマインダーを表示してスヌーズします。</string>
+    <string name="processing">処理しています...</string>
+    <string name="success">成功しました</string>
+
+    <!-- End of strings for the Android Wear Addon -->
+
+    <!-- Version 3.3 starts using the latest API for synchronizing with Toodledo.com.  These strings are related to the upgrade: -->
+    <string name="communicating_with_toodledo">Toodledoに接続中...</string>
+    <string name="toodledo_signin_mismatch">ログインしたToodledoのアカウントは、私のアカウントではありません。私は、次のメールアドレスに関連するアカウントにログインしたいです：</string>
+    <string name="toodledo_re_sign_in">問題なくToodledoアカウントにサインインし、同期が開始されました。</string>
+    <string name="toodledo_merge_confirmation">リンクが設定されており、あなたのタスクは現在Toodledoのものと同期されています。</string>
+    <string name="toodledo_sign_in_needed">Toodledoが、あなたのアカウントへのログインを求めています。</string>
+    <string name="toodledo_rate_limit">Toodledoのリクエスト上限に達しました。数分後にもう一度お試しください。</string>
+    <string name="sign_in_again">もう一度サインインする</string>
+    <string name="toodledo_sign_in_needed2">同期を続行するには、次のEメールアドレスでToodledoアカウントにサインインすることが必要です：</string>
+    <string name="sign_in">サインインする</string>
+    <string name="Free_Account_Limits_2">\n無料Toodledoアカウントでは、次の制限が設けられています。有料アカウントにアップグレードすると、これらの制限は解除されます：\n\n サブタスクは携帯電話に入力することができますが、同期はされません。\n\nタスク期限の1時間前であれば、アラームにのみ同期されます。期限が省略された場合、期限は同日に設定され、アラームが同期されます。</string>
+</resources>

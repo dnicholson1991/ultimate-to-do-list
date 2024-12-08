@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name='need_exact_alarm_permission'>Um Erinnerungen für genaue Zeiten festzulegen, müssen Sie dieser App die Erlaubnis dazu erteilen.</string>
+</resources>

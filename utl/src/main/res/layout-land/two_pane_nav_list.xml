@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Uses 2 panes - one for navigation and one for list.  Includes a right-side sliding drawer for details -->
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/nav_drawer_layout"
+	android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+	<!-- The main content (such as a task list) -->
+	<FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    >
+		<RelativeLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:id='@+id/ss_root'
+		>
+			<FrameLayout
+		        android:id="@+id/nav_drawer_wrapper"
+		        android:layout_width="@dimen/nav_drawer_width"
+		        android:layout_height="match_parent"
+		        android:layout_alignParentLeft='true'
+		    />
+			
+		    <FrameLayout
+		        android:id="@+id/ss_pane_list"
+		        android:layout_width="0dp"
+		        android:layout_height="match_parent"
+		        android:layout_alignParentRight='true'
+		        android:layout_toRightOf='@id/nav_drawer_wrapper'
+		    />
+
+		    <RelativeLayout
+		        android:id='@+id/ss_nav_list_resizer_container'
+		        android:layout_width='wrap_content'
+		        android:layout_height='match_parent'
+		        android:layout_alignRight='@id/nav_drawer_wrapper'
+				android:translationX='17dp'
+				android:visibility='gone'
+		    >
+			    <View
+				    android:id='@+id/ss_nav_list_resizer_line'
+				    android:layout_width='3dp'
+				    android:layout_height='match_parent'
+				    android:layout_centerHorizontal='true'
+				    android:background='?attr/resizer_divider_color'
+				/>
+			    
+			    <ImageView 
+				    android:id='@+id/ss_nav_list_resizer_control'
+				    android:layout_width='wrap_content'
+				    android:layout_height='wrap_content'
+				    android:src='?attr/resizer_landscape'
+				    android:layout_centerInParent='true'
+				/>
+		    </RelativeLayout>
+			
+		</RelativeLayout>
+	</FrameLayout>
+	    	
+	<!-- The contents of the drawer / detail view on the right -->
+	<FrameLayout
+        android:id="@+id/ss_pane_detail"
+        android:layout_width="500dp"
+        android:layout_height="match_parent"
+        android:layout_gravity='end'
+        android:paddingLeft='1dp'
+        android:background='?attr/ss_left_border'
+    />
+</androidx.drawerlayout.widget.DrawerLayout>
+	
+	

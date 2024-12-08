@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <!-- Strings for the Android Wear Addon: -->
+
+    <string name="default_list">Standard-Anzeigeliste</string>
+    <string name="default_list_extra">Beim Starten der Anwendung auf Ihrer Uhr</string>
+    <string name="android_wear_features">Aufgaben durchsuchen und abhaken. Erinnerungen anzeigen und ausschlafen.</string>
+    <string name="processing">Wird bearbeitet ...</string>
+    <string name="success">Erfolg</string>
+
+    <!-- End of strings for the Android Wear Addon -->
+
+    <!-- Version 3.3 starts using the latest API for synchronizing with Toodledo.com.  These strings are related to the upgrade: -->
+    <string name="communicating_with_toodledo">Die Kommunikation mit Toodledo ...</string>
+    <string name="toodledo_signin_mismatch">Das Konto, das Sie in Toodledo angemeldet haben, ist nicht das Konto, dass ich erwarte. Ich erwarte ein Konto unter dieser E-Mail-Adresse:</string>
+    <string name="toodledo_re_sign_in">Sie haben sich erfolgreich bei Ihrem Toodledo-Konto angemeldet und es wurde eine Synchronisierung gestartet.</string>
+    <string name="toodledo_merge_confirmation">Der Link wurde eingerichtet und Ihre Aufgaben werden nun mit Toodledo synchronisiert.</string>
+    <string name="toodledo_sign_in_needed">Toodledo möchte, dass Sie sich erneut bei Ihrem Konto anmelden.</string>
+    <string name="toodledo_rate_limit">Die Toodledo-Anfragegrenze wurde erreicht. Versuchen Sie es in ein paar Minuten noch einmal.</string>
+    <string name="sign_in_again">Erneut anmelden</string>
+    <string name="toodledo_sign_in_needed2">Um die Synchronisierung fortzusetzen, muss Toodledo Sie beim Konto mit dieser E-Mail-Adresse anmelden:</string>
+    <string name="sign_in">Anmelden</string>
+    <string name="Free_Account_Limits_2">\nIhr kostenloses Toodledo Konto unterliegt folgenden Einschränkungen. Durch ein Upgrade auf ein kostenpflichtiges Konto werden diese aufgehoben:\n\n Teilaufgaben können auf Ihrem Mobilgerät eingegeben werden, werden aber nicht synchronisiert.\n\n Erinnerungen werden nur eine Stunde vor der Fälligkeit einer Aufgabe synchronisiert. Wenn eine gegebene Zeit nicht angegeben ist, werden Erinnerungen synchronisiert, wenn sie auf das gleiche Datum wie das Fälligkeitsdatum fallen.</string>
+</resources>

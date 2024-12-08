@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <string name="show_ads_during_trial">Während der kostenlosen Testversion wird Werbung gezeigt. Wenn Sie eine Lizenz erwerben, die App langfristig zu nutzen, verschwindet die Werbung.</string>
+
+   <string name="license_long_description">&lt;p&gt;Der Kauf einer Lizenz ermöglicht Ihnen die Nutzung der Ultimativen Aufgabenliste (Ultmate To-Do-Liste) im Rahmen einer kostenlosen Probezeit. Ihre Lizenz ist mit Ihrem Google- oder Amazon-Konto verknüpft. Sie funktioniert auf allen Android-Geräten ─ auch bei Smartphones und Tablets ─ und läuft mit der App synchron, wenn Sie automatisch aktualisieren oder Geräte ersetzen. &lt;/p&gt; &lt;p&gt;Der Kauf einer Lizenz entfernt auch sämtliche Werbung aus der App.&lt;/p&gt;</string>
+
+    <string name="warning">Warnung</string>
+    <string name="edit_parent_task">Bearbeiten übergeordneter Aufgaben</string>
+
+    <!-- Note to translators: Do not translate [count] in this string. This will be filled in with
+         a number. -->
+    <string name="merge_warning">Dies wird die [count] Aufgaben, die auf dem Gerät gesppeichert sind, mit denen im Online-Konto gespeicherten Aufgaben zusammenführen. Sind Sie sicher, dass Sie dies tun möchten?</string>
+</resources>

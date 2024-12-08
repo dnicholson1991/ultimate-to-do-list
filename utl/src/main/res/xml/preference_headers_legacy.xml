@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <Preference 
+        android:title="@string/Account_Management"
+    >
+        <intent 
+            android:targetPackage="com.customsolutions.android.utl"
+            android:targetClass="com.customsolutions.android.utl.PrefsActivity"
+            android:action="com.customsolutions.android.utl.prefs.account_management" />
+    </Preference>
+
+    <Preference 
+        android:title="@string/Backup_And_Restore"
+    >
+        <intent 
+            android:targetPackage="com.customsolutions.android.utl"
+            android:targetClass="com.customsolutions.android.utl.PrefsActivity"
+            android:action="com.customsolutions.android.utl.prefs.backup_and_restore" />
+    </Preference>
+
+    <Preference 
+        android:title="@string/Date_and_Time"
+    >
+        <intent 
+            android:targetPackage="com.customsolutions.android.utl"
+            android:targetClass="com.customsolutions.android.utl.PrefsActivity"
+            android:action="com.customsolutions.android.utl.prefs.date_and_time" />
+    </Preference>
+
+    <Preference 
+        android:title="@string/Display_Options"
+    >
+        <intent 
+            android:targetPackage="com.customsolutions.android.utl"
+            android:targetClass="com.customsolutions.android.utl.PrefsActivity"
+            android:action="com.customsolutions.android.utl.prefs.display" />
+    </Preference>
+
+    <Preference 
+        android:title="@string/Fields_Functions_Used"
+    >
+        <intent 
+            android:targetPackage="com.customsolutions.android.utl"
+            android:targetClass="com.customsolutions.android.utl.PrefsActivity"
+            android:action="com.customsolutions.android.utl.prefs.fields_functions_used" />
+    </Preference>
+
+    <Preference 
+        android:title="@string/Location_Tracking"
+    >
+        <intent 
+            android:targetPackage="com.customsolutions.android.utl"
+            android:targetClass="com.customsolutions.android.utl.PrefsActivity"
+            android:action="com.customsolutions.android.utl.prefs.location_tracking" />
+    </Preference>
+
+    <Preference 
+        android:title="@string/Miscellaneous"
+    >
+        <intent 
+            android:targetPackage="com.customsolutions.android.utl"
+            android:targetClass="com.customsolutions.android.utl.PrefsActivity"
+            android:action="com.customsolutions.android.utl.prefs.miscellaneous" />
+    </Preference>
+
+    <Preference 
+        android:title="@string/Navigation_Drawer"
+    >
+        <intent 
+            android:targetPackage="com.customsolutions.android.utl"
+            android:targetClass="com.customsolutions.android.utl.PrefsActivity"
+            android:action="com.customsolutions.android.utl.prefs.nav_drawer" />
+    </Preference>
+    
+    <Preference 
+        android:title="@string/New_Task_Defaults"
+    >
+        <intent 
+            android:targetPackage="com.customsolutions.android.utl"
+            android:targetClass="com.customsolutions.android.utl.PrefsActivity"
+            android:action="com.customsolutions.android.utl.prefs.new_task_defaults" />
+    </Preference>
+
+    <Preference 
+        android:title="@string/Reminder_Options"
+    >
+        <intent 
+            android:targetPackage="com.customsolutions.android.utl"
+            android:targetClass="com.customsolutions.android.utl.PrefsActivity"
+            android:action="com.customsolutions.android.utl.prefs.reminder_options" />
+    </Preference>
+
+    <Preference 
+        android:title="@string/Sync_Options"
+    >
+        <intent 
+            android:targetPackage="com.customsolutions.android.utl"
+            android:targetClass="com.customsolutions.android.utl.PrefsActivity"
+            android:action="com.customsolutions.android.utl.prefs.sync_options" />
+    </Preference>
+
+    <Preference 
+        android:title="@string/View_Edit_Options"
+    >
+        <intent 
+            android:targetPackage="com.customsolutions.android.utl"
+            android:targetClass="com.customsolutions.android.utl.PrefsActivity"
+            android:action="com.customsolutions.android.utl.prefs.viewing_and_editing" />
+    </Preference>
+
+    <Preference 
+        android:title="@string/Voice_Mode"
+    >
+        <intent 
+            android:targetPackage="com.customsolutions.android.utl"
+            android:targetClass="com.customsolutions.android.utl.PrefsActivity"
+            android:action="com.customsolutions.android.utl.prefs.voice_mode" />
+    </Preference>
+</PreferenceScreen>

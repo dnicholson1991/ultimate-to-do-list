@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name='orphaned_subtasks_warning'>Algumas tarefas do nível inferior não são mostradas porque a tarefa superior
+        à qual estão atreladas está sendo filtrada.</string>
+</resources>

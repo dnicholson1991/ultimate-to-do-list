@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TODO: Use a human translation: -->
+    <string name='utl_not_installed'>Seu relógio não está conectado ao telefone ou a versão do aplicativo para telefone não está instalada.</string>
+</resources>

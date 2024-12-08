@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.customsolutions.android.utl"
+    >
+
+    <uses-sdk
+        tools:overrideLibrary="com.google.android.gms.wearable, com.google.android.gms"
+    />
+
+    <!-- Permissions requiring user approval: -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" android:minSdkVersion="29"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" android:minSdkVersion="31"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" android:minSdkVersion="33"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" android:minSdkVersion="31" />
+
+    <!-- Needed only by the tasker plugin, to allow a task list to be launched. -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" android:minSdkVersion="29"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.BLUETOOTH" android:maxSdkVersion="30" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" android:maxSdkVersion="30" />
+    <uses-permission android:name="utl_permission" />
+    <uses-permission android:name="com.customsolutions.android.utl_tab_permission" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+
+
+
+    <!-- We need to specify that certain features are optional, to avoid hiding our app unnecessarily -->
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.network"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.bluetooth"
+        android:required="false" />
+
+    <!-- An unknown SDK adds the portrait requirement. Removing it so Android TV devices are not
+        excluded. -->
+    <uses-feature android:name="android.hardware.screen.portrait" android:required="false" />
+
+    <queries>
+        <!-- Allows the app to access Text To Speech engines: -->
+        <intent>
+            <action
+                android:name="android.intent.action.TTS_SERVICE" />
+        </intent>
+
+        <!-- Allows the app to use Android's speech recognizer: -->
+        <intent>
+            <action
+                android:name="android.speech.RecognitionService" />
+        </intent>
+
+    </queries>
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/UtlStylePacific"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:name='.UltimateToDoList'
+        android:allowBackup="true"
+    >
+        <!-- Huawei devices need this for unknown reasons: -->
+        <meta-data
+            tools:replace="android:value"
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"
+            />
+
+        <!-- Used for Google AdMob Ads. If you wish to enable ads in the app, you must
+            change this ID below to your own. -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-5149759708329031~1557070907"
+            />
+
+        <!-- Needed to use the old Apache HTTP library: -->
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+
+        <activity
+            android:name=".main"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:exported="true"
+        >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BeginSetup" />
+        <activity android:name=".GetAccountName" />
+        <activity android:name=".EditTask" />
+        <activity
+            android:name=".DateChooser"
+            android:theme="@style/UtlStylePacific.Popup" />
+        <activity
+            android:name=".AdvancedRepeatPopup"
+            android:theme="@style/UtlStylePacific.Popup" />
+        <activity
+            android:name=".TagPicker"
+            android:theme="@style/UtlStylePacific.Popup" />
+        <activity
+            android:name=".ItemPicker"
+            android:theme="@style/UtlStylePacific.Popup" />
+        <activity
+            android:name=".StringItemPicker"
+            android:theme="@style/UtlStylePacific.Popup" />
+        <activity android:name=".TaskList" />
+        <activity android:name=".ViewTask"
+            android:exported="true"
+        >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.item/vnd.customsolutions.tasks" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".Synchronizer" />
+        <service android:name=".SynchronizerJobService"
+                 android:permission="android.permission.BIND_JOB_SERVICE"/>
+
+        <activity
+            android:name=".ToodledoLoginInfoV3"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".ViewRulesList"
+            android:theme="@style/UtlStylePacific.Popup" />
+        <activity
+            android:name=".EditTextViewRule"
+            android:theme="@style/UtlStylePacific.Popup" />
+        <activity
+            android:name=".EditBooleanViewRule"
+            android:theme="@style/UtlStylePacific.Popup" />
+        <activity
+            android:name=".EditIntViewRule"
+            android:theme="@style/UtlStylePacific.Popup" />
+        <activity
+            android:name=".EditMultChoiceViewRule"
+            android:theme="@style/UtlStylePacific.Popup" />
+        <activity
+            android:name=".EditLocationViewRule"
+            android:theme="@style/UtlStylePacific.Popup" />
+        <activity
+            android:name=".EditMultStringsViewRule"
+            android:theme="@style/UtlStylePacific.Popup" />
+        <activity
+            android:name=".EditDateViewRule"
+            android:theme="@style/UtlStylePacific.Popup" />
+        <activity
+            android:name=".EditDueDateViewRule"
+            android:theme="@style/UtlStylePacific.Popup" />
+        <activity
+            android:name=".SaveView"
+            android:theme="@style/UtlStylePacific.Popup" />
+        <activity
+            android:name=".SortOrder"
+            android:theme="@style/UtlStylePacific.Popup" />
+        <activity
+            android:name=".EditDisplayOptions"
+            android:theme="@style/UtlStylePacific.Popup" />
+        <activity android:name=".NoteList" />
+        <activity android:name=".PrefsActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".AccountOps"
+            android:theme="@style/UtlStylePacific.Popup" />
+        <activity
+            android:name=".QuickSearch"
+            android:theme="@style/UtlStylePacific.Popup" />
+        <activity
+            android:name=".Help"
+            android:theme="@style/UtlStylePacific.Popup" />
+        <activity
+            android:name=".UploadLog"
+            android:theme="@style/UtlStylePacific.Popup" />
+        <activity
+            android:name=".StoreItemDetail"
+            android:theme="@style/UtlStylePacific.Popup" />
+        <activity android:name=".FeatureSelection" />
+
+        <service android:name=".DatabaseCleaner"
+                 android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service android:name=".ServerRegistration" />
+        <service android:name=".LocationChecker"
+                 android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service android:name='.LogUploaderService'
+            android:permission="android.permission.BIND_JOB_SERVICE"/>
+
+        <activity
+            android:name=".WidgetDisplayOptions"
+            android:theme="@style/UtlStylePacific.Popup" />
+        <activity
+            android:name=".WidgetOptions"
+            android:launchMode="singleTask"
+            android:taskAffinity="com.customsolutions.android.utl.popups"
+            android:theme="@style/UtlStylePacific.Popup" />
+        <activity android:name=".TaskMap" />
+        <activity
+            android:name=".GTasksSetup"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTop"
+            android:exported="true"
+        >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Scheme below must match beginning of REDIRECT_URI in GTasksSetup.java -->
+                <data
+                    android:scheme="com.googleusercontent.apps.138989701453"
+                />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CollaboratorsList"
+            android:theme="@style/UtlStylePacific.Popup" />
+        <activity android:name=".GenericListActivity" />
+        <activity android:name=".EditContextActivity" />
+        <activity android:name=".EditFolderActivity" />
+        <activity android:name=".EditGoalActivity" />
+        <activity android:name=".AddOnsActivity" />
+        <activity
+            android:name=".EditTagActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity android:name=".EditViewActivity" />
+        <activity
+            android:name=".EditLocationActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity android:name=".ViewNote" />
+        <activity android:name=".EditNoteActivity" />
+        <activity
+            android:name=".EditTaskPopup"
+            android:launchMode="singleTask"
+            android:taskAffinity="com.customsolutions.android.utl.popups"
+            android:theme="@style/UtlStylePacific.Popup"
+            android:exported="true"
+        >
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.item/vnd.customsolutions.tasks" />
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:host="edit.todolist.co" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ViewTaskPopup"
+            android:launchMode="singleTask"
+            android:taskAffinity="com.customsolutions.android.utl.popups"
+            android:theme="@style/UtlStylePacific.Popup" />
+        <activity
+            android:name=".SnoozePopup"
+            android:launchMode="singleTask"
+            android:taskAffinity="com.customsolutions.android.utl.popups"
+            android:theme="@style/UtlStylePacific.Popup" />
+        <activity
+            android:name=".ColorCodeReference"
+            android:theme="@style/UtlStylePacific.Popup" />
+        <activity
+            android:name=".WhatsNew"
+            android:theme="@style/UtlStylePacific.Popup" />
+        <activity
+            android:name=".LicenseUpgradeNotice"
+            android:theme="@style/UtlStylePacific.Popup" />
+        <activity
+            android:name=".EditNotePopup"
+            android:theme="@style/UtlStylePacific.Popup" />
+        <activity
+            android:name=".VoiceCommand"
+            android:icon="@drawable/voice_icon"
+            android:label="@string/Voice_Mode"
+            android:launchMode="singleTask"
+            android:taskAffinity="com.customsolutions.android.utl.popups"
+            android:theme="@style/UtlStylePacific.Popup"
+            android:exported="true"
+        >
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.item/vnd.customsolutions.tasks" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".VoiceCommandConfirm"
+            android:theme="@style/UtlStylePacific.Popup" />
+        <activity
+            android:name=".VoiceCommandRead"
+            android:theme="@style/UtlStylePacific.Popup" />
+        <activity android:name=".BetaExpired" />
+        <activity android:name=".AndroidWearHelp"
+            android:theme="@style/UtlStylePacific.Popup"
+        />
+
+        <!--
+             This activity does nothing more than receive text from other apps and directs the user to the 
+			Activity that should handle the text
+        -->
+        <activity
+            android:name=".TextReceiver"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:taskAffinity="com.customsolutions.android.utl.popups"
+            android:theme="@style/UtlStylePacific.Popup"
+            android:exported="true"
+        >
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <action android:name="com.google.android.gm.action.AUTO_SEND" />
+                <action android:name="com.google.android.voicesearch.action.AUTO_SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.google.android.voicesearch.SELF_NOTE" />
+
+                <data android:mimeType="text/*" />
+            </intent-filter>
+        </activity>
+
+        <!-- Special Activity to Create a "New Task" shortcut -->
+        <activity
+            android:name=".ShortcutMakerNewTask"
+            android:icon="@drawable/new_task_widget"
+            android:label="@string/Widget_Name_New_Task"
+            android:exported="true"
+        >
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Special Activity to Create a Voice Mode shortcut -->
+        <activity
+            android:name=".ShortcutMakerVoiceMode"
+            android:icon="@drawable/voice_icon"
+            android:label="@string/Shortcut_Name_Voice_Mode"
+            android:exported="true"
+        >
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- This Activity is called by Tasker to create or edit a task template. -->
+        <activity
+            android:name=".EditTemplate"
+            android:exported="true"
+            android:icon='@drawable/icon'
+            android:label='@string/New_Task'
+            tools:ignore="ExportedActivity"
+        >
+            <!-- This Intent filter allows the plug-in to be discovered by Tasker: -->
+            <intent-filter>
+                <action android:name="com.twofortyfouram.locale.intent.action.EDIT_SETTING" />
+            </intent-filter>
+        </activity>
+
+        <!-- This Activity is called by Tasker to specify a task to mark as complete. -->
+        <activity
+            android:name=".TaskerMarkComplete"
+            android:theme="@style/UtlStylePacific.Transparent"
+            android:exported="true"
+            android:icon='@drawable/icon'
+            android:label='@string/mark_task_complete'
+            tools:ignore="ExportedActivity"
+            >
+            <!-- This Intent filter allows the plug-in to be discovered by Tasker: -->
+            <intent-filter>
+                <action android:name="com.twofortyfouram.locale.intent.action.EDIT_SETTING" />
+            </intent-filter>
+        </activity>
+
+        <!-- This Activity is called by Tasker to specify a view to display. -->
+        <activity
+            android:name=".TaskerOpenView"
+            android:theme="@style/UtlStylePacific.Transparent"
+            android:exported="true"
+            android:icon='@drawable/icon'
+            android:label='@string/show_task_list'
+            tools:ignore="ExportedActivity"
+        >
+            <!-- This Intent filter allows the plug-in to be discovered by Tasker: -->
+            <intent-filter>
+                <action android:name="com.twofortyfouram.locale.intent.action.EDIT_SETTING" />
+            </intent-filter>
+        </activity>
+
+        <!-- This BroadcastReceiver is called whenever one of UTL's support actions is triggered
+             by Tasker. -->
+        <receiver
+            android:name='.TaskerReceiver'
+            android:exported="true"
+            android:process=":background"
+            tools:ignore="ExportedReceiver"
+        >
+            <!-- This Intent filter allows the plug-in to be discovered by Tasker: -->
+            <intent-filter>
+                <action android:name="com.twofortyfouram.locale.intent.action.FIRE_SETTING" />
+            </intent-filter>
+        </receiver>
+
+        <!-- This is an editor that Tasker calls to configure the Task Completed event. -->
+        <activity
+            android:name=".TaskerCompletedEvent"
+            android:theme="@style/UtlStylePacific.Transparent"
+            android:exported="true"
+            android:icon='@drawable/icon'
+            android:label='@string/task_completed'
+            tools:ignore="ExportedActivity"
+            >
+            <!-- This Intent filter allows the plug-in to be discovered by Tasker: -->
+            <intent-filter>
+                <action android:name="net.dinglisch.android.tasker.ACTION_EDIT_EVENT" />
+            </intent-filter>
+        </activity>
+
+        <!-- This BroadcastReceiver is invoked by Tasker to see if a task has been completed. -->
+        <receiver
+            android:name='.TaskerQueryReceiver'
+            android:exported="true"
+            tools:ignore="ExportedReceiver"
+        >
+            <!-- this Intent filter allows the plug-in to discovered by Tasker. -->
+            <intent-filter>
+                <action android:name="com.twofortyfouram.locale.intent.action.QUERY_CONDITION" />
+            </intent-filter>
+        </receiver>
+
+        <!-- This Receiver handles text content and directs the user to the appropriate Activity -->
+        <receiver
+            android:name=".Notifier"
+            android:exported="true" />
+        <receiver
+            android:name=".LicenseReceiver"
+            android:exported="true" />
+
+        <service
+            android:name=".LicenseAppQuery"
+            android:exported="true"
+            android:permission="android.permission.BIND_JOB_SERVICE"/>
+
+        <receiver android:name=".BootupHandler"
+            android:exported="true"
+        >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.EXTERNAL_APPLICATIONS_AVAILABLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".HandleTimeZoneChange"
+            android:exported="true"
+        >
+            <intent-filter>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name='.GeofenceReceiver' android:exported="true">
+
+        </receiver>
+
+        <!-- Implements communication with Android Wear Device -->
+        <service
+            android:name=".WearService"
+            android:exported="true"
+        >
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.DATA_CHANGED" />
+                <action android:name="com.google.android.gms.wearable.MESSAGE_RECEIVED" />
+                <action android:name="com.google.android.gms.wearable.CAPABILITY_CHANGED" />
+                <action android:name="com.google.android.gms.wearable.CHANNEL_EVENT" />
+                <data android:scheme="wear" android:host="*" />
+            </intent-filter>
+        </service>
+
+        <service android:name=".ErrorLoggerService"
+            android:permission="android.permission.BIND_JOB_SERVICE"/>
+
+        <!-- Task List Widget: -->
+        <receiver
+            android:name=".TaskListWidgetScrollable"
+            android:enabled="true"
+            android:label="@string/Widget_Name"
+            android:exported="true"
+        >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/task_list_scrollable" />
+        </receiver>
+
+        <service
+            android:name=".ScrollableWidgetServiceCompact"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+        <service
+            android:name=".ScrollableWidgetServiceNormal"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
+        <!-- Content Provider for Android Agenda Widget -->
+        <provider
+            android:name=".AndroidAgendaProvider"
+            android:authorities="com.customsolutions.android.utl.androidagendaprovider"
+            android:exported="true"/>
+
+        <!-- Content Provider for Pure Calendar Widget -->
+        <provider
+            android:name=".PureCalendarProvider"
+            android:authorities="com.customsolutions.android.utl.purecalendarprovider"
+            android:exported="true"/>
+
+        <!-- Broadcast receiver for UTL widgets.  Used for task completion: -->
+        <receiver
+            android:name=".TaskUpdateReceiver"
+            android:label="@string/app_name"
+            android:exported="true"
+        >
+            <intent-filter>
+                <action android:name="com.customsolutions.android.utl.TaskUpdateReceiver.ACTION_COMPLETE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.item/vnd.customsolutions.tasks" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.customsolutions.android.utl.TaskUpdateReceiver.ACTION_EDIT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.item/vnd.customsolutions.tasks" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Broadcast receiver for Pure Calendar Widget (handles task updates) -->
+        <receiver
+            android:name=".PureCalendarReceiver"
+            android:label="@string/app_name"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.customsolutions.android.utl.purecalendarprovider.ACTION_COMPLETE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.item/vnd.customsolutions.tasks" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.customsolutions.android.utl.purecalendarprovider.ACTION_DELETE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.item/vnd.customsolutions.tasks" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Broadcast receiver for Android Agenda Widget.  Handles task completion -->
+        <receiver
+            android:name=".AndroidAgendaReceiver"
+            android:label="@string/app_name"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.customsolutions.android.utl.androidagendaprovider.ACTION_COMPLETE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.item/vnd.customsolutions.tasks" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Broadcast receiver for Amazon in-app purchasing: -->
+        <receiver android:name="com.amazon.device.iap.ResponseReceiver"
+            android:exported="true"
+        >
+            <intent-filter>
+                <action
+                    android:name="com.amazon.inapp.purchasing.NOTIFY"
+                    android:permission="com.amazon.inapp.purchasing.Permission.NOTIFY" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Receiver used by Google conversion tracking, with new app install info: -->
+        <receiver android:name="com.google.ads.conversiontracking.InstallReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Required by Amazon APS: -->
+        <activity android:name="com.amazon.device.ads.DTBInterstitialActivity"/>
+        <activity android:name="com.amazon.device.ads.DTBAdActivity"/>
+    </application>
+
+</manifest>

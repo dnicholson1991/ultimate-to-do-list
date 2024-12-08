@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name='email_collection_info'>Proporcionar su dirección de correo electrónico es necesario para vincular. La dirección se utilizará únicamente para proporcionar servicios de sincronización y no se compartirá con ninguna otra aplicación o servicio.</string>
+</resources>

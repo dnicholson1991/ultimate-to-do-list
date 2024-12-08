@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: :aps-sdk:@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/81112b5c415547bad45b0c63368fb95f/transformed/jetified-aps-sdk/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/81112b5c415547bad45b0c63368fb95f/transformed/jetified-aps-sdk/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/81112b5c415547bad45b0c63368fb95f/transformed/jetified-aps-sdk/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

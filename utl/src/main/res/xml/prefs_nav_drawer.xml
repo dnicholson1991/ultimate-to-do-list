@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory
+        android:title='@string/Items_to_show_in_nav'
+        android:key='pref_nav_drawer_show_category'
+    >
+	    <SwitchPreference
+	        android:key='show_all_tasks'
+	        android:title='@string/AllTasks'
+	        android:summary='@string/Shows_all_incomplete'
+	        android:defaultValue="true"
+	    />
+	    
+	    <SwitchPreference
+	        android:key='show_hotlist'
+	        android:title='@string/Hotlist'
+	        android:summary='@string/Shows_most_important'
+	        android:defaultValue="true"
+	    />
+	
+	    <SwitchPreference
+	        android:key='show_due_today_tomorrow'
+	        android:title='@string/DueTodayTomorrow'
+	        android:defaultValue="true"
+	    />
+	    
+	    <SwitchPreference
+	        android:key='show_overdue'
+	        android:title='@string/Overdue'
+	        android:defaultValue="true"
+	    />
+	    
+	    <SwitchPreference
+	        android:key='show_starred'
+	        android:title='@string/Starred'
+	        android:defaultValue="true"
+	    />
+	    
+	    <SwitchPreference
+	        android:key='show_recently_completed'
+	        android:title='@string/RecentlyCompleted'
+	        android:defaultValue="true"
+	    />
+	    
+	    <SwitchPreference
+	        android:key='show_archived_folders'
+	        android:title='@string/Archived_Folders'
+	        android:defaultValue="false"
+	    />
+	    
+	    <SwitchPreference
+	        android:key='show_archived_goals'
+	        android:title='@string/Archived_Goals'
+	        android:defaultValue="false"
+	    />
+    </PreferenceCategory>
+</PreferenceScreen>

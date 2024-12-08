@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <string name="one_task_today">Сегодня задач: 1</string>
+    <string name="two_tasks_today">Сегодня задач: 2</string>
+    <string name="swipe_for_details">Проведите влево, чтобы узнать подробнее</string>
+    <string name="show_summary">Показывать обзор на день каждое утро</string>
+    <string name="of_default_list">из списка по умолчанию</string>
+    <string name="time_for_summary">Показывать обзор в это время</string>
+</resources>

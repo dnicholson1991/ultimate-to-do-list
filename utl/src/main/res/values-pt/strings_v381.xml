@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name='td_max_tasks_reached'>O limite de tarefas do Toodledo foi atingido. Você precisa apagar
+        algumas tarefas antigas para que possa criar novas tarefas.</string>
+    <string name='privacy_policy'>Política de Privacidade</string>
+</resources>

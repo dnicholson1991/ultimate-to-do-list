@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <string name="one_task_today">Heute 1 Aufgabe</string>
+    <string name="two_tasks_today">Heute 2 Aufgaben</string>
+    <string name="swipe_for_details">Streichen Sie nach links für Einzelheiten</string>
+    <string name="show_summary">Zeige jeden Morgen eine Tageszusammenfassung</string>
+    <string name="of_default_list">Von Ihrer Standardliste</string>
+    <string name="time_for_summary">Zeige die Zusammenfassung jetzt</string>
+</resources>

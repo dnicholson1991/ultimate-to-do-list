@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name='file_permission_reason'>Se você não permitir o acesso, o aplicativo não poderá fazer backup de suas tarefas, anotações e configurações.</string>
+    <string name='background_location_instructions'>Na próxima tela, toque na opção \"[option]\" para permitir que o aplicativo acesse sua localização o tempo todo.</string>
+    <string name='go_to_permissions'>Vá para a área de permissões e habilite o acesso ao local em todos os momentos.</string>
+
+    <string name='no_download_folder'>Seu dispositivo não possui uma pasta Downloads.</string>
+    <string name='unable_to_copy'>Não foi possível salvar o backup na pasta Downloads.</string>
+    <string name='cant_access_backup'>Incapaz de acessar o arquivo de backup.</string>
+    <string name="unable_to_uncompress">Não foi possível descompactar o arquivo de backup.</string>
+    <string name='choose_backup_file'>Na próxima tela, escolha o arquivo de backup do qual restaurar. Por padrão, o aplicativo os coloca na pasta Downloads com o nome \"Ultimate To-Do List Backup.zip\".</string>
+    <string name='backup_saved_to_downloads'>O backup foi salvo na pasta Downloads.</string>
+</resources>

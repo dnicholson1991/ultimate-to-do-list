@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name='show_ads_during_trial'>Propagandas aparecerão durante o período de testes. Se você
+        comprar uma licença durante este período, propagandas desaparecerão permanentemente.</string>
+
+    <string name='license_long_description'>
+        <![CDATA[
+            <p>Ao adquirir uma licença permite que utilize Ultimate To-Do List além do período gratuito de testes.
+                Sua licença está vinculada à sua conta Google ou Amazon.  Ela é válida para todos seus dispositivos Android -
+                smartphones e tablets - e acompanha automaticamente o aplicativo quando você atualiza ou troca seus
+                dispositivos.</p>
+            <p>Ao adquirir uma licença você também remove toda propaganda do aplicativo.</p>
+        ]]>
+    </string>
+
+    <string name='warning'>Cuidado</string>
+    <string name='edit_parent_task'>Editar Tarefa Superior</string>
+
+    <!-- Note to translators: Do not translate [count] in this string. This will be filled in with
+         a number. -->
+    <string name='merge_warning'>Isto irá combinar as [count] tarefas armazenadas no seu dispositivo com as
+        tarefas armazenadas na conta online.  Você tem certeza?</string>
+</resources>

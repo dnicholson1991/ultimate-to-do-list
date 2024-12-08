@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+>
+<LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+>
+	<CheckedTextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/edit_int_vr_is_and_checkbox"
+	    android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+	    android:gravity="center_vertical"
+	    android:text="@string/Previous_rule_must_also_match"
+	    android:layout_marginLeft='5dp'
+  		android:minHeight='48dp'
+	/>
+	
+	<!-- Separator -->  	
+	<View android:layout_height="1dp"
+		android:layout_width="fill_parent"
+		android:background="?attr/list_divider_color"
+		android:id="@+id/edit_int_vr_separator"
+	/>
+
+	<!-- Layout for timer option (running or not running) -->
+	<TextView
+		android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/edit_int_vr_timer_text"
+	    android:text="@string/Show_tasks_with_timer_on"
+	    android:layout_marginLeft='5dp'
+	    android:minHeight='40dp'
+  		android:gravity='center_vertical'
+	/>	
+	<Spinner
+		android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/edit_int_vr_timer_spinner"
+	    android:entries="@array/timer_on_or_not"
+	    android:layout_marginLeft='5dp'
+	/>
+	
+	<!--  Layout for other int options -->
+	<TextView
+		android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/edit_int_vr_other_int_text"
+	    android:text="@string/Find_tasks_whose"
+	    android:layout_marginLeft='5dp'
+	    android:minHeight='40dp'
+  		android:gravity='center_vertical'
+	/>
+	<Spinner
+		android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/edit_int_vr_other_int_operator"
+	    android:entries="@array/comparison_operators"
+	    android:layout_marginLeft='5dp'
+	/>
+	<LinearLayout
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:orientation="horizontal"
+	  android:id="@+id/edit_int_vr_other_int_container"
+	  android:layout_marginLeft='5dp'
+	  android:minHeight='48dp'
+	>
+		<EditText
+			android:id="@+id/edit_int_vr_other_int_number"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:lines="1"
+			android:maxLines="1"
+			android:inputType="number"
+			android:minWidth="70dp"
+		/>
+		<TextView
+			android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:id="@+id/edit_int_vr_other_int_minutes"
+		    android:text="@string/minutes"
+		/>
+	</LinearLayout>
+	
+</LinearLayout>
+</ScrollView><!-- From: file:/C:/GDrive-dnicholson/Work/Android_Projects/UTL/uTL/src/main/res/layout/edit_int_view_rule.xml -->

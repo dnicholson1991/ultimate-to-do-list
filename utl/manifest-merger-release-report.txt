@@ -1,0 +1,860 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	xmlns:tools
+		ADDED from AndroidManifest.xml:3:5
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	package
+		ADDED from AndroidManifest.xml:4:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:7:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:6:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:installLocation
+		ADDED from AndroidManifest.xml:5:5
+uses-sdk
+ADDED from AndroidManifest.xml:9:5
+MERGED from UTL:droidparts:unspecified:5:5
+MERGED from com.android.support:appcompat-v7:18.0.0:18:5
+MERGED from com.android.support:support-v4:21.0.0:15:5
+MERGED from com.android.support:support-v4:21.0.0:15:5
+MERGED from com.google.android.gms:play-services:6.5.87:18:5
+MERGED from com.android.support:support-v4:21.0.0:15:5
+MERGED from AndroidManifest.xml:3:13
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:11:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:10:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	tools:overrideLibrary
+		ADDED from AndroidManifest.xml:12:9
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:15:5
+	android:name
+		ADDED from AndroidManifest.xml:15:22
+uses-permission#android.permission.VIBRATE
+ADDED from AndroidManifest.xml:16:5
+	android:name
+		ADDED from AndroidManifest.xml:16:22
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from AndroidManifest.xml:17:5
+	android:name
+		ADDED from AndroidManifest.xml:17:22
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from AndroidManifest.xml:18:5
+	android:name
+		ADDED from AndroidManifest.xml:18:22
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from AndroidManifest.xml:19:5
+	android:name
+		ADDED from AndroidManifest.xml:19:22
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from AndroidManifest.xml:20:5
+	android:name
+		ADDED from AndroidManifest.xml:20:22
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from AndroidManifest.xml:21:5
+	android:name
+		ADDED from AndroidManifest.xml:21:22
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from AndroidManifest.xml:22:5
+	android:name
+		ADDED from AndroidManifest.xml:22:22
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from AndroidManifest.xml:23:5
+	android:name
+		ADDED from AndroidManifest.xml:23:22
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from AndroidManifest.xml:24:5
+	android:name
+		ADDED from AndroidManifest.xml:24:22
+uses-permission#android.permission.READ_CONTACTS
+ADDED from AndroidManifest.xml:25:5
+	android:name
+		ADDED from AndroidManifest.xml:25:22
+uses-permission#android.permission.READ_CALENDAR
+ADDED from AndroidManifest.xml:26:5
+	android:name
+		ADDED from AndroidManifest.xml:26:22
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from AndroidManifest.xml:27:5
+	android:name
+		ADDED from AndroidManifest.xml:27:22
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:28:5
+	android:name
+		ADDED from AndroidManifest.xml:28:22
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:29:5
+	android:name
+		ADDED from AndroidManifest.xml:29:22
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from AndroidManifest.xml:30:5
+	android:name
+		ADDED from AndroidManifest.xml:30:22
+uses-permission#com.android.vending.BILLING
+ADDED from AndroidManifest.xml:31:5
+	android:name
+		ADDED from AndroidManifest.xml:31:22
+uses-permission#utl_permission
+ADDED from AndroidManifest.xml:32:5
+	android:name
+		ADDED from AndroidManifest.xml:32:22
+uses-permission#com.customsolutions.android.utl_tab_permission
+ADDED from AndroidManifest.xml:33:5
+	android:name
+		ADDED from AndroidManifest.xml:33:22
+uses-feature#android.hardware.wifi
+ADDED from AndroidManifest.xml:36:5
+	android:required
+		ADDED from AndroidManifest.xml:38:9
+	android:name
+		ADDED from AndroidManifest.xml:37:9
+uses-feature#android.hardware.location.network
+ADDED from AndroidManifest.xml:39:5
+	android:required
+		ADDED from AndroidManifest.xml:41:9
+	android:name
+		ADDED from AndroidManifest.xml:40:9
+uses-feature#android.hardware.location
+ADDED from AndroidManifest.xml:42:5
+	android:required
+		ADDED from AndroidManifest.xml:44:9
+	android:name
+		ADDED from AndroidManifest.xml:43:9
+uses-feature#android.hardware.location.gps
+ADDED from AndroidManifest.xml:45:5
+	android:required
+		ADDED from AndroidManifest.xml:47:9
+	android:name
+		ADDED from AndroidManifest.xml:46:9
+uses-feature#android.hardware.microphone
+ADDED from AndroidManifest.xml:48:5
+	android:required
+		ADDED from AndroidManifest.xml:50:9
+	android:name
+		ADDED from AndroidManifest.xml:49:9
+application
+ADDED from AndroidManifest.xml:52:5
+MERGED from com.android.support:appcompat-v7:18.0.0:19:5
+MERGED from com.android.support:support-v4:21.0.0:16:5
+MERGED from com.android.support:support-v4:21.0.0:16:5
+MERGED from com.google.android.gms:play-services:6.5.87:20:5
+MERGED from com.android.support:support-v4:21.0.0:16:5
+MERGED from AndroidManifest.xml:4:5
+	android:label
+		ADDED from AndroidManifest.xml:54:9
+	android:icon
+		ADDED from AndroidManifest.xml:53:9
+	android:theme
+		ADDED from AndroidManifest.xml:55:9
+activity#com.customsolutions.android.utl.main
+ADDED from AndroidManifest.xml:56:9
+	android:label
+		ADDED from AndroidManifest.xml:58:13
+	android:name
+		ADDED from AndroidManifest.xml:57:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:59:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:60:17
+	android:name
+		ADDED from AndroidManifest.xml:60:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:62:17
+	android:name
+		ADDED from AndroidManifest.xml:62:27
+activity#com.customsolutions.android.utl.BeginSetup
+ADDED from AndroidManifest.xml:65:9
+	android:name
+		ADDED from AndroidManifest.xml:65:19
+activity#com.customsolutions.android.utl.GetAccountName
+ADDED from AndroidManifest.xml:66:9
+	android:name
+		ADDED from AndroidManifest.xml:66:19
+activity#com.customsolutions.android.utl.EditTask
+ADDED from AndroidManifest.xml:67:9
+	android:name
+		ADDED from AndroidManifest.xml:67:19
+activity#com.customsolutions.android.utl.DateChooser
+ADDED from AndroidManifest.xml:68:9
+	android:theme
+		ADDED from AndroidManifest.xml:70:13
+	android:name
+		ADDED from AndroidManifest.xml:69:13
+activity#com.customsolutions.android.utl.AdvancedRepeatPopup
+ADDED from AndroidManifest.xml:71:9
+	android:theme
+		ADDED from AndroidManifest.xml:73:13
+	android:name
+		ADDED from AndroidManifest.xml:72:13
+activity#com.customsolutions.android.utl.TagPicker
+ADDED from AndroidManifest.xml:74:9
+	android:theme
+		ADDED from AndroidManifest.xml:76:13
+	android:name
+		ADDED from AndroidManifest.xml:75:13
+activity#com.customsolutions.android.utl.ItemPicker
+ADDED from AndroidManifest.xml:77:9
+	android:theme
+		ADDED from AndroidManifest.xml:79:13
+	android:name
+		ADDED from AndroidManifest.xml:78:13
+activity#com.customsolutions.android.utl.StringItemPicker
+ADDED from AndroidManifest.xml:80:9
+	android:theme
+		ADDED from AndroidManifest.xml:82:13
+	android:name
+		ADDED from AndroidManifest.xml:81:13
+activity#com.customsolutions.android.utl.TaskList
+ADDED from AndroidManifest.xml:83:9
+	android:name
+		ADDED from AndroidManifest.xml:83:19
+meta-data#android.support.UI_OPTIONS
+ADDED from AndroidManifest.xml:84:13
+	android:name
+		ADDED from AndroidManifest.xml:85:17
+	android:value
+		ADDED from AndroidManifest.xml:86:17
+activity#com.customsolutions.android.utl.ViewTask
+ADDED from AndroidManifest.xml:88:9
+	android:name
+		ADDED from AndroidManifest.xml:88:19
+intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:89:13
+action#android.intent.action.VIEW
+ADDED from AndroidManifest.xml:90:17
+	android:name
+		ADDED from AndroidManifest.xml:90:25
+category#android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:92:17
+	android:name
+		ADDED from AndroidManifest.xml:92:27
+data
+ADDED from AndroidManifest.xml:94:17
+	android:mimeType
+		ADDED from AndroidManifest.xml:94:23
+service#com.customsolutions.android.utl.Synchronizer
+ADDED from AndroidManifest.xml:98:9
+	android:name
+		ADDED from AndroidManifest.xml:98:18
+activity#com.customsolutions.android.utl.ToodledoLoginInfo
+ADDED from AndroidManifest.xml:100:9
+	android:configChanges
+		ADDED from AndroidManifest.xml:102:13
+	android:name
+		ADDED from AndroidManifest.xml:101:13
+activity#com.customsolutions.android.utl.ViewRulesList
+ADDED from AndroidManifest.xml:103:9
+	android:theme
+		ADDED from AndroidManifest.xml:105:13
+	android:name
+		ADDED from AndroidManifest.xml:104:13
+activity#com.customsolutions.android.utl.EditTextViewRule
+ADDED from AndroidManifest.xml:106:9
+	android:theme
+		ADDED from AndroidManifest.xml:108:13
+	android:name
+		ADDED from AndroidManifest.xml:107:13
+activity#com.customsolutions.android.utl.EditBooleanViewRule
+ADDED from AndroidManifest.xml:109:9
+	android:theme
+		ADDED from AndroidManifest.xml:111:13
+	android:name
+		ADDED from AndroidManifest.xml:110:13
+activity#com.customsolutions.android.utl.EditIntViewRule
+ADDED from AndroidManifest.xml:112:9
+	android:theme
+		ADDED from AndroidManifest.xml:114:13
+	android:name
+		ADDED from AndroidManifest.xml:113:13
+activity#com.customsolutions.android.utl.EditMultChoiceViewRule
+ADDED from AndroidManifest.xml:115:9
+	android:theme
+		ADDED from AndroidManifest.xml:117:13
+	android:name
+		ADDED from AndroidManifest.xml:116:13
+activity#com.customsolutions.android.utl.EditLocationViewRule
+ADDED from AndroidManifest.xml:118:9
+	android:theme
+		ADDED from AndroidManifest.xml:120:13
+	android:name
+		ADDED from AndroidManifest.xml:119:13
+activity#com.customsolutions.android.utl.EditMultStringsViewRule
+ADDED from AndroidManifest.xml:121:9
+	android:theme
+		ADDED from AndroidManifest.xml:123:13
+	android:name
+		ADDED from AndroidManifest.xml:122:13
+activity#com.customsolutions.android.utl.EditDateViewRule
+ADDED from AndroidManifest.xml:124:9
+	android:theme
+		ADDED from AndroidManifest.xml:126:13
+	android:name
+		ADDED from AndroidManifest.xml:125:13
+activity#com.customsolutions.android.utl.EditDueDateViewRule
+ADDED from AndroidManifest.xml:127:9
+	android:theme
+		ADDED from AndroidManifest.xml:129:13
+	android:name
+		ADDED from AndroidManifest.xml:128:13
+activity#com.customsolutions.android.utl.SaveView
+ADDED from AndroidManifest.xml:130:9
+	android:theme
+		ADDED from AndroidManifest.xml:132:13
+	android:name
+		ADDED from AndroidManifest.xml:131:13
+activity#com.customsolutions.android.utl.SortOrder
+ADDED from AndroidManifest.xml:133:9
+	android:theme
+		ADDED from AndroidManifest.xml:135:13
+	android:name
+		ADDED from AndroidManifest.xml:134:13
+activity#com.customsolutions.android.utl.EditDisplayOptions
+ADDED from AndroidManifest.xml:136:9
+	android:theme
+		ADDED from AndroidManifest.xml:138:13
+	android:name
+		ADDED from AndroidManifest.xml:137:13
+activity#com.customsolutions.android.utl.NoteList
+ADDED from AndroidManifest.xml:139:9
+	android:name
+		ADDED from AndroidManifest.xml:139:19
+activity#com.customsolutions.android.utl.PrefsActivity
+ADDED from AndroidManifest.xml:144:9
+	android:name
+		ADDED from AndroidManifest.xml:144:19
+activity#com.customsolutions.android.utl.AccountOps
+ADDED from AndroidManifest.xml:145:9
+	android:theme
+		ADDED from AndroidManifest.xml:147:13
+	android:name
+		ADDED from AndroidManifest.xml:146:13
+activity#com.customsolutions.android.utl.FieldsUsed
+ADDED from AndroidManifest.xml:148:9
+	android:name
+		ADDED from AndroidManifest.xml:148:19
+activity#com.customsolutions.android.utl.QuickSearch
+ADDED from AndroidManifest.xml:149:9
+	android:theme
+		ADDED from AndroidManifest.xml:151:13
+	android:name
+		ADDED from AndroidManifest.xml:150:13
+activity#com.customsolutions.android.utl.Help
+ADDED from AndroidManifest.xml:152:9
+	android:theme
+		ADDED from AndroidManifest.xml:154:13
+	android:name
+		ADDED from AndroidManifest.xml:153:13
+activity#com.customsolutions.android.utl.UploadLog
+ADDED from AndroidManifest.xml:155:9
+	android:theme
+		ADDED from AndroidManifest.xml:157:13
+	android:name
+		ADDED from AndroidManifest.xml:156:13
+service#com.customsolutions.android.utl.DatabaseCleaner
+ADDED from AndroidManifest.xml:159:9
+	android:name
+		ADDED from AndroidManifest.xml:159:18
+service#com.customsolutions.android.utl.ServerRegistration
+ADDED from AndroidManifest.xml:160:9
+	android:name
+		ADDED from AndroidManifest.xml:160:18
+service#com.customsolutions.android.utl.LocationChecker
+ADDED from AndroidManifest.xml:161:9
+	android:name
+		ADDED from AndroidManifest.xml:161:18
+activity#com.customsolutions.android.utl.TrialExpired
+ADDED from AndroidManifest.xml:163:9
+	android:configChanges
+		ADDED from AndroidManifest.xml:165:13
+	android:name
+		ADDED from AndroidManifest.xml:164:13
+activity#com.customsolutions.android.utl.WidgetDisplayOptions
+ADDED from AndroidManifest.xml:166:9
+	android:theme
+		ADDED from AndroidManifest.xml:168:13
+	android:name
+		ADDED from AndroidManifest.xml:167:13
+activity#com.customsolutions.android.utl.WidgetOptions
+ADDED from AndroidManifest.xml:169:9
+	android:theme
+		ADDED from AndroidManifest.xml:173:13
+	android:taskAffinity
+		ADDED from AndroidManifest.xml:172:13
+	android:name
+		ADDED from AndroidManifest.xml:170:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:171:13
+activity#com.customsolutions.android.utl.TaskMap
+ADDED from AndroidManifest.xml:174:9
+	android:name
+		ADDED from AndroidManifest.xml:174:19
+activity#com.customsolutions.android.utl.GTasksSetup
+ADDED from AndroidManifest.xml:175:9
+	android:configChanges
+		ADDED from AndroidManifest.xml:177:13
+	android:name
+		ADDED from AndroidManifest.xml:176:13
+activity#com.customsolutions.android.utl.ChoosePresetFieldsFunctions
+ADDED from AndroidManifest.xml:178:9
+	android:name
+		ADDED from AndroidManifest.xml:178:19
+activity#com.customsolutions.android.utl.CollaboratorsList
+ADDED from AndroidManifest.xml:179:9
+	android:theme
+		ADDED from AndroidManifest.xml:181:13
+	android:name
+		ADDED from AndroidManifest.xml:180:13
+activity#com.customsolutions.android.utl.GenericListActivity
+ADDED from AndroidManifest.xml:182:9
+	android:name
+		ADDED from AndroidManifest.xml:182:19
+activity#com.customsolutions.android.utl.EditContextActivity
+ADDED from AndroidManifest.xml:183:9
+	android:name
+		ADDED from AndroidManifest.xml:183:19
+activity#com.customsolutions.android.utl.EditFolderActivity
+ADDED from AndroidManifest.xml:184:9
+	android:name
+		ADDED from AndroidManifest.xml:184:19
+activity#com.customsolutions.android.utl.EditGoalActivity
+ADDED from AndroidManifest.xml:185:9
+	android:name
+		ADDED from AndroidManifest.xml:185:19
+activity#com.customsolutions.android.utl.EditTagActivity
+ADDED from AndroidManifest.xml:186:9
+	android:configChanges
+		ADDED from AndroidManifest.xml:188:13
+	android:name
+		ADDED from AndroidManifest.xml:187:13
+activity#com.customsolutions.android.utl.EditViewActivity
+ADDED from AndroidManifest.xml:189:9
+	android:name
+		ADDED from AndroidManifest.xml:189:19
+activity#com.customsolutions.android.utl.EditLocationActivity
+ADDED from AndroidManifest.xml:190:9
+	android:configChanges
+		ADDED from AndroidManifest.xml:192:13
+	android:name
+		ADDED from AndroidManifest.xml:191:13
+activity#com.customsolutions.android.utl.ViewNote
+ADDED from AndroidManifest.xml:193:9
+	android:name
+		ADDED from AndroidManifest.xml:193:19
+activity#com.customsolutions.android.utl.EditNoteActivity
+ADDED from AndroidManifest.xml:194:9
+	android:name
+		ADDED from AndroidManifest.xml:194:19
+activity#com.customsolutions.android.utl.EditTaskPopup
+ADDED from AndroidManifest.xml:195:9
+	android:theme
+		ADDED from AndroidManifest.xml:199:13
+	android:taskAffinity
+		ADDED from AndroidManifest.xml:198:13
+	android:name
+		ADDED from AndroidManifest.xml:196:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:197:13
+intent-filter#android.intent.action.EDIT+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:200:13
+action#android.intent.action.EDIT
+ADDED from AndroidManifest.xml:201:17
+	android:name
+		ADDED from AndroidManifest.xml:201:25
+intent-filter#android.intent.action.SEND+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:207:13
+action#android.intent.action.SEND
+ADDED from AndroidManifest.xml:208:17
+	android:name
+		ADDED from AndroidManifest.xml:208:25
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:214:13
+category#android.intent.category.BROWSABLE
+ADDED from AndroidManifest.xml:218:17
+	android:name
+		ADDED from AndroidManifest.xml:218:27
+activity#com.customsolutions.android.utl.ViewTaskPopup
+ADDED from AndroidManifest.xml:224:9
+	android:theme
+		ADDED from AndroidManifest.xml:228:13
+	android:taskAffinity
+		ADDED from AndroidManifest.xml:227:13
+	android:name
+		ADDED from AndroidManifest.xml:225:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:226:13
+activity#com.customsolutions.android.utl.SnoozePopup
+ADDED from AndroidManifest.xml:229:9
+	android:theme
+		ADDED from AndroidManifest.xml:233:13
+	android:taskAffinity
+		ADDED from AndroidManifest.xml:232:13
+	android:name
+		ADDED from AndroidManifest.xml:230:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:231:13
+activity#com.customsolutions.android.utl.ColorCodeReference
+ADDED from AndroidManifest.xml:234:9
+	android:theme
+		ADDED from AndroidManifest.xml:236:13
+	android:name
+		ADDED from AndroidManifest.xml:235:13
+activity#com.customsolutions.android.utl.WhatsNew
+ADDED from AndroidManifest.xml:237:9
+	android:theme
+		ADDED from AndroidManifest.xml:239:13
+	android:name
+		ADDED from AndroidManifest.xml:238:13
+activity#com.customsolutions.android.utl.LicenseUpgradeNotice
+ADDED from AndroidManifest.xml:240:9
+	android:theme
+		ADDED from AndroidManifest.xml:242:13
+	android:name
+		ADDED from AndroidManifest.xml:241:13
+activity#com.customsolutions.android.utl.EditNotePopup
+ADDED from AndroidManifest.xml:243:9
+	android:theme
+		ADDED from AndroidManifest.xml:245:13
+	android:name
+		ADDED from AndroidManifest.xml:244:13
+activity#com.customsolutions.android.utl.VoiceCommand
+ADDED from AndroidManifest.xml:246:9
+	android:label
+		ADDED from AndroidManifest.xml:249:13
+	android:icon
+		ADDED from AndroidManifest.xml:248:13
+	android:theme
+		ADDED from AndroidManifest.xml:252:13
+	android:taskAffinity
+		ADDED from AndroidManifest.xml:251:13
+	android:name
+		ADDED from AndroidManifest.xml:247:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:250:13
+activity#com.customsolutions.android.utl.VoiceCommandConfirm
+ADDED from AndroidManifest.xml:261:9
+	android:theme
+		ADDED from AndroidManifest.xml:263:13
+	android:name
+		ADDED from AndroidManifest.xml:262:13
+activity#com.customsolutions.android.utl.VoiceCommandRead
+ADDED from AndroidManifest.xml:264:9
+	android:theme
+		ADDED from AndroidManifest.xml:266:13
+	android:name
+		ADDED from AndroidManifest.xml:265:13
+activity#com.customsolutions.android.utl.BetaExpired
+ADDED from AndroidManifest.xml:267:9
+	android:name
+		ADDED from AndroidManifest.xml:267:19
+activity#com.customsolutions.android.utl.TextReceiver
+ADDED from AndroidManifest.xml:273:9
+	android:label
+		ADDED from AndroidManifest.xml:275:13
+	android:theme
+		ADDED from AndroidManifest.xml:278:13
+	android:taskAffinity
+		ADDED from AndroidManifest.xml:277:13
+	android:name
+		ADDED from AndroidManifest.xml:274:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:276:13
+intent-filter#android.intent.action.SEND+android.intent.category.DEFAULT+com.google.android.gm.action.AUTO_SEND+com.google.android.voicesearch.SELF_NOTE+com.google.android.voicesearch.action.AUTO_SEND
+ADDED from AndroidManifest.xml:279:13
+action#com.google.android.gm.action.AUTO_SEND
+ADDED from AndroidManifest.xml:281:17
+	android:name
+		ADDED from AndroidManifest.xml:281:25
+action#com.google.android.voicesearch.action.AUTO_SEND
+ADDED from AndroidManifest.xml:282:17
+	android:name
+		ADDED from AndroidManifest.xml:282:25
+category#com.google.android.voicesearch.SELF_NOTE
+ADDED from AndroidManifest.xml:285:17
+	android:name
+		ADDED from AndroidManifest.xml:285:27
+activity#com.customsolutions.android.utl.ShortcutMakerNewTask
+ADDED from AndroidManifest.xml:292:9
+	android:label
+		ADDED from AndroidManifest.xml:295:13
+	android:icon
+		ADDED from AndroidManifest.xml:294:13
+	android:name
+		ADDED from AndroidManifest.xml:293:13
+intent-filter#android.intent.action.CREATE_SHORTCUT+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:296:13
+action#android.intent.action.CREATE_SHORTCUT
+ADDED from AndroidManifest.xml:297:17
+	android:name
+		ADDED from AndroidManifest.xml:297:25
+activity#com.customsolutions.android.utl.ShortcutMakerVoiceMode
+ADDED from AndroidManifest.xml:304:9
+	android:label
+		ADDED from AndroidManifest.xml:307:13
+	android:icon
+		ADDED from AndroidManifest.xml:306:13
+	android:name
+		ADDED from AndroidManifest.xml:305:13
+receiver#com.customsolutions.android.utl.TextReceiver
+ADDED from AndroidManifest.xml:316:9
+	android:label
+		ADDED from AndroidManifest.xml:318:13
+	android:name
+		ADDED from AndroidManifest.xml:317:13
+receiver#com.customsolutions.android.utl.Notifier
+ADDED from AndroidManifest.xml:320:9
+	android:exported
+		ADDED from AndroidManifest.xml:322:13
+	android:name
+		ADDED from AndroidManifest.xml:321:13
+receiver#com.customsolutions.android.utl.LicenseReceiver
+ADDED from AndroidManifest.xml:323:9
+	android:exported
+		ADDED from AndroidManifest.xml:325:13
+	android:name
+		ADDED from AndroidManifest.xml:324:13
+service#com.customsolutions.android.utl.LicenseAppQuery
+ADDED from AndroidManifest.xml:327:9
+	android:exported
+		ADDED from AndroidManifest.xml:329:13
+	android:name
+		ADDED from AndroidManifest.xml:328:13
+service#com.customsolutions.android.utl.EventLogger
+ADDED from AndroidManifest.xml:330:9
+	android:name
+		ADDED from AndroidManifest.xml:330:18
+receiver#com.customsolutions.android.utl.BootupHandler
+ADDED from AndroidManifest.xml:332:9
+	android:name
+		ADDED from AndroidManifest.xml:332:19
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:333:13
+action#android.intent.action.BOOT_COMPLETED
+ADDED from AndroidManifest.xml:334:17
+	android:name
+		ADDED from AndroidManifest.xml:334:25
+intent-filter#android.intent.action.EXTERNAL_APPLICATIONS_AVAILABLE+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:338:13
+action#android.intent.action.EXTERNAL_APPLICATIONS_AVAILABLE
+ADDED from AndroidManifest.xml:339:17
+	android:name
+		ADDED from AndroidManifest.xml:339:25
+receiver#com.customsolutions.android.utl.HandleTimeZoneChange
+ADDED from AndroidManifest.xml:344:9
+	android:name
+		ADDED from AndroidManifest.xml:344:19
+intent-filter#android.intent.action.TIMEZONE_CHANGED+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:345:13
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from AndroidManifest.xml:346:17
+	android:name
+		ADDED from AndroidManifest.xml:346:25
+service#com.customsolutions.android.utl.WearService
+ADDED from AndroidManifest.xml:353:9
+	android:exported
+		ADDED from AndroidManifest.xml:355:13
+	android:name
+		ADDED from AndroidManifest.xml:354:13
+receiver#com.customsolutions.android.utl.TaskListWidget2x2
+ADDED from AndroidManifest.xml:358:9
+	android:label
+		ADDED from AndroidManifest.xml:361:13
+	android:enabled
+		ADDED from AndroidManifest.xml:360:13
+	android:name
+		ADDED from AndroidManifest.xml:359:13
+intent-filter#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from AndroidManifest.xml:362:13
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from AndroidManifest.xml:363:17
+	android:name
+		ADDED from AndroidManifest.xml:363:25
+meta-data#android.appwidget.provider
+ADDED from AndroidManifest.xml:366:13
+	android:resource
+		ADDED from AndroidManifest.xml:368:17
+	android:name
+		ADDED from AndroidManifest.xml:367:17
+receiver#com.customsolutions.android.utl.TaskListWidget2x3
+ADDED from AndroidManifest.xml:370:9
+	android:label
+		ADDED from AndroidManifest.xml:373:13
+	android:enabled
+		ADDED from AndroidManifest.xml:372:13
+	android:name
+		ADDED from AndroidManifest.xml:371:13
+receiver#com.customsolutions.android.utl.TaskListWidget2x4
+ADDED from AndroidManifest.xml:382:9
+	android:label
+		ADDED from AndroidManifest.xml:385:13
+	android:enabled
+		ADDED from AndroidManifest.xml:384:13
+	android:name
+		ADDED from AndroidManifest.xml:383:13
+receiver#com.customsolutions.android.utl.TaskListWidget3x2
+ADDED from AndroidManifest.xml:394:9
+	android:label
+		ADDED from AndroidManifest.xml:397:13
+	android:enabled
+		ADDED from AndroidManifest.xml:396:13
+	android:name
+		ADDED from AndroidManifest.xml:395:13
+receiver#com.customsolutions.android.utl.TaskListWidget3x3
+ADDED from AndroidManifest.xml:406:9
+	android:label
+		ADDED from AndroidManifest.xml:409:13
+	android:enabled
+		ADDED from AndroidManifest.xml:408:13
+	android:name
+		ADDED from AndroidManifest.xml:407:13
+receiver#com.customsolutions.android.utl.TaskListWidget3x4
+ADDED from AndroidManifest.xml:418:9
+	android:label
+		ADDED from AndroidManifest.xml:421:13
+	android:enabled
+		ADDED from AndroidManifest.xml:420:13
+	android:name
+		ADDED from AndroidManifest.xml:419:13
+receiver#com.customsolutions.android.utl.TaskListWidget4x2
+ADDED from AndroidManifest.xml:430:9
+	android:label
+		ADDED from AndroidManifest.xml:433:13
+	android:enabled
+		ADDED from AndroidManifest.xml:432:13
+	android:name
+		ADDED from AndroidManifest.xml:431:13
+receiver#com.customsolutions.android.utl.TaskListWidget4x3
+ADDED from AndroidManifest.xml:442:9
+	android:label
+		ADDED from AndroidManifest.xml:445:13
+	android:enabled
+		ADDED from AndroidManifest.xml:444:13
+	android:name
+		ADDED from AndroidManifest.xml:443:13
+receiver#com.customsolutions.android.utl.TaskListWidget4x4
+ADDED from AndroidManifest.xml:454:9
+	android:label
+		ADDED from AndroidManifest.xml:457:13
+	android:enabled
+		ADDED from AndroidManifest.xml:456:13
+	android:name
+		ADDED from AndroidManifest.xml:455:13
+receiver#com.customsolutions.android.utl.TaskListWidgetScrollable
+ADDED from AndroidManifest.xml:468:9
+	android:label
+		ADDED from AndroidManifest.xml:471:13
+	android:enabled
+		ADDED from AndroidManifest.xml:470:13
+	android:name
+		ADDED from AndroidManifest.xml:469:13
+service#com.customsolutions.android.utl.ScrollableWidgetServiceCompact
+ADDED from AndroidManifest.xml:481:9
+	android:permission
+		ADDED from AndroidManifest.xml:483:13
+	android:name
+		ADDED from AndroidManifest.xml:482:13
+service#com.customsolutions.android.utl.ScrollableWidgetServiceNormal
+ADDED from AndroidManifest.xml:484:9
+	android:permission
+		ADDED from AndroidManifest.xml:486:13
+	android:name
+		ADDED from AndroidManifest.xml:485:13
+provider#com.customsolutions.android.utl.AndroidAgendaProvider
+ADDED from AndroidManifest.xml:489:9
+	android:authorities
+		ADDED from AndroidManifest.xml:491:13
+	android:name
+		ADDED from AndroidManifest.xml:490:13
+provider#com.customsolutions.android.utl.PureCalendarProvider
+ADDED from AndroidManifest.xml:494:9
+	android:authorities
+		ADDED from AndroidManifest.xml:496:13
+	android:name
+		ADDED from AndroidManifest.xml:495:13
+receiver#com.customsolutions.android.utl.TaskUpdateReceiver
+ADDED from AndroidManifest.xml:499:9
+	android:label
+		ADDED from AndroidManifest.xml:501:13
+	android:name
+		ADDED from AndroidManifest.xml:500:13
+intent-filter#android.intent.category.DEFAULT+com.customsolutions.android.utl.TaskUpdateReceiver.ACTION_COMPLETE
+ADDED from AndroidManifest.xml:502:13
+action#com.customsolutions.android.utl.TaskUpdateReceiver.ACTION_COMPLETE
+ADDED from AndroidManifest.xml:503:17
+	android:name
+		ADDED from AndroidManifest.xml:503:25
+intent-filter#android.intent.category.DEFAULT+com.customsolutions.android.utl.TaskUpdateReceiver.ACTION_EDIT
+ADDED from AndroidManifest.xml:509:13
+action#com.customsolutions.android.utl.TaskUpdateReceiver.ACTION_EDIT
+ADDED from AndroidManifest.xml:510:17
+	android:name
+		ADDED from AndroidManifest.xml:510:25
+receiver#com.customsolutions.android.utl.PureCalendarReceiver
+ADDED from AndroidManifest.xml:519:9
+	android:label
+		ADDED from AndroidManifest.xml:521:13
+	android:name
+		ADDED from AndroidManifest.xml:520:13
+intent-filter#android.intent.category.DEFAULT+com.customsolutions.android.utl.purecalendarprovider.ACTION_COMPLETE
+ADDED from AndroidManifest.xml:522:13
+action#com.customsolutions.android.utl.purecalendarprovider.ACTION_COMPLETE
+ADDED from AndroidManifest.xml:523:17
+	android:name
+		ADDED from AndroidManifest.xml:523:25
+intent-filter#android.intent.category.DEFAULT+com.customsolutions.android.utl.purecalendarprovider.ACTION_DELETE
+ADDED from AndroidManifest.xml:529:13
+action#com.customsolutions.android.utl.purecalendarprovider.ACTION_DELETE
+ADDED from AndroidManifest.xml:530:17
+	android:name
+		ADDED from AndroidManifest.xml:530:25
+receiver#com.customsolutions.android.utl.AndroidAgendaReceiver
+ADDED from AndroidManifest.xml:539:9
+	android:label
+		ADDED from AndroidManifest.xml:541:13
+	android:name
+		ADDED from AndroidManifest.xml:540:13
+intent-filter#android.intent.category.DEFAULT+com.customsolutions.android.utl.androidagendaprovider.ACTION_COMPLETE
+ADDED from AndroidManifest.xml:542:13
+action#com.customsolutions.android.utl.androidagendaprovider.ACTION_COMPLETE
+ADDED from AndroidManifest.xml:543:17
+	android:name
+		ADDED from AndroidManifest.xml:543:25
+receiver#com.amazon.device.iap.ResponseReceiver
+ADDED from AndroidManifest.xml:552:9
+	android:name
+		ADDED from AndroidManifest.xml:552:19
+intent-filter#com.amazon.inapp.purchasing.NOTIFY
+ADDED from AndroidManifest.xml:553:13
+action#com.amazon.inapp.purchasing.NOTIFY
+ADDED from AndroidManifest.xml:554:17
+	android:permission
+		ADDED from AndroidManifest.xml:556:21
+	android:name
+		ADDED from AndroidManifest.xml:555:21
+uses-library#com.google.android.maps
+ADDED from AndroidManifest.xml:561:9
+	android:required
+		ADDED from AndroidManifest.xml:563:13
+	android:name
+		ADDED from AndroidManifest.xml:562:13
+meta-data#com.google.android.gms.version
+ADDED from com.google.android.gms:play-services:6.5.87:21:9
+	android:name
+		ADDED from com.google.android.gms:play-services:6.5.87:22:13
+	android:value
+		ADDED from com.google.android.gms:play-services:6.5.87:23:13
+meta-data#com.google.android.wearable.beta.app
+ADDED from AndroidManifest.xml:5:9
+	android:resource
+		ADDED from AndroidManifest.xml:6:20
+	android:name
+		ADDED from AndroidManifest.xml:5:20

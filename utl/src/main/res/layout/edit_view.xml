@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+>
+	<!-- Placeholder for the save/cancel bar.  Used if this is displayed with other fragments. -->
+	<FrameLayout
+	    android:id='@+id/save_cancel_bar_placeholder'
+	    android:layout_width='match_parent'
+	    android:layout_height='wrap_content'
+	/>
+	
+	<!-- Scrollview, containing all editing controls: -->
+	<ScrollView
+	  android:layout_width="fill_parent"
+	  android:layout_height="0dp"
+	  android:layout_weight="1"
+	  android:background='?attr/generic_editor_background'
+	>
+		<!-- Linear layout for the scrolling items: -->
+		<LinearLayout
+		  android:layout_width="fill_parent"
+		  android:layout_height="wrap_content"
+		  android:orientation="vertical"
+		> 
+			<!-- Section for title: -->
+			<LinearLayout
+			   style='@style/GenericEditorSectionLayout'
+			>
+				<!-- The Title of the View: -->
+				<org.droidparts.widget.ClearableEditText
+		  			android:id="@+id/edit_view_title"
+		  			style='@style/ClearableEditText'
+					android:layout_width="fill_parent"
+					android:layout_height='wrap_content'
+					android:text=""
+					android:hint='@string/Title'
+					android:background='@color/transparent'
+					android:paddingLeft='8dp'
+					android:paddingRight='8dp'
+					android:lines="1"
+					android:maxLines="1"
+					android:singleLine="true"
+					android:inputType="textCapSentences"
+				/>
+			</LinearLayout>
+			
+			<!-- Section for filter, sort, and display options: -->
+			<LinearLayout
+			   	style='@style/GenericEditorSectionLayout'
+			>
+				<!-- Edit Filter: -->
+				<LinearLayout
+				    android:id='@+id/edit_view_filter_container'
+			        style='@style/GenericEditorContainer'
+			    >
+			    	<TextView
+			    	    android:id='@+id/edit_view_filter'
+			    	    style='@style/GenericEditorField'
+			    	    android:gravity='center_vertical'
+			    	    android:textColor='?attr/utl_text_color'
+			    	    android:textSize='?attr/utl_font_size_large'
+			    	    android:drawableLeft='?attr/ab_filter_inv'
+			    	    android:text='@string/Edit_Filter_Rules'
+			    	/>
+			    </LinearLayout>
+			    
+				<!-- Edit Sort: -->
+				<LinearLayout
+				    android:id='@+id/edit_view_sort_container'
+			        style='@style/GenericEditorContainer'
+			    >
+			    	<TextView
+			    	    android:id='@+id/edit_view_sort'
+			    	    style='@style/GenericEditorField'
+			    	    android:gravity='center_vertical'
+			    	    android:textColor='?attr/utl_text_color'
+			    	    android:textSize='?attr/utl_font_size_large'
+			    	    android:drawableLeft='?attr/ab_sort_inv'
+			    	    android:text='@string/Edit_Sort_Order'
+			    	/>
+			    </LinearLayout>
+			    
+				<!-- Edit Display Options -->
+				<LinearLayout
+				    android:id='@+id/edit_view_display_container'
+			        style='@style/GenericEditorContainerAtBottom'
+			    >
+			    	<TextView
+			    	    android:id='@+id/edit_view_display'
+			    	    style='@style/GenericEditorField'
+			    	    android:gravity='center_vertical'
+			    	    android:textColor='?attr/utl_text_color'
+			    	    android:textSize='?attr/utl_font_size_large'
+			    	    android:drawableLeft='?attr/ab_display_options_inv'
+			    	    android:text='@string/Edit_Display_Options'
+			    	/>
+			    </LinearLayout>
+			</LinearLayout>
+
+            <!-- Contains the option to show at the top of the nav drawer -->
+            <LinearLayout
+                style='@style/GenericEditorSectionLayout'
+            >
+                <!-- The Row containing the archived option: -->
+                <LinearLayout
+                    android:id="@+id/edit_view_show_at_top_container"
+                    style='@style/GenericEditorContainer'
+                    >
+                    <TextView
+                        style='@style/GenericEditorField'
+                        android:text='@string/top_of_nav_drawer'
+                        />
+                    <View
+                        android:layout_width='0dp'
+                        android:layout_height='1dp'
+                        android:layout_weight='1'
+                        />
+                    <LinearLayout
+                        android:layout_width='56dp'
+                        android:layout_height='wrap_content'
+                        android:layout_gravity='center_vertical'
+                        android:gravity='center_horizontal|center_vertical'
+                        >
+                        <CheckBox
+                            android:id="@+id/edit_view_show_at_top"
+                            android:layout_width='wrap_content'
+                            android:layout_height='wrap_content'
+                            android:layout_gravity='center_vertical'
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+
+	<com.customsolutions.android.utl.BannerAd style='@style/BannerAd' />
+</LinearLayout>

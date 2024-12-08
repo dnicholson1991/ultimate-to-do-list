@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="shutdown_msg">Si está demasiado ocupado para leer este mensaje importante ahora, puede verlo en el área de Ayuda más tarde.
+\n
+\nEn julio de 2024, notificamos a nuestros usuarios sobre la necesidad de recaudar ingresos adicionales para mantener esta aplicación en Google Play, con el fin de cubrir el aumento de los gastos generales impuestos por Google. Realizamos una encuesta para ayudarnos a decidir nuestro próximo paso. Recibimos muchas respuestas positivas sobre la utilidad de la aplicación, pero no hubo suficiente interés en pagar una suscripción anual o agregar más publicidad intrusiva. Como resultado, dejaremos de publicar la aplicación en Google Play el 28 de febrero de 2025.
+\n
+\nUna vez que la aplicación se anule su publicación, seguirá funcionando en su dispositivo. Sin embargo, no podrá instalarla desde Google Play en ningún dispositivo nuevo. Para permitirle seguir utilizando la aplicación, hemos publicado un instalador descargable en nuestro sitio web. Encontrará el enlace de descarga en la sección de Ayuda de la aplicación. Distribuir la aplicación de esta manera nos permitirá seguir ofreciéndola a una fracción del costo que incurrimos con Google.
+\n
+\nTodos los complementos pagos se han desbloqueado dentro de la aplicación, por lo que ahora puedes acceder a ellos sin costo alguno. Si compraste un complemento pago a partir del 1 de enero de 2023, envíanos un correo electrónico y te reembolsaremos el dinero si lo solicitas.
+\n
+\nEn adelante, las actualizaciones de la aplicación se limitarán a corregir errores críticos únicamente. Si bien no podemos predecir el futuro, en este momento no tenemos motivos para creer que la aplicación dejará de funcionar a medida que se publiquen nuevas versiones de Android en los próximos años. Un problema potencial sería si Toodledo o Google realizan cambios en su interfaz de tareas que requieran cambios correspondientes de nuestra parte. Si estos cambios son extensos, es posible que no podamos realizar las actualizaciones necesarias. Lo mantendremos informado a través del sitio web: https://customsolutions.us/utl
+\n
+\nSi eres desarrollador de software y te interesa utilizar nuestro código como base para tu propia aplicación, hemos publicado el código fuente en GitHub. Puedes encontrar un enlace al repositorio en el área de Ayuda.</string>
+    <string name="removal_soon">Acerca de la próxima eliminación de Google Play</string>
+    <string name="download_latest">Descargar la última versión</string>
+    <string name="contact_by_email">Contáctenos por correo electrónico</string>
+    <string name="view_source">Ver código fuente</string>
+    <string name="view_source2">Visita el repositorio de la aplicación en GitHub</string>
+</resources>

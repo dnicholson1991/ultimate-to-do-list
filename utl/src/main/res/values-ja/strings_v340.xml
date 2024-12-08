@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <string name="one_task_today">今日は1タスク</string>
+    <string name="two_tasks_today">今日は2タスク</string>
+    <string name="swipe_for_details">左へスワイプして詳細を見る</string>
+    <string name="show_summary">毎朝、毎日の概要を表示する</string>
+    <string name="of_default_list">あなたのデフォルトのリスト</string>
+    <string name="time_for_summary">この時間に概要を表示する</string>
+</resources>

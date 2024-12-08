@@ -1,0 +1,177 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+
+android {
+    compileSdkVersion 34
+
+    defaultConfig {
+        applicationId "com.customsolutions.android.utl"
+        minSdkVersion 21
+        targetSdkVersion 34
+        versionCode 600000
+        versionName "6.0.0"
+
+        // This is needed because we previously bundled the Wear OS APK with the phone app.
+        wearAppUnbundled true
+    }
+
+    flavorDimensions "default"
+
+    productFlavors {
+        google { }
+        amazon { }
+    }
+
+    // TODO: See if I can build for Kindle with the "release" variant now.
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
+        }
+        release2 {
+            minifyEnabled false
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES.txt'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/dependencies.txt'
+        exclude 'META-INF/LGPL2.1'
+    }
+
+    useLibrary 'org.apache.http.legacy'
+
+    lintOptions {
+        checkReleaseBuilds false
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    android.variantFilter { variant ->
+        if (variant.buildType.name.equals('release') &&
+            !variant.getFlavors().get(0).name.equals('google'))
+        {
+            variant.setIgnore(true);
+        }
+        else if (variant.buildType.name.equals('release2') &&
+            variant.getFlavors().get(0).name.equals('google'))
+        {
+            variant.setIgnore(true);
+        }
+    }
+
+    // Prevent a duplicate class error on listenablefuture. I can't figure out where the
+    // duplication is coming from.
+    configurations{
+        all*.exclude group: 'com.google.guava', module: 'listenablefuture'
+    }
+}
+
+dependencies {
+    implementation project(':droidparts')
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+
+    //
+    // Google Libraries:
+    //
+
+    // Androidx Libraries:
+    implementation 'androidx.appcompat:appcompat:1.6.1' // 6/24/24: Upgrading to 1.7 produces NullPointerException upon compile
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation "androidx.drawerlayout:drawerlayout:1.2.0"
+
+    // Google Play Services:
+    implementation 'com.google.android.gms:play-services-auth:21.2.0'
+    implementation 'com.google.android.gms:play-services-wearable:18.2.0'
+    implementation 'com.google.android.gms:play-services-location:21.0.1' // 6/24/24: Upgrading to 21.3 produces a compile error.
+    implementation 'com.google.android.gms:play-services-ads-identifier:18.1.0'
+
+    // Access to Google APIs:
+    implementation 'com.google.api-client:google-api-client:1.30.9'
+    implementation('com.google.api-client:google-api-client-android:1.30.2') {
+        exclude group: 'org.apache.httpcomponents'
+    }
+
+    // Google Analytics:
+    // 6/24/24: Upgrading to 22.0.2 produces a compile error.
+    implementation 'com.google.firebase:firebase-analytics:21.3.0'
+
+    // Google Tasks API Java library. Check to see if there is a later version here:
+    // https://mvnrepository.com/artifact/com.google.apis/google-api-services-tasks
+    implementation('com.google.apis:google-api-services-tasks:v1-rev71-1.25.0') {
+        exclude group: 'org.apache.httpcomponents'
+    }
+
+    // Firebase remote config:S
+    implementation 'com.google.firebase:firebase-config:22.0.0'
+
+    // Google Play install referrer API:
+    implementation 'com.android.installreferrer:installreferrer:2.2'
+
+    // Kotlin support:
+    implementation "androidx.core:core-ktx:1.13.1"
+
+    // Google Play Billing:
+    implementation "com.android.billingclient:billing:6.0.1"
+
+    // Flexbox Layout:
+    implementation 'com.google.android.flexbox:flexbox:3.0.0'
+
+    //
+    // Miscellaneous third party libraries:
+    //
+
+    // Libraries for HTTP requests:
+    implementation 'com.squareup.okhttp3:okhttp:4.9.0'
+
+    // OpenStreet Maps:
+    implementation 'org.osmdroid:osmdroid-android:6.0.2'
+
+    // String utilities:
+    implementation 'org.apache.commons:commons-lang3:3.4'
+
+    // Provides a CircularFifoBuffer needed for native ads management:
+    implementation 'org.apache.commons:commons-collections4:4.4'
+
+    // VCard file processing:
+    // https://github.com/mangstadt/ez-vcard
+    implementation 'com.googlecode.ez-vcard:ez-vcard:0.10.6'
+
+    // Zip file support:
+    implementation 'net.lingala.zip4j:zip4j:2.9.0'
+
+    //
+    // Advertising Libraries:
+    //
+
+    // Google Funding Choices / User Messaging Platform:
+    implementation 'com.google.android.ump:user-messaging-platform:2.1.0'
+
+    // Google Ads:
+    implementation 'com.google.android.gms:play-services-ads:22.4.0'
+
+    // Facebook ads:
+    implementation 'com.facebook.android:audience-network-sdk:6.16.0'
+    implementation 'com.google.ads.mediation:facebook:6.16.0.0'
+
+    // Amazon Publisher Services:
+    implementation (name:'aps-sdk', ext:'aar')
+    implementation (name:'aps-admob-adapter', ext:'aar')
+
+    // AdMob mediation test suite:
+    implementation 'com.google.android.ads:mediation-test-suite:3.0.0'
+}
+
+apply plugin: 'com.google.gms.google-services'
+

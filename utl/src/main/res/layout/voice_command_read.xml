@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background='?attr/main_background_color'
+>
+    <!-- What was said. -->
+    <TextView
+        android:id='@+id/vm_read_what_was_said'
+        android:layout_width='match_parent'
+        android:layout_height='wrap_content'
+        android:paddingLeft='6dp'
+        android:paddingRight='6dp'
+        android:paddingTop='3dp'
+        android:paddingBottom='3dp'
+        android:minHeight='48dp'
+        android:gravity='center_vertical'
+        android:textSize='?attr/utl_font_size_large'
+        android:background="?attr/save_cancel_bar_background"
+    />
+    
+    <!-- This holds the task list for an error message. -->
+	<TextView
+        android:id='@+id/vm_read_list'
+        android:layout_width='match_parent'
+        android:layout_height='wrap_content'
+        android:paddingLeft='6dp'
+        android:paddingRight='6dp'
+        android:paddingTop='8dp'
+        android:paddingBottom='8dp'
+        android:gravity='center_vertical'
+        android:textSize='?attr/utl_font_size_large'
+    />
+	
+    <!-- An ProgressBar (indeterminate) to display while processing the speech -->
+    <LinearLayout
+        android:id='@+id/vm_read_progress_bar'
+        android:layout_width='match_parent'
+        android:layout_height='wrap_content'
+        android:layout_marginTop='6dp'
+        android:paddingLeft='6dp'
+        android:paddingRight='6dp'
+        android:layout_marginBottom='6dp'
+        android:gravity='center_vertical'
+    >    
+	    <ProgressBar
+	    	android:layout_width='wrap_content'
+	    	android:layout_height='wrap_content'
+	    />
+	    <TextView
+	        android:layout_width='wrap_content'
+	        android:layout_height='wrap_content'
+	        android:paddingLeft='6dp'
+	        android:textSize='?attr/utl_font_size_large'
+	        android:text='@string/Processing'
+	    />
+    </LinearLayout>
+    
+    <!-- This blank view forces the yes and no buttons to the bottom -->
+    <View
+        android:layout_width='wrap_content'
+        android:layout_height='0dp'
+        android:layout_weight='1'
+    />
+    
+    <!-- Yes and No buttons -->
+    <LinearLayout
+        android:layout_width='match_parent'
+        android:layout_height='wrap_content'
+        android:orientation='horizontal'
+        android:layout_marginBottom='6dp'
+        android:layout_marginTop='6dp'
+    >
+        <LinearLayout
+            android:layout_width='0dp'
+            android:layout_height='wrap_content'
+            android:orientation='horizontal'
+            android:layout_weight='1'
+            android:gravity='center_horizontal'
+        >
+            <Button
+                android:id='@+id/vm_read_no'
+                android:layout_width='wrap_content'
+                android:layout_height='wrap_content'
+                android:minWidth='128dp'
+                android:minHeight='72dp'
+                android:layout_gravity='center_horizontal'
+                android:drawableLeft="@drawable/ab_cancel_dark"
+                android:textSize='?attr/utl_font_size_large'
+                android:text='@string/VM_No_Cap'
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width='0dp'
+            android:layout_height='wrap_content'
+            android:orientation='horizontal'
+            android:layout_weight='1'
+            android:gravity='center_horizontal'
+        >
+            <Button
+                android:id='@+id/vm_read_yes'
+                android:layout_width='wrap_content'
+                android:layout_height='wrap_content'
+                android:minWidth='128dp'
+                android:minHeight='72dp'
+                android:layout_gravity='center_horizontal'
+                android:drawableLeft="@drawable/ab_save_dark"
+                android:textSize='?attr/utl_font_size_large'
+                android:text='@string/VM_Yes_Cap'
+            />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

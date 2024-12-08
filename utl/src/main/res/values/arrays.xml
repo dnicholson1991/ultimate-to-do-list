@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="statuses">
+		<item>@string/status_none</item>
+		<item>@string/status_next_action</item>
+		<item>@string/status_active</item>
+		<item>@string/status_planning</item>
+		<item>@string/status_delegated</item>
+		<item>@string/status_waiting</item>
+		<item>@string/status_hold</item>
+		<item>@string/status_postponed</item>
+		<item>@string/status_someday</item>
+		<item>@string/status_canceled</item>
+		<item>@string/status_reference</item>
+	</string-array>
+	
+	<string-array name="priorities">
+		<item>@string/None</item>
+		<item>@string/priority_negative</item>
+		<item>@string/priority_low</item>
+		<item>@string/priority_medium</item>
+		<item>@string/priority_high</item>
+		<item>@string/priority_top</item>
+	</string-array>
+	
+	<string-array name="repeat_options">
+		<item>@string/repeat_none</item>
+		<item>@string/repeat_weekly</item>
+		<item>@string/repeat_monthly</item>
+		<item>@string/repeat_yearly</item>
+		<item>@string/repeat_daily</item>
+		<item>@string/repeat_biweekly</item>
+		<item>@string/repeat_bimonthly</item>
+		<item>@string/repeat_semiannually</item>
+		<item>@string/repeat_quarterly</item>
+		<item>@string/repeat_with_parent</item>
+		<item>@string/end_of_month</item>
+		<item>@string/repeat_advanced</item>  <!-- Note that the code assumes that this is the last one. -->
+	</string-array>
+	
+	<string-array name="reminder_options">
+		<item>@string/reminder_none</item>
+		<item>@string/reminder_1_min</item>
+		<item>@string/reminder_15_min</item>
+		<item>@string/reminder_30_min</item>
+		<item>@string/reminder_45_min</item>
+		<item>@string/reminder_1_hour</item>
+		<item>@string/reminder_15_hours</item>
+		<item>@string/reminder_2_hours</item>
+		<item>@string/reminder_3_hours</item>
+		<item>@string/reminder_4_hours</item>
+		<item>@string/reminder_1_day</item>
+		<item>@string/reminder_2_days</item>
+		<item>@string/reminder_3_days</item>
+		<item>@string/reminder_4_days</item>
+		<item>@string/reminder_5_days</item>
+		<item>@string/reminder_6_days</item>
+		<item>@string/reminder_7_days</item>
+		<item>@string/reminder_14_days</item>
+		<item>@string/reminder_30_days</item>
+	</string-array>
+	
+	<!-- Items here correspond to the previous list -->
+	<integer-array name="reminder_minutes">
+		<item>0</item>
+		<item>1</item>
+		<item>15</item>
+		<item>30</item>
+		<item>45</item>
+		<item>60</item>
+		<item>90</item>
+		<item>120</item>
+		<item>180</item>
+		<item>240</item>
+		<item>1440</item>
+		<item>2880</item>
+		<item>4320</item>
+		<item>5760</item>
+		<item>7200</item>
+		<item>8640</item>
+		<item>10080</item>
+		<item>20160</item>
+		<item>43200</item>
+	</integer-array>
+	
+	<string-array name="months">
+		<item>@string/month_jan</item>
+		<item>@string/month_feb</item>
+		<item>@string/month_mar</item>
+		<item>@string/month_apr</item>
+		<item>@string/month_may</item>
+		<item>@string/month_jun</item>
+		<item>@string/month_jul</item>
+		<item>@string/month_aug</item>
+		<item>@string/month_sep</item>
+		<item>@string/month_oct</item>
+		<item>@string/month_nov</item>
+		<item>@string/month_dec</item>
+	</string-array>
+	
+	<string-array name="advanced_due_date_options">
+		<item>@string/due_option_due_by</item>
+		<item>@string/due_option_exactly_on</item>
+		<item>@string/due_option_optionally_on</item>
+	</string-array>
+	
+	<string-array name="repeat_from_options">
+		<item>@string/repeat_from_due_date</item>
+		<item>@string/repeat_from_completion</item>
+	</string-array>
+	
+	<integer-array name="snooze_minutes">
+		<item>5</item>
+		<item>15</item>
+		<item>30</item>
+		<item>60</item>
+		<item>120</item>
+		<item>180</item>
+		<item>240</item>
+		<item>300</item>
+		<item>360</item>
+		<item>540</item>
+		<item>720</item>
+		<item>1440</item>
+	</integer-array>
+	
+	<string-array name="snooze_strings">
+		<item>@string/snooze_5_min</item>
+		<item>@string/snooze_15_min</item>
+		<item>@string/snooze_30_min</item>
+		<item>@string/snooze_1_hour</item>
+		<item>@string/snooze_2_hours</item>
+		<item>@string/snooze_3_hours</item>
+		<item>@string/snooze_4_hours</item>
+		<item>@string/snooze_5_hours</item>
+		<item>@string/snooze_6_hours</item>
+		<item>@string/snooze_9_hours</item>
+		<item>@string/snooze_12_hours</item>
+		<item>@string/snooze_1_day</item>
+	</string-array>
+	
+	<string-array name="contains_or_exact">
+		<item>@string/contains</item>
+		<item>@string/is_exactly</item>
+	</string-array>
+	
+	<string-array name="timer_on_or_not">
+		<item>@string/not_running</item>
+		<item>@string/running</item>
+	</string-array>
+	
+	<string-array name="comparison_operators">
+		<item>@string/numeric_compare_less_than</item>
+		<item>@string/numeric_compare_less_than_or_equal</item>
+		<item>@string/numeric_compare_equal</item>
+		<item>@string/numeric_compare_greater_than_or_equal</item>
+		<item>@string/numeric_compare_greater_than</item>
+		<item>@string/numeric_compare_not_equal</item>
+	</string-array>
+	
+	<string-array name="date_comparison_operators">
+		<item>@string/date_compare_on_or_before</item>
+		<item>@string/date_compare_equal</item>
+		<item>@string/date_compare_on_or_after</item>
+	</string-array>
+	
+	<string-array name="past_future">
+		<item>@string/past</item>
+		<item>@string/future</item>
+	</string-array>
+		
+	<!-- Subtask options (human readable) -->
+	<string-array name="subtask_display_options">
+		<item>@string/subtask_display_indented</item>
+		<item>@string/subtask_display_not_indended</item>
+		<item>@string/subtask_display_hidden_long_press</item>
+	</string-array>
+	
+	<!-- Subtask options for widget (human readable) -->
+	<string-array name="subtask_widget_display_options">
+		<item>@string/subtask_display_indented</item>
+		<item>@string/subtask_display_not_indended</item>
+		<item>@string/subtask_display_hidden</item>
+	</string-array>
+
+	<!-- Goal Levels -->
+	<string-array name="goal_levels">
+		<item>@string/goal_duration_lifelong</item>
+		<item>@string/goal_duration_long_term</item>
+		<item>@string/goal_duration_short_term</item>
+	</string-array>
+	
+	<!-- Font Size Descriptions - Human Readable (translate this)-->
+	<string-array name="font_sizes">
+		<item>@string/size_small</item>
+		<item>@string/size_medium</item>
+		<item>@string/size_large</item>
+	</string-array>
+	
+	<!-- Font Size Descriptions - Used by Code (do not translate) -->
+	<string-array name="font_sizes_code">
+		<item>small</item>
+		<item>medium</item>
+		<item>large</item>
+	</string-array>
+	
+	<!-- Vibration Patterns (human-readable) -->
+	<string-array name="vibe_patterns_readable">
+		<item>@string/vibe_default</item>
+		<item>@string/vibe_none</item>
+		<item>@string/vibe_short</item>
+		<item>@string/vibe_long</item>
+		<item>@string/vibe_short_long</item>
+		<item>@string/vibe_long_short</item>
+		<item>@string/vibe_short_3</item>
+		<item>@string/vibe_long_3</item>
+		<item>@string/vibe_s_l_s</item>
+		<item>@string/vibe_l_s_l</item>
+		<item>@string/vibe_s_l_s_l</item>
+		<item>@string/vibe_s_l_s_l_x2</item>
+	</string-array>
+	
+	<!-- Vibration Patterns (for the system) These correspond to the strings above. -->
+	<!-- Initial delay is always 0.  Short vibe lasts 200ms.  Gap in between is 100ms.  Long vibe lasts 10000. -->
+	<string-array name="vibe_patterns_system">
+		<item>Default</item>
+		<item>0,0</item>
+		<item>0,200</item>
+		<item>0,1000</item>
+		<item>0,200,100,1000</item>
+		<item>0,1000,100,200</item>
+		<item>0,200,100,200,100,200</item>
+		<item>0,1000,100,1000,100,1000</item>
+		<item>0,200,100,1000,100,200</item>
+		<item>0,1000,100,200,100,1000</item>
+		<item>0,200,100,1000,100,200,100,1000</item>
+		<item>0,200,100,1000,100,200,100,1000,100,200,100,1000,100,200,100,1000</item>
+	</string-array>
+	
+	<!-- Values for default start and due dates (As seen by user) -->
+	<string-array name="date_defaults">
+		<item>@string/None_No_Symbols</item>
+		<item>@string/Today2</item>
+		<item>@string/Tomorrow</item>
+	</string-array>
+	
+	<!-- Values for default start and due dates (as seen by code) -->
+	<string-array name="date_defaults_system">
+		<item></item>
+		<item>today</item>
+		<item>tomorrow</item>
+	</string-array>
+	
+	<!-- Human readable colors for the device light -->
+	<string-array name="readable_light_colors">
+		<item>@string/None_No_Symbols</item>
+		<item>@string/color_red</item>
+		<item>@string/color_green</item>
+		<item>@string/color_blue</item>
+		<item>@string/color_yellow</item>
+		<item>@string/color_magenta</item>
+		<item>@string/color_cyan</item>
+		<item>@string/color_orange</item>
+	</string-array>
+	
+	<!-- ARGB values for the colors defined above -->
+	<integer-array name="argb_light_colors">
+		<item>0</item>
+		<item>0xFFFF0000</item>
+		<item>0xFF00FF00</item>
+		<item>0xFF0000FF</item>
+		<item>0xFFFFFF00</item>
+		<item>0xFFFF00FF</item>
+		<item>0xFF00FFFF</item>
+		<item>0xFFFFA500</item>
+	</integer-array>
+	
+	<!-- Theme choices -->
+	<string-array name="themes">
+		<item>@string/theme_pacific</item>
+		<item>@string/theme_boston</item>
+		<item>@string/theme_classic</item>
+		<item>@string/Dark</item>
+		<item>@string/theme_darker</item>
+		<item>@string/theme_darkest</item>
+	</string-array>
+
+	<!-- Format choices for widgets: -->
+	<string-array name='widget_formats'>
+		<item>@string/compact</item>
+		<item>@string/normal</item>
+	</string-array>
+
+	<!-- Options for undated task sorting -->
+	<string-array name="undated_sort_order">
+		<item>@string/undated_sort_before</item>
+		<item>@string/undated_sort_after</item>
+	</string-array>
+	
+	<!-- Options for when a parent task is filtered out (when subtasks are indented) -->
+	<string-array name="parent_display_options">
+		<item>@string/orphaned_subtask_show</item>
+		<item>@string/orphaned_subtask_hide</item>
+	</string-array>
+	
+	<!-- Arrays for Date/Time Prefs -->
+	
+	<!-- First day of the week (stored in database or shared preferences) -->
+	<string-array name='first_day_of_week_db'>
+	    <item>Sunday</item>
+		<item>Monday</item>
+	</string-array>
+	
+	<!-- First day of the week (human-readable)-->
+	<string-array name="first_day_of_week">
+		<item>@string/Sunday_full</item>
+		<item>@string/Monday_full</item>
+	</string-array>
+	
+	<!-- Text values that represent the possible date formats -->
+	<string-array name="date_formats">
+		<item>@string/date_format_system</item>
+		<item>@string/date_format_day_first</item>
+		<item>@string/date_format_month_first</item>
+		<item>@string/date_format_year_first</item>
+	</string-array>
+	
+	<!-- Time Format -->
+	<string-array name="time_formats">
+		<item>@string/time_format_system</item>
+		<item>@string/time_format_12_hour</item>
+		<item>@string/time_format_24_hour</item>
+	</string-array>
+	
+	<!-- Distance Measurement -->
+	<string-array name="distance_measures">
+		<item>@string/miles</item>
+		<item>@string/kilos</item>
+	</string-array>
+	
+	<!-- Distance Measurement (abbreviations) -->
+	<string-array name="distance_abbreviations">
+		<item>@string/miles_abbreviation</item>
+		<item>@string/kilos_abbreviation</item>
+	</string-array>
+	
+	<!-- Abbreviations for Directions (North, South, East, and West)-->
+	<string-array name="direction_abbreviations">
+		<item>@string/direction_north</item>
+		<item>@string/direction_northeast</item>
+		<item>@string/direction_east</item>
+		<item>@string/direction_southeast</item>
+		<item>@string/direction_south</item>
+		<item>@string/direction_southwest</item>
+		<item>@string/direction_west</item>
+		<item>@string/direction_northwest</item>
+	</string-array>
+
+	<!-- Sort Order Options for Date Fields -->
+	<string-array name="sort_order_date">
+		<item>@string/date_sort_earliest</item>
+		<item>@string/date_sort_latest</item>
+	</string-array>
+	
+	<!-- Sort Order Options for Text Fields -->
+	<string-array name="sort_order_text">
+		<item>@string/alpha_sort_normal</item>
+		<item>@string/alpha_sort_reverse</item>
+	</string-array>
+	
+	<!-- Sort Order Options for Priority -->
+	<string-array name="sort_order_priority">
+		<item>@string/priority_sort_normal</item>
+		<item>@string/priority_sort_reverse</item>
+	</string-array>
+	
+	<!-- Sort Order Options for Star -->
+	<string-array name="sort_order_star">
+		<item>@string/star_sort_normal</item>
+		<item>@string/star_sort_reverse</item>
+	</string-array>
+	
+	<!-- Sort Order Options for Numeric Fields -->
+	<string-array name="sort_order_numeric">
+		<item>@string/numeric_sort_low_first</item>
+		<item>@string/numeric_sort_high_first</item>
+	</string-array>
+	
+	<!-- Sort Order Options for Completion Status -->
+	<string-array name="sort_order_completed">
+		<item>@string/completion_sort_incomplete_first</item>
+		<item>@string/completion_sort_complete_first</item>
+	</string-array>
+
+	<!-- Location Methods -->
+	<string-array name="location_methods">
+		<item>@string/location_methods_cellular_wifi</item>
+		<item>@string/location_methods_gps</item>
+		<item>@string/location_methods_all</item>
+	</string-array>
+
+	<string-array name="sort_order_shared">
+		<item>@string/shared_sort_shared_first</item>
+		<item>@string/shared_sort_unshared_first</item>
+	</string-array>
+	
+	<integer-array name="priority_colors">
+		<item>0xFF808080</item>
+		<item>0xFF00FF00</item>
+		<item>0xFF0000FF</item>
+		<item>0xFFFFFF00</item>
+		<item>0xFFFFAA00</item>
+		<item>0xFFFF0000</item>
+	</integer-array>
+	
+	<!-- Repeating Intervals - for the database (not translated): -->
+	<string-array name='repeat_intervals_db'>
+	    <item>day</item>
+	    <item>week</item>
+	    <item>month</item>
+	    <item>year</item>
+	</string-array>
+	
+	<!-- Repeating Intervals - Localized: -->
+	<string-array name='repeat_intervals_localized'>
+	    <item>@string/Days</item>
+	    <item>@string/Weeks</item>
+	    <item>@string/Months</item>
+	    <item>@string/Years</item>
+	</string-array>
+	
+	<!-- Locations within a month - for the database (not translated): -->
+	<string-array name='month_locations_db'>
+	    <item>1</item>
+	    <item>2</item>
+	    <item>3</item>
+	    <item>4</item>
+	    <item>5</item>
+	    <item>last</item>
+	</string-array>
+	
+	<!-- Locations within a month - Localized: -->
+	<string-array name='month_locations_localized'>
+	    <item>@string/first</item>
+	    <item>@string/second</item>
+	    <item>@string/third</item>
+	    <item>@string/fourth</item>
+	    <item>@string/fifth</item>
+	    <item>@string/last</item>
+	</string-array>
+	
+	<!-- Days of the week - for the database (not translated): -->
+	<string-array name='days_of_week_db'>
+	    <item>sun</item>
+	    <item>mon</item>
+	    <item>tue</item>
+	    <item>wed</item>
+	    <item>thu</item>
+	    <item>fri</item>
+	    <item>sat</item>
+	</string-array>
+	
+	<!-- Days of the week - Localized: -->
+	<string-array name='days_of_week_localized'>
+	    <item>@string/Sunday_full</item>
+	    <item>@string/Monday_full</item>
+	    <item>@string/Tuesday_full</item>
+	    <item>@string/Wednesday_full</item>
+	    <item>@string/Thursday_full</item>
+	    <item>@string/Friday_full</item>
+	    <item>@string/Saturday_full</item>
+	</string-array>
+	
+	<!-- Split-Screen Options: -->
+	<string-array name='split_screen_options'>
+	    <item>@string/None_No_Symbols</item>
+	    <item>@string/split_screen_2_pane_nav_list</item>
+	    <item>@string/split_screen_2_pane_list_viewer</item>
+	    <item>@string/split_screen_3_pane</item>
+	</string-array>
+
+	<!-- Blank array, used for preferences that require an array, when the actual values are filled in at run-time -->
+	<string-array name='blank'>
+	    <item>0</item>
+	</string-array>
+	
+	<!-- Widget Themes: -->
+	<string-array name='widget_themes'>
+	    <item>@string/widget_theme_compact_light</item>
+	    <item>@string/widget_theme_compact_dark</item>
+	    <item>@string/widget_theme_normal_light</item>
+	    <item>@string/widget_theme_normal_dark</item>
+	</string-array>
+	
+	<!-- Notification Priorities: -->
+	<string-array name='notification_priorities'>
+	    <item>@string/notification_priority_min</item>
+	    <item>@string/notification_priority_low</item>
+	    <item>@string/notification_priority_default</item>
+	    <item>@string/notification_priority_high</item>
+	    <item>@string/notification_priority_max</item>
+	</string-array>
+
+	<!-- Time Units.  The index of these elements must be one less than the values of the
+	 	 "OFFSET" constants in TaskTemplate.java. -->
+	<string-array name='time_units'>
+		<item>@string/Minutes</item>
+		<item>@string/Hours</item>
+		<item>@string/Days</item>
+		<item>@string/Weeks</item>
+		<item>@string/Months</item>
+		<item>@string/Years</item>
+	</string-array>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name='show_tasks'>Mostrar Tarefas</string>
+    <string name='play_services_out_of_date'>Este dispositivo usa uma versão antiga de Google Play Services.
+        Para consertar, abra o aplicativo Wear OS, vá em Configurações, selecione o seu relógio e use o comando Sincronizar Apps Novamente.</string>
+</resources>

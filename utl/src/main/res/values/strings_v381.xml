@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name='td_max_tasks_reached'>Toodledo\'s task limit has been reached. You will
+        need to delete some tasks in order to create more.</string>
+    <string name='privacy_policy'>Privacy Policy</string>
+</resources>

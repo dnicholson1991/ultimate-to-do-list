@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TODO: 11/15/2020: Google translate is being used. Need human translations. -->
+    <string name='personal_data_consent'>Manage consent for personal data usage</string>
+    <string name='location_disclosure'>To receive reminders when you arrive at the locations you\'ve
+        defined, allow Ultimate To-Do List to use your location all of the time. The app will use
+        your location in the background to determine if there are any tasks you need to be
+        reminded about at your current location.</string>
+</resources>

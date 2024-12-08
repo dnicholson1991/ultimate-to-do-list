@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <string name="google_sign_in_needed">Para sincronizar, o Google exige que você faça login na conta %s novamente.</string>
+
+    <!-- Names of themes: -->
+    <string name="theme_pacific">Pacífico</string>
+    <string name="theme_boston">Boston</string>
+    <string name="theme_classic">Clássico</string>
+    <string name="theme_darker">Mais escuro</string>
+    <string name="theme_darkest">Muito Escuro</string>
+
+    <!-- Options for widgets: A compact (compressed) display or a normal sized display. -->
+    <string name="format_">Formato:</string>
+    <string name="compact">Compactar</string>
+    <string name="normal">Normal</string>
+
+    <!-- Prompts to help the user choose which features to enable: -->
+    <string name="common_features">Recursos comuns</string>
+    <string name="almost_everyone">Quase todo mundo deveria habilitá-los.</string>
+    <string name="time_management">Gestão de Tempo</string>
+    <string name="precisely_plan">Planeje seu tempo com precisão.</string>
+    <string name="task_organization">Organização de Tarefas</string>
+    <string name="group_and_arrange">Agrupe e organize suas tarefas de diversas maneiras.</string>
+    <string name="project_management">Gestão de Projetos</string>
+    <string name="advanced_features">Recursos avançados para equipes, contratados e outras necessidades complexas.</string>
+    <string name="due_date_description">Essa é a data limite de conclusão da tarefa.</string>
+    <string name="folder_description">As pastas podem ser usadas para organizar suas tarefas e anotações em categorias, projetos ou áreas de foco. As pastas típicas podem representar categorias mais amplas, como \"Trabalho\" ou \"Pessoal\". Ou você pode usar em projetos específicos, como \"Pesquisa de Produtos\" ou \"Remodelação do Porão\".</string>
+    <string name="priority_description">Isso permite especificar a importância de uma tarefa. Existem 5 níveis de prioridade disponíveis.</string>
+    <string name="reminders_description">Permite que o dispositivo vibre e/ou toque para lembrá-lo de uma tarefa importante.  A tarefa também será exibida na sua área de notificação. Opcionalmente, você pode ativar os lembretes incômodos para avisá-lo em intervalos regulares, até que você desmarque o lembrete ou conclua a tarefa.</string>
+    <string name="repeating_description">Permite repetir uma tarefa em intervalos regulares. Use isso para tarefas que precisam ser realizadas diariamente, semanalmente ou mensalmente. Você também pode especificar os padrões avançados que são repetidos, como a terceira segunda-feira do mês ou o último dia do mês.</string>
+    <string name="calendar_description">Isso permite a visualização das tarefas selecionadas no aplicativo de calendário do seu dispositivo. Isso é útil se você quiser ver suas tarefas e eventos do calendário em apenas uma tela.</string>
+    <string name="due_time_description">Permite especificar o horário exato da realização de uma tarefa. Para usá-lo, o campo da data de vencimento deve estar ativado.</string>
+    <string name="start_date_description">Permite especificar a data do início de uma tarefa. O uso das datas de início, em combinação com as opções de filtragem do aplicativo, facilita a ocultação das tarefas que serão trabalhadas no futuro.</string>
+    <string name="start_time_description">Permite especificar uma hora exata do início de uma tarefa. Para usá-lo, o campo da data de início deve estar ativado.</string>
+    <string name="contexts_description">Os contextos permitem atribuir tarefas a determinadas localizações ou configurações nas quais elas devem ser concluídas. Por exemplo, \"Trabalho\", \"Casa\", \"Compras\" e \"Reunião\" são alguns contextos comumente usados. A ideia por trás dos contextos: não é produtivo ser lembrado sobre tarefas de um contexto quando você está focado em outro. Por exemplo, quando você está no trabalho, talvez não seja conveniente ver todas as tarefas que só podem ser concluídas em casa.</string>
+    <string name="goals_description">As metas fornecem uma maneira de especificar os itens que você deseja alcançar. Diferente das tarefas, geralmente as metas são mais vagas e difíceis de quantificar. Por exemplo: \"Faça uma promoção\", \"Seja um pai melhor\" ou \"Melhorar minha saúde\". Você pode criar metas para vida, a longo e a curto prazo, além de atribuí-las a tarefas individuais. Isso permitirá que você acompanhe quais ações contribuem para suas metas e quais não são bons investimentos de tempo.</string>
+    <string name="locations_description">As localizações permitem marcar onde determinadas tarefas devem ser concluídas. Isso permite que você localize as tarefas convenientemente mais próximas. Quando você toca no botão \"Mostrar Mapa\" do aplicativo, você consegue ver quais locais estão mais próximos da sua localização atual. O aplicativo também pode avisar sobre as tarefas de uma localização específica quando você chegar nesse local.</string>
+    <string name="star_description">A estrela pode ser ativada ou desativada conforme desejado para cada tarefa. Você pode usá-lo como quiser. Alguns usos comuns incluem: marcação de tarefas ativas, tarefas que você deseja concluir hoje e tarefas com maior prioridade.</string>
+    <string name="subtasks_description">Uma subtarefa é uma tarefa dentro de uma tarefa. Normalmente, as subtarefas são usadas para agrupar tarefas relacionadas ou etapas necessárias para concluir algo. As subtarefas estão disponíveis no aplicativo, independentemente da conta vinculada (se houver). Porém, se você usar o Toodledo, será necessário uma conta paga para que as subtarefas sejam sincronizadas e estejam visíveis no site.</string>
+    <string name="tags_description">As etiquetas são palavras-chave ou frases que você pode usar para ajudar a descrever e agrupar suas tarefas. Uma tarefa pode ter várias etiquetas. Os usos comuns incluem: acompanhar o status ou progresso, acompanhar a próxima etapa e classificar a tarefa.</string>
+    <string name="contacts_description">O campo de contato de uma tarefa permite vinculá-la a um contato no seu dispositivo. Isso pode ser usado para fornecer acesso rápido ao número de telefone ou e-mail do contato quando uma tarefa envolve se comunicar com alguém. Também pode ser usado para agrupar as tarefas que requerem informações ou assistência de uma pessoa específica.</string>
+    <string name="expected_length_description">Isso permite que você registre uma estimativa de quanto tempo será necessário para concluir a tarefa.</string>
+    <string name="timer_actual_length">Duração Real/Cronômetro</string>
+    <string name="timer_description">O cronômetro permite registrar a quantidade real de tempo gasto em uma tarefa. O cronômetro pode ser ligado quando o trabalho estiver sendo concluído, mas também é possível pausar e retomar conforme necessário.  O aplicativo acompanhará o tempo total gasto.</string>
+    <string name="status_description">Isso permite que você acompanhe o estado atual da tarefa. Os exemplos incluem: próxima ação, ativo, planejamento, delegado e em espera.</string>
+    <string name="collaboration_description">Esse recurso está disponível apenas para usuários do Toodledo e permite compartilhar e atribuir tarefas à pessoas específicas. Para detalhes, consulte a documentação da Toodleo em toodledo.com/info/sharing.php.</string>
+    <string name="due_time_without_due_date">Você deve ativar as datas de vencimento para usar os prazos.</string>
+    <string name="start_time_without_start_date">Você deve ativar as datas de início para usar os horários de início.</string>
+    <string name="calendar_cannot_be_enabled">A integração do calendário não pode ser ativada porque a permissão de acesso foi negada.</string>
+    <string name="contacts_cannot_be_enabled">A integração de contatos não pode ser ativada porque a permissão de acesso foi negada.</string>
+    <string name="locations_cannot_be_enabled">As localizações não podem ser ativadas porque a permissão  de acesso ao seu dispositivo foi negada.</string>
+    <string name="locations_cannot_be_enabled2">As localizações não podem ser ativadas porque a permissão  de acesso permanente do seu dispositivo.</string>
+    <string name="folders_required">As pastas devem estar ativadas para contas do Google.</string>
+    <string name="due_date_required">Se os lembretes estiverem ativados, o Toodledo exige que as datas de vencimento sejam ativadas.</string>
+    <string name="features_intro">Aqui, você pode ativar os recursos necessários e desativar os que você não usa.</string>
+    <string name="tap_on_group">Toque em um grupo abaixo para gerenciar os recursos desse grupo. Toque nos botões de informações para saber mais sobre cada recurso.</string>
+    <string name="choose_your_features">Escolha seus recursos</string>
+
+    <!-- Miscellaneous Strings: -->
+    <string name="name_of_new_folder">Nome da Nova Pasta:</string>
+    <string name="name_of_new_context">Nome do Novo Contexto:</string>
+    <string name="name_of_new_goal">Nome da Nova Meta:</string>
+    <string name="restore_successful_android10">Todos os dados foram restaurados e estarão disponíveis após a reinicialização do aplicativo. Se você estava usando os recursos de calendário, contatos ou localização, então precisará reativá-los na área de configurações e aceitar as permissões de acesso quando solicitado.</string>
+    <string name="learn_more_about_utl">Saiba mais sobre a Lista Definitiva de Tarefas</string>
+    <string name="tasker_overlay_permission">IMPORTANTE: se o seu dispositivo executa o Android 10 ou posterior e você deseja que o Tasker inicie uma lista de tarefas, você precisará conceder a permissão ao \'Lista Definitiva de Tarefas\' para sobrescrever outros aplicativos. Você pode fazer isso na área de Aplicativos das configurações do sistema.</string>
+    <string name="unable_to_open_list">Não foi possível abrir a Lista de Tarefas</string>
+    <string name="overlay_permission_needed">Sua lista de tarefas não pode ser aberta no Tasker devido à falta de permissão. Toque aqui para conceder a permissão ao Lista Definitiva de Tarefas e sobrescrever outros aplicativos.</string>
+    <string name="choose_between_themes">Escolha entre 6 temas.</string>
+</resources>

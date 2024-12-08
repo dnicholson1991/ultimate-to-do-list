@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TODO: 11/15/2020: Google translate is being used. Need human translations. -->
+    <string name='personal_data_consent'>個人データ使用の同意を管理する</string>
+    <string name='location_disclosure'>定義した場所に到着したときにリマインダーを受け取るには、アプリが常にあなたの場所を使用できるようにします。 アプリはバックグラウンドであなたの場所を使用して、あなたが現在の場所で思い出させる必要があるタスクがあるかどうかを判断します。</string>
+</resources>

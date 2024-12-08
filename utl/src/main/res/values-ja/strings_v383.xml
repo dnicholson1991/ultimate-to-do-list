@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name='email_collection_info'>あなたの電子メールアドレスを提供することは、リンクするために必要です。 アドレスは同期サービスを提供するためにのみ使用され、他のアプリやサービスとは共有されません。</string>
+</resources>

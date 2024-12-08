@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <string name="no_subtasks_in_subtasks2">Google erlaubt keine Unteraufgaben innerhalb von Unteraufgaben.</string>
+    <string name="google_tasks_conflict">Dieses Konto ist nicht mit Google Tasks kompatibel, da es Unteraufgaben innerhalb von Unteraufgaben enthält. Eine der inkompatiblen Aufgaben hat den folgenden Titel:</string>
+    <string name="link_google_or_toodledo">Verknüpfen Sie Ihr Google- oder Toodledo-Konto, um von jedem Gerät aus auf Ihre Aufgaben zuzugreifen.</string>
+    <string name="hotlist_info">Die Hotlist zeigt Ihre wichtigsten Aufgaben auf einen Blick.</string>
+    <string name="view_many_ways">Zeigen Sie Ihre Aufgaben auf verschiedene Arten an und richten Sie Ihre eigenen benutzerdefinierten Ansichten ein.</string>
+    <string name="supported_fields">Unterstützt Start- /Fälligkeitstermine, Erinnerungen, Ordner, Wiederholungen, Timer und mehr.</string>
+    <string name="filter_info">Filtern und sortieren Sie Ihre Aufgaben nach Belieben.</string>
+    <string name="use_notes">Verwenden Sie den Notizbereich, um die Referenzinformationen zu verfolgen.</string>
+    <string name="link_to_locations">Verknüpfen Sie Ihre Aufgaben mit Standorten und planen Sie Ihren Tag.</string>
+    <string name="split_screen_info">Für Tablets stehen mehrere Ansichten mit geteiltem Bildschirm zur Verfügung.</string>
+    <string name="widget_info">Anpassbare Widgets helfen Ihnen dabei, schnell auf Ihre Aufgaben zuzugreifen.</string>
+    <string name="customize_display">Passen Sie die Anzeige an, um die für Sie wichtigsten Informationen anzuzeigen.</string>
+    <string name="numerous_options">Zahlreiche Optionen stehen zur Verfügung, um die App an Ihre Bedürfnisse anzupassen.</string>
+    <string name="enable_disable_features">Aktivieren Sie die gewünschten Funktionen und deaktivieren Sie die Funktionen, die Sie nicht benötigen.</string>
+    <string name="supported_fields2">Unterstützt Start- und Fälligkeitstermine, Erinnerungen, Ordner, Wiederholungen, Timer, Prioritäten, Tags und mehr.</string>
+</resources>

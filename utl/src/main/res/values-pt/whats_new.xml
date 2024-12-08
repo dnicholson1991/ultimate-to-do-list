@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- What's new in this release (formatted as HTML): -->
+	<string name='whats_new_details'>
+	    <![CDATA[
+	    <p><b>Informações importantes sobre backups:</b></p>
+	    <p>Devido a novas restrições de acesso a arquivos impostas pelo Google, o arquivo de backup contendo suas tarefas, anotações e configurações agora é colocado em sua pasta Downloads. O arquivo tem o nome \"Ultimate To-Do List Backup.zip\".</p>
+	    <p>Você pode usar este arquivo de backup para instalar de forma rápida e fácil o aplicativo em outro dispositivo ou recuperar itens que foram excluídos acidentalmente. As instruções estão em https://todolist.co/help.</p>
+	    ]]>
+	</string>
+</resources>

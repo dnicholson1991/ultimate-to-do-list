@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:orientation="vertical" 
+	android:paddingLeft="10dip"
+	android:minWidth="200dip"
+	android:id="@+id/balloon_wrapper"
+	android:background="@drawable/balloon_overlay_unfocused"
+	android:paddingTop="10dip" 
+	android:paddingRight="10dip"
+>
+	<LinearLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:orientation="horizontal" 
+		android:id="@+id/balloon_main_layout"	
+	>
+	
+		<LinearLayout 
+			android:layout_width="0dp"
+			android:layout_height="wrap_content" 
+			android:orientation="vertical"
+			android:layout_weight="1" 
+			android:id="@+id/balloon_inner_layout"
+		>
+			<TextView android:layout_height="wrap_content"
+				android:layout_width="fill_parent" 
+				android:id="@+id/balloon_item_title"
+				android:text="" 
+				android:textSize="?attr/utl_font_size_large"
+				android:textColor="#FF000000"
+			/>
+			<TextView android:layout_height="wrap_content"
+				android:layout_width="fill_parent" 
+				android:id="@+id/balloon_item_snippet"
+				android:text="" 
+				android:textColor="#FF000000"
+				android:textStyle="italic"
+			/>
+		</LinearLayout>
+	
+		<ImageButton 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:src="@drawable/ab_cancel_light"
+			android:id="@+id/close_img_button" 
+			android:background="?attr/cb_button_bg"
+			android:layout_marginLeft="10dp"
+		/>
+	</LinearLayout>
+	
+	<!-- Navigation and detail buttons -->
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+	>
+		<Button
+			android:id="@+id/ballon_navigate_button"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_vertical"
+			android:text="@string/Navigate"
+			android:textSize="?attr/utl_font_size_normal"
+		/>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text=" "
+			android:layout_weight="1"
+		/>
+		<Button
+			android:id="@+id/ballon_details_button"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_vertical"
+			android:text="@string/Details"
+			android:textSize="?attr/utl_font_size_normal"
+		/>
+	</LinearLayout>
+</LinearLayout>

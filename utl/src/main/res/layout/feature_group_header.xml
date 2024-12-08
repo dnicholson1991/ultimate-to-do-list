@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Contains the description of a group of features (fields/functions) -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="52dp"
+    android:orientation="horizontal"
+    android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
+>
+    <RelativeLayout
+        android:layout_width="44dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="4dp"
+        >
+        <com.customsolutions.android.utl.TriStateCheckbox
+            android:id='@+id/feature_group_checkbox'
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:button="@drawable/ic_checkbox_unchecked_boston_blue"
+            android:focusable='false'
+        />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:minHeight="52dp"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+    >
+        <TextView
+            android:id='@+id/feature_group_title'
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="?attr/utl_font_size_large"
+            android:text='@string/common_features'
+        />
+        <TextView
+            android:id='@+id/feature_group_description'
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="?attr/utl_font_size_normal"
+            android:textStyle="italic"
+            android:text='@string/almost_everyone'
+            />
+    </LinearLayout>
+</LinearLayout>

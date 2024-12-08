@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <string name="internet_failure">Die Funktionsweise der App wird durch Probleme mit Ihrer Internetverbindung beeinträchtigt.</string>
+    <string name="technical_failure">Leider haben wir momentan technische Probleme. Bitte versuchen Sie es später noch einmal.</string>
+    <string name="reg_code_notice">Leider unterstützt die App das veraltete Registrierungscodesystem nicht mehr, das für einige Einkäufe vor dem Dezember 2014 verwendet wurde. Sie können Werbeanzeigen jetzt zu einem reduzierten Preis aus %s entfernen. Sie können uns auch per E-Mail unter %s kontaktieren und wir stellen Ihnen eine kostenlose Upgrade-Methode zur Verfügung.</string>
+    <string name="ad_remover">Entfernung der Werbeanzeigen</string>
+    <string name="ad_remover_summary">Entfernt die gesamte Werbung aus der App.</string>
+    <string name="ad_remover_long_description">&lt;p&gt;Durch den Kauf der Entfernung von Werbeanzeigen können Sie die App dauerhaft ohne Werbung verwenden. Der Kauf ist mit Ihrem Google- oder Amazon-Konto verknüpft.  Die Entfernung funktioniert auf allen Android-Geräten, einschließlich Smartphones und Tablets, und wird automatisch mit der App übertragen, wenn Sie Geräte aktualisieren oder ersetzen.&lt;/p&gt;</string>
+    <string name="ad_remover_upgrade_summary">Entfernen Sie Anzeigen mit einem In-App-Kauf anstelle eines separaten Downloads.</string>
+    <string name="location_permission_recommended2">Standortbasierte Funktionen der App müssen jederzeit auf den Standort zugreifen können, z. B. die Erinnerung an eine Aufgabe, wenn Sie einen bestimmten Standort erreichen.</string>
+
+    <!-- This is used for the "Ad" badge that appears in native ads within the app. When
+        translating, please use the shortest word possible that conveys to the user that the
+        content is an advertisement. -->
+    <string name="ad">Werbeanzeige</string>
+</resources>

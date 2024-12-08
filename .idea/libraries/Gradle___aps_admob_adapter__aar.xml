@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: :aps-admob-adapter:@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/505101a84dfc3658bc4adb49ca5ec300/transformed/jetified-aps-admob-adapter/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/505101a84dfc3658bc4adb49ca5ec300/transformed/jetified-aps-admob-adapter/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/505101a84dfc3658bc4adb49ca5ec300/transformed/jetified-aps-admob-adapter/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

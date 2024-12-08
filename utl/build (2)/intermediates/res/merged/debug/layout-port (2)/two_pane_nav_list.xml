@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id='@+id/ss_root'
+>
+	<FrameLayout
+        android:id="@+id/nav_drawer_wrapper"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop='true'
+    />
+	
+    <FrameLayout
+        android:id="@+id/ss_pane_list"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below='@id/nav_drawer_wrapper'
+        android:layout_alignWithParentIfMissing='true'
+        android:paddingBottom='1dp'
+    />
+    
+    <!-- Resizer between navigation and list views: -->
+    <RelativeLayout
+        android:id='@+id/ss_nav_list_resizer_container'
+        android:layout_width='match_parent'
+        android:layout_height='wrap_content'
+        android:layout_alignBottom='@id/nav_drawer_wrapper'
+		android:translationY='17dp'
+		android:visibility='gone'
+    >
+	    <View
+		    android:id='@+id/ss_nav_list_resizer_line'
+		    android:layout_height='3dp'
+		    android:layout_width='match_parent'
+		    android:layout_centerVertical='true'
+		    android:background='?attr/resizer_divider_color'
+		/>
+	    
+	    <ImageView 
+		    android:id='@+id/ss_nav_list_resizer_control'
+		    android:layout_width='wrap_content'
+		    android:layout_height='wrap_content'
+		    android:src='?attr/resizer_portrait'
+		    android:layout_centerInParent='true'
+		/>
+    </RelativeLayout>    
+</RelativeLayout>
+	
+	<!-- From: file:/C:/GDrive-dnicholson/Work/Android_Projects/UTL/uTL/src/main/res/layout-port/two_pane_nav_list.xml -->

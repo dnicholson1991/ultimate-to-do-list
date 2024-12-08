@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <string name="show_ads_during_trial">お試し版では広告が表示されます。アプリを長期間使用するためにライセンスを購入していただくと、広告は非表示になります。</string>
+
+    <string name="license_long_description">&lt;p&gt;ライセンスを購入することで、無料お試し版よりもさらに便利になったUltimate To-Do Listをご利用いただけます。あなたのライセンスは、GoogleまたAmazonアカウントと同期されています。これは全てのAndroidデバイス上で実行可能となっており、- (スマートフォンやタブレットも含む)デバイスの更新もしくは入れ替えをすると自動的に、アプリの情報も移行されるようになっています。&lt;/p&gt; &lt;p&gt;ライセンスを購入していただくと、アプリから全ての広告が削除されます。&lt;/p&gt;</string>
+
+    <string name="warning">警告</string>
+    <string name="edit_parent_task">親タスクを編集する</string>
+
+    <!-- Note to translators: Do not translate [count] in this string. This will be filled in with
+         a number. -->
+    <string name="merge_warning">これにより、デバイス上に保存されたタスクとオンライン アカウントに保存されたタスクが[count]タスクが統一されます。。本当に実行してもよろしいですか？</string>
+</resources>

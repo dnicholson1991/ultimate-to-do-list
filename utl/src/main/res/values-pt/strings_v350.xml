@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- This refers to add-ons that can be purchased within the app, also known as extensions or
+        plug-ins. -->
+    <string name='add_ons'>Módulos Adicionais</string>
+
+    <string name='manual_sort_order'>Padrão de Ordenamento Manual</string>
+    <string name='manual_sort'>Ordenamento Manual</string>
+    <string name='manual_sort_ui_change'>Quando o padrão de ordenamento manual é o primeiro item aqui, então
+        apertar o botão Ordenar na Lista de Tarefas vai entrar o Modo de Ordenamento Manual.  Você ainda pode
+        retornar para esta tela escolhendo o menu \"Padrão de Ordenamento\".</string>
+    <string name='sort_order_set_incorrectly'>Para ordenar manualmente, a primeira opção de ordenamento para
+        esta visualização precisa estar configurada para Ordenamento Manual.  Gostaria de acertar isso?</string>
+    <string name='incorrect_sort_order'>Padrão de Ordenamento Incorreto</string>
+    <string name='manual_sort_instructions'>Arraste as tarefas para reordenar</string>
+    <string name='license'>Licença</string>
+    <string name='upgraded_license'>Licença Atualizada</string>
+    <string name='license_description'>Desbloqueia o aplicativo para que seja usado além do período de
+        testes.</string>
+    <string name='upgraded_license_description'>Administração de licença facilitado. Usa uma compra dentro do aplicativo
+        ao invés de um download separado.</string>
+    <string name='manual_sort_add_on'>Módulo adicional de Ordenamento Manual</string>
+    <string name='manual_sort_description'>Permite a você especificar seu próprio padrão de ordenamento para
+        tarefas. Inclui sincronização.</string>
+    <string name='tap_on_item'>Pressione um item para saber mais.</string>
+    <string name='purchased'>Comprado</string>
+    <string name='purchased_with_checkmark'>&#x2713; Já foi Comprado</string>
+    <string name='buy_now'>Compre Agora</string>
+    <string name='buy'>Compre</string>
+    <string name='manual_sort_not_purchased'>Você precisa adquirir o módulo adicional de ordenamento manual para
+        poder especificar o seu próprio padrão de ordenamento.</string>
+    <string name='learn_more'>Saiba Mais</string>
+    <string name='add_on_missing'>Módulo Adicional Faltando</string>
+    <string name='sort_order_'>Padrão de Ordenamento...</string>
+    <string name='subtasks_must_be_indented'>Porque o primeiro padrão de ordenamento para esta visualização é a
+        ordenação manual, subtarefas serão igualmente configuradas para ordenamento manual para o bom funcionamento do recurso.</string>
+    <string name='subtasks_hidden_if_parent_hidden'>Porque o primeiro padrão de ordenamento para esta visualização é a
+        ordenação manual, subtarefas cujos parentes estão filtrados não serão vistos. Isto é necessário
+        para que a ordenação manual funcione corretamente.</string>
+    <string name='unable_to_sort'>Incapaz de Ordenar</string>
+    <string name='must_be_in_same_account'>As tarefas sendo ordenadas precisam estar todas conectadas à mesma conta.</string>
+    <string name='manual_sort_on_long_press'>Pressionar e segurar ativa o Ordenamento Manual</string>
+    <string name='first_sort_order_manusl'>Quando o primeiro padrão de ordenamento é configurado para ordenamento manual</string>
+    <string name='sign_in_needed'>Login necessário. Verifique a sua área de notificações.</string>
+
+    <string name='upgrade_license_long_description'>
+        <![CDATA[
+            <p>Você pode atualizar a sua licença para uma compra in-app e eliminar a necessidade de entrar um
+                código de registro ou baixar um aplicativo extra que contenha a licença.  A licença atualizada
+                funciona em todos os seus dispositivos Android - smartphones e tablets - e acompanha o
+                aplicativo automaticamente à medida que você atualiza ou troca seus equipamentos.</p>
+            <p>Esta é uma atualização facultativa. Você pode continuar entrando um código de registro ou baixar
+                a sua licença em separado mesmo que ela não seja mais listada na Play Store.</p>
+        ]]>
+    </string>
+
+    <string name='manual_sort_long_description'>
+        <![CDATA[
+            <p>O padrão de ordenamento manual lhe dá a possibilidade de escolher o seu próprio padrão de ordenamento.  Uma vez
+                comprado o módulo, você pode selecionar e arrastar tarefas dentro de uma mesma lista para a ordem desejada.</p>
+            <p><b>Como executar o Ordenamento Manual:</b></p>
+            <p>Ao visualizar uma lista de tarefas, vá para as opções de ordenamento e selecione \"Padrão de Ordenamento
+                Manual\" como primeiro padrão de ordenamento.  Uma vez isto feito, você pode selecionar o comando 
+                \"Ordenamento Manual\" na lista de tarefas ou pressionar o botão de Padrão de Ordenamento para
+                começar a ordenar as suas tarefas.  Tarefas podem ser organizadas pressionando-as e arrastando-as para suas novas
+                localizações, uma a uma.</p>
+            <p>Uma opção também está à disposição na seção Visualizar e Editar das configurações para
+                realizar a ordenação por meio do pressionar e segurar do dedo em uma tarefa.</p>
+            <p><b>Sincronização do Google:</b></p>
+            <p>A ordenação manual sincronizará com Google Tasks, mas com algumas limitações.
+                Google mantém registro do ordenamento das tarefas no nível das pastas, e Ultimate To-Do List
+                mantém registro do ordenamento das tarefas no nível da própria conta. Isto quer dizer que
+                ao mostrar tarefas de várias pastas (por exemplo Importante e Tudo), tarefas não serão
+                mostradas exatamente na mesma ordem que aparecem quando está acessando sua conta Google Tasks
+                a partir de um browser.  Quando visualizar uma única pasta em Ultimate To-Do List,
+                as visualizações casarão perfeitamente.</p>
+            <p>A organização de subtarefas casará perfeitamente com o que verá ao acessar o Google Tasks através de um browser.
+                O padrão de ordenamento também sincroniza perfeitamente entre múltiplos dispositivos.</p>
+            <p><b>Sincronização do Toodledo.com:</b></p>
+            <p>Toodledo não oferece o recurso de ordenamento manual.  No entanto, o ordenamento manual irá
+                sincronizar através de múltiplos dispositivos usando Ultimate To-Do List que estejam conectados
+                à mesma conta Toodledo.  Toodledo permite que a informação quanto ao ordenamento passe
+                através de seus servidores.</p>
+            <p>Toodledo não oferece a possibilidade de especificar um padrão de ordenação para subtarefas.  Além disso,
+                devido a limites da interface que Toodledo provê para aplicativos móveis, o ordenamento também não é 
+                sincronizado entre dispositivos.</p>
+            <p>Note que tarefas do Toodledo inicialmente estarão desorganizadas.  Até que você especifique um padrão
+                de ordenamento, tarefas podem inclusive aparecer com ordenamento distinto em cada dispositivo
+                sincronizado.</p>
+        ]]>
+    </string>
+</resources>
