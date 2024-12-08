@@ -24,7 +24,7 @@ This app has an extensive feature set, which includes:
 
 Before the app can sync with Toodledo, you will need to obtain credentials for their API. You can do that on [Toodledo's developer website](https://api.toodledo.com/3/account/doc_register.php). Once you have a client ID and client secret, enter those into the file ToodledoInterface.java.
 
-If you want to support sync with Google Tasks on devies without Google Play Services, such as Amazon's Kindle Fire, you will need to obtain API credentials from [Google Cloud](https://cloud.google.com). You will need a client ID, client secret, and API key, which you can enter into the file GTasksInterface.java.
+If you want to support sync with Google Tasks on devies without Google Play Services, such as Amazon's Kindle Fire, you will need to obtain API credentials from [Google Cloud](https://cloud.google.com). You will need a client ID, client secret, and API key, which you can enter into the file GTasksInterface.java. You will also need to enter the API key into the file utl/google-services.json, within the "api_key" section.
 
 ## **Important Considerations**
 
